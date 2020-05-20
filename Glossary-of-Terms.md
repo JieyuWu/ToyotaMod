@@ -12,7 +12,7 @@ Lane Departure Alert | LDA | Notifies the driver when they go over a lane line. 
 
 # car terms
 
-For make-specific terms, [go to their perspective wiki page](https://github.com/VirtuallyChris/wikitest/wiki#vehicle-information).
+For make-specific terms, [go to their perspective wiki page](https://github.com/commaai/openpilot/wiki#vehicle-information).
 
 Term | Abbreviation | Definition
 --- | --- | ---
