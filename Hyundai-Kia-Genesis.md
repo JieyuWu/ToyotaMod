@@ -42,6 +42,6 @@ Term | Abbreviation | Definition
 --- | --- | ---
 Smart Cruise Control | SCC | A fancy way to say ACC.
 
-# Limitations
+# openpilot Capabilities
 
 openpilot currently only controls steering on these models. Longitudinal control is provided by the stock system that came with the car.
