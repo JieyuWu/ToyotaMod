@@ -12,7 +12,7 @@ Honda Sensing | Sensing | What Honda calls their ADAS system which provides thin
 Honda Bosch | Bosch | Bosch is a company Honda uses to provide their ADAS systems. Bosch cars don't support openpilot longitudinal, but often can steer down to a lower mph.
 Honda Nidec | Nidec | Nidec is a company Honda uses to provide their ADAS systems. Nidec cars support openpilot longitudinal, and are considered a better option for openpilot.
 
-# Capabilities
+# openpilot Capabilities
 
 ## Lateral Control
 
