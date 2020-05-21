@@ -13,7 +13,7 @@ Toyota Safety Sense 2 | TSS2 | TSS2 builds on the previous TSS-C and TSS-P suite
 Toyota Safety Sense P | TSSP | An advanced active safety package for mid-size and large vehicles, and consists of six active safety and driver assistance systems: PCS, LDA, and AHB. Includes a DSU which does ACC and AEB.
 Toyota Safety Sense C | TSSC | An advanced active safety package for compact vehicles, and consists of six active safety and driver assistance systems: PCS, DRCC, LDA, and AHB. It does not feature lane keep assist, thus is not compatible with openpilot.
 
-# Capabilities
+# openpilot Capabilities
 
 ## Lateral Control
 
