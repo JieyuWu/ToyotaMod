@@ -4,8 +4,6 @@
 
 **This brand is community supported. Enable it with the toggle in Settings->Developer->Enable Community Features.**
 
-
-
 # Harness Guide
 
 Before purchasing for an unsupported vehicle, make sure you are purchasing the correct harness.
@@ -42,6 +40,14 @@ Term | Abbreviation | Definition
 --- | --- | ---
 Smart Cruise Control | SCC | A fancy way to say ACC.
 
-# openpilot Capabilities
+# Capabilities
 
-openpilot currently only controls steering on these models. Longitudinal control is provided by the stock system that came with the car.
+## Lateral Control
+
+Control over the steering wheel.
+
+## Longitudinal Control
+
+Control over the gas and brakes.
+
+Longitudinal control is provided by the stock system that came with the car.
