@@ -21,7 +21,12 @@ Control over the steering wheel.
 
 ### Torque
 
+Toyotas have very good torque, and work well on local and highway roads.
+
 ### Steering Sensor
+
+TSS2 Toyotas have a great angle sensor, as well as select 2019+ TSSP Toyotas.
+Most TSSP Toyotas have a bad angle sensor. This results in jerky, non-precise steering. The worst culprit of this is the Prius. This can be fixed on some models with a ZSS.
 
 ## Longitudinal Control
 
@@ -29,7 +34,11 @@ Control over the gas and brakes.
 
 ### DSU
 
+The Driver Support Unit is what controls AEB and longitudinal on TSSP cars. This unit must be unplugged to give openpilot control, although this removes AEB. A SDSU solves this problem, by passing through the correct AEB messages while allowing openpilot to control longitudinal.
+
 ### Non-DSU Cars
+
+Non-DSU cars such as the Camry cannot use openpilot longitudinal control. They utilize a different radar unit that directly sends gas and brake commands, thus is impossible to intercept without a radar swap.
 
 # Community Features
 
