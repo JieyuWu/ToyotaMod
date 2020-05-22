@@ -1,7 +1,5 @@
 ![communitywiki](https://user-images.githubusercontent.com/37757984/81886963-eaf4f380-9552-11ea-9206-164dcec6374c.jpeg)
 
-Wiki is under construction until Friday at midnight PT.
-
 # Quick Start
 * [Installing openpilot on comma two](https://github.com/commaai/openpilot/wiki/Installing-openpilot)
 * [Comma two Installation Guides](https://github.com/commaai/openpilot/wiki/Installation-Guides)
