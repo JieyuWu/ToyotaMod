@@ -2,4 +2,4 @@
 
 [◄ Home](https://github.com/commaai/openpilot/wiki)
 
-**This brand fully supported by the community, and will not work in main openpilot.**
+**This brand is fully supported by the community, and will not work in main openpilot.**
