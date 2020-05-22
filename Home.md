@@ -19,6 +19,8 @@ Find out specific vehicle limitations and modifications that members of the comm
 * [Volkswagen](https://github.com/commaai/openpilot/wiki/Volkswagen)
 * [Chevrolet / Buick / GMC / Cadillac](https://github.com/commaai/openpilot/wiki/GM)
 * [Nissan](https://github.com/commaai/openpilot/wiki/Nissan)
+* [Mazda](https://github.com/commaai/openpilot/wiki/Mazda)
+* [Ford](https://github.com/commaai/openpilot/wiki/Ford)
 
 # Development
 Community guides that help you contribute to openpilot, or make your own modifications to the open source code.
