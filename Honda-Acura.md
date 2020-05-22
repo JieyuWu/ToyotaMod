@@ -4,7 +4,7 @@
 
 # Honda-Specific Terms
 
-For general terms, [go here](https://github.com/commaai/openpilot/wiki/Glossary-of-Terms).
+For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-Terms).
 
 Term | Abbreviation | Definition
 --- | --- | ---
