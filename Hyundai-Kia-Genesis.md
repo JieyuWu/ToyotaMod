@@ -6,8 +6,10 @@
 
 # Harness Guide
 
-Before purchasing for an unsupported vehicle, make sure you are purchasing the correct harness. 
+Before purchasing a harness for an unsupported vehicle, make sure you are purchasing the correct type. 
 ### It's important to look where the notches are on your plug side, and ensure they match correctly.
+
+You can find this connector plugged into your Lane-Keep camera which is located near your rear-view mirror. You may need to pull back some trim to expose the camera. Once you do, unplug the connector and compare it to the types below. If it doesn't match, we don't yet sell the correct harness type for your vehicle.
 
 ---
 ![Hyundai A](https://user-images.githubusercontent.com/37757984/82007923-4d67f580-9620-11ea-8e5f-8167e2051f02.png)
