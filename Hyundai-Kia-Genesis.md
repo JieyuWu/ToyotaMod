@@ -6,7 +6,8 @@
 
 # Harness Guide
 
-Before purchasing for an unsupported vehicle, make sure you are purchasing the correct harness.
+Before purchasing for an unsupported vehicle, make sure you are purchasing the correct harness. 
+### It's important to look where the notches are on your plug side, and ensure they match correctly.
 
 ---
 ![Hyundai A](https://user-images.githubusercontent.com/37757984/82007923-4d67f580-9620-11ea-8e5f-8167e2051f02.png)
