@@ -15,6 +15,7 @@ Find out specific vehicle limitations and modifications that members of the comm
 ## Community Supported Brands
 * [Hyundai / Kia / Genesis](https://github.com/commaai/openpilot/wiki/Hyundai-Kia-Genesis)
 * [Subaru](https://github.com/commaai/openpilot/wiki/Subaru)
+* [Chrysler / Jeep / Dodge](https://github.com/commaai/openpilot/wiki/FCA)
 * [Volkswagen](https://github.com/commaai/openpilot/wiki/Volkswagen)
 * [Chevrolet / Buick / GMC / Cadillac](https://github.com/commaai/openpilot/wiki/GM)
 * [Nissan](https://github.com/commaai/openpilot/wiki/Nissan)
