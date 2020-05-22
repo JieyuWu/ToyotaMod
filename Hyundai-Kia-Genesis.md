@@ -37,7 +37,7 @@ This connector is black with a white plug, and has unique notches being flush wi
 
 # Hyundai-Specific Terms
 
-For general terms, [go here](https://github.com/commaai/openpilot/wiki/Glossary-of-Terms).
+For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-Terms).
 
 Term | Abbreviation | Definition
 --- | --- | ---
