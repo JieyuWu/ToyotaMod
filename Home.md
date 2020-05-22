@@ -20,7 +20,7 @@ Find out specific vehicle limitations and modifications that members of the comm
 * [Chevrolet / Buick / GMC / Cadillac](https://github.com/commaai/openpilot/wiki/GM)
 * [Nissan](https://github.com/commaai/openpilot/wiki/Nissan)
 
-### Not in openpilot
+### Not yet in openpilot
 * [Mazda](https://github.com/commaai/openpilot/wiki/Mazda)
 * [Ford](https://github.com/commaai/openpilot/wiki/Ford)
 
