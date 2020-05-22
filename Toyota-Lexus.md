@@ -1,10 +1,10 @@
 ![toyota lexus](https://user-images.githubusercontent.com/37757984/81997758-90689f80-9605-11ea-98c5-cbdf92f49e30.jpeg)
 
-[◄ Home](https://github.com/VirtuallyChris/wikitest/wiki)
+[◄ Home](https://github.com/commaai/openpilot/wiki)
 
 # Toyota-Specific Terms
 
-For general terms, [go here](https://github.com/commaai/openpilot/wiki/Glossary-of-Terms).
+For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-Terms).
 
 Term | Abbreviation | Definition
 --- | --- | ---
