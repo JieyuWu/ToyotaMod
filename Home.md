@@ -1,7 +1,7 @@
 ![communitywiki](https://user-images.githubusercontent.com/37757984/81886963-eaf4f380-9552-11ea-9206-164dcec6374c.jpeg)
 
 # Quick Start
-* [Installing openpilot on comma two](https://github.com/commaai/openpilot/wiki/Installing-openpilot)
+* [Installing openpilot](https://github.com/commaai/openpilot/wiki/Installing-openpilot)
 * [Comma two Installation Guides](https://github.com/commaai/openpilot/wiki/Installation-Guides)
 * [Frequently Asked Questions](https://github.com/commaai/openpilot/wiki/FAQ)
 * [General Terms](https://github.com/commaai/openpilot/wiki/General-Terms)
@@ -19,6 +19,8 @@ Find out specific vehicle limitations and modifications that members of the comm
 * [Volkswagen](https://github.com/commaai/openpilot/wiki/Volkswagen)
 * [Chevrolet / Buick / GMC / Cadillac](https://github.com/commaai/openpilot/wiki/GM)
 * [Nissan](https://github.com/commaai/openpilot/wiki/Nissan)
+
+### Not in openpilot
 * [Mazda](https://github.com/commaai/openpilot/wiki/Mazda)
 * [Ford](https://github.com/commaai/openpilot/wiki/Ford)
 
