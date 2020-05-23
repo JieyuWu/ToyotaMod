@@ -2,7 +2,7 @@
 
 [◄ Home](https://github.com/commaai/openpilot/wiki)
 
-# Honda-Specific Terms
+# Make-Specific Terms
 
 For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-Terms).
 
