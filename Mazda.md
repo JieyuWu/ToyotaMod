@@ -3,3 +3,25 @@
 [◄ Home](https://github.com/commaai/openpilot/wiki)
 
 **This brand is fully supported by the community, and will not work in main openpilot.**
+
+# Make-Specific Terms
+
+For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-Terms).
+
+Term | Abbreviation | Definition
+--- | --- | ---
+Fill | these | out! :)
+
+# openpilot Capabilities
+
+## Lateral Control
+
+Control over the steering wheel.
+
+### Torque
+
+### Minimum Speeds
+
+## Longitudinal Control
+
+Control over the gas and brakes.
