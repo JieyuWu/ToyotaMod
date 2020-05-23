@@ -38,7 +38,7 @@ This connector is black with a white plug, and has unique notches being flush wi
 
 ---
 
-# Hyundai-Specific Terms
+# Make-Specific Terms
 
 For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-Terms).
 
@@ -46,7 +46,7 @@ Term | Abbreviation | Definition
 --- | --- | ---
 Smart Cruise Control | SCC | A fancy way to say ACC.
 
-# Capabilities
+# openpilot Capabilities
 
 ## Lateral Control
 
