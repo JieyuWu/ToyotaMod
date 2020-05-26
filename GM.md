@@ -15,6 +15,7 @@ Firmware | n/a | Base operating system for various devices throughout the vehicl
 GDS2 | Global Diagnostic System 2 | GM system for advanced diagnostics and firmware flashing
 GMLAN | GM Local Area Network | Single wire propriety interface present on the CAN connector in GM vehicles.
 MDI | Multiple Diagnostic Interface | GM service device connecting the vehicle to a computer. Lower price generics exist such as vxdiag.
+Tech2Win | Tech2 for Windows | Emulated legacy diagnostic interfaces for Windows. Runs in an emulated terminal.
 TIS2Web | Techline Information System | [ACDelco site](https://www.acdelcotds.com) providing diagnostics and firmware for cars on a subscription basis. Interacts with vehicle via GM MDI. Java webstart application.
 
 # openpilot Capabilities
