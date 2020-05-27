@@ -10,7 +10,9 @@ For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-T
 
 Term | Abbreviation | Definition
 --- | --- | ---
-Fill | these | out! :)
+LaneSense | LKAS | Stock lane keeping system (can turn the wheel, you need this.)
+Adaptive Cruise Control | ACC | Stock cruise control system with radar that paces the vehicle in front of you (you need this.) 
+Fiat Chrysler of America | FCA | You'll see this term a lot.  It just groups Ram, Jeep, Chrysler, Dodge, Fiat, etc into one.
 
 # openpilot Capabilities
 
