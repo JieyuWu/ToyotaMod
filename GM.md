@@ -29,8 +29,19 @@ Control over the steering wheel.
 
 ### Minimum Speeds
 
+8mph minimum speed for lateral control
+
 ## Longitudinal Control
 
 Control over the gas and brakes.
+Longitudinal control is provided by OpenPilot.
 
-Longitudinal control is provided by the stock system that came with the car.
+### Minimum Speeds
+
+2017 MY:
+8mph minimum speed for lateral control
+
+2018+ MY:
+0mph minimum speed for lateral control
+
+### AutoResume
