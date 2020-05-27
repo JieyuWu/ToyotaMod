@@ -34,7 +34,7 @@ Control over the gas and brakes.
 
 ### DSU
 
-The Driver Support Unit is what controls AEB and longitudinal on TSSP cars. This unit must be unplugged to give openpilot control, although this removes AEB. A SDSU solves this problem, by passing through the correct AEB messages while allowing openpilot to control longitudinal.
+The Driver Support Unit is what controls AEB and longitudinal on TSSP cars. This unit must be unplugged to give openpilot control, although this removes AEB.  [SDSU](https://github.com/wocsor/panda/tree/smart_dsu) solves this problem, by passing through the correct AEB messages while allowing openpilot to control longitudinal.
 
 ### Non-DSU Cars
 
@@ -52,4 +52,4 @@ Upgrades the Driver Support Unit to passthrough AEB and enable openpilot longitu
 
 ## Zorro Steering Sensor (ZSS)
 
-Upgrades TSSP cars with a better angle sensor which allows more accurate steering with openpilot.
+Upgrades TSSP cars with a [better angle sensor](https://github.com/zorrobyte/betterToyotaAngleSensorForOP) which allows more accurate steering with openpilot.
