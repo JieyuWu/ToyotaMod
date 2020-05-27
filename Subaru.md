@@ -10,7 +10,11 @@ For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-T
 
 Term | Abbreviation | Definition
 --- | --- | ---
-Fill | these | out! :)
+EyeSight | ES | Subaru's adaptive cruise / emergency braking / lane centering system.
+Global Platform | Global | Subaru's platform, allowing a consistent core between different models. Lowering cost, and improving ease of development.
+Pre-Global Platform | Pre-Global | Any ES supported car that isn't on Global platform. (Needs expansion?)
+
+
 
 # openpilot Capabilities
 
