@@ -7,7 +7,6 @@ openpilot [forks](https://en.wikipedia.org/wiki/Fork_(software_development)) are
 
 | Owner         | Link                                                      | Description             |
 | ------------- | --------------------------------------------------------- | ----------------------- |
-| @arneschwarck | <https://github.com/arne182/openpilot>                    |                         |
 | @gernby       | <https://github.com/Gernby/openpilot>                     |                         |
 | @kegman       | <https://github.com/kegman/openpilot>                     | Honda                   |
 | @zorrobyte    | <https://github.com/zorrobyte/openpilot>                  | Toyota                  |
