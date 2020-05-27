@@ -2,6 +2,9 @@
 
 [◄ Home](https://github.com/commaai/openpilot/wiki)
 
+openpilot [forks](https://en.wikipedia.org/wiki/Fork_(software_development)) are used for various purposes, often for use on a certain vehicle or for the development of new features.
+
+
 | Owner         | Link                                                      | Description             |
 | ------------- | --------------------------------------------------------- | ----------------------- |
 | @arneschwarck | <https://github.com/arne182/openpilot>                    |                         |
