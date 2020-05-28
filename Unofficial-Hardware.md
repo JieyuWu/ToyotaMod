@@ -4,8 +4,9 @@ Typically used for changing an EON or creating a EON device from scratch
 
 # Cases
 
-JCloud
+* JCloud
 
 # Mounts
 
-https://github.com/Tundergit/openpilot-mounts
+* https://github.com/Tundergit/openpilot-mounts
+* https://www.thingiverse.com/thing:3497526
