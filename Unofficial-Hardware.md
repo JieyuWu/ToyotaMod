@@ -46,7 +46,7 @@ Typically used for changing an EON or creating a EON device from scratch
   * https://drive.google.com/file/d/1HCqYRi2cavgelM00v4bv-S8CnI0neyaI/view
 
 <details>
-  <summary>* Flashing Steps and Trouble Shooting</summary>
+  <summary>Flashing Steps and Trouble Shooting</summary>
 
 
 Flashing Notes from @erich
