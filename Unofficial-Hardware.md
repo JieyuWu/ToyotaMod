@@ -1,10 +1,8 @@
-# Cellphone Based Hardware
----
-Cases
+
+# Cases
 
 JCloud
 
----
-Mounts
+# Mounts
 
 https://github.com/Tundergit/openpilot-mounts
