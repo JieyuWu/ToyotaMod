@@ -19,6 +19,11 @@ Typically used for changing an EON or creating a EON device from scratch
 * comma2 style mount for EON case @Daehyuk
   * https://github.com/daehahn/comma1.5
 
+# Fan Replacement
+
+* Noctua - Quiet
+  * https://www.amazon.com/gp/product/B00NEMGCIA
+
 # Large Format Fans
 
 * CloudJ 60mm Fan Mount
