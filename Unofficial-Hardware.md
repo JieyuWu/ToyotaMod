@@ -47,7 +47,7 @@ Typically used for customizing an EON case or creating an EON device from scratc
   * https://drive.google.com/file/d/1HCqYRi2cavgelM00v4bv-S8CnI0neyaI/view
 
 <details>
-  <summary>Flashing Steps and Trouble Shooting</summary>
+  <summary>Flashing Steps and Troubleshooting</summary>
 
 
 Flashing Notes from @erich
