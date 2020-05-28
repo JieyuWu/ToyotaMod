@@ -23,3 +23,14 @@ Typically used for changing an EON or creating a EON device from scratch
 
 * CloudJ 60mm Fan Mount
   * https://www.thingiverse.com/thing:3570209
+
+# Replacement Batteries
+
+* https://www.ifixit.com/Store/Android/OnePlus-3-Replacement-Battery/IF330-017?o=2
+
+---
+
+# Software
+
+* Image Flashing
+  * https://drive.google.com/file/d/1HCqYRi2cavgelM00v4bv-S8CnI0neyaI/view
