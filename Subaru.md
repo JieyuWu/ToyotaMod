@@ -12,7 +12,7 @@ Term | Abbreviation | Definition
 --- | --- | ---
 EyeSight | ES | Subaru's vision based adaptive cruise / emergency braking / lane keeping system
 Global Platform | Global | Subaru's current unified platform, allowing a consistent core between different models. Lowering cost, and improving ease of development. Models using Global Platform include 2017+ Impreza, 2018+ Crosstrek and 2020+ Outback
-Pre-Global Platform | Pre-Global | Refers to models with ES pre-dating Global Platform, for example 2015-2019 Outback, 2015-2019 Legacy, 2017-2019 Forester
+Pre-Global Platform | Pre-Global | Refers to models with ES predating Global Platform, for example 2015-2019 Outback, 2015-2019 Legacy, 2017-2019 Forester
 
 
 
