@@ -24,3 +24,7 @@ Pre-Collision System | PCS | Uses an integrated forward-facing camera and grille
 Automatic Emergency Braking | AEB | When about to hit another vehicle or pedestrian, the car will provide braking assist to lessen the impact of a crash. If this system is in your car, it should remain active even while using openpilot.
 Lane Keep Assist (System) | LKA(S) | Lane keep assist is what comes with most cars sold today. It will assist the driver if they go over a lane line, but will not keep the car centered in the lane.
 Lane Departure Warning (System) | LDW(S) | Lane departure warning will beep when a car goes over a lane line. We call this Lane Departure Alert in openpilot.
+
+# discord terms and abbreviations
+Term | Abbreviation | Definition
+--- | --- | ---
