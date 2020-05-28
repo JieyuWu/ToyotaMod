@@ -39,3 +39,10 @@ Typically used for changing an EON or creating a EON device from scratch
 
 * Image Flashing
   * https://drive.google.com/file/d/1HCqYRi2cavgelM00v4bv-S8CnI0neyaI/view
+
+Images that'll work with 0.6...
+system.simg https://drive.google.com/file/d/1ySz1zLiy9bP6c8lDRgCo7k2kcCReGF__/view?usp=drivesdk
+boot.img https://drive.google.com/file/d/1c1ovbvBP8TqOEiNbh-KAPyI5hxlW1_a1/view?usp=drivesdk
+recovery.img https://drive.google.com/open?id=1mbXjhU2qlfz0jCNdDxHFnFj1YM5CeAQn
+logo.bin https://drive.google.com/file/d/1UEFVnuMp3wlfN9P9pdys33-sNlVfDkLj/view?usp=sharing
+
