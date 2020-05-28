@@ -13,3 +13,4 @@ openpilot [forks](https://en.wikipedia.org/wiki/Fork_(software_development)) are
 | @xx979xx      | <https://github.com/xx979xx/openpilot/tree/HKG_community> | Hyundai / Kia / Genesis |
 | @eFini        | <https://github.com/dragonpilot-community/dragonpilot/>   |                         |
 | @jyoung8607   | <https://github.com/jyoung8607/openpilot>                 | Volkswagen              |
+| @ShaneSmiskol | <https://github.com/ShaneSmiskol/openpilot>               |                         |
