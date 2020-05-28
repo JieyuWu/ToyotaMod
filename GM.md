@@ -21,10 +21,14 @@ TIS2Web | Techline Information System | [ACDelco site](https://www.acdelcotds.co
 
 # Requirements
 
-Most GM vehicles with a front radar (ACC), LKAs, and an ASCM in the trunk.
+Most GM vehicles with a front radar (ACC), LKAs, and an ASCM in the trunk.  
 The radar will be hidden behind the flat Chevy logo:
 
 <img src="https://media.discordapp.net/attachments/524611823090008065/572962897202774029/Cf8RfUjUkAEfliS.png" width="400">
+
+ASCM in the trunk:
+
+<img src="https://media.discordapp.net/attachments/642826052544233491/653393851813199883/20191208_163317.jpg" width="400">
 
 # openpilot Capabilities
 
@@ -65,9 +69,9 @@ Does not auto-resume. Must press RESUME to resume from stop.
 * Comma EON (EON OLED or EON Gold, 64GB or 128GB) - $250-$400
 * Gray Panda + GPS antenna - $50-$200
 * Replacement for ASCM (Advance Safety Control Module). Namely, one of:
-    * (GM Giraffe)[https://zoneos.com/shop/] - $300-$500
+    * [GM Giraffe](https://zoneos.com/shop/) - $300-$500
     * [ASCM wiring harness](https://leepauldinginc.square.site/product/gm-volt-harness-for-open-pilot/20?cs=true) - $210-$1000
-    * ASCM connector (Amazon)[https://www.amazon.com/dp/B01MULGCTM/] + Cam molex connector (digikey)[https://www.digikey.com/product-detail/en/molex-llc/0348250124/WM10326-ND/4504599]
+    * ASCM connector [Amazon](https://www.amazon.com/dp/B01MULGCTM/) - $9 + Cam molex connector [digikey](https://www.digikey.com/product-detail/en/molex-llc/0348250124/WM10326-ND/4504599) - $10
 * 3 meter long USB extension cable. Preferably 20awg or smaller (thicker). [Recommended](https://www.l-com.com/usb-premium-usb-cable-type-a-male-female-extension-cable-30m). - $20
 * Short 30cm mini-usb left-angle cable. [Recommended](https://www.amazon.com/gp/product/B074C8ZLYC). - $9
 
@@ -77,11 +81,19 @@ Does not auto-resume. Must press RESUME to resume from stop.
 
 If using ASCM connector stub + cam connector stub, furnish the stubs via soldering.
 
-Final ASCM 14-pin connector stub assembled:
+1) Final ASCM 14-pin connector stub assembled:  
 
+(TBD)
 
-Final cam connector stub assembled:
+2) Final cam connector stub assembled:  
 <img src="https://cdn.discordapp.com/attachments/643098390363766798/650085947395801102/20190928_134009.jpg" width="400">
+
+3) Connect a wire from switched +12V (e.g. ignition on) to pin 9 of cam connector. This will turn on the front radar when the car is powered on.
+Examples of switched +12V locations:
+* Rearview mirror assembly
+* Driver footwell fusebox
+
+### Hardware Installation
 
 1) Replace ASCM with one of the 3 ASCM replacements above.
     * If using GM Giraffe, simply swap out the ASCM for the GM Giraffe.
@@ -92,3 +104,6 @@ Final cam connector stub assembled:
 3) Install EON centered on windshield.
     * Run a USB extension cable from Panda -> nearby EON.
     * Use short mini-usb left-angle USB cable from USB extension -> EON.
+4) [Enjoy your first drive!](https://community.comma.ai/wiki/index.php/First_OpenPilot_Drive)
+
+**For more detailed instructions see [Zoneos](https://zoneos.com/volt/)**
