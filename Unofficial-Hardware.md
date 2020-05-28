@@ -4,7 +4,8 @@ Typically used for changing an EON or creating a EON device from scratch
 
 # Cases
 
-* CloudJ
+* Unibody Lepro3 @CloudJ
+  * https://www.thingiverse.com/thing:4069425
 
 # Mounts
 
