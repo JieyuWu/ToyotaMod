@@ -8,7 +8,7 @@ Typically used for changing an EON or creating a EON device from scratch
 
 # Mounts
 
-* Tunder Mounts
+* variety of mounts from @Tunder
   * https://github.com/Tundergit/openpilot-mounts
 * Magnectic Mount @CloudJ 
   * https://www.thingiverse.com/thing:3497526
