@@ -9,6 +9,8 @@ Typically used for changing an EON or creating a EON device from scratch
 
 # Mounts
 
+* FrEON @ch4se
+  * https://github.com/ch4se/OpenFrEON
 * variety of mounts from @Tunder
   * https://github.com/Tundergit/openpilot-mounts
 * Magnectic Mount @CloudJ 
