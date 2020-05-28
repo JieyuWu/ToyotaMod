@@ -46,12 +46,12 @@ This connector is black with a white plug, and has unique notches being flush wi
 ---
 ![Hyundai G](https://user-images.githubusercontent.com/37757984/82961461-4e7b1a00-9f72-11ea-80b3-78570386bb82.png)
 
-This connector is black with a white plug, and has unique notches being flush with the sides of the connector. It has the same connector as Hyundai E, but the wiring is different.
+This connector is blue with a white plug, and has unique notches with the right notch being flush with the right of the connector, while the left notch is inward. It has the same connector as Hyundai H, but the wiring is different.
 
 ---
 ![Hyundai H](https://user-images.githubusercontent.com/37757984/82961496-63f04400-9f72-11ea-9096-c1c38ea9971d.png)
 
-This connector is blue with a white plug, and has unique notches with the right notch being flush with the right of the connector, while the left notch is inward.
+This connector is blue with a white plug, and has unique notches with the right notch being flush with the right of the connector, while the left notch is inward. It has the same connector as Hyundai G, but the wiring is different.
 
 ---
 
