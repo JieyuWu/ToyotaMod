@@ -39,9 +39,15 @@ Longitudinal control is provided by OpenPilot.
 ### Minimum Speeds
 
 2017 MY:
-8mph minimum speed for lateral control
+8mph minimum speed for longitudinal control
 
 2018+ MY:
-0mph minimum speed for lateral control
+0mph minimum speed for longitudinal control
 
 ### AutoResume
+
+2017 MY:
+Auto-resumes from stop at 0mph.
+
+2018+ MY:
+Does not autoresume. Must press RESUME to resume from stop.
