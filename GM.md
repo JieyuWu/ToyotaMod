@@ -30,6 +30,11 @@ ASCM in the trunk:
 
 <img src="https://media.discordapp.net/attachments/642826052544233491/653393851813199883/20191208_163317.jpg" width="400">
 
+## Unoffically supported vehicles
+
+Any GM vehicle 2016+ with front camera and LKAs. These will only have ALC (aka lane centering), but not ACC via OpenPilot.
+See [Unofficial GM fork](https://shulerent.com/openpilot-2019-chevy-bolt-port/) for more info.
+
 # openpilot Capabilities
 
 ## Lateral Control
