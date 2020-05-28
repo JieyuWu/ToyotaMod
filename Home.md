@@ -31,6 +31,6 @@ Community guides that help you contribute to openpilot, or make your own modific
 * [Fingerprinting Your Car](https://github.com/commaai/openpilot/wiki/Fingerprinting)
 
 ## Advanced (Developers Only)
-* [Lateral Tuning](https://github.com/commaai/openpilot/wiki/Tuning)
+* [Tuning](https://github.com/commaai/openpilot/wiki/Tuning)
 * [Panda Flashing](https://github.com/commaai/openpilot/wiki/Panda-Flashing)
 * [Custom Forks](https://github.com/commaai/openpilot/wiki/Forks)
