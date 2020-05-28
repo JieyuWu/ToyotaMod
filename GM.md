@@ -10,6 +10,7 @@ For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-T
 
 Term | Abbreviation | Definition
 --- | --- | ---
+Advanced Safety Control Module | ASCM | Car computer/module that does sensor fusion from Radar and Camera to create ACC and LKAs messages to PCM (powertrain control module). Typically located in the trunk.
 Calibration | n/a | Packaged adjustments to running parameters of firmware running on GM vehicles. Updates available from SPS within [TIS2Web](https://www.acdelcotds.com)
 Firmware | n/a | Base operating system for various devices throughout the vehicle. Updates available from SPS within [TIS2Web](https://www.acdelcotds.com)
 GDS2 | Global Diagnostic System 2 | GM system for advanced diagnostics and firmware flashing
@@ -21,7 +22,7 @@ TIS2Web | Techline Information System | [ACDelco site](https://www.acdelcotds.co
 
 # Requirements
 
-Most GM vehicles with a front radar (ACC), LKAs, and an ASCM in the trunk.  
+Most GM 2016-2020 vehicles with a front radar (ACC), LKAs, and an ASCM in the trunk.  
 The radar will be hidden behind the flat Chevy logo:
 
 <img src="https://media.discordapp.net/attachments/524611823090008065/572962897202774029/Cf8RfUjUkAEfliS.png" width="400">
@@ -73,7 +74,7 @@ Does not auto-resume. Must press RESUME to resume from stop.
 ## Required hardware
 * Comma EON (EON OLED or EON Gold, 64GB or 128GB) - $250-$400
 * Gray Panda + GPS antenna - $50-$200
-* Replacement for ASCM (Advance Safety Control Module). Namely, one of:
+* Replacement for ASCM. Namely, one of:
     * [GM Giraffe](https://zoneos.com/shop/) - $300-$500
     * [ASCM wiring harness](https://leepauldinginc.square.site/product/gm-volt-harness-for-open-pilot/20?cs=true) - $210-$1000
     * ASCM connector [Amazon](https://www.amazon.com/dp/B01MULGCTM/) - $9 + Cam molex connector [digikey](https://www.digikey.com/product-detail/en/molex-llc/0348250124/WM10326-ND/4504599) - $10
