@@ -71,6 +71,18 @@ Lane Following Assist | LFA | A lane-centering system
 
 Control over the steering wheel.
 
+For HKG cars that have critical damping (ping pong, oscillation, ziggy zaggies) no matter your settings, PID tuning may not be right for your car.  You can try INDI tuning instead by adding these five lines to your relevant car in ./car/hyundai/interface.py:
+
+ret.lateralTuning.init('indi')
+ret.lateralTuning.indi.innerLoopGain = 3.0
+ret.lateralTuning.indi.outerLoopGain = 2.0
+ret.lateralTuning.indi.timeConstant = 1.0
+ret.lateralTuning.indi.actuatorEffectiveness = 1.0
+
+Comment out the lines containing Kp, Ki and Kf with a # at the beginning of the line.
+
+The above is only a start point, and needs tuning like any variable parameter.  Raise and lower the LoopGain's by 0.1 at a time, both up or down, until your condition improves.  For Stinger and Genesis, the actuatorEffectiveness start point should be 1.5. 
+
 ## Longitudinal Control
 
 Control over the gas and brakes.
