@@ -10,9 +10,9 @@ For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-T
 
 Term | Abbreviation | Definition
 --- | --- | ---
-EyeSight | ES | Subaru's adaptive cruise / emergency braking / lane centering system.
-Global Platform | Global | Subaru's platform, allowing a consistent core between different models. Lowering cost, and improving ease of development.
-Pre-Global Platform | Pre-Global | Any ES supported car that isn't on Global platform. (Needs expansion?)
+EyeSight | ES | Subaru's vision based adaptive cruise / emergency braking / lane keeping system
+Global Platform | Global | Subaru's current unified platform, allowing a consistent core between different models. Lowering cost, and improving ease of development. Models using Global Platform include 2017+ Impreza, 2018+ Crosstrek and 2020+ Outback
+Pre-Global Platform | Pre-Global | Refers to models with ES pre-dating Global Platform, for example 2015-2019 Outback, 2015-2019 Legacy, 2017-2019 Forester
 
 
 
