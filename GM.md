@@ -19,6 +19,13 @@ SPS | Service Programming System | Firmware and calibrations within the TIS2Web 
 Tech2Win | Tech2 for Windows | Emulated legacy diagnostic interfaces for Windows. Runs in an emulated terminal.
 TIS2Web | Techline Information System | [ACDelco site](https://www.acdelcotds.com) providing diagnostics and firmware for cars on a subscription basis. Interacts with vehicle via GM MDI. Java webstart application.
 
+# Requirements
+
+Most GM vehicles with a front radar (ACC), LKAs, and an ASCM in the trunk.
+The radar will be hidden behind the flat Chevy logo:
+
+<img src="https://media.discordapp.net/attachments/524611823090008065/572962897202774029/Cf8RfUjUkAEfliS.png" width="400">
+
 # openpilot Capabilities
 
 ## Lateral Control
@@ -44,10 +51,44 @@ Longitudinal control is provided by OpenPilot.
 2018+ MY:
 0mph minimum speed for longitudinal control
 
-### AutoResume
+### Auto-Resume
 
 2017 MY:
 Auto-resumes from stop at 0mph.
 
 2018+ MY:
-Does not autoresume. Must press RESUME to resume from stop.
+Does not auto-resume. Must press RESUME to resume from stop.
+
+# openpilot Installation
+
+## Required hardware
+* Comma EON (EON OLED or EON Gold, 64GB or 128GB) - $250-$400
+* Gray Panda + GPS antenna - $50-$200
+* Replacement for ASCM (Advance Safety Control Module). Namely, one of:
+    * (GM Giraffe)[https://zoneos.com/shop/] - $300-$500
+    * [ASCM wiring harness](https://leepauldinginc.square.site/product/gm-volt-harness-for-open-pilot/20?cs=true) - $210-$1000
+    * ASCM connector (Amazon)[https://www.amazon.com/dp/B01MULGCTM/] + Cam molex connector (digikey)[https://www.digikey.com/product-detail/en/molex-llc/0348250124/WM10326-ND/4504599]
+* 3 meter long USB extension cable. Preferably 20awg or smaller (thicker). [Recommended](https://www.l-com.com/usb-premium-usb-cable-type-a-male-female-extension-cable-30m). - $20
+* Short 30cm mini-usb left-angle cable. [Recommended](https://www.amazon.com/gp/product/B074C8ZLYC). - $9
+
+## Installation
+
+### Prerequisites
+
+If using ASCM connector stub + cam connector stub, furnish the stubs via soldering.
+
+Final ASCM 14-pin connector stub assembled:
+
+
+Final cam connector stub assembled:
+<img src="https://cdn.discordapp.com/attachments/643098390363766798/650085947395801102/20190928_134009.jpg" width="400">
+
+1) Replace ASCM with one of the 3 ASCM replacements above.
+    * If using GM Giraffe, simply swap out the ASCM for the GM Giraffe.
+    * If using ASCM wiring harness, connect the harness inline with ASCM and run the wires to the dash.
+    * If using ASCM stub connector, disconnect the 14-pin ASCM connector and plug in the stub connector. Leave the 16-pin connector in ASCM plugged in.
+2) Install Gray Panda in OBD II port.
+    * Install Gray Panda GPS antenna on windshield.
+3) Install EON centered on windshield.
+    * Run a USB extension cable from Panda -> nearby EON.
+    * Use short mini-usb left-angle USB cable from USB extension -> EON.
