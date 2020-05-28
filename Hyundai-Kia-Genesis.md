@@ -74,4 +74,5 @@ Control over the steering wheel.
 
 Control over the gas and brakes.
 
-Longitudinal control is provided by the stock system that came with the car.
+At the moment, longitudinal control is provided by the stock system that came with the car.
+In the future, we will be able to control longitudinally via openpilot for any vehicle whose trims _can_ support SCC, even if not equipped
