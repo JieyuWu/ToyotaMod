@@ -43,6 +43,7 @@ Typically used for changing an EON or creating a EON device from scratch
 # Software
 
 * Image Flashing
+  * https://medium.com/@kirk_40929/getting-comma-openpilot-running-on-a-used-phone-c72d609cb4d3
   * https://drive.google.com/file/d/1HCqYRi2cavgelM00v4bv-S8CnI0neyaI/view
 
 <details>
