@@ -61,8 +61,9 @@ For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-T
 
 Term | Abbreviation | Definition
 --- | --- | ---
-Smart Cruise Control | SCC | A fancy way to say ACC.
+Smart Cruise Control | SCC | A fancy way to say ACC
 Highway Driver Assist | HDA | A fancier LKAS that centers but nags
+Lane Following Assist | LFA | A lane-centering system
 
 # openpilot Capabilities
 
