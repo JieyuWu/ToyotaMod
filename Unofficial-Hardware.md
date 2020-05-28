@@ -45,6 +45,9 @@ Typically used for changing an EON or creating a EON device from scratch
 * Image Flashing
   * https://drive.google.com/file/d/1HCqYRi2cavgelM00v4bv-S8CnI0neyaI/view
 
+<details>
+  <summary>Flashing Steps and Trouble Shooting</summary>
+  
 Flashing Notes from @erich
 > Images that'll work with 0.6...
 > system.simg https://drive.google.com/file/d/1ySz1zLiy9bP6c8lDRgCo7k2kcCReGF__/view?usp=drivesdk
@@ -59,3 +62,5 @@ Flashing Notes from @Ari
 > Booted into android 8, enabled oem unlock and unlocked the bootloader again. After it finished booting into android, > I went back to the bootloader and flashed the system and boot images extracted from this OTA zip
 > https://commadist.azureedge.net/neosupdate/ota-signed-> c992abb59cbaf6588f51055db52db619061107851773fc8480acb8bb5d77a28f.zip
 > Then I ran fastboot format userdata (because neos doesn't support encrypted data partition from Oxygen OS) and then I rebooted into neos and wifi was working again
+
+</details>
