@@ -16,8 +16,9 @@ Typically used for customizing an EON case or creating an EON device from scratc
 * Magnectic Mount @CloudJ 
   * https://www.thingiverse.com/thing:3497526
   * https://docs.google.com/spreadsheets/d/1UxvMszwfw6LFYjCilk6hNuoX6cheE6PvcsdKKO9ggU8/edit#gid=0
-* comma2 style mount for EON case @Daehyuk
+* comma2 style mount, magnet mount for EON case @Daehyuk
   * https://github.com/daehahn/comma1.5
+  * https://github.com/daehahn/comma1.6
 
 # Fan Replacement
 
