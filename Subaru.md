@@ -2,9 +2,7 @@
 
 [◄ Home](https://github.com/commaai/openpilot/wiki)
 
-**This vehicle make is community supported. Enable it with the toggle in Settings->Developer->Enable Community Features.**
-
-# Make-Specific Terms
+# Make-Specific terms
 
 For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-Terms).
 
@@ -14,21 +12,27 @@ EyeSight | ES | Subaru's vision based adaptive cruise / emergency braking / lane
 Global Platform | Global | Subaru's current unified platform, allowing a consistent core between different models. Lowering cost, and improving ease of development. Models using Global Platform include 2017+ Impreza, 2018+ Crosstrek and 2020+ Outback
 Pre-Global Platform | Pre-Global | Refers to models with ES predating Global Platform, for example 2015-2019 Outback, 2015-2019 Legacy, 2017-2019 Forester
 
+# Supported models
+| Make      | Model (US Market Reference)   | Supported Package | ACC              | No ACC accel below | No ALC below |
+| ----------| ------------------------------| ------------------| -----------------| -------------------| -------------|
+| Subaru    | Crosstrek 2018-19             | EyeSight          | Stock            | 0mph               | 0mph         |
+| Subaru    | Impreza 2018-20               | EyeSight          | Stock            | 0mph               | 0mph         
 
+**This vehicle make is community supported. Enable it with the toggle in Settings->Developer->Enable Community Features.**
 
-# openpilot Capabilities
+# openpilot capabilities
 
-## Lateral Control
+## Lateral control
 
 Control over the steering wheel.
 
 ### Torque
 
-### Minimum Speeds
+### Minimum speeds
 
 0 mph minimum speed for lateral control
 
-## Longitudinal Control
+## Longitudinal control
 
 Control over the gas and brakes.
 
