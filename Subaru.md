@@ -44,3 +44,6 @@ Longitudinal control is provided by the stock system that came with the car.
 Subaru harness install
 - [2018 Subaru Crosstrek (global)](https://www.youtube.com/watch?v=LD7qiOcPFtU)
 - [2018 Subaru Legacy (pre-global)](https://www.youtube.com/watch?v=-1Snpp3cQEg)
+
+Drives
+- [2018 Subaru Crosstrek City Drive Timelapse](https://www.youtube.com/watch?v=1iNOc3cq8cs)
