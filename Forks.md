@@ -14,3 +14,4 @@ openpilot [forks](https://en.wikipedia.org/wiki/Fork_(software_development)) are
 | @eFini        | <https://github.com/dragonpilot-community/dragonpilot/>   |                         |
 | @jyoung8607   | <https://github.com/jyoung8607/openpilot>                 | Volkswagen              |
 | @ShaneSmiskol | <https://github.com/ShaneSmiskol/openpilot>               |                         |
+| @bugsy924     | <https://github.com/bugsy924/openpilot>                   | Subaru                  |
