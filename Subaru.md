@@ -28,6 +28,8 @@ Control over the steering wheel.
 
 ### Torque
 
+Subarus have very good torque, and work well on local and highway roads.
+
 ### Minimum speeds
 
 0 mph minimum speed for lateral control
