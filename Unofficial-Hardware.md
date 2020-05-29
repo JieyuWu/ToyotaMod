@@ -1,4 +1,4 @@
-Community developed hardware based on EON style form factor. For Webcam development click [here](../wiki/Webcam/).
+Community developed hardware based on EON style form factor. For webcam and pc based development click [here](../wiki/Webcam/).
 
 Typically used for customizing an EON case or creating an EON device from scratch
 
