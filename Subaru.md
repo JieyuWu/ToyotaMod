@@ -26,6 +26,8 @@ Control over the steering wheel.
 
 ### Minimum Speeds
 
+0 mph minimum speed for lateral control
+
 ## Longitudinal Control
 
 Control over the gas and brakes.
