@@ -89,7 +89,9 @@ If using ASCM connector stub + cam connector stub, furnish the stubs via solderi
 
 1) Final ASCM 14-pin connector stub assembled:  
 
-(TBD)
+<img src="https://cdn.discordapp.com/attachments/631935882756358174/716016754509480056/20200529_1250562.jpg" width="300">
+<img src="https://cdn.discordapp.com/attachments/631935882756358174/716016757436973056/20200529_1251122.jpg" width="300">
+<img src="https://cdn.discordapp.com/attachments/631935882756358174/716016758405988402/20200529_1251432.jpg" width="300">
 
 2) Final cam connector stub assembled:  
 <img src="https://cdn.discordapp.com/attachments/643098390363766798/650085947395801102/20190928_134009.jpg" width="400">
