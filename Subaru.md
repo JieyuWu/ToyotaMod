@@ -31,3 +31,8 @@ Control over the steering wheel.
 Control over the gas and brakes.
 
 Longitudinal control is provided by the stock system that came with the car.
+
+# Community videos
+Subaru harness install
+- [2018 Subaru Crosstrek (global)](https://www.youtube.com/watch?v=LD7qiOcPFtU)
+- [2018 Subaru Legacy (pre-global)](https://www.youtube.com/watch?v=-1Snpp3cQEg)
