@@ -76,6 +76,7 @@ Does not auto-resume. Must press RESUME to resume from stop.
 * Gray Panda + GPS antenna - $50-$200
 * Replacement for ASCM. Namely, one of:
     * [GM Giraffe](https://zoneos.com/shop/) - $300-$500
+    <br><img src="https://cdn.discordapp.com/attachments/524611823090008065/715799632176742440/20200210_231051.jpg" width="300">
     * [ASCM wiring harness](https://leepauldinginc.square.site/product/gm-volt-harness-for-open-pilot/20?cs=true) - $210-$1000
     * ASCM connector [Amazon](https://www.amazon.com/dp/B01MULGCTM/) - $9 + Cam molex connector [digikey](https://www.digikey.com/product-detail/en/molex-llc/0348250124/WM10326-ND/4504599) - $10
 * 3 meter long USB extension cable. Preferably 20awg or smaller (thicker). [Recommended](https://www.l-com.com/usb-premium-usb-cable-type-a-male-female-extension-cable-30m). - $20
