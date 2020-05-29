@@ -28,7 +28,7 @@ Lane Departure Warning (System) | LDW(S) | Lane departure warning will beep when
 # discord terms and abbreviations
 Term | Abbreviation | Definition
 --- | --- | ---
-Direct Message | DM (PM preferred to avoid confusion with driver monitoring) | Sending a private message to an individual on Discord.
+Direct Message | DM (PM preferred to avoid confusion with driver monitoring) | Private message to an individual on Discord
 Driver Monitoring | DM | The camera monitoring the face
 Fingerprint | FP | Unique identification of a specific automobile make
 Fingerprint Version 2 | FPv2 | Version 2 of the unique identification of a specific automobile make
