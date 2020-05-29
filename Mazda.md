@@ -2,7 +2,7 @@
 
 [◄ Home](https://github.com/commaai/openpilot/wiki)
 
-**This brand is fully supported by the community, and will not work in main openpilot.**
+**This brand is community supported in dashcam mode only.**
 
 # Make-Specific Terms
 
