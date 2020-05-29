@@ -25,3 +25,14 @@ Control over the steering wheel.
 ## Longitudinal Control
 
 Control over the gas and brakes.
+
+# Developer TODOs
+
+* Checksum and counter checks
+  * panda safety ([reference](https://github.com/commaai/panda/blob/master/board/safety/safety_hyundai.h#L23))
+  * can parser ([reference](https://github.com/commaai/opendbc/pull/255/))
+* Steer down to zero
+* Steer without lockout
+* Find cruise set speed signal
+* openpilot longitudinal control
+* Fingerprinting 2.0 ([reference](https://github.com/commaai/openpilot/pull/1540))
