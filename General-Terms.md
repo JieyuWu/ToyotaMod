@@ -38,9 +38,11 @@ Advanced Driver-Assistance Systems | ADAS | Electronic systems that aid the driv
 (Automatic) Lane Centering | (A)LC | A system designed to keep a car centered in the lane, relieving the driver of the task of steering.
 Collision Avoidance System | AEB, CMS, FCW(S), PCS | A system designed to prevent or reduce the severity of a collision.
 Driver Monitoring (System) | DM(S), DAM | A system that uses infrared sensors and/or cameras to monitor driver attentiveness
+hugging | | An undesired behavior where the vehicle drives too closely to one side of the lane.
 Lane Keep Assist (System) | LKA(S) | Lane keep assist is what comes with most cars sold today. It will assist the driver if they go over a lane line, but will not keep the car centered in the lane.
 Lane Departure Warning (System) | LDW(S), LDA | Lane departure warning will beep when a car goes over a lane line.
 Pedestrian Crash Avoidance Mitigation | PCAM | A system that uses computer and artificial intelligence technology to recognize pedestrians and bicycles in an automobile's path to take action for safety.
+ping pong | | 	An undesired behavior where the vehicle sways from one side of the lane to the other repeatedly. The desired behavior is to stay in the center of the lane.
 Traffic-sign recognition | TSR | A system by which a vehicle is able to recognize the traffic signs put on the road e.g. "speed limit" or "children" or "turn ahead".
 
 # automotive terms
