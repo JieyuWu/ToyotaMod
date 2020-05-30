@@ -15,7 +15,7 @@ comma points | | Awarded for various activities you perform on the platform. Goo
 comma power | CPv1, CPv2 | Use your car's OBD-II port to power your Toyota, Bosch, or FCA Giraffe. CPv1 was the initial version, for use w/ Giraffes. CPv2 came out later, used with Comma Harness, and has an RJ45 jack.
 comma prime | | A subscription service from comma.ai offering a [specific list of benefits](https://comma.ai/shop/products/comma-prime-sim-card)
 comma two devkit | C2, comma two | The latest generation devkit. A smartphone running a customized version of Android and a custom case with additional cooling. This device runs the openpilot software and has an integrated panda
-EON devkit | EON, EON Gold, EON SE | The previous generation of the comma two devkit
+EON devkit | EON, EON Gold, EON SE | The previous generation of the comma two devkit. It did not have an integrated panda
 fingerprint | FPv1, FPv2 | A list of CAN bus signals unique to a particular vehicle. Allows OpenPilot to recognize which car it is connected to. CAN-based FPv1 is now deprecated; emphasis is now on firmware-based FPv2.
 FrEON | | "Free EON"... an open source variant of the EON case. The repository contains files that can be used for 3D printing a case. Developed by @Chase#7213
 giraffe connector | | An adapter board that lets you read buses that aren't exposed on the main OBD-II connector, with variants for different vehicle makes/models.
