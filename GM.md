@@ -75,10 +75,11 @@ Does not auto-resume. Must press RESUME to resume from stop.
 * Comma EON (EON OLED or EON Gold, 64GB or 128GB) - $250-$400
 * Gray Panda + GPS antenna - $50-$200
 * Replacement for ASCM. Namely, one of:
-    * [GM Giraffe](https://zoneos.com/shop/) - $300-$500
+    1. [GM Giraffe](https://zoneos.com/shop/) - $300-$500
     <br><img src="https://cdn.discordapp.com/attachments/524611823090008065/715799632176742440/20200210_231051.jpg" width="300">
-    * [ASCM wiring harness](https://leepauldinginc.square.site/product/gm-volt-harness-for-open-pilot/20?cs=true) - $210-$1000
-    * ASCM connector [Amazon](https://www.amazon.com/dp/B01MULGCTM/) - $9 + Cam molex connector [digikey](https://www.digikey.com/product-detail/en/molex-llc/0348250124/WM10326-ND/4504599) - $10
+    2. [ASCM wiring harness](https://leepauldinginc.square.site/product/gm-volt-harness-for-open-pilot/20?cs=true) - $210-$1000
+    <br><img src="https://cdn.discordapp.com/attachments/524611823090008065/578723742100881409/Volt_Wiring_Without_Giraffe.png" width="600">
+    3. ASCM connector [Amazon](https://www.amazon.com/gp/product/B000UF24KE/) / [Amazon alt](https://www.amazon.com/dp/B01MULGCTM/) - $7-10 + Cam molex connector [digikey](https://www.digikey.com/product-detail/en/molex-llc/0348250124/WM10326-ND/4504599) - $10
 * 3 meter long USB extension cable. Preferably 20awg or smaller (thicker). [Recommended](https://www.l-com.com/usb-premium-usb-cable-type-a-male-female-extension-cable-30m). - $20
 * Short 30cm mini-usb left-angle cable. [Recommended](https://www.amazon.com/gp/product/B074C8ZLYC). - $9
 
