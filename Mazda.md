@@ -4,7 +4,7 @@
 
 # Overview
 
-Mazda is community supported and available in dashcam mode only in OP due to a steer lockout if the driver does not touch the steering wheel for more than 5 seconds. Currently, the only workaround for this issue is to use a weight on the steering wheel. If you want to use OP with Mazda in non-dashcam mode you have to make changes to the source code and use it at your own risk. To do that change the line in selfdrive/car/mazda/interface.py [[here]](https://github.com/commaai/openpilot/blob/master/selfdrive/car/mazda/interface.py#L24)
+Mazda is community supported and available in dashcam mode only in OP due to a steer lockout if the driver does not touch the steering wheel for more than 5 seconds. Currently, the only workaround for this issue is to use a weight on the steering wheel. If you want to use OP with Mazda in non-dashcam mode you have to make changes to the source code and use it at your own risk. To do that change the line in `selfdrive/car/mazda/interface.py` [[here]](https://github.com/commaai/openpilot/blob/master/selfdrive/car/mazda/interface.py#L24)
 from:
 ```
 ret.dashcamOnly = True
