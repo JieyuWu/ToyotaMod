@@ -28,7 +28,7 @@ Mazda Radar Cruise Control  | MRCC | Mazda Adaptive Cruise Control - ACC
 Lane-Keep Assist System | LAS | Mazda LKAS
 
 # Supported models
-CX-5, CX-9, and Mazda 6 for model years 2017-2020. Other car/year models might work but have not been tested. 
+CX-5, CX-9, and Mazda 6 for model years 2017-2020. Other car/year models might work but have not been tested.  Mazda 3 2019 and newer use a new driver assistance system and is not yet supported. 
 
 # openpilot Capabilities
 
