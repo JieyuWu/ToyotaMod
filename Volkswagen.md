@@ -4,13 +4,25 @@
 
 **This brand is community supported. Enable it with the toggle in Settings->Developer->Enable Community Features.**
 
-# Make-Specific Terms
+### TEMP REF Wiki links
+* [jyoung8607](https://github.com/jyoung8607/openpilot/wiki/Wiring-Harness-Info)
+* [community.comma.ai ](https://community.comma.ai/wiki/index.php/Volkswagen)
 
-For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-Terms).
+# Overview
+Comma AI currently has no official support for Volkswagen brands, but a community port is available, with plans to upstream for official support in the near future. The community port is designed to support any Volkswagen MQB vehicle with ACC radar. Check the Vehicle Support section for details and caveats.
 
-Term | Abbreviation | Definition
---- | --- | ---
-Modularer Querbaukasten / Modular Transverse Matrix | MQB | Strategy for shared modular design between VAG group makes and models. MQB cars with ACC work with Openpilot.
+# What to buy
+
+## If your car has factory LKAS
+1. [comma two DevKit](https://comma.ai/shop/products/comma-two-devkit)
+2. Select MQB Development Harness
+
+## If your car just has ACC
+You are going to need a Gateway Integration (J533) cable. 
+1. [comma two DevKit](https://comma.ai/shop/products/comma-two-devkit) 
+2. Make your own with a Development harness or wait for jyoung to start selling them again.    
+
+
 
 # openpilot Capabilities
 
@@ -31,3 +43,12 @@ These vehicles support follow-to-stop and automatic resume if the stop is less t
 
 ### Stock ACC Low: 
 These vehicles generally support follow-to-stop (XXX review this: maybe near-stop only) but will require the driver to take over and hold the brake after a very short delay. Resume from stop is moot as "ACC low" vehicles will not hold themselves at a stop. Any vehicles with a manual parking brake, either foot or hand-operated, will fall into this category.
+
+# Make-Specific Terms
+
+For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-Terms).
+
+Term | Abbreviation | Definition
+--- | --- | ---
+Modularer Querbaukasten / Modular Transverse Matrix | MQB | Strategy for shared modular design between VAG group makes and models. MQB cars with ACC work with Openpilot.
+jyoung8607 | jyoung | First to make OP work in VW
