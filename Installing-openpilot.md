@@ -15,9 +15,9 @@ Note: only follow this if you have _not_ selected "Dashcam software" on the firs
 2. Ensure you're connected either to a Wifi hotspot, or that you can "Skip" the wifi hotspot selection (that means the SIM card is connected to a network).
 3. Select "Custom Software (Advanced)."
 4. Enter `https://openpilot.comma.ai` and click "Install Software."
-5. Comma Two will then download the software, and install it. Note that when using the SIM card for this, you may need to retry once or twice depending on the quality of the connection.
+5. Comma Two will then download the software, and install it. Note that when using the SIM card for this, you may need to retry once or twice depending on the quality of the connection. When using a wallcharger at your desk, make sure it can output 2-3A (installation draws just a little above 1.0A)
 6. Closely follow the training guide.
-7. Train the system on your car by manually driving faster than 15 mph (~ 25 km/h) for a few minutes. The screen will show what the camera sees after the training is complete.
+7. Train (calibrate) the system on your car by manually driving faster than 15 mph (~ 25 km/h) for a few minutes. The screen will show what the camera sees after the training is complete.
 8. You may now enable cruise control as per usual, and OpenPilot will take control after emitting a sound.
 
 ### Remove DashCam software
