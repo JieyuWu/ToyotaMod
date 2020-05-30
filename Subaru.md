@@ -47,3 +47,4 @@ Subaru harness install
 
 Drives
 - [2018 Subaru Crosstrek City Drive Timelapse](https://www.youtube.com/watch?v=1iNOc3cq8cs)
+- [2018 Subaru Impreza City Drive Timelapse](https://www.youtube.com/watch?v=LMCTiQE_Ado)
