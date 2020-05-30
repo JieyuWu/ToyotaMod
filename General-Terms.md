@@ -33,5 +33,7 @@ Driver Monitoring | DM | The camera monitoring the face
 Fingerprint | FP | Unique identification of a specific automobile make and model
 Fingerprint Version 2 | FPv2 | Version 2 of the unique identification of a specific automobile make and model
 Firmware | FW | Computer programs contained in a hardware device
+For the Windshield | FTW | A device to be mounted on the windshield
 Private Message | PM | Private message to an individual on Discord
 Rewrite Honda EPS | RWD | Part of the Honda Diagnostic System (HDS) software is a tool to flash firmware updates (J2534 Rewrite application) and a set of firmware update files. See https://github.com/gregjhogan/rwd-xray/blob/master/README.md
+Windshield | Win | As in for the win
