@@ -30,8 +30,8 @@ Term | Abbreviation | Definition
 --- | --- | ---
 Direct Message | DM (PM preferred to avoid confusion with driver monitoring) | Private message to an individual on Discord
 Driver Monitoring | DM | The camera monitoring the face
-Fingerprint | FP | Unique identification of a specific automobile make
-Fingerprint Version 2 | FPv2 | Version 2 of the unique identification of a specific automobile make
-Firmware | FW | Computer programs contained contained in a hardware device
+Fingerprint | FP | Unique identification of a specific automobile make and model
+Fingerprint Version 2 | FPv2 | Version 2 of the unique identification of a specific automobile make and model
+Firmware | FW | Computer programs contained in a hardware device
 Private Message | PM | Private message to an individual on Discord
 
