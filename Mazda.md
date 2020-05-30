@@ -34,7 +34,7 @@ CX-5, CX-9, and Mazda 6 for model years 2017-2020. Other car/year models might w
 
 ## Lateral Control
 
-Mazda LKAS is not available on low speeds. In particular, LKAS is not available until the car drives above 32mph/52kph. LKAS get disabled when the speed go below 28mpg/45kph. OP will NOT allow initial engagement if LKAS is not available. If OP is already engaged and LKAS becomes unavailable, OP will continue to be engaged but will not steer and will display a warning about steering being unavailable. 
+Mazda LKAS is not available on low speeds. In particular, LKAS is not available until the car drives above 32mph/52kph. LKAS gets disabled when the speed goes below 28mpg/45kph. OP will NOT allow initial engagement if LKAS is not available. If OP is already engaged and LKAS becomes unavailable, OP will continue to be engaged but will not steer and will display a warning about steering being unavailable. 
 
 ### Torque
 Available steering torque is adequate for most highway driving conditions. City driving requires driver intervention on sharp turns. 
