@@ -54,7 +54,7 @@ This connector is blue with a white plug, and has unique notches with the right 
 This connector is blue with a white plug, and has unique notches with the right notch being flush with the right of the connector, while the left notch is inward. It has the same connector as Hyundai G, but the wiring is different.
 
 ---
-![Hyundai I](https://user-images.githubusercontent.com/12204953/83317263-f9007080-a1f0-11ea-9ae4-981782597904.png)
+![Hyundai I](https://user-images.githubusercontent.com/12204953/83317392-d4f15f00-a1f1-11ea-8a24-0c95a43acb7d.png)
 
 This connector is light grey, and has unique notches with the left notch being flush with the left of the connector, while the right notch is inward. It has the same connector as Hyundai D, but the wiring is different.
 
