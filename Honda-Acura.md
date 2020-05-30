@@ -11,6 +11,7 @@ Term | Abbreviation | Definition
 Honda Sensing | Sensing | What Honda calls their ADAS system which provides things such as adaptive cruise control and lane keeping assist.
 Honda Bosch | Bosch | Bosch is a company Honda uses to provide their ADAS systems. Bosch cars don't support openpilot longitudinal, but often can steer down to a lower mph.
 Honda Nidec | Nidec | Nidec is a company Honda uses to provide their ADAS systems. Nidec cars support openpilot longitudinal, and are considered a better option for openpilot.
+Rewrite Honda EPS | RWD | Part of the Honda Diagnostic System (HDS) software is a tool to flash firmware updates (J2534 Rewrite application) and a set of firmware update files. See https://github.com/gregjhogan/rwd-xray/blob/master/README.md
 
 # openpilot Capabilities
 
