@@ -20,6 +20,16 @@ Pre-Global Platform | Pre-Global | Refers to models with ES predating Global Pla
 | Subaru    | Crosstrek 2018-19             | EyeSight          | Stock            | 0mph               | 0mph         |
 | Subaru    | Impreza 2018-20               | EyeSight          | Stock            | 0mph               | 0mph         
 
+# Community supported models
+## Pre-global
+| Make      | Model (US Market Reference)   | Supported Package | ACC              | No ACC accel below | No ALC below |
+| ----------| ------------------------------| ------------------| -----------------| -------------------| -------------|
+| Subaru    | Forester 2017                 | EyeSight          | Stock            | 0mph               | 0mph         |
+| Subaru    | Legacy 2015-18                | EyeSight          | Stock            | 0mph               | 0mph         |
+| Subaru    | Outback 2015-18               | EyeSight          | Stock            | 0mph               | 0mph         |
+
+Community supported models are available in custom fork at https://github.com/bugsy924/openpilot
+
 # openpilot capabilities
 
 ## Lateral control
