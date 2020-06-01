@@ -11,7 +11,7 @@
 ### Understanding how openpilot decides what speed to travel
 *This will change when comma.ai moves to using the driving model for full longitudinal control*.
 
-openpilot uses your car's radar (which returns up to 16 to 18 detected objects) and the driving model to select a radar point using the camera. openpilot runs the selected radar point (called a lead) through a kalman filter to get a more accurate acceleration and speed of the lead. The lead's speed, acceleration, and distance is sent to a longitudinal [MPC](https://en.wikipedia.org/wiki/Model_predictive_control) which after some complex math returns a desired speed to travel (along with desired acceleration) to [long_mpc.py](/commaai/openpilot/blob/master/selfdrive/controls/lib/long_mpc.py). This speed (which we'll mostly focus on) is then used by [longcontrol.py](/commaai/openpilot/blob/master/selfdrive/controls/lib/longcontrol.py) and a PI loop (not PID) which controlsd the gas and brakes.
+openpilot uses your car's radar (which returns up to 16 to 18 detected objects) and the driving model to select a radar point using the camera. openpilot runs the selected radar point (called a lead) through a kalman filter to get a more accurate acceleration and speed of the lead. The lead's speed, acceleration, and distance is sent to a longitudinal [MPC](https://en.wikipedia.org/wiki/Model_predictive_control) which after some complex math returns a desired speed to travel (along with desired acceleration) to [long_mpc.py](/commaai/openpilot/blob/master/selfdrive/controls/lib/long_mpc.py). This speed (which we'll mostly focus on) is then used by [longcontrol.py](/commaai/openpilot/blob/master/selfdrive/controls/lib/longcontrol.py) and a PI loop (not PID) which controls the gas and brakes.
 
 **In short, all you need to know is the lead's speed, acceleration, and distance is the input and a desired speed to travel is the output of the longitudinal MPC (along with a few extra values like future desired speed, acceleration, etc).**
 
@@ -20,32 +20,30 @@ Now that you have some background on how openpilot's `LongitudinalMpc` works (it
 
 ![](https://i.imgur.com/e3w1kUM.png)
 
-### How the brake-point and value lists work
-When you see `xBP` and `xV`, that means that the speeds defined in the brakepoint list (`xBP`) correspond to the values in the value (`xV`) list.
+### How the breakpoint and value lists work
+When you see `xBP` and `xV`, that means that the speeds defined in the breakpoint list (`xBP`) correspond to the values in the value (`xV`) list.
 
 So for example let's say `xBP = [0., 5., 35.]` (in m/s) and `xV = [1.0, 1.5, 2.0]`
 
 When you are traveling 5 m/s `1.5` is the value that openpilot uses, for 35 m/s `2.0` is the corresponding value. Speeds in between the defined speeds in `xBP` are linearly interpolated, so if you're halfway between 5 and 35 m/s the output will be halfway between `1.5` and `2.0`. How this works in code: `np.interp(20, [0., 5., 35.], [1.0, 1.5, 2.0]) = 1.75`
 
 ## Understanding the PI controller
-For this guide we'll assume you do not have a comma pedal (the `enableGasInterceptor` check) and you have a Toyota, but if you don't, the following still applies (but the values might differ).
-
 * Proportional (`kpBP` and `kpV`):
-  - Again, `kpBP` is the brake-point list and `kpV` is the values list that the PI loop uses in operation. `kpV` or `kp` stands for proportional gain, and it's the simplest part of the PI controller. If you just had a P controller the output would simply be defined as `(desired speed - current speed) * proportional gain`. The first section is also known as the *error*. In code (from `pid.py`), this would look like: `error * self.k_p`. That proportional gain we're multiplying here changes based on your speed.
+  - Again, `kpBP` is the breakpoint list and `kpV` is the values list that the PI loop uses in operation. `kpV` or `kp` stands for proportional gain, and it's the simplest part of the PI controller. If you just had a P controller the output would simply be defined as `(desired speed - current speed) * proportional gain`. The first section is also known as the *error*. In code (from `pid.py`), this would look like: `error * self.k_p`. That proportional gain we're multiplying here changes based on your speed.
 
     Once you get the output, you would simply return the value and use it as the gas/brake value to send to the car.
 
 * Integral (`kiBP` and `kiV`):
   - `kiV` or `ki` stands for integral gain. You can think of integral as the error (again, `desired speed - current speed`) that builds up over time. For a simple example, let's say that the error is `1` for one iteration (desired speed is 1 mph faster than our current speed). Then in the next iteration let's say we're still traveling at the same speed and we still want to go 1 mph faster.
 
-    We now take the previous error and the current error, which both are `1` and sum them. Now our integral is `2`. This continues forever, so if the error is too small from proportional to bring us to our desired speed (think something like 50 mph - 49.5 mph), integral would build up over time and help us apply more gas to reach the desired speed.
+    We now take the previous error and the current error, which both are `1` and sum them. Now our integral value is `2` (not gain, that's what is multiplied by `2` here to get the final output). This continues forever, so if the error is too small from proportional to bring us to our desired speed (think something like 50 mph - 49.5 mph), integral would build up over time and help us apply more gas to reach the desired speed.
 
     In a more concrete example, let's say we're approaching a steep hill and we want to maintain our speed of 50 mph. Of course the hill makes us lose some speed initially as the incline starts to increase, so proportional would kick in as our error increases. However, once we get close enough to the desired speed again, the output of proportional would fall to near 0, causing us to lose speed again. Here's where integral steps in. It can see the sum of the past errors, so integral would build up the longer we're lower than 50 mph, causing a higher gas output.
 
     In pseudo code, this looks like `self.i = self.i + (error * integral gain)`. You can see the two things that increase the output of the integral factor are error and time. If the error is large, integral increases. And if any error exists for some amount of time, integral increases.
 
 * `gasMaxBP` and `gasMaxV`:
-  - `gasMaxV` represents the maximum percentage of gas (0 being no gas and 1 being 100% gas) allowed to be output by the PI loop. Since `gasMaxBP = [0.]`, the maximum gas allowed by the PI loop is 50% which is used at all speeds.
+  - `gasMaxV` represents the maximum percentage of gas (0 being no gas and 1 being 100% gas) allowed to be output by the PI loop. Since `gasMaxBP = [0.]` and `gasMaxV = [0.5]`, the maximum gas allowed by the PI loop is 50% which is used at all speeds.
 
 **The output of the PI loop (excluding feedforward) is essentially the sum of the output of the proportional factor and integral factor. `control = self.p + self.i`**
 
@@ -53,13 +51,16 @@ For this guide we'll assume you do not have a comma pedal (the `enableGasInterce
 The two main factors you can tune to get a different response out of the long PI loop are of course proportional and integral. *To make the tuning process less complex, it's said to set the integral gain to all 0's so the only thing that's interacting with the output is proportional at first.*
 
 - When to increase proportional:
-  1. If your car doesn't give enough gas or brake to reach the set cruise speed, or it doesn't brake enough when you approach a stopped lead.
+  1. If your car doesn't give enough gas or brake to reach the set cruise speed in a timely manner.
+  2. If your car doesn't brake enough when you approach a stopped lead.
 - When to decrease proportional:
-  1. If your car applies too much gas or brake trying to reach the desired speed, or it's not smooth when reacting to a change in desired speed.
+  1. If your car applies so much gas or brake trying to reach the desired speed that it doesn't feel smooth.
+  2. If it doesn't feel smooth when reacting to a change in desired speed.
 
 After you have it tuned so that it feels smooth enough either cruising without a lead, or with a lead that is always changing its speed, it's time to start tuning integral.
 
 - When to increase integral:
-  1. If when the lead is decelerating/accelerating over a few seconds, or you're traveling up or down a hill and the car doesn't give enough gas or brake to maintain a safe distance or your desired speed.
+  1. If when the lead is decelerating/accelerating over a few seconds and the car doesn't give enough gas or brake to maintain a safe/reasonable distance
+  2. If you're traveling up or down a hill and the car doesn't give enough gas or brake to maintain your desired speed.
 - When to decrease integral:
-  1. If you start to experience overshoot (most easily identifiable on hills); ex. once you reach the crest of a hill or the bottom of a valley and your car continues to apply either gas or brake when it should start to ease off.
+  1. If you start to experience overshoot (most easily identifiable on hills); ex. once you reach the crest of a hill and your car continues to apply gas when it should start to ease off.
