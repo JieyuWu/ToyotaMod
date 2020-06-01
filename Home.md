@@ -2,7 +2,7 @@
 
 # Quick Start
 * [Installing openpilot](../wiki/Installing-openpilot)
-* [Comma two Installation Guides](../wiki/Installation-Guides)
+* [Installation Guides](../wiki/Installation-Guides)
 * [Frequently Asked Questions](../wiki/FAQ)
 * [General Terms](../wiki/General-Terms)
 
