@@ -5,6 +5,7 @@
 # Lateral Tuning
 
 # Longitudinal Tuning
+[Skip to tuning](#Tuning-the-longitudinal-PI-controller)
 ## Introduction
 
 ### Understanding how openpilot decides what speed to travel
@@ -27,7 +28,6 @@ So for example let's say `xBP = [0., 5., 35.]` (in m/s) and `xV = [1.0, 1.5, 2.0
 When you are traveling 5 m/s `1.5` is the value that openpilot uses, for 35 m/s `2.0` is the corresponding value. Speeds in between the defined speeds in `xBP` are linearly interpolated, so if you're halfway between 5 and 35 m/s the output will be halfway between `1.5` and `2.0`. How this works in code: `np.interp(20, [0., 5., 35.], [1.0, 1.5, 2.0]) = 1.75`
 
 ## Understanding the PI controller
-
 For this guide we'll assume you do not have a comma pedal (the `enableGasInterceptor` check) and you have a Toyota, but if you don't, the following still applies (but the values might differ).
 
 * Proportional (`kpBP` and `kpV`):
@@ -48,3 +48,18 @@ For this guide we'll assume you do not have a comma pedal (the `enableGasInterce
   - `gasMaxV` represents the maximum percentage of gas (0 being no gas and 1 being 100% gas) allowed to be output by the PI loop. Since `gasMaxBP = [0.]`, the maximum gas allowed by the PI loop is 50% which is used at all speeds.
 
 **The output of the PI loop (excluding feedforward) is essentially the sum of the output of the proportional factor and integral factor. `control = self.p + self.i`**
+
+## Tuning the longitudinal PI controller
+The two main factors you can tune to get a different response out of the long PI loop are of course proportional and integral. *To make the tuning process less complex, it's said to set the integral gain to all 0's so the only thing that's interacting with the output is proportional at first.*
+
+- When to increase proportional:
+  1. If your car doesn't give enough gas or brake to reach the set cruise speed, or it doesn't brake enough when you approach a stopped lead.
+- When to decrease proportional:
+  1. If your car applies too much gas or brake trying to reach the desired speed, or it's not smooth when reacting to a change in desired speed.
+
+After you have it tuned so that it feels smooth enough either cruising without a lead, or with a lead that is always changing its speed, it's time to start tuning integral.
+
+- When to increase integral:
+  1. If when the lead is decelerating/accelerating over a few seconds, or you're traveling up or down a hill and the car doesn't give enough gas or brake to maintain a safe distance or your desired speed.
+- When to decrease integral:
+  1. If you start to experience overshoot (most easily identifiable on hills); ex. once you reach the crest of a hill or the bottom of a valley and your car continues to apply either gas or brake when it should start to ease off.
