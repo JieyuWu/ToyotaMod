@@ -1,3 +1,7 @@
+![Unofficial Hardware](https://user-images.githubusercontent.com/37757984/83460050-63e0c000-a41a-11ea-8041-ffe0fe9a6077.png)
+
+[◄ Home](https://github.com/commaai/openpilot/wiki)
+
 Community developed hardware based on EON style form factor. For webcam and pc based development click [here](../wiki/Webcam/).
 
 Typically used for customizing an EON case or creating an EON device from scratch
