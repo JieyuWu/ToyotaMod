@@ -23,7 +23,7 @@ Control over the steering wheel.
 Hondas suffer from low torque, so they can only make gradual turns on a highway.
 
 ### Minimum Speeds
-Depending on the model, openpilot will stop steering under 3mph, or 12mph. During this the driver must resume steering control.
+Depending on the vehicle model, openpilot cannot steer the car at speeds below 3mph or 12mph. When traveling below the minimum steering speed, the driver must take control of the steering wheel.
 
 ## Longitudinal Control
 
