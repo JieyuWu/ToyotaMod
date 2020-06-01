@@ -1,5 +1,7 @@
 ![installing openpilot](https://user-images.githubusercontent.com/37757984/82701893-d3d69580-9c25-11ea-8910-3b65c5bc84f6.png)
 
+[◄ Home](https://github.com/commaai/openpilot/wiki)
+
 # On Comma Two
 ## Prerequisite
 Your Comma Two must be setup in your car prior to installing openpilot. Please follow the official setup procedures [here](https://comma.ai/setup/two) or one of the [installation guides](https://github.com/commaai/openpilot/wiki/Installation-Guides).
@@ -26,5 +28,3 @@ By default, Comma Ai installs a Dashcam software which does not drive the car. Y
 1. Tap the setting gear on the top right of the screen.
 2. One of the icons will show "chffrplus" with a version number. Tap that.
 3. Scroll to the bottom and tap "uninstall chffrplus."
-
-[◄ Home](https://github.com/commaai/openpilot/wiki)
