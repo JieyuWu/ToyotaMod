@@ -27,6 +27,12 @@ openpilot | OP | An open source driver assistance system developed by comma.ai
 panda OBD-II Interface | | A CAN-Bus to USB adapter. Available in 3 variants: white (support dropped in op version 0.6.7+) / grey (incl. high precision GPS) / black (newest variant)
 panda paw | | A device to help you unbrick a panda.
 
+# openpilot terms
+Term | Abbreviation | Definition
+--- | --- | ---
+longitudinal | long | Refers to speed control
+lateral | lat | Refers to steering control
+
 # driver-assistance terms
 
 Make-specific terms should be added to [their perspective wiki page](https://github.com/commaai/openpilot/wiki#vehicle-information).
