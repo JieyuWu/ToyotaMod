@@ -14,14 +14,24 @@ Just save the above key as a text file, name it "key.pem" or anything you like;
 
 1) Under Unix/Linux environment, or Mac terminal, please run: $ chmod 600 key.pem (otherwise the system will think the text file is not safe).
 
-2) To connect to your comma two using this key, save the text above to a blank text file and name the file key.pem. (Just make save it into the same working directory, to check using commands "pwd" and "ls".
+2) To connect to your comma two using this key, save the text above to a blank text file and name the file key.pem. (Just make save it into the same working directory, to check using commands `pwd` and `ls`.
 
 Then get the IP address of your comma two in settings under settings > wifi > advanced (please make sure your comma two and your computer connect to the same WiFi).
 
-3) To check your connection: $ ping the comma two IP address, like "ping 192.168.1.100"; please try a couple of times until you see the data exchanging. like: "PING 192.168.2.1 (192.168.2.1): 56 data bytes 64 bytes from 192.168.2.1: icmp_seq=0 ttl=64 time=1.710 ms 64 bytes from 192.168.2.1: icmp_seq=1 ttl=64 time=13.899 ms"
+3) To check your connection: $ ping the comma two IP address, like `ping 192.168.1.100`; please try a couple of times until you see the data exchanging. like: 
+```
+PING 192.168.2.1 (192.168.2.1) 56 data bytes 
+64 bytes from 192.168.2.1: icmp_seq=0 ttl=64 time=1.710 ms
+64 bytes from 192.168.2.1: icmp_seq=1 ttl=64 time=13.899 ms
+```
 
 4) Under a Linux, MAC machine or PuTTY environment, use the command:
 
-ssh root@(IP address of comma two) -p 8022 -i key.pem
+```
+$ssh root@<IP address of comma two> -p 8022 -i key.pem
+```
 
-like "$ ssh root@192.168.1.100 -p 8022 -i key.pem"
+Example:
+```
+$ ssh root@192.168.1.100 -p 8022 -i key.pem
+```
