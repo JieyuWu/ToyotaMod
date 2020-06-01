@@ -20,7 +20,7 @@ fingerprint | FPv1, FPv2 | A list of CAN bus signals unique to a particular vehi
 FrEON | | "Free EON"... an open source variant of the EON case. The repository contains files that can be used for 3D printing a case. Developed by @Chase#7213
 giraffe connector | | An adapter board that lets you read buses that aren't exposed on the main OBD-II connector, with variants for different vehicle makes/models.
 Lane Change Assist | LCA | Activate the turn signal and gently nudge the wheel in the direction you wish to travel to when it's safe. Change lanes while always paying attention.
-LeEco Le Pro 3 | LeEco, Lepro | One of the phones used in the previous generation EON devkits
+LeEco Le Pro 3 | LeEco, Lepro | The phone used in comma two and EON Gold devkits
 LiveParameters | | 	A continually updated file (ie. "Live") that stores learned calibration data for the vehicle.
 OnePlus 3T | OP3T | One of the phones used in the previous generation EON devkits. It was discontinued due to a lack of supply. Known model numbers: A3000(US version) A3010(Asian version)
 openpilot | OP | An open source driver assistance system developed by comma.ai
