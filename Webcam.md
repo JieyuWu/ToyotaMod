@@ -1,6 +1,4 @@
-
-
-[◄ Home](https://github.com/commaai/openpilot/wiki)
+![Webcam](https://user-images.githubusercontent.com/37757984/83460053-65aa8380-a41a-11ea-8f98-04d3f4ea7c06.png)
 
 Using a webcam and PC to run openpilot
 
