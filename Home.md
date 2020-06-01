@@ -1,40 +1,40 @@
 ![communitywiki](https://user-images.githubusercontent.com/37757984/81886963-eaf4f380-9552-11ea-9206-164dcec6374c.jpeg)
 
 # Quick Start
-* [Installing openpilot](https://github.com/commaai/openpilot/wiki/Installing-openpilot)
-* [Comma two Installation Guides](https://github.com/commaai/openpilot/wiki/Installation-Guides)
-* [Frequently Asked Questions](https://github.com/commaai/openpilot/wiki/FAQ)
-* [General Terms](https://github.com/commaai/openpilot/wiki/General-Terms)
+* [Installing openpilot](../wiki/Installing-openpilot)
+* [Comma two Installation Guides](../wiki/Installation-Guides)
+* [Frequently Asked Questions](../wiki/FAQ)
+* [General Terms](../wiki/General-Terms)
 
 # Vehicle Information
 Find out specific vehicle limitations and modifications that members of the community make to their cars for a better openpilot experience.
 ## Supported Brands
-* [Honda / Acura](https://github.com/commaai/openpilot/wiki/Honda-Acura)
-* [Toyota / Lexus](https://github.com/commaai/openpilot/wiki/Toyota-Lexus)
+* [Honda / Acura](../wiki/Honda-Acura)
+* [Toyota / Lexus](../wiki/Toyota-Lexus)
 
 ## Community Supported Brands
-* [Hyundai / Kia / Genesis](https://github.com/commaai/openpilot/wiki/Hyundai-Kia-Genesis)
-* [Subaru](https://github.com/commaai/openpilot/wiki/Subaru)
-* [Chrysler / Jeep / Dodge](https://github.com/commaai/openpilot/wiki/FCA)
-* [Volkswagen](https://github.com/commaai/openpilot/wiki/Volkswagen)
-* [Chevrolet / Buick / GMC / Cadillac](https://github.com/commaai/openpilot/wiki/GM)
-* [Nissan](https://github.com/commaai/openpilot/wiki/Nissan)
+* [Hyundai / Kia / Genesis](../wiki/Hyundai-Kia-Genesis)
+* [Subaru](../wiki/Subaru)
+* [Chrysler / Jeep / Dodge](../wiki/FCA)
+* [Volkswagen](../wiki/Volkswagen)
+* [Chevrolet / Buick / GMC / Cadillac](../wiki/GM)
+* [Nissan](../wiki/Nissan)
 
 ### Dashcam Mode Only
-* [Mazda](https://github.com/commaai/openpilot/wiki/Mazda)
+* [Mazda](../wiki/Mazda)
 
 ### Not Yet In openpilot
-* [Ford](https://github.com/commaai/openpilot/wiki/Ford)
+* [Ford](../wiki/Ford)
 
 # Development
 Community guides that help you contribute to openpilot, or make your own modifications to the open source code.
 ## Getting Started
-* [SSH Into Your comma two](https://github.com/commaai/openpilot/wiki/SSH)
-* [Fingerprinting Your Car](https://github.com/commaai/openpilot/wiki/Fingerprinting)
+* [SSH Into Your comma two](../wiki/SSH)
+* [Fingerprinting Your Car](../wiki/Fingerprinting)
 
 ## Advanced (Developers Only)
-* [Tuning](https://github.com/commaai/openpilot/wiki/Tuning)
-* [Panda Flashing](https://github.com/commaai/openpilot/wiki/Panda-Flashing)
-* [Custom Forks](https://github.com/commaai/openpilot/wiki/Forks)
+* [Tuning](../wiki/Tuning)
+* [Panda Flashing](../wiki/Panda-Flashing)
+* [Custom Forks](../wiki/Forks)
 * [Unofficial Hardware](../wiki/Unofficial-Hardware)
-* [openpilot on PC With Webcam](../wiki/Webcam)
+* [openpilot on PC](../wiki/Webcam)
