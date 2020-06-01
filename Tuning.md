@@ -15,7 +15,7 @@ openpilot uses your car's radar (which returns up to 16 to 18 detected objects) 
 
 **In short, all you need to know is the lead's speed, acceleration, and distance is the input and a desired speed to travel is the output of the longitudinal MPC (along with a few extra values like future desired speed, acceleration, etc).**
 
-### longcontrol.py
+### Your vehicle's interface file
 Now that you have some background on how openpilot's `LongitudinalMpc` works (it's not necessary to understand everything) we can move on to understanding how the PI loop controls your vehicle's gas and brakes and subsequently actually tuning your vehicle. Here are some of the parameters that `longcontrol`'s PI loop uses to output a gas signal sent to the car (from Toyota's [interface file](/commaai/openpilot/blob/master/selfdrive/car/toyota/interface.py#L288)):
 
 ![](https://i.imgur.com/e3w1kUM.png)
