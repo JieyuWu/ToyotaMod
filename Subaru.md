@@ -54,7 +54,7 @@ Longitudinal control is provided by the stock system that came with the car.
 
 Eyesight ACC stops the car, and on supported models<sup>1</sup> will engage brake hold for up to 2 minutes, after which, the park brake will be engaged. *Resuming ACC is a manual operation at this time. Automatic resume is not implemented yet.*
 
-<sup>1</sup>Supported models include those with an electic park brake. If your vehicle has a traditional handbrake, your hold will only last for a couple seconds before the vehicle will begin to coast.
+<sup>1 - Supported models include those with an electic park brake. If your vehicle has a traditional handbrake, your hold will only last for a couple seconds before the vehicle will begin to coast.</sup>
 
 # Community videos
 Subaru harness install
