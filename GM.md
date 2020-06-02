@@ -108,7 +108,7 @@ Examples of switched +12V locations:
 1) Replace ASCM with one of the 3 ASCM replacements above.
     * If using GM Giraffe, simply swap out the ASCM for the GM Giraffe.
     * If using ASCM wiring harness, connect the harness inline with ASCM and run the wires to the dash.
-    * If using ASCM stub connector, disconnect the 14-pin ASCM connector and plug in the stub connector. Leave the 16-pin connector in ASCM plugged in.
+    * If using ASCM stub connector, disconnect the 14-pin ASCM connector and plug in the stub connector. Leave the 16-pin connector in ASCM plugged in. Also unplug the front camera connector from the camera, and plug in the cam molex stub. Finally, make sure you're powering your radar with +12v (see #3 above).
 2) Install Gray Panda in OBD II port.
     * Install Gray Panda GPS antenna on windshield.
 3) Install EON centered on windshield.
