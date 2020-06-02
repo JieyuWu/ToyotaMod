@@ -67,6 +67,4 @@ On-Board Diagnostics Connector | OBD-II, OBD-II port | OBD systems give the vehi
 Term | Abbreviation | Definition
 --- | --- | ---
 Direct Message | DM (PM preferred to avoid confusion with driver monitoring) | Private message to an individual on Discord
-For The Win | FTW |
 Private Message | PM | Private message to an individual on Discord
-My windshield got Stolen | MWGS | 
