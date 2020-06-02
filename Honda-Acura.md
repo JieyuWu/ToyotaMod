@@ -36,4 +36,4 @@ Depending on the model, openpilot will not support stop and go (titled "Low Spee
 
 ## comma pedal
 
-Allows Nidec Hondas without full-range cruise control to gain stop-and-go using openpilot with a device plugged into the gas pedal.
+Allows Nidec Hondas without cruise control capable of Low Speed Follow to gain stop-and-go functionality by using openpilot with a device plugged into the accelerator pedal.
