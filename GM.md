@@ -127,7 +127,7 @@ Examples of switched +12V locations:
   * (TODO: git patch or commit ref this step)
 * OBD-II to OBD-C Harness
   * Buy the [`OBD-II Harness` from the comma shop!](https://comma.ai/shop/products/comma-car-harness)! Supports GMLAN.
-  * Or, [OBD-C female (at comma two) schematic](https://github.com/commaai/neo/blob/master/car_harness/OBD-C.sch.pdf)
+  * Or, map to [OBD-C female (at comma two) schematic](https://github.com/commaai/neo/blob/master/car_harness/OBD-C.sch.pdf)
 
 |   | OBD-II |   | OBD-C |
 |---|---|---|---|
