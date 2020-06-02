@@ -139,4 +139,4 @@ Examples of switched +12V locations:
 | 12 | CAN3H | B2 | CAN2H 
 | 13 | CAN3L | B3 | CAN2L 
 | 16 | 12V | VBUS | |
-| | | B8 | SBU2 1KΩ to GND |
+| | | B8 | SBU2 1kΩ to GND |
