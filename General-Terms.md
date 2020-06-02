@@ -49,6 +49,7 @@ Lane Keep Assist (System) | LKA(S) | Lane keep assist is what comes with most ca
 Lane Departure Warning (System) | LDW(S), LDA | Lane departure warning will beep when a car goes over a lane line.
 Pedestrian Crash Avoidance Mitigation | PCAM | A system that uses computer and artificial intelligence technology to recognize pedestrians and bicycles in an automobile's path to take action for safety.
 ping pong | | 	An undesired behavior where the vehicle sways from one side of the lane to the other repeatedly. The desired behavior is to stay in the center of the lane.
+wobble | | Similar to ping pong, but where the vehicle drives mostly centered in the lane but sways slightly from side to side. Primarily due to improper tuning of the steering control system, influence from wind, or poor lane/path perception due to rain, dirt, and/or debris on the vehicles windshield.
 Traffic-sign recognition | TSR | A system by which a vehicle is able to recognize the traffic signs put on the road e.g. "speed limit" or "children" or "turn ahead".
 
 # automotive terms
