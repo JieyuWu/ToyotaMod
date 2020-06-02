@@ -8,7 +8,7 @@ Workbench is a user-friendly desktop application for SSH(Secure Shell) into your
  
 
 ## Advance
-You can download the id_rsa key [from the openpilot repo.](https://github.com/commaai/openpilot/blob/master/tools/ssh/key/id_rsa) With that key, you can SSH in as root on port 8022. If you're using PuTTY, you'll need to convert that id_rsa (private key) into a .ppk (PuTTY Private Key)... no passwords needed.
+You can download the id_rsa key [from the openpilot repo.](https://github.com/commaai/openpilot/blob/master/tools/ssh/key/id_rsa) With that key, you can SSH in as root on port 8022. If you're using PuTTY, use [this file.](https://github.com/commaai/openpilot/blob/master/tools/ssh/key/id_rsa.ppk)
 
 Just save the above key as a text file, name it "key.pem" or anything you like;
 
