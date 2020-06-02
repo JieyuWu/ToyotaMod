@@ -117,3 +117,26 @@ Examples of switched +12V locations:
 4) [Enjoy your first drive!](https://community.comma.ai/wiki/index.php/First_OpenPilot_Drive)
 
 **For more detailed instructions see [Zoneos](https://zoneos.com/volt/)**
+
+# comma two support
+
+* Like the EON, bypass the ASCM, and power the radar.
+* Disable intercept relays
+  * `panda/board/main.c:`
+  * Add `case SAFETY_GM:` fall-through after `case SAFETY_ELM327:`
+  * (TODO: git patch or commit ref this step)
+* OBD-II to OBD-C Harness
+  * Buy the [`OBD-II Harness` from the comma shop!](https://comma.ai/shop/products/comma-car-harness)! Supports GMLAN.
+  * Or, [OBD-C female (at comma two) schematic](https://github.com/commaai/neo/blob/master/car_harness/OBD-C.sch.pdf)
+
+|   | OBD-II |   | OBD-C |
+|---|---|---|---|
+| 4 | GND | GND | |
+| 6 | CAN1H | A2 | CAN0H |
+| 14 | CAN1L | A3 | CAN0L |
+| 3 | CAN2H | A11 | CAN1H |
+| 11 | CAN2L | A10 | CAN1L |
+| 12 | CAN3H | B2 | CAN2H 
+| 13 | CAN3L | B3 | CAN2L 
+| 16 | 12V | VBUS | |
+| | | B8 | SBU2 1KΩ to GND |
