@@ -37,10 +37,11 @@ $ ssh root@192.168.1.100 -p 8022 -i key.pem
 ```
 
 ### tmux
-`tmux a`
-`` + b : exit tmux`
+Once you are ssh'd into the device, you can monitor openpilot outputs with tmux\
+`tmux a` to attach to tmux window\
+`` ` + b`` to exit tmux window
 
-### Note
+### When SSH is automatically enabled/disabled
 SSH is automatically enabled with a clean comma 2 factory reset. It is disabled once you start installing dashcam or custom software. You then will need to enable SSH through the phone's UI settings if you want to SSH after install. SSH'ing into the phone before installing software (and typing `tmux a`) is helpful in understanding what is going on if you are having trouble performing your install.
 
 ## Mobile
