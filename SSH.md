@@ -4,7 +4,7 @@
 
 ## Beginner
 [Workbench for Openpilot](https://github.com/jfrux/workbench#getting-started)
-Workbench is a user-friendly desktop application for SSH (Secure Shell) into your android device running openpilot.
+Workbench is a user-friendly desktop application for SSH ([Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell)) into your android device running openpilot.
  
 
 ## Advanced
