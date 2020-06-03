@@ -29,12 +29,13 @@ Find out specific vehicle limitations and modifications that members of the comm
 
 # Development
 Community guides that help you contribute to openpilot, or make your own modifications to the open source code.
-* [Update to latest/custom openpilot branch](../wiki/UpdateModifyOpenpilot)
+
 
 ## Getting Started
 * [SSH Into Your comma two](../wiki/SSH)
+* [Update/Install openpilot](../wiki/UpdateModifyOpenpilot)
 * [Fingerprinting Your Car](../wiki/Fingerprinting)
-* [Debugging Openpilot](../wiki/DebuggingOpenpilot) - **TODO**
+* [Debugging openpilot](../wiki/DebuggingOpenpilot) - **TODO**
 
 ## Advanced (Developers Only)
 * [Tuning](../wiki/Tuning)
