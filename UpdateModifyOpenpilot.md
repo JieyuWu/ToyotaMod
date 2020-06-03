@@ -6,7 +6,7 @@ However, if you want to test out newer, unreleased version like 0.8.0, the easie
 The latest openpilot revisions come from the main repository: https://github.com/commaai/openpilot . \
 If you want to test out your own modified code, create a fork of the main repo and clone that one (branches should still be the same)
 
-### 1. SSH into your comma2/EON
+### 1. [SSH](../SSH) into your comma2/EON
 `cd /data/`\
 `mv openpilot/ openpilot.backup`\
 `git clone https://github.com/commaai/openpilot.git`\
