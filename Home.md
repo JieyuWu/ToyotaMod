@@ -5,7 +5,7 @@
 * [Installation Guides](../wiki/Installation-Guides)
 * [Frequently Asked Questions](../wiki/FAQ)
 * [General Terms](../wiki/General-Terms)
-* [Troubleshooting](../wiki/Troubleshooting)
+* [Troubleshooting](../wiki/Troubleshooting) - **WIP**
 
 # Vehicle Information
 Find out specific vehicle limitations and modifications that members of the community make to their cars for a better openpilot experience.
