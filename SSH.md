@@ -53,6 +53,7 @@ You can always SSH via the LTE connection. Follow the guide here: [https://ssh.c
 * Android
   * ConnectBot - https://f-droid.org/en/packages/org.connectbot/
   * Terminus - https://play.google.com/store/apps/details?id=com.server.auditor.ssh.client
+  * JuiceSSH - https://play.google.com/store/apps/details?id=com.sonelli.juicessh
 
 * iOS
   * Terminus - https://apps.apple.com/us/app/termius-ssh-shell-console-terminal/id549039908
