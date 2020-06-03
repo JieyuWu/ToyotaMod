@@ -4,6 +4,8 @@
 
 openpilot [forks](https://en.wikipedia.org/wiki/Fork_(software_development)) are used for various purposes, often for use on a certain vehicle or for the development and testing of new features.
 
+See JFrux's guide for installing forks (here)[https://medium.com/@jfrux/comma-eon-installing-a-fork-of-openpilot-5c2b5c134b4b]
+
 
 | Owner         | Link                                                      | Description             |
 | ------------- | --------------------------------------------------------- | ----------------------- |
