@@ -51,9 +51,30 @@ Longitudinal control is not supported by OP with Mazda. OP relies on the stock M
 
 Note that OP takes control of the engagement process and will not allow the MRCC to engage if LKAS is not available, i.e, when used with OP you will not be able to engage ACC on low speeds. That behavior is required by OP safety model.
 
+# Custom solutions:
+## Harness Connector parts:
+* [OP connector](https://www.digikey.com/product-detail/en/molex/5016462600/WM6066-ND/1787767)
+* [Camera side](https://www.digikey.com/product-detail/en/molex/0348240124/WM10324-ND/4504597)
+* [Car Side](https://www.digikey.com/product-detail/en/molex/0348250124/WM10326-ND/4504599)
+* [car connector crimps](https://www.digikey.com/product-detail/en/molex/5600230421/WM8745CT-ND/3178491)
+* [OP connector crimps](https://www.digikey.com/product-detail/en/molex/5016471000/WM6057CT-ND/1787797)
+
+Harness wiring:
+
+  ![](https://media.discordapp.net/attachments/533836721541087242/669598201438928937/mazda-connector.png)
+
+## Steering Lockout Mitigation
+* [Steering Cover](https://www.amazon.com/gp/product/B07465843H/)
+* [Weight](https://www.amazon.com/gp/product/B071WP8HGP/)
+
+![](https://media.discordapp.net/attachments/533836721541087242/715957164098715718/steering_wheel_cover_weights.png)
+
 # Developer TODOs 
 * Steer down to zero
 * Steer without lockout
 * Find cruise set speed signal
 * openpilot longitudinal control
 * Fingerprinting 2.0 ([reference](https://github.com/commaai/openpilot/pull/1540))
+
+
+
