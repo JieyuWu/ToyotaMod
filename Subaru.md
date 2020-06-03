@@ -38,7 +38,7 @@ Control over the steering wheel.
 
 ### Torque
 
-Subarus have very good torque, and work well on local and highway roads.
+Subarus have very good torque, and works well on local and highway roads.
 
 ### Minimum speeds
 
