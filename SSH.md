@@ -39,7 +39,7 @@ $ ssh root@192.168.1.100 -p 8022 -i key.pem
 ### tmux
 Once you are ssh'd into the device, you can monitor openpilot outputs with tmux\
 `tmux a` to attach to tmux window\
-`` ` + b`` to exit tmux window
+`` ` + d`` to exit tmux window
 
 ### When SSH is automatically enabled/disabled
 **WiFi**\
