@@ -41,4 +41,4 @@ Community guides that help you contribute to openpilot, or make your own modific
 * [Custom Forks](../wiki/Forks)
 * [Unofficial Hardware](../wiki/Unofficial-Hardware)
 * [openpilot on PC](../wiki/Webcam)
-* [Flash NEOS Operating System CommaTwo/EON](../wiki/Flash-NEOS)
+* [Reflash CommaTwo/EON OS (NEOS)](../wiki/Flash-NEOS)
