@@ -48,7 +48,7 @@ Ensure that every single ecu has its firmware in this file.
 
 ### On Device
 
-1. SSH into the comma two and navigate to /data/openpilot/selfdrive/_make_/values.py
+1. [SSH](../wiki/SSH/) into the comma two and navigate to /data/openpilot/selfdrive/_make_/values.py
 2. Save the file and reboot
 
 ### To Your Own Fork
