@@ -33,7 +33,7 @@ Community guides that help you contribute to openpilot, or make your own modific
 
 ## Getting Started
 * [SSH Into Your comma two](../wiki/SSH)
-* [Update/Install openpilot](../wiki/UpdateModifyOpenpilot)
+* [Update/Modify/Install openpilot](../wiki/UpdateModifyOpenpilot)
 * [Fingerprinting Your Car](../wiki/Fingerprinting)
 * [Debugging openpilot](../wiki/DebuggingOpenpilot) - **TODO**
 
