@@ -36,7 +36,7 @@ Example:
 $ ssh root@192.168.1.100 -p 8022 -i key.pem
 ```
 
-# Mobile
+## Mobile
 
 * Android
   * ConnectBot - https://f-droid.org/en/packages/org.connectbot/
