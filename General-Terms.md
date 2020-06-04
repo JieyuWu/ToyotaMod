@@ -30,7 +30,7 @@ panda paw | | A device to help you unbrick a panda.
 # openpilot terms
 Term | Abbreviation | Definition
 --- | --- | ---
-longitudinal | long | Refers to speed control
+longitudinal | long | Refers to gas and brake control
 lateral | lat | Refers to steering control
 
 # driver-assistance terms
