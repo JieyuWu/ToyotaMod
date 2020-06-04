@@ -19,7 +19,7 @@ If you want to test out your own modified code, create a fork of the main repo a
   * `git submodule update --init --recursive`
   * `reboot` to start build
 * `master-ci` - latest openpilot changes, with submodules already integrated. Needs to be built on the device.
-  * `git checkout master-cl`
+  * `git checkout master-ci`
   * `reboot` to start build
 * `devel`
 * `devel-staging`
