@@ -8,7 +8,7 @@ Term | Abbreviation | Definition
 --- | --- | ---
 comma.ai | | The company behind openpilot
 comma API | | [link to docs](https://api.comma.ai/#comma-api-spec)
-comma connect | | A mobile app for [Android](https://play.google.com/store/apps/details?id=ai.comma.connect&hl=en_US) and [iOS](https://apps.apple.com/us/app/comma-connect/id1456551889)
+comma connect | | An [open source](https://github.com/commaai/connect) mobile app for [Android](https://play.google.com/store/apps/details?id=ai.comma.connect&hl=en_US) and [iOS](https://apps.apple.com/us/app/comma-connect/id1456551889) used to view drives and interact with the device
 car harness | | A universal interface to your car. A unique harness exists for each of the supported makes and models of cars. This replaces the older giraffe Connector
 comma pedal | | A device that provides stop-and-go capability on cars that don't currently support it. This device is not sold by Comma.ai (not officially supported by them), but supported in OpenPilot.
 comma points | | Awarded for various activities you perform on the platform. Good for bragging rights.
