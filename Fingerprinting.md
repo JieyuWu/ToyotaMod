@@ -5,7 +5,7 @@
 **Getting Car Unrecognized: Dashcam Mode, but have a supported make and model of car? Use the following guides to add support.**
 
 # Fingerprinting 2.0
-Used for all officially supported makes such as Honda, Toyota, and Hyundai.
+Used for all officially supported makes such as Honda, Toyota, and is also supported in Hyundai.
 ## Step 1 : Record a Drive
 Ensure your comma power v2 is hooked up to your car harness. Drive around your neighborhood for a bit, then return to upload the drive on WiFi to the comma servers.
 ## Step 2 : Log into [useradmin](https://my.comma.ai/useradmin)
