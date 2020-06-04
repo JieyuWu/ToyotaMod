@@ -43,6 +43,15 @@ Typically used for customizing an EON case or creating an EON device from scratc
 
 * https://www.ifixit.com/Store/Android/OnePlus-3-Replacement-Battery/IF330-017?o=2
 
+# Batteryless
+
+* Use a dc-dc converter to power the eon without a battery
+
+<details>
+<summary>Buck Converter Instalation</summary>
+*step one: remove battery
+</details>
+
 ---
 
 # Software
