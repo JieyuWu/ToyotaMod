@@ -19,10 +19,10 @@ If you want to test out your own modified code, create a fork of the main repo a
   * `git submodule update --init --recursive`
   * `reboot` to start build
 * `master-ci` - latest openpilot changes, with submodules already integrated. Needs to be built on the device.
-  * `git checkout master-cli`
+  * `git checkout master-cl`
   * `reboot` to start build
 * `devel`
-* `devel-cli`
+* `devel-staging`
 
 ### 3. (Optional) Monitor build process after reboot
 For branches that need to be built, you can monitoring the building process by SSH'ing into your comma right after reboot and typing `tmux a`
