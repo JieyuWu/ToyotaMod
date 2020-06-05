@@ -66,13 +66,13 @@ The deprecated version of fingerprinting. Used for most community supported make
 
 1. Turn off car, connect Panda to car (normally via Giraffe or car harness) and connect Panda to EON running OpenPilot.
 
-2. If you purchased the car harness, disable openpilot in EON UI settings so that your car is using the stock system. If you have a giraffe, set the switches so that the stock system is enabled. For this procedure you want to collect the messages sent by the stock system, not openpilot.
+2. If you have the car harness, disable openpilot in EON UI settings so that your car is using the stock system. If you have a giraffe, set the switches so that the stock system is enabled. For this procedure you want to collect the messages sent by the stock system, not openpilot.
 
 3. Run these commands in 2 separate sessions (SSH into EON, run "tmux a" and press "\` + c" to create new sessions)...  
 in first session run:  
     `/data/openpilot/selfdrive/boardd/boardd`  
-in second session run (one line):  
-    `cd /data/openpilot/selfdrive && PYTHONPATH=/data/openpilot PREPAREONLY=1 /data/openpilot/selfdrive/debug/get_fingerprint.py`
+in second session run:  
+    `PYTHONPATH=/data/openpilot PREPAREONLY=1 /data/openpilot/selfdrive/debug/get_fingerprint.py`
 
 4. Turn on the car's ignition, and wait up to ~20 seconds to ensure all the appropriate DBC messages are seen, like this...
 
