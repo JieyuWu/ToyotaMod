@@ -71,10 +71,9 @@ The deprecated version of fingerprinting. Used for most community supported make
 3. Run these commands in 2 separate sessions (SSH into EON, run "tmux a" and press "\` + c" to create new sessions)...  
 in first session run:  
     `/data/openpilot/selfdrive/boardd/boardd`  
-in second session run:
-    ```
-    PYTHONPATH=/data/openpilot PREPAREONLY=1 /data/openpilot/selfdrive/debug/get_fingerprint.py  
-    ```  
+in second session run (one line):  
+    `PYTHONPATH=/data/openpilot PREPAREONLY=1 /data/openpilot/selfdrive/debug/get_fingerprint.py`  
+
 4. Turn on the car's ignition, and wait up to ~20 seconds to ensure all the appropriate DBC messages are seen, like this...
 
     `number of messages 53:`  
