@@ -76,5 +76,7 @@ Harness wiring:
 * openpilot longitudinal control
 * Fingerprinting 2.0 ([reference](https://github.com/commaai/openpilot/pull/1540))
 
+# See Also
 
+* https://medium.com/@to.jafar/how-to-setup-openpilot-on-mazda-3eb54c62fdc5
 
