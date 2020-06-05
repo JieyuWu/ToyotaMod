@@ -61,3 +61,30 @@ Ensure that every single ecu has its firmware in this file.
 
 # Fingerprinting 1.0
 The deprecated version of fingerprinting. Used for most community supported makes.
+
+## Creating Fingerprint 1.0 (deprecated)
+
+1. Turn off car, connect Panda to car (normally via Giraffe or car harness) and connect Panda to EON running OpenPilot.
+
+2. If you purchased the car harness, disable openpilot in EON UI settings so that your car is using the stock system. If you have a giraffe, set the switches so that the stock system is enabled. For this procedure you want to collect the messages sent by the stock system, not openpilot.
+
+3. Run these commands in 2 separate sessions (SSH into EON, run "tmux a" and press "\` + c" to create new sessions)...  
+in first session run:  
+    `/data/openpilot/selfdrive/boardd/boardd`  
+in second session run (one line):  
+    `cd /data/openpilot/selfdrive && PYTHONPATH=/data/openpilot PREPAREONLY=1 /data/openpilot/selfdrive/debug/get_fingerprint.py`
+
+4. Turn on the car's ignition, and wait up to ~20 seconds to ensure all the appropriate DBC messages are seen, like this...
+
+    `number of messages 53:`  
+    `fingerprint 2: 8, 64: 8, 65: 8, 72: 8, 73: 8, 280: 8, 281: 8, 290: 8, 312: 8, 313: 8, 314: 8, 315: 8, 316: 8, 326: 8, 544: 8, 545: 8, 546: 8, 552: 8, 554: 8, 557: 8, 576: 8, 577: 8, 722: 8, 801: 8, 802: 8, 805: 8, 808: 8, 816: 8, 826: 8, 837: 8, 838: 8, 839: 8, 842: 8, 912: 8, 915: 8, 940: 8, 1614: 8, 1617: 8, 1632: 8, 1650: 8, 1657: 8, 1658: 8, 1677: 8, 1697: 8, 1743: 8, 1759: 8, 1785: 5, 1786: 5, 1787: 5, 1788: 8, 2015: 8, 2016: 8, 2024: 8`
+
+5. Turn on and off the car few times (some messages are only sent on start) and run the car for at least a minute to make sure all messages are received.
+
+6. \<CTRL\> + C to break out of the process.
+
+7. Copy the DBC messages obtained in step 4 into the "FINGERPRINTS" section of  
+    `/data/openpilot/selfdrive/car/<car make>/values.py`  
+Create new sub-section for car or overwrite pre-existing fingerprint of similar car.
+
+8. Turn off car's ignition, then reboot EON.
