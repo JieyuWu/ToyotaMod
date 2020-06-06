@@ -10,11 +10,10 @@ Typically used for customizing an EON case or creating an EON device from scratc
 
 * Unibody Lepro3 @CloudJ
   * https://www.thingiverse.com/thing:4069425
-
-# Mounts
-
 * FrEON @ch4se
   * https://github.com/ch4se/OpenFrEON
+
+# Mounts
 * variety of mounts from @Tunder
   * https://github.com/Tundergit/openpilot-mounts
 * Magnectic Mount @CloudJ 
