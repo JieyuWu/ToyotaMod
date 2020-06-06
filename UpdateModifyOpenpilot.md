@@ -10,6 +10,7 @@ If you want to test out your own modified code, create a fork of the main repo a
 `cd /data/`\
 `mv openpilot/ openpilot.backup`\
 `git clone https://github.com/commaai/openpilot.git`\
+`cd openpilot`
 
 ### 2. Checkout your desired branch
 * `release2` - latest official release with compiled binary. Does not need to be built on the device
