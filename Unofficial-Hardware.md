@@ -45,11 +45,17 @@ Typically used for customizing an EON case or creating an EON device from scratc
 
 # Batteryless
 
-* Use a dc-dc converter to power the eon without a battery
+* Use a DC-DC converter to power the EON without a battery
+* Make sure to wrap the DC-DC converter in electric tape to prevent shorting
 
 <details>
-<summary>Buck Converter Instalation</summary>
-*step one: remove battery
+<summary>Buck Converter Installation</summary>
+
+* Step one: Carefully remove the battery.
+* Step two: Solder connections to the DC-DC converter.
+* Step three: Solder 5V connection to the USB flex cable by stripping the middle section of the USB flex cable.
+* Step four: Solder "battery" connection to battery PCB or logic board.
+* Step five: Solder ground connection to the gold connector on USB flex cable or use logic board ground. 
 </details>
 
 ---
