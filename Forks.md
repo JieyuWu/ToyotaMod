@@ -9,11 +9,11 @@ See JFrux's guide for installing forks [here](https://medium.com/@jfrux/comma-eo
 
 | Owner         | Link                                                      | Description             |
 | ------------- | --------------------------------------------------------- | ----------------------- |
-| @kegman       | <https://github.com/kegman/openpilot>                     | Honda                   |
-| @zorrobyte    | <https://github.com/zorrobyte/openpilot>                  | Toyota                  |
+| @kegman       | <https://github.com/kegman/openpilot>                     | Largely supports Honda. Has many various customization options. |
+| @zorrobyte    | <https://github.com/zorrobyte/openpilot>                  | Close to stock, automatically learns your curvature factor for better curve handling. Also supports the highly-accurate Zorro Steering Sensor. |
 | @ErichMoraga  | <https://github.com/ErichMoraga/openpilot/>               | Toyota / ZSS            |
 | @xx979xx      | <https://github.com/xx979xx/openpilot/tree/HKG_community> | Hyundai / Kia / Genesis |
-| @eFini        | <https://github.com/dragonpilot-community/dragonpilot/>   |                         |
+| @eFini        | <https://github.com/dragonpilot-community/dragonpilot>    | Heavily modified version of openpilot with many different customizations accessible via UI. |
 | @jyoung8607   | <https://github.com/jyoung8607/openpilot>                 | Volkswagen              |
-| @ShaneSmiskol | <https://github.com/ShaneSmiskol/openpilot>               | Toyota / TSS1 (pedal)   |
+| @ShaneSmiskol | <https://github.com/ShaneSmiskol/openpilot>               | Close to stock, has an implementation of following distance profiles similar to the stock Toyota cruise control system. |
 | @bugsy924     | <https://github.com/bugsy924/openpilot>                   | Subaru                  |
