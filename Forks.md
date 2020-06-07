@@ -7,13 +7,13 @@ openpilot [forks](https://en.wikipedia.org/wiki/Fork_(software_development)) are
 See JFrux's guide for installing forks [here](https://medium.com/@jfrux/comma-eon-installing-a-fork-of-openpilot-5c2b5c134b4b).
 
 
-| Owner         | Link                                                                | Description             |
-| ------------- | ------------------------------------------------------------------- | ----------------------- |
-| @kegman       | [kegman](https://github.com/kegman/openpilot)                       | Largely supports Honda. Has many various customization options. |
-| @zorrobyte    | [zorrobyte](https://github.com/zorrobyte/openpilot)                 | Close to stock, automatically learns your curvature factor for better curve handling. Also supports the highly-accurate Zorro Steering Sensor (ZSS). |
-| @ErichMoraga  | [ErichMoraga](https://github.com/ErichMoraga/openpilot)             | Toyota / ZSS |
-| @xx979xx      | [xx979xx](https://github.com/xx979xx/openpilot/tree/HKG_community)  | Hyundai / Kia / Genesis |
-| @eFini        | [dragonpilot](https://github.com/dragonpilot-community/dragonpilot) | Heavily modified fork of openpilot with many different customizations accessible via UI. |
-| @jyoung8607   | [jyoung8607](https://github.com/jyoung8607/openpilot)               | Volkswagen |
-| @ShaneSmiskol | [Stock Additions](https://github.com/ShaneSmiskol/openpilot)        | Close to stock, has an implementation of following distance profiles similar to the stock Toyota cruise control system. |
-| @bugsy924     | [bugsy924](https://github.com/bugsy924/openpilot)                   | Subaru |
+Owner         | Link                                                                | Description
+------------- | ------------------------------------------------------------------- | -----------------------
+@kegman       | [kegman](https://github.com/kegman/openpilot)                       | Largely supports Honda. Has many various customization options.
+@zorrobyte    | [zorrobyte](https://github.com/zorrobyte/openpilot)                 | Close to stock, automatically learns your curvature factor for better curve handling. Also supports the highly-accurate Zorro Steering Sensor (ZSS).
+@ErichMoraga  | [ErichMoraga](https://github.com/ErichMoraga/openpilot)             | Toyota / ZSS
+@xx979xx      | [xx979xx](https://github.com/xx979xx/openpilot/tree/HKG_community)  | Hyundai / Kia / Genesis
+@eFini        | [dragonpilot](https://github.com/dragonpilot-community/dragonpilot) | Heavily modified fork of openpilot with many different customizations accessible via UI.
+@jyoung8607   | [jyoung8607](https://github.com/jyoung8607/openpilot)               | Volkswagen
+@ShaneSmiskol | [Stock Additions](https://github.com/ShaneSmiskol/openpilot)        | Close to stock, has an implementation of following distance profiles similar to the stock Toyota cruise control system.
+@bugsy924     | [bugsy924](https://github.com/bugsy924/openpilot)                   | Subaru
