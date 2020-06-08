@@ -70,4 +70,4 @@ Term | Abbreviation | Definition
 Direct Message | DM (PM preferred to avoid confusion with driver monitoring) | Private message to an individual on Discord
 Private Message | PM | Private message to an individual on Discord
 Want To Buy | WTB | You want to buy an item (on For-Sale channel)
-FS | For Sale | Peopla sale an item (on For-Sale channel)
+For Sale | FS | People sale an item (on For-Sale channel)
