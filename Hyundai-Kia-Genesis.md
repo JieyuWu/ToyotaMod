@@ -37,13 +37,6 @@ This connector is light grey, and has unique notches with the left notch being f
 This connector is black with a white plug, and has unique notches being flush with the sides of the connector. It has the same connector as Hyundai F, but the wiring is different.
 
 ---
-# Not Yet Released Harness Types
-
-![Hyundai F](https://user-images.githubusercontent.com/37757984/82935527-080dc700-9f42-11ea-9d7c-c4383e72da57.png)
-
-This connector is black with a white plug, and has unique notches being flush with the sides of the connector. It has the same connector as Hyundai E, but the wiring is different.
-
----
 ![Hyundai G](https://user-images.githubusercontent.com/37757984/83704485-0e95e180-a5c7-11ea-9f11-cae40a675728.png)
 
 This connector is blue with a white plug, and has unique notches with the right notch being flush with the right of the connector, while the left notch is inward. It has the same connector as Hyundai H, but the wiring is different.
@@ -52,6 +45,13 @@ This connector is blue with a white plug, and has unique notches with the right 
 ![Hyundai H](https://user-images.githubusercontent.com/37757984/83704572-3e44e980-a5c7-11ea-90d7-f0dd64635b17.png)
 
 This connector is blue with a white plug, and has unique notches with the right notch being flush with the right of the connector, while the left notch is inward. It has the same connector as Hyundai G, but the wiring is different.
+
+---
+# Not Yet Released Harness Types
+
+![Hyundai F](https://user-images.githubusercontent.com/37757984/82935527-080dc700-9f42-11ea-9d7c-c4383e72da57.png)
+
+This connector is black with a white plug, and has unique notches being flush with the sides of the connector. It has the same connector as Hyundai E, but the wiring is different.
 
 ---
 ![Hyundai I](https://user-images.githubusercontent.com/37757984/83458885-2da24100-a418-11ea-8131-64b4af87f82d.png)
