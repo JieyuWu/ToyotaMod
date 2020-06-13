@@ -22,7 +22,7 @@ Note: only follow this if you have _not_ selected "Dashcam software" on the firs
 7. Train (calibrate) the system on your car by manually driving faster than 15 mph (~ 25 km/h) for a few minutes. The screen will show what the camera sees after the training is complete.
 8. You may now enable cruise control as per usual, and OpenPilot will take control after emitting a sound.
 
-### Remove DashCam software
+### Remove Dashcam software
 By default, Comma Ai installs a Dashcam software which does not drive the car. You'll need to remove that prior to installing OpenPilot.
 
 1. Tap the setting gear on the top right of the screen.
