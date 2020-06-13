@@ -27,13 +27,19 @@ If you are running anything but `release2` on your device, it is likely the fork
 
 There are some message that the device is not receiving properly. Usually this is resolved by fixing a loose connection.
 
+See [Fixing a Connection Issue](https://github.com/commaai/openpilot/wiki/Troubleshooting#fixing-a-connection-issue)
+
 ## Radar Communication Issue
 
 This means the CAN bus that the radar sits on is not being received properly, which often means there is a loose cable somewhere.
 
+See [Fixing a Connection Issue](https://github.com/commaai/openpilot/wiki/Troubleshooting#fixing-a-connection-issue)
+
 ## Harness Box Error
 
 Similar to a radar error, this means that a CAN bus is not being received by the device.
+
+See [Fixing a Connection Issue](https://github.com/commaai/openpilot/wiki/Troubleshooting#fixing-a-connection-issue)
 
 # Hardware
 
@@ -49,13 +55,15 @@ If this doesn't fix the issue, it is possible to purchase replacement cables and
 * [Anker USB-C Cable - similar length to included cable](https://www.amazon.com/gp/product/B076D76DRQ)
 * [Angled USB-C Cable - slightly shorter than included cable](https://www.amazon.com/gp/product/B07VMKRKBR)
 
-### Car Unrecognized
+### Car Unrecognized (Issues with FW Query)
 * [7ft Ethernet Cable](https://www.amazon.com/Monoprice-Cat5e-Ethernet-Patch-Cable/dp/B00ACR5P60)
 * [10ft Ethernet Cable](https://www.amazon.com/Monoprice-Cat5e-Ethernet-Patch-Cable/dp/B00ACR5P60)
 
+If none of this resolves the issue, it is most likely a bad harness box. Email support@comma.ai for further assistance, listing the things you tried.
+
 ## EON Fan Constantly Running
 
-SSH into your device, and attempt to manually control the fan.
+SSH into your device, and attempt to manually control the fan using this command.
 
 ```cd /data/openpilot && PYTHONPATH=/data/openpilot python -c 'from selfdrive.thermald import setup_eon_fan, set_eon_fan; setup_eon_fan(); set_eon_fan(1);' ```
 
