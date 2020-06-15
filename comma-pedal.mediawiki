@@ -1,0 +1,66 @@
+===  Explanation ===
+The Comma Pedal is used to provide stop-and-go capability on Openpilot-supported cars that don't currently support it. 
+
+The Comma Pedal is a gas pedal interceptor. It is a device that is inserted between a car's electronic gas pedal and the ECU (Engine Control Unit). It detects the voltage from the gas pedal which represents the pedal's position. It then writes that same voltage back out to the ECU as if the gas pedal had produced it. When Openpilot is engaged, Openpilot sends the virtual gas position through the Comma Pedal instead.
+
+Openpilot normally controls gas and brake using the ECU's cruise control commands. Since the ECU thinks the commands are coming from a cruise control, it imposes rules for when those signals will be honored. Cars without stop-and-go impose a minimum speed requirement (usually around 25mph) for the ECU to honor gas (acceleration)  requests.  As a result, Openpilot can't be engaged below 25mph and though most ECU's will allow braking down to 0mph, gas cannot be sent once you fall below the limit. This means that Openpilot must disengage after coming to a complete stop, or if the car needs to accelerate after dropping below the minimum speed.
+=== History ===
+When Comma originally setup Open Pilot on their Acura ILX, they created their own interceptor to give it stop-and-go capability. However, it was considered a hack, therefore no plans for making interceptors were originally published.
+
+Comma reportedly believes ECU hacks are a more elegant solution to the stop-and-go problem. However, it is difficult to hack the ECU of every car.  This is where an interceptor comes in.
+
+Though Comma stated that their original interceptor wasn't in any shape to publish, they surprised us all with the gift of an open-sourced interceptor - the Comma Pedal! 
+
+Much of the code Comma used on the Acura still exists in Openpilot. This means that the Pedal will be (initially) easiest to use on a Honda/Acura car. Comma has tweaked and cleaned up a lot of that original code for us to use. 
+
+Comma has also stated very emphatically that the Comma Pedal is NOT SUPPORTED by comma AT ALL. It is not something they are going to focus on and thus it is mostly up to the community to support it.
+
+=== What it Does ===
+The Comma Pedal has 4 main systems:
+# 2 Analog to Digital Convertors
+#* This is used to read the voltage from the car's gas pedal into the CommaPedal's processor. The gas pedal produces an output Voltage between 0 and 5 Volts. 
+# 2 Digital to Analog Convertors
+#* This is used to send voltage back to the car's ECU as if the gas pedal had produced it.
+# 1 CAN Bus 
+#* The CAN Bus is the car's communication network. The Comma Pedal communicates with Openpilot using the CAN Bus. It connects to the Comma Giraffe.
+# 1 USB
+#* This is used to program and monitor the Comma Pedal, itself.
+
+When Openpilot is NOT engaged, the Comma Pedal reads the voltage from the gas pedal and just passes it along to the ECU. 
+
+When Openpilot IS engaged, the Comma Pedal gets gas commands from Openpilot and emulates a gas pedal to the ECU. 
+
+The Comma Pedal is constantly sending the physical gas pedal's position to the CAN bus for Openpilot to read.
+
+=== Obtaining a Comma Pedal ===
+You cannot buy a pre-built comma pedal from Comma. Perhaps someone will begin selling them, but for now, you must either build it yourself (not recommended) Or have one fabricated through a service like Macrofab. 
+
+More information on HOW to do that will be added to this wiki in the future.
+
+You can find an article written by a community member on how to build your own through MacroFab:
+
+[https://medium.com/@joshuairl/comma-pedal-building-with-macrofab-6328bea791e8 Comma Pedal: Building with MacroFab by Joshua F. Rountree]
+
+The information needed to build one is located in Comma's [https://github.com/commaai/neo/tree/master/pedal NEO GitHub repo.]
+
+=== Guides for Building / Troubleshooting Your Comma Pedal ===
+
+'''[https://medium.com/@jfrux/comma-pedal-updating-the-firmware-over-can-fa438a3cf910 Comma Pedal: Updating the Firmware over CAN]''' by [https://medium.com/@jfrux @jfrux] Use this guide to update your Comma Pedal for compatibility with Openpilot v0.5.10+
+
+'''[https://medium.com/@jfrux/comma-pedal-building-with-macrofab-6328bea791e8 Comma Pedal: Building with MacroFab]''' by [https://medium.com/@jfrux @jfrux]
+
+'''[https://medium.com/@jfrux/comma-pedal-wiring-the-connectors-2a453675de9a Comma Pedal: Wiring the Connectors]''' by [https://medium.com/@jfrux @jfrux]
+
+'''[https://medium.com/@jfrux/flashing-the-comma-pedal-with-ubuntu-a83fb668f6e2 Comma Pedal: Flashing the Firmware]''' by [https://medium.com/@jfrux @jfrux]
+
+'''[https://medium.com/@jfrux/comma-pedal-installing-in-your-vehicle-5f3592eff9ed Comma Pedal: Installing in Your Vehicle]''' by [https://medium.com/@jfrux @jfrux]
+
+=== Vehicles Tested / Being Tested ===
+==== Acura ====
+* AcuraWatch Plus
+
+==== Honda ====
+* Nidec Hondas
+
+==== Toyota ====
+* All DSU Toyotas w/o stop and go
