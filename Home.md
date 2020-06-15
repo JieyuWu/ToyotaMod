@@ -45,3 +45,6 @@ Community guides that help you contribute to openpilot, or make your own modific
 * [Unofficial Hardware](../wiki/Unofficial-Hardware)
 * [openpilot on PC](../wiki/Webcam)
 * [Reflash CommaTwo/EON OS (NEOS)](../wiki/Flash-NEOS) - **TODO**
+
+### Hardware
+* [comma pedal](../wiki/comma-pedal)
