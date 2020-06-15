@@ -1,10 +1,10 @@
 ![toyota lexus](https://user-images.githubusercontent.com/37757984/81997758-90689f80-9605-11ea-98c5-cbdf92f49e30.jpeg)
 
-[◄ Home](https://github.com/commaai/openpilot/wiki)
+[◄ Home](../wiki)
 
 # Make-Specific Terms
 
-For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-Terms).
+For general terms, [go here](../wiki/General-Terms).
 
 Term | Abbreviation | Definition
 --- | --- | ---
@@ -42,7 +42,7 @@ Non-DSU cars such as the Camry cannot use openpilot longitudinal control. They u
 
 # Community Features
 
-## comma pedal
+## [comma pedal](../wiki/comma-pedal)
 
 Allows Toyotas without full-range cruise control to gain stop-and-go using openpilot with a device plugged into the gas pedal.
 
