@@ -48,3 +48,4 @@ Community guides that help you contribute to openpilot, or make your own modific
 
 ### Hardware
 * [comma pedal](../wiki/comma-pedal)
+* [comma two GPS fix PDF](https://github.com/commaai/openpilot/files/4789621/comma_two_GPS_fix.1.pdf)
