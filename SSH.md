@@ -2,6 +2,9 @@
 
 [◄ Home](https://github.com/commaai/openpilot/wiki)
 
+# Before You Start
+Ensure SSH is on in the settings of your comma two. Found in `Settings -> Developer -> Enable SSH`
+
 ## Beginner
 [Workbench for Openpilot](https://github.com/jfrux/workbench#getting-started)
 Workbench is a user-friendly desktop application for SSH ([Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell)) into your android device running openpilot.
