@@ -1,10 +1,10 @@
 Below is a list of utilities that developers and power-users can use for improving the ease-of-use with interfacing with your comma hardware and software.
 
 * [Openpilot Tools](https://github.com/commaai/openpilot/tree/master/tools) - The official development tools provided by comma.ai
-<img src="https://emu.bz/Jmx" alt="Openpilot Tols">
+<img src="https://emu.bz/Jmx" alt="Openpilot Tools" width="auto" height="200px">
 
 * [jfrux/workbench](https://github.com/jfrux/workbench) - Electon-based react application that interfaces with your eon/comma two over SSH, and can provide live data feeds, automatic device detection on the network, and command-line utilities. This repository is under-maintained, someone should fork it and fix it up a bit to keep it alive!
-<img src="https://emu.bz/nTT" alt="workbench" />
+<img src="https://emu.bz/nTT" alt="workbench"  width="auto" height="200px" />
 
 * [AskAlice/.oh-my-comma](https://github.com/askalice/.oh-my-comma) command-line utilities, themeing, and tooling for neos that live entirely on the device. Early in development, but could be promising with enough community support.
-<img src="https://thumbs.gfycat.com/VapidRipeAquaticleech-size_restricted.gif" alt="" />
+<img src="https://thumbs.gfycat.com/VapidRipeAquaticleech-size_restricted.gif" alt=""  width="auto" height="200px" />
