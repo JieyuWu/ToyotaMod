@@ -24,7 +24,7 @@ LeEco Le Pro 3 | LeEco, Lepro | The phone used in comma two and EON Gold devkits
 LiveParameters | | 	A continually updated file (ie. "Live") that stores learned calibration data for the vehicle.
 OnePlus 3T | OP3T | One of the phones used in the previous generation EON devkits. It was discontinued due to a lack of supply. Known model numbers: A3000(US version) A3010(Asian version)
 openpilot | OP | An open source driver assistance system developed by comma.ai
-panda OBD-II Interface | | A CAN-Bus to USB adapter. Available in 3 variants: white (support dropped in op version** 0.6.7+**) / grey (incl. high precision GPS) / black (newest variant)
+panda OBD-II Interface | | A CAN-Bus to USB adapter. Available in 3 variants: white (support dropped in op version** 0.7.6+**) / grey (incl. high precision GPS) / black (newest variant)
 panda paw | | A device to help you unbrick a panda.
 
 # openpilot terms
