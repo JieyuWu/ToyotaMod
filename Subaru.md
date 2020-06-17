@@ -24,7 +24,7 @@ Pre-Global Platform | Pre-Global | Refers to models with ES predating Global Pla
 ## Pre-global
 | Make      | Model (US Market Reference)   | Supported Package | ACC              | No ACC accel below | No ALC below |
 | ----------| ------------------------------| ------------------| -----------------| -------------------| -------------|
-| Subaru    | Forester 2017                 | EyeSight          | Stock            | 0mph               | 0mph         |
+| Subaru    | Forester 2017-18              | EyeSight          | Stock            | 0mph               | 0mph         |
 | Subaru    | Legacy 2015-18                | EyeSight          | Stock            | 0mph               | 0mph         |
 | Subaru    | Outback 2015-18               | EyeSight          | Stock            | 0mph               | 0mph         |
 
