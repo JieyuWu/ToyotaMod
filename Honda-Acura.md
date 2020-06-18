@@ -27,10 +27,10 @@ Depending on the vehicle model, openpilot cannot steer the car at speeds below 3
 ## Longitudinal Control - gas and brakes
 
 ### Honda Bosch
-openpilot doesn't yet control acceleration on Bosch ADAS based vehicles. The radar accepts commands and visual information from the factory windshield mounted camera assembly which then commands the vehicle's steering and acceleration accordingly. The factory Bosch radar does not output object data like other makes/models (including Honda Nidec).
+Openpilot doesn't yet control acceleration on Bosch ADAS based vehicles. The radar accepts commands and visual information from the factory windshield mounted camera assembly which then commands the vehicle's steering and acceleration accordingly. The factory Bosch radar does not output object data like other makes/models (including Honda Nidec).
 
 ### Honda Nidec
-Depending on the model, openpilot will not support stop and go (titled "Low Speed Follow" by Honda). openpilot does not have direct control over forward acceleration like other models, so it instead uses the factory built-in control system by commanding the desired vehicle speed. If improved acceleration or acceleration control are desired, the community-only supported comma pedal interceptor is required (see below. Not sold or built by comma.ai). openpilot, however, does have full braking control on these cars.
+Depending on the model, openpilot will not support stop and go (titled "Low Speed Follow" by Honda). Openpilot does not have direct control over forward acceleration like other models, so it instead uses the factory built-in control system by commanding the desired vehicle speed. If improved acceleration or acceleration control are desired, the community-only supported comma pedal interceptor is required (see below. Not sold or built by comma.ai). Openpilot, however, does have full braking control on these cars.
 
 # Community Features
 
