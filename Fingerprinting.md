@@ -24,7 +24,7 @@ Search the page for `carFw = [`
 
 ## Step 4 : Add new firmware versions
 
-In your values.py file, add the firmware in this format. Use a [decimal to hex converter](https://www.rapidtables.com/convert/number/decimal-to-hex.html) to get the correct string to place after 0x.
+In your values.py (see below for path) file, add the firmware in this format. Use a [decimal to hex converter](https://www.rapidtables.com/convert/number/decimal-to-hex.html) to get the correct string to place after 0x.
 
 ```CAR.MODEL: {
     (Ecu.type, 0xAddress-converted-to-hex, 0xSub-address-converted-to-hex-'None'-if-0): [
