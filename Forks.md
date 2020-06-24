@@ -16,4 +16,5 @@ Owner         | Link                                                            
 @eFini        | [dragonpilot](https://github.com/dragonpilot-community/dragonpilot) | Heavily modified fork of openpilot with many different customizations accessible via UI.
 @jyoung8607   | [jyoung8607](https://github.com/jyoung8607/openpilot)               | Volkswagen
 @ShaneSmiskol | [Stock Additions](https://github.com/ShaneSmiskol/openpilot)        | Close to stock, has an implementation of following distance profiles similar to the stock Toyota cruise control system.
-@bugsy924     | [bugsy924](https://github.com/bugsy924/openpilot)                   | Subaru
+@bugsy924     | [bugsy924](https://github.com/bugsy924/openpilot)                   | Subaru (Recommended to use use mlp's fork which contains Bugsy's work).
+@mlp          | [martinl](https://github.com/martinl/openpilot)                     | Subaru (In progress PR supporting both Global and Pre-Global models).
