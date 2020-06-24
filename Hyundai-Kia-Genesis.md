@@ -76,13 +76,14 @@ Highway Driver Assist | HDA | Combines LFA and SCC with map data to create a mor
 
 Control over the steering wheel.
 
-For HKG cars that have critical damping (ping pong, oscillation, ziggy zaggies) no matter your settings, PID tuning may not be right for your car.  You can try INDI tuning instead by adding these five lines to your relevant car in ./car/hyundai/interface.py:
+For HKG cars that have critical damping (ping pong, oscillation, ziggy zaggies) no matter your settings, PID tuning may not be right for your car.  You can try INDI tuning instead by adding these five lines to your relevant car in `/car/hyundai/interface.py` :
 
-ret.lateralTuning.init('indi')
+```ret.lateralTuning.init('indi')
 ret.lateralTuning.indi.innerLoopGain = 3.0
 ret.lateralTuning.indi.outerLoopGain = 2.0
 ret.lateralTuning.indi.timeConstant = 1.0
 ret.lateralTuning.indi.actuatorEffectiveness = 1.0
+```
 
 Comment out the lines containing Kp, Ki and Kf with a # at the beginning of the line.
 
