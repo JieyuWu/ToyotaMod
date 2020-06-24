@@ -1,1 +1,1 @@
-Make driving chill. [Buy comma two with car harness today!](https://comma.ai/shop)
+Make driving chill. [Buy comma two with car harness today!](https://comma.ai/shop/products/comma-two-devkit)
