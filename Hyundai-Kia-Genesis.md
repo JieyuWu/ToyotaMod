@@ -11,50 +11,59 @@ Before purchasing a harness for an unsupported vehicle, make sure you are purcha
 
 You can find this connector plugged into your Lane-Keep camera which is located near your rear-view mirror. You may need to pull back some trim to expose the camera. Once you do, unplug the connector and compare it to the types below. If it doesn't match, we don't yet sell the correct harness for your vehicle.
 
+![Wire Key](https://user-images.githubusercontent.com/37757984/85790184-a6797d80-b6e4-11ea-8a86-01b6511cd190.png)
+
 ---
-![Hyundai A](https://user-images.githubusercontent.com/37757984/82007923-4d67f580-9620-11ea-8e5f-8167e2051f02.png)
+![Hyundai A](https://user-images.githubusercontent.com/37757984/85791441-ae3a2180-b6e6-11ea-8464-410c5fe6dc62.png)
 
 This connector has a more square shape than the rest. It is also 6 holes across rather than 8.
 
 ---
-![Hyundai B](https://user-images.githubusercontent.com/37757984/82935518-06dc9a00-9f42-11ea-996c-e83166c0c89e.png)
+![Hyundai B](https://user-images.githubusercontent.com/37757984/85791442-aed2b800-b6e6-11ea-8d26-29b8c1b238ac.png)
 
 This connector is white, and has unique notches evenly in from the sides. It has the same connector as Hyundai C, but the wiring is different.
 
 ---
-![Hyundai C](https://user-images.githubusercontent.com/37757984/82935522-07753080-9f42-11ea-85d1-8f104693f41c.png)
+![Hyundai C](https://user-images.githubusercontent.com/37757984/85791443-aed2b800-b6e6-11ea-97ed-0d3cb5bbf092.png)
 
 This connector is white, and has unique notches evenly in from the sides. It has the same connector as Hyundai B, but the wiring is different.
 
 ---
-![Hyundai D](https://user-images.githubusercontent.com/37757984/82935524-07753080-9f42-11ea-88cd-3691be085b66.png)
+![Hyundai D](https://user-images.githubusercontent.com/37757984/85791444-af6b4e80-b6e6-11ea-8ba5-0d3210a6dce1.png)
 
 This connector is light grey, and has unique notches with the left notch being flush with the left of the connector, while the right notch is inward. It has the same connector as Hyundai I, but the wiring is different.
 
 ---
-![Hyundai E](https://user-images.githubusercontent.com/37757984/82935525-080dc700-9f42-11ea-809a-cedd72f97112.png)
+![Hyundai E](https://user-images.githubusercontent.com/37757984/85791446-af6b4e80-b6e6-11ea-8877-74177385f578.png)
 
 This connector is black with a white plug, and has unique notches being flush with the sides of the connector. It has the same connector as Hyundai F, but the wiring is different.
 
 ---
-![Hyundai G](https://user-images.githubusercontent.com/37757984/83704485-0e95e180-a5c7-11ea-9f11-cae40a675728.png)
-
-This connector is blue with a white plug, and has unique notches with the right notch being flush with the right of the connector, while the left notch is inward. It has the same connector as Hyundai H, but the wiring is different.
-
----
-![Hyundai H](https://user-images.githubusercontent.com/37757984/83704572-3e44e980-a5c7-11ea-90d7-f0dd64635b17.png)
-
-This connector is blue with a white plug, and has unique notches with the right notch being flush with the right of the connector, while the left notch is inward. It has the same connector as Hyundai G, but the wiring is different.
-
----
-# Not Yet Released Harness Types
-
-![Hyundai F](https://user-images.githubusercontent.com/37757984/82935527-080dc700-9f42-11ea-9d7c-c4383e72da57.png)
+![Hyundai F](https://user-images.githubusercontent.com/37757984/85791448-b003e500-b6e6-11ea-893e-1da6bdec383c.png)
 
 This connector is black with a white plug, and has unique notches being flush with the sides of the connector. It has the same connector as Hyundai E, but the wiring is different.
 
 ---
-![Hyundai I](https://user-images.githubusercontent.com/37757984/83458885-2da24100-a418-11ea-8131-64b4af87f82d.png)
+![Hyundai G](https://user-images.githubusercontent.com/37757984/85791451-b003e500-b6e6-11ea-9e21-d5707aea2920.png)
+
+This connector is blue with a white plug, and has unique notches with the right notch being flush with the right of the connector, while the left notch is inward. It has the same connector as Hyundai H, but the wiring is different.
+
+---
+![Hyundai H](https://user-images.githubusercontent.com/37757984/85791452-b003e500-b6e6-11ea-87b0-6ea821a1f668.png)
+
+This connector is blue with a white plug, and has unique notches with the right notch being flush with the right of the connector, while the left notch is inward. It has the same connector as Hyundai G, but the wiring is different.
+
+---
+![Hyundai J](https://user-images.githubusercontent.com/37757984/85791455-b09c7b80-b6e6-11ea-9507-7c8c6b3076f6.png)
+
+This connector is white, and has unique wings that protrude from the top of the connector. It is the same connector housing as a Toyota harness, although the wiring is different.
+
+---
+
+# Not Yet Released Harness Types
+
+---
+![Hyundai I](https://user-images.githubusercontent.com/37757984/85791454-b09c7b80-b6e6-11ea-959d-30ce905041f1.png)
 
 This connector is light grey, and has unique notches with the left notch being flush with the left of the connector, while the right notch is inward. It has the same connector as Hyundai D, but the wiring is different.
 
