@@ -18,7 +18,7 @@ Pre-Global Platform | Pre-Global | Refers to models with ES predating Global Pla
 | Make      | Model (US Market Reference)   | Supported Package | ACC              | No ACC accel below | No ALC below |
 | ----------| ------------------------------| ------------------| -----------------| -------------------| -------------|
 | Subaru    | Crosstrek 2018-19             | EyeSight          | Stock            | 0mph               | 0mph         |
-| Subaru    | Impreza 2017-20               | EyeSight          | Stock            | 0mph               | 0mph         
+| Subaru    | Impreza 2017-19               | EyeSight          | Stock            | 0mph               | 0mph         
 
 # Community supported models
 ## Pre-global
