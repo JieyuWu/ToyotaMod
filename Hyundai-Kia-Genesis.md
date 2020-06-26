@@ -73,11 +73,11 @@ This connector is light grey, and has unique notches with the left notch being f
 
 For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-Terms).
 
-Term | Abbreviation | Definition
+Abbreviation | Term | Definition
 --- | --- | ---
-Smart Cruise Control | SCC | A fancy way to say ACC
-Lane Following Assist | LFA | A fancier LKAS that centers but nags
-Highway Driver Assist | HDA | Combines LFA and SCC with map data to create a more comfortable level 2 experience.
+SCC | Smart Cruise Control | A fancy way to say ACC
+LFA | Lane Follow Assist | A fancier LKAS that centers but nags
+HDA | Highway Driver Assist | Combines LFA and SCC with map data to create a more comfortable level 2 experience.
 
 # openpilot Capabilities
 
