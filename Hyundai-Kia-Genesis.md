@@ -75,9 +75,6 @@ For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-T
 
 Abbreviation | Term | Definition
 --- | --- | ---
-SCC | Smart Cruise Control | A fancy way to say ACC
-LFA | Lane Follow Assist | A fancier LKAS that centers but nags
-HDA | Highway Driver Assist | Combines LFA and SCC with map data to create a more comfortable level 2 experience.
 0TP | Throttle Position Sensor | 
 2WD | Two Wheel Drive | 
 3 G Sensor  | Contains Yaw, Lateral G and Longitudinal G sensors | 
@@ -449,6 +446,7 @@ H-CAN | Hybrid CAN |
 HCU | Hydraulic Control Unit | 
 HD | Heavy Duty | 
 HD | High Definition | 
+HDA | Highway Driver Assist | Combines LFA and SCC with map data to create a more comfortable level 2 experience.
 HDD | Hard Disk Drive | 
 HECU | Hydraulic Electronic Control Unit | 
 HEGO | Heated Exhaust Gas Oxygen | 
@@ -580,6 +578,7 @@ LDWS | Lane Departure Warning System |
 LED | Light Emitting Diode | 
 LEV | Low Emission Vehicle | 
 LF | Low Frequency | 
+LFA | Lane Follow Assist | A fancier LKAS that centers but nags
 LFC | Linear Flow Control | 
 LFI | Low Frequency Initiator | 
 LFU | Lift Foot Up – up-shift | 
