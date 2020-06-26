@@ -24,6 +24,8 @@ Control over the steering wheel.
 
 ### Minimum Speeds
 
+Car years 2018 and earlier can steer down to 9 mph. Years 2019 and later can start steering once it reaches 39 mph, and then steer down to 30 mph.
+
 ## Longitudinal Control
 
 Control over the gas and brakes.
