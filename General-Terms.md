@@ -63,6 +63,7 @@ Controller Area Network | CAN, CAN bus | A message-based protocol that provides 
 Electronic Control Unit | ECU | Any embedded system in automotive electronics that controls one or more of the electrical systems or subsystems in a vehicle.
 Electric Power Steering | EPS | Uses an electric motor to assist the driver of a vehicle. Sensors detect the position and torque of the steering column, and a computer module applies assistive torque via the motor, which connects to either the steering gear or steering column.
 On-Board Diagnostics Connector | OBD-II, OBD-II port | OBD systems give the vehicle owner or repair technician access to the status of the various vehicle sub-systems. The comma power v2 uses this port to provide constant power to the comma two as well as access the diagnostic bus for FW query.
+Full Self Driving | FSD | 
 
 # discord terms
 Term | Abbreviation | Definition
