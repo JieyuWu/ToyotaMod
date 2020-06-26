@@ -453,6 +453,9 @@ HEGO | Heated Exhaust Gas Oxygen |
 HEV | Hybrid Electric Vehicle | 
 Hg | Mercury | 
 HID | High Intensity Discharge – xenon lamp | 
+HKG | Hyundai / KIA / Genesis |
+HKC | Hyundai KIA Corporation |
+HKMC | Hyundai KIA Motor Company |
 HL | Harness Layout | 
 HLA | Hydraulic Lash Adjuster | 
 HLLD | Head Lamp Leveling Device | 
