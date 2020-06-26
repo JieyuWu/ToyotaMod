@@ -2,6 +2,11 @@
 
 [◄ Home](../wiki)
 
+# List of On Screen Messages
+ * "Harness Malfunction", "Please Check Hardware"
+   * See [Fixing a Connection Issue](https://github.com/commaai/openpilot/wiki/Troubleshooting#fixing-a-connection-issue)
+
+
 # Alerts
 * [Communication Issue between Processes](../wiki/Troubleshooting#communication-issue-between-processes)
 
