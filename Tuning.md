@@ -4,6 +4,12 @@
 
 # Lateral Tuning
 
+Quick INDI tuning strategy
+ - Put reasonable values for inner + outer loop (not too high), start with the values from the prius
+ - Start tuning actuator effectiveness + actuator delay first. Try to make them as low as possible without getting unstable
+ - Make innerloop as high as possible
+ - Make outerloop as high as possible
+
 # Longitudinal Tuning
 [Skip to tuning](#Tuning-the-longitudinal-PI-controller)
 ## Introduction
