@@ -18,7 +18,8 @@ Pre-Global Platform | Pre-Global | Refers to models with ES predating Global Pla
 | Make      | Model (US Market Reference)   | Supported Package | ACC              | No ACC accel below | No ALC below |
 | ----------| ------------------------------| ------------------| -----------------| -------------------| -------------|
 | Subaru    | Crosstrek 2018-19             | EyeSight          | Stock            | 0mph               | 0mph         |
-| Subaru    | Impreza 2017-19               | EyeSight          | Stock            | 0mph               | 0mph         
+| Subaru    | Forester 2019                 | EyeSight          | Stock            | 0mph               | 0mph         |
+| Subaru    | Impreza 2017-19               | EyeSight          | Stock            | 0mph               | 0mph         |
 
 # Community supported models
 ## Pre-global
@@ -64,3 +65,16 @@ Subaru harness install
 Drives
 - [2018 Subaru Crosstrek City Drive Timelapse](https://www.youtube.com/watch?v=1iNOc3cq8cs)
 - [2018 Subaru Impreza City Drive Timelapse](https://www.youtube.com/watch?v=LMCTiQE_Ado)
+
+# Work in progress
+| Make      | Model (US Market Reference)   | Supported Package | ACC              | No ACC accel below | No ALC below |
+| ----------| ------------------------------| ------------------| -----------------| -------------------| -------------|
+| Subaru    | Ascent 2020                   | EyeSight          | Stock            | 0mph               | 0mph         |
+| Subaru    | Crosstrek 2020                | EyeSight          | Stock            | 0mph               | 0mph         |
+| Subaru    | Crosstrek 2020 Hybrid         | EyeSight          | Stock            | 0mph               | 0mph         |
+| Subaru    | Outback 2019                  | EyeSight          | Stock            | 0mph               | 0mph         |
+| Subaru    | Outback 2020                  | EyeSight          | Stock            | 0mph               | 0mph         |
+
+WIP models support is incomplete and untested
+- current state https://github.com/martinl/openpilot/tree/subaru-PR-test
+- open issues https://github.com/martinl/openpilot/issues
