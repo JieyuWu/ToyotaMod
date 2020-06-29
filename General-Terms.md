@@ -1,4 +1,4 @@
-****![General Terms](https://user-images.githubusercontent.com/37757984/82586637-bd104000-9b4c-11ea-92bf-6affc4f03835.jpg)
+![General Terms](https://user-images.githubusercontent.com/37757984/82586637-bd104000-9b4c-11ea-92bf-6affc4f03835.jpg)
 
 [◄ Home](https://github.com/commaai/openpilot/wiki)
 
