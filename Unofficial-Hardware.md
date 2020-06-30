@@ -44,17 +44,44 @@ Typically used for customizing an EON case or creating an EON device from scratc
 
 # Batteryless
 
-* Use a DC-DC converter to power the EON without a battery
-* Make sure to wrap the DC-DC converter in electric tape to prevent shorting
+## 2 Methods:
+* Replace battery with DC-DC converter
+* Supercapacitors
 
 <details>
-<summary>Buck Converter Installation</summary>
+<summary>Replace battery with DC-DC converter</summary>
+
+#### Buck Converter Installation
+
+_**Make sure to wrap the DC-DC converter in electric tape to prevent shorting**_
 
 * Step one: Carefully remove the battery.
 * Step two: Solder connections to the DC-DC converter.
 * Step three: Solder 5V connection to the USB flex cable by stripping the middle section of the USB flex cable.
 * Step four: Solder "battery" connection to battery PCB or logic board.
 * Step five: Solder ground connection to the gold connector on USB flex cable or use logic board ground. 
+
+![OnePlus3TNoBatteryWiring](https://user-images.githubusercontent.com/3239886/86073059-45cda600-ba40-11ea-906b-593ece92bd39.jpg)
+</details>
+
+<details>
+<summary>Replace battery with Supercapacitors</summary>
+
+
+*This method is for the OnePlus 3T EON - not tested on LeEco*
+
+1. Carefully remove the battery [(iFixit how-to link)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi0_bfVsajqAhXSqp4KHRp_DRYQFjATegQIBBAB&url=https%3A%2F%2Fwww.ifixit.com%2FGuide%2FOnePlus%2B3%2BBattery%2BReplacement%2F119676&usg=AOvVaw0USUqLRFEuYnONLSLj3VzY)
+1. Solder the black and red connections to the ribbon cables and the battery board as in the picture below (Ignore the dc-to-dc converter and  yellow wire shown - this image is used for both methods.) I tried to solder the red wire to the point on the pic and failed. I ended up cutting the little board off of the battery that has the connector and soldered to the + side of that little board remnant. 
+1. Purchase 2 supercapacitors at least 6 Farad and 2.7V. Here's a [link](https://www.amazon.com/gp/product/B082B2NZLL/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1) I used.
+1. Connect 2 of the supercapacitors in series by twisting one's (+) lead and the other's (-) lead. Solder them together if you want to and **be sure to insulate them** (wrap electrical tape, captan tape or heat-shrink.)
+1. Connect the free (+) in your capacitor array to the red wire, and connect the free (-) in your capacitor array to the black wire.
+1. **INSULATE all bare wires**. That includes the leads to the capacitors. They can't touch anything else.
+1. Test if it all works. Plug your USB in and see if it boots. It may take a few times to boot fully while it tries to charge the capacitors. It may also show the "batteries too low" screen.  But it should eventually (and from now on) boot just fine. 
+1. Mount capacitors and alter case as needed to close up the phone
+1. Somehow arrange inside your case or alter your case so the capacitors fit and are mounted well.
+
+
+![OnePlus3TNoBatteryWiring](https://user-images.githubusercontent.com/3239886/86073059-45cda600-ba40-11ea-906b-593ece92bd39.jpg)
 </details>
 
 ---
