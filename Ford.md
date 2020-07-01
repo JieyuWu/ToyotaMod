@@ -21,6 +21,8 @@ Control over the steering wheel.
 ### Torque
 
 ### Minimum Speeds
+Lateral Control is tied to the Cruise Control. On non Stop/Go vehicles, Lateral stops at 12mph, and can be manually engaged above 20mph. 
+On Stop/Go vehicles, Lateral stops at 10mph. 
 
 ## Longitudinal Control
 
