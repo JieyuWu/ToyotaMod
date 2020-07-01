@@ -35,6 +35,7 @@ IPMA | Image Processing Module A | LKAS Camera
 PAM | Park Aid Module | 
 PCA | Pre-Collision Assist |
 POA | Parallel Park Out Assist | APA Park Out
+PSCM | Power Steering Control Module | 
 PPA | Perpendicular Park Assist | APA Perpendicular
 SAPP | Semi-Autonomous Parallel Park | APA Parallel
 SCCM | Steering Column Control Module | SWC Buttons
@@ -50,6 +51,8 @@ TCU | Telematics Control Unit | SYNC Connect LTE
 
 Control over the steering wheel.
 
+Vehicles without LKAS can use openpilot, so long as the LKAS Enable bit is changed in the PSCM with Forscan. This will throw a recurring DTC for a missing IPMA, but will not show up on the IPC. 
+
 ### Torque
 
 ### Minimum Speeds
@@ -59,5 +62,9 @@ On Stop/Go vehicles, Lateral stops at 10mph.
 ## Longitudinal Control
 
 Control over the gas and brakes.
+
+Most Ford/Lincoln vehicles do not support OP Longitudinal Control. The CCM on these vehicles (Non Stop/Go) interfaces directly with the HS2 CAN bus and cannot be intercepted. These vehicles run in Lateral Only mode. 
+
+Stop/Go Ford's can be intercepted, but this has not been tested. 
 
 Longitudinal control is provided by the stock system that came with the car.
