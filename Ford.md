@@ -2,15 +2,37 @@
 
 [◄ Home](https://github.com/commaai/openpilot/wiki)
 
-**This brand currently has no openpilot support.**
+This brand currently has limited openpilot support on the F150 and Fusion only through community maintained branches. Safety code is not working properly and should **NOT** be used without fully understanding the ramifications of such. 
 
 # Make-Specific Terms
 
 For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-Terms).
 
-Term | Abbreviation | Definition
+Abbreviation | Term | Definition
 --- | --- | ---
-Fill | these | out! :)
+AHBC | Automatic High Beam Control |
+APA | Active Park Assist |
+APIM | Accessory Protocol Interface Module | SYNC Screen
+BLIS | Blind Spot Information System |
+CCM | Cruise Control Module | ACC Radar Module
+CTA | Cross Traffic Alert | 
+DAS | Driver Alertness System |
+FCIM | Front Controls Interface Module | SYNC Surround (Climate, Hazards, 360 Cam, Hill Descent)
+GWM | Gateway Module | Gatekeeper for all CAN networks in the vehicle
+HUD | Head Up Display | Used for the Collision Warning and Pre-Collision Assist
+IPC | Instrument Panel Cluster | 
+IPMA | Image Processing Module A | LKAS Camera
+PAM | Park Aid Module | 
+PCA | Pre-Collision Assist |
+POA | Parallel Park Out Assist | APA Park Out
+PPA | Perpendicular Park Assist | APA Perpendicular
+SAPP | Semi-Autonomous Parallel Park | APA Parallel
+SCCM | Steering Column Control Module | SWC Buttons
+SODL | Side Obstacle Detection Left | BLIS Left Module
+SODR | Side Obstacle Detection Right | BLIS Right Module
+TCU | Telematics Control Unit | SYNC Connect LTE
+
+
 
 # openpilot Capabilities
 
