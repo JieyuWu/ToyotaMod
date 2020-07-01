@@ -20,12 +20,11 @@ Find out specific vehicle limitations and modifications that members of the comm
 * [Volkswagen](../wiki/Volkswagen)
 * [Chevrolet / Buick / GMC / Cadillac](../wiki/GM)
 * [Nissan](../wiki/Nissan)
+* [Ford](../wiki/Ford)
 
 ### Dashcam Mode Only
 * [Mazda](../wiki/Mazda)
 
-### Not Yet In openpilot
-* [Ford](../wiki/Ford)
 
 # Development
 Community guides that help you contribute to openpilot, or make your own modifications to the open source code.
