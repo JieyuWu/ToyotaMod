@@ -2,7 +2,16 @@
 
 [◄ Home](https://github.com/commaai/openpilot/wiki)
 
+# Important Information
+
 This brand currently has limited openpilot support on the F150 and Fusion only through community maintained branches. Safety code is not working properly and should **NOT** be used without fully understanding the ramifications of such. 
+
+# Community Branches
+
+The following members currently have Ford code. All code listed here is WIP and not expected to work 100%
+ 
+https://github.com/roxasthenobody98/openpilot
+https://github.com/bugsy924/openpilot/tree/ford
 
 # Make-Specific Terms
 
