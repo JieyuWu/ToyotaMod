@@ -14,6 +14,13 @@ https://github.com/roxasthenobody98/openpilot
 
 https://github.com/bugsy924/openpilot/tree/ford
 
+# Supported Vehicles
+
+| Make      | Model                         | Supported Package | ACC              | No ACC accel below | No LKA below | No Lateral below |
+| ----------| ------------------------------| ------------------| -----------------| -------------------| -------------| -----------------|
+| Ford      | F150 2015-Present             | Lariat or Higher  | Stock            | 12mph              | 35mph        | 10mph            |
+| Ford      | Fusion 2013-Present           | SE or Higher      | Stock            | 12mph              | 35mph        | 10mph            |
+
 # Make-Specific Terms
 
 For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-Terms).
