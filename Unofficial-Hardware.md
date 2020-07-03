@@ -43,12 +43,23 @@ Typically used for customizing an EON case or creating an EON device from scratc
 * https://www.ifixit.com/Store/Android/OnePlus-3-Replacement-Battery/IF330-017?o=2
 
 # Batteryless
-Problems:
-1. Phone needs to know it has a battery to even try to boot.
-  The internal software of the phone needs to see that a battery exists. In the case of a OnePlus3T, it just needs to see a voltage from the battery wire. 
-1. Phone requires spikes of power that most USB chargers (including the white/grey panda) can't provide.
-  Power is made up of Current (Amps) and Voltage. We measure power in watts usually. Watts are calculated by multiplying the current times the voltage. 
-## 2 Methods:
+The Lithium batteries in Eons cannot handle the heat of being in a windshield. They can expand and even explode if left in the summer heat. They also, of course, wear out.
+### Problems:
+1. The Eon needs to know it has a battery to even try to boot.\
+  The internal software of the phone needs to see that a battery exists. In the case of a OnePlus3T, it just needs to see a voltage between 4.35 and 2.9V from the battery wire. 
+1. The Eon requires large spikes of power that most USB chargers (including the white/grey panda) can't provide.\
+  Power is made up of Current (Amps) and Voltage. We measure power in watts usually. Watts are calculated by multiplying the current times the voltage.\
+  In the case of USB, the voltage is 5 Volts. The default USB specification sets the default current to only 500ma (500 miliamps, or 1/2 of an amp.)That is not nearly enough to run an Eon. Measurements show that the eon requires a pretty constant power of over 3 Watts, and it occasionally spikes to over 10 watts. So basic usb chargers that only output 2.5W won't be able to power the Eon. Even more advanced chargers that can output more current (amps) require the device to send them a special signal to ensure it's okay to use so much.\
+  On top of that constant 3 Watts, the Eon occasionally requires large spikes of power that can't be provided by most all chargers (including the white/grey Panda.) The lithium batteries in cell phones solve this because they can provide a large amount of current for small periods of time. So any time there is a big spike that USB can't handle, it's easily provided by the battery.\
+When the Eon doesn't get the amount of current it needs, it simply reboots.
+## 2 Solutions:
+The community has come up with two ways to deal with these issues.
+1. Use a dc-to-dc converter (a.k.a. a "buck converter") to take the 5V USB provides and convert it to 4.3V at the battery terminal to fool the phone into thinking it has a battery. This solves the booting issue, but can still have problems with the power spikes, since most dc-dc converters can't handle the additional current.
+1. Supercapacitors. They can store and release huge amounts of current even quicker than a battery, but they have much smaller total storage. So you can connect supercapacitors to the battery leads, and as long as you get enough current from the USB to run the EON, the supercapacitors will have enough extra charge to handle the spikes. Conveniently, the OnePlus3T automatically charges the supercapacitors as if they were just batteries. They also provide a voltage that tells the Eon that it has a battery, so it allows it to boot.
+
+Supercapacitors and dc-dc converters can also handle the extreme heat of a car dashboard.
+
+
 <details>
 <summary>Replace battery with DC-DC converter</summary>
 
