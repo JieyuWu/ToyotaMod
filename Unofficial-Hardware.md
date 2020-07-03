@@ -43,7 +43,7 @@ Typically used for customizing an EON case or creating an EON device from scratc
 * https://www.ifixit.com/Store/Android/OnePlus-3-Replacement-Battery/IF330-017?o=2
 
 # Batteryless
-The Lithium batteries in Eons cannot handle the heat of being in a windshield. They can expand and even explode if left in the summer heat. They also, of course, wear out.
+The Lithium batteries in Eons cannot handle the heat of being left in an un-cooled windshield. They can expand and even explode if left in the summer heat. They also, of course, wear out.
 ### Problems:
 1. The Eon needs to know it has a battery to even try to boot.\
   The internal software of the phone needs to see that a battery exists. In the case of a OnePlus3T, it just needs to see a voltage between 4.35 and 2.9V from the battery wire. 
@@ -80,7 +80,8 @@ _**Make sure to wrap the DC-DC converter in electric tape to prevent shorting**_
 <summary>Replace battery with Supercapacitors</summary>
 
 
-*This method is for the OnePlus 3T EON - not tested on LeEco*
+#### This method is for the OnePlus 3T EON - not tested on LeEco
+#### Note: Supercapacitors require charging. But unlike with batteries, they will try to pull as much current as possible from the charging source. The more charged they are, the less current they will try to draw. This means that completely uncharged supercapacitors will look like a short-circuit to any monitoring electronics. However, once they're partially full, they'll be kinder to the charger. The OnePlus3T seems to handle this situation well without modification.  
 
 1. Purchase 2 supercapacitors at least 6 Farad and 2.7V. Here's a [link](https://www.amazon.com/gp/product/B082B2NZLL/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1) I used.
 1. Carefully remove the battery [(iFixit how-to link)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi0_bfVsajqAhXSqp4KHRp_DRYQFjATegQIBBAB&url=https%3A%2F%2Fwww.ifixit.com%2FGuide%2FOnePlus%2B3%2BBattery%2BReplacement%2F119676&usg=AOvVaw0USUqLRFEuYnONLSLj3VzY)
