@@ -5,6 +5,10 @@
 The official comma FAQ is found here [comma.ai/faq](https://comma.ai/faq)
 
 # openpilot
+
+### How do I report a bug?
+> Search Discord and this wiki to confirm anomalous behavior. Find the [segment](https://api.comma.ai/#definitions) of interest in [explorer](https://my.comma.ai), then click the lower right `Copy Current Segment`. Go to [#bug-reports](http://discord.comma.ai) and share the segment with a description of the issue.
+
 ### What is lateral control?
 > In openpilot, lateral control means that openpilot can control your steering wheel.
 
