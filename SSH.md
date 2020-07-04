@@ -13,13 +13,13 @@ Workbench is a user-friendly desktop application for SSH ([Secure Shell](https:/
 ## Advanced
 You can download the id_rsa key [from the openpilot repo.](https://github.com/commaai/openpilot/blob/master/tools/ssh/key/id_rsa) With that key, you can SSH in as root on port 8022. If you're using [PuTTY](https://en.m.wikipedia.org/wiki/PuTTY), use [this file.](https://github.com/commaai/openpilot/blob/master/tools/ssh/key/id_rsa.ppk)
 
-Just save the above key as a text file, name it "key.pem" or anything you like;
+Make sure you have **not** added any GitHub usernames to your comma two Authorized SSH Keys, then, under Unix/Linux environment, or macOS terminal:
 
-1) Under Unix/Linux environment, or Mac terminal, please run: $ chmod 600 key.pem (otherwise the system will think the text file is not safe).
+1) Save the key file above as a text file and name it something like key.pem
 
-2) To connect to your comma two using this key, save the text above to a blank text file and name the file key.pem. (Just make save it into the same working directory, to check using commands `pwd` and `ls`.
+2) Run $ chmod 600 key.pem (otherwise the system will think the text file is not safe).
 
-Then get the IP address of your comma two in settings under settings > wifi > advanced (please make sure your comma two and your computer connect to the same WiFi).
+Then get the IP address of your comma two from `Settings > WiFi > Open WiFi Settings > More Options > Options (top right icon) > Advanced` (please make sure your comma two and your computer connect to the same WiFi).
 
 3) To check your connection: $ ping the comma two IP address, like `ping 192.168.1.100`; please try a couple of times until you see the data exchanging. like: 
 ```
@@ -28,7 +28,7 @@ PING 192.168.2.1 (192.168.2.1) 56 data bytes
 64 bytes from 192.168.2.1: icmp_seq=1 ttl=64 time=13.899 ms
 ```
 
-4) Under a Linux, MAC machine or PuTTY environment, use the command:
+4) Under a Unix/Linux, macOS terminal or PuTTY environment, use the command:
 
 ```
 $ssh root@<IP address of comma two> -p 8022 -i key.pem
