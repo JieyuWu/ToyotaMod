@@ -27,5 +27,4 @@ The official comma FAQ is found here [comma.ai/faq](https://comma.ai/faq)
 > Reset the comma two by pressing and holding Power and Volume Up -> Factory Reset -> Full Factory Reset
 
 ### What is the comma two hardware?
-
-LeEco LePro 3, Snapdragon 821. Battery and driver camera infrared cut filter are removed. GPS is u-blox NEO-M8N.
+> LeEco LePro 3, Snapdragon 821. Battery and driver camera infrared cut filter are removed. GPS is u-blox NEO-M8N.
