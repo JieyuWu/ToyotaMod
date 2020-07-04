@@ -28,3 +28,8 @@ The official comma FAQ is found here [comma.ai/faq](https://comma.ai/faq)
 
 ### What is the comma two hardware?
 > LeEco LePro 3, Snapdragon 821. Battery and driver camera infrared cut filter are removed. GPS is u-blox NEO-M8N.
+
+# development
+
+### What is the openpilot development workflow? / What are the branches `master`, `devel`, and `release`?
+> Read [this Medium post on Externalization](https://medium.com/@comma_ai/a-2020-theme-externalization-13b33326d8b3).
