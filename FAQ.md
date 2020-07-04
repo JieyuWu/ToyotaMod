@@ -14,7 +14,9 @@ The official comma FAQ is found here [comma.ai/faq](https://comma.ai/faq)
 
 ### What is longitudinal control?
 > In openpilot, longitudinal control means that openpilot can control gas and brake. If a car uses stock longitudinal control, that means the stock system that came with you car is in control.
+
 # comma two
+
 ### Why won't my comma two turn on?
 > The comma two is designed to be setup in the car. The USB-C to USB-C cable will only work when attached to the car harness in the vehicle. If you wish to power on the device inside, you must use a USB-A to USB-C cable and a wall charger.
 
