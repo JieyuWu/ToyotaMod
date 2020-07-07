@@ -3,14 +3,41 @@
 [◄ Home](https://github.com/commaai/openpilot/wiki)
 
 # Before You Start
-Ensure SSH is on in the settings of your comma two. Found in `Settings -> Developer -> Enable SSH`
+1. Ensure SSH is on in the settings of your comma two. Found in `Settings -> Developer -> Enable SSH`
+2. If you have entered a GitHub username in `Settings -> Developer -> GitHub Username` you must use the private key of a public key saved in your GitHub settings, see [ssh.comma.ai](https://ssh.comma.ai/) for details.  It is highly recommended that new users not enter a GitHub Username.  
 
-## Beginner
+# Beginner
+## Option 1 - Workbench
 [Workbench for Openpilot](https://github.com/jfrux/workbench#getting-started)
 Workbench is a user-friendly desktop application for SSH ([Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell)) into your android device running openpilot.
- 
 
-## Advanced
+## Option 2 - Putty SSH Client
+Using Putty will not provide any of the rich feature set found in workbench.  However, if ssh access is all you need, Putty is a simple beginner friendly way to achieve that.
+1. Download and install Putty.
+2. Download and save the [Putty Private Key](https://github.com/commaai/openpilot/blob/master/tools/ssh/key/id_rsa.ppk) `Note, Putty uses a different private key format than OpenSSH.  Do not use this key file with OpenSSH`
+3. Get the IP address of your EON/C2 in settings under `Settings > WiFi > Advanced` (Please make sure your EON and your computer connect to the same WiFi)
+4. At this point you can optionally check that your computer and device can communicate by doing the following:
+
+* In a terminal try to ping device IP address, such as `ping 192.168.1.100`
+* If the devices can connect on the network you should see a response similar to:
+
+```
+PING 192.168.2.1 (192.168.2.1): 56 data bytes
+64 bytes from 192.168.2.1: icmp_seq=0 ttl=64 time=1.710 ms
+64 bytes from 192.168.2.1: icmp_seq=1 ttl=64 time=13.899 ms
+```
+
+5. Open Putty, and enter your device's IP address and change the port to 8022:
+
+![Putty Main Page](https://user-images.githubusercontent.com/3046315/86838810-7a9bb780-c055-11ea-9a34-b677ce213731.png)
+
+6. Load the private key file in `Connection > SSH > Auth > Private key for authentication`:
+
+![Putty Private Key](https://user-images.githubusercontent.com/3046315/86837824-54c1e300-c054-11ea-9b61-fdbfefa8e834.png)
+
+7. Finally, click `Open` on the bottom of the program, and if all works correctly, an SSH connection will be created.
+
+# Advanced
 You can download the id_rsa key [from the openpilot repo.](https://github.com/commaai/openpilot/blob/master/tools/ssh/key/id_rsa) With that key, you can SSH in as root on port 8022. If you're using [PuTTY](https://en.m.wikipedia.org/wiki/PuTTY), use [this file.](https://github.com/commaai/openpilot/blob/master/tools/ssh/key/id_rsa.ppk)
 
 Make sure you have **not** added any GitHub usernames to your comma two Authorized SSH Keys, then, under Unix/Linux environment, or macOS terminal:
