@@ -50,11 +50,15 @@ See [Fixing a Connection Issue](https://github.com/commaai/openpilot/wiki/Troubl
 
 ## Fixing a Connection Issue
 
-Disconnect and reconnect every connector from every plug. Ensure each plug is firmly seated in its respective connector. Do this for everything! The comma power v2, the harness box, and the USB-C cable to the comma two.
+Disconnect and reconnect every connector from every plug. Ensure each plug is firmly seated in its respective connector. Do this for everything! The comma power v2, the harness box, and the ODB-C cable to the comma two.
 
-If the error still persists, try flipping the USB-C connection on the comma two. Sometimes the device will only accept all data lines from a certain direction of USB-C.
+If the error still persists, try flipping the ODB-C connection on the comma two. Sometimes the device will only accept all data lines from a certain direction of ODB-C.
 
 If this doesn't fix the issue, it is possible to purchase replacement cables and A-B compare them to the included ones.
+
+### EON discharges during use, or charges slowly
+
+Get a better USB cable: thicker gauge and shorter length. The Panda outputs 5V, but due to resistance in the cable, there is voltage drop to the point where the EON cannot charge effectively.
 
 ### Errors Relating to CAN
 * [Anker USB-C Cable - similar length to included cable](https://www.amazon.com/gp/product/B076D76DRQ)
