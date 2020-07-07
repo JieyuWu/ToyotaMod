@@ -34,6 +34,7 @@ Community guides that help you contribute to openpilot, or make your own modific
 * [SSH Into Your comma two](../wiki/SSH)
 * [Update/Modify/Install openpilot](../wiki/UpdateModifyOpenpilot)
 * [Fingerprinting Your Car](../wiki/Fingerprinting)
+* [Share a Cabana Link](../wiki/Cabana)
 * [Debugging openpilot](../wiki/DebuggingOpenpilot) - **TODO**
 
 ## Advanced (Developers Only)
