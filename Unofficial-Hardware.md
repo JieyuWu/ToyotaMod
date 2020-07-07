@@ -8,7 +8,7 @@ Typically used for customizing an EON case or creating an EON device from scratc
 
 # Cases
 
-* Unibody Lepro3 @CloudJ
+* Unibody LePro3 @CloudJ
   * https://www.thingiverse.com/thing:4069425
 * FrEON @ch4se
   * https://github.com/ch4se/OpenFrEON
@@ -45,7 +45,7 @@ Typically used for customizing an EON case or creating an EON device from scratc
 # Batteryless
 The Lithium batteries in Eons cannot handle the heat of being left in an un-cooled windshield. They can expand and even explode if left in the summer heat. They also, of course, wear out.
 ### Problems:
-1. The Eon needs to know it has a battery to even try to boot.\
+1. The EON needs to know it has a battery to even try to boot.\
   The internal software of the phone needs to see that a battery exists. In the case of a OnePlus3T, it just needs to see a voltage between 4.35 and 2.9V from the battery wire. 
 1. The Eon requires large spikes of power that most USB chargers (including the white/grey panda) can't provide.\
   Power is made up of Current (Amps) and Voltage. We measure power in watts usually. Watts are calculated by multiplying the current times the voltage.\
@@ -54,21 +54,21 @@ The Lithium batteries in Eons cannot handle the heat of being left in an un-cool
 When the Eon doesn't get the amount of current it needs, it simply reboots.
 ## 2 Solutions:
 The community has come up with two ways to deal with these issues.
-1. Use a dc-to-dc converter (a.k.a. a "buck converter") to take the 5V USB provides and convert it to 4.3V at the battery terminal to fool the phone into thinking it has a battery. This solves the booting issue, but can still have problems with the power spikes, since most dc-dc converters can't handle the additional current.
+1. Use a DC-to-DC converter (a.k.a. a "buck converter") to take the 5V USB provides and convert it to 4.3V at the battery terminal to fool the phone into thinking it has a battery. This solves the booting issue, but can still have problems with the power spikes, since most dc-dc converters can't handle the additional current.
 1. Supercapacitors. They can store and release huge amounts of current even quicker than a battery, but they have much smaller total storage. So you can connect supercapacitors to the battery leads, and as long as you get enough current from the USB to run the EON, the supercapacitors will have enough extra charge to handle the spikes. Conveniently, the OnePlus3T automatically charges the supercapacitors as if they were just batteries. They also provide a voltage that tells the Eon that it has a battery, so it allows it to boot.
 
-Supercapacitors and dc-dc converters can also handle the extreme heat of a car dashboard.
+Supercapacitors and DC-to-DC converters can also handle the extreme heat of a car dashboard.
 
 
 <details>
-<summary>Replace battery with DC-DC converter</summary>
+<summary>Replace battery with DC-to-DC converter</summary>
 
 #### Buck Converter Installation
 
-_**Make sure to wrap the DC-DC converter in electric tape to prevent shorting**_
+_**Make sure to wrap the DC-to-DC converter in electric tape to prevent shorting**_
 
 * Step one: Carefully remove the battery.
-* Step two: Solder connections to the DC-DC converter.
+* Step two: Solder connections to the DC-to-DC converter.
 * Step three: Solder 5V connection to the USB flex cable by stripping the middle section of the USB flex cable.
 * Step four: Solder "battery" connection to battery PCB or logic board.
 * Step five: Solder ground connection to the gold connector on USB flex cable or use logic board ground. 
@@ -164,7 +164,7 @@ Unlocking allows you to flash custom firmware. Necessary for NEOS. You can lock 
   8. Check if phone is properly connected by typing 'fastboot devices'. It should appear and show connection as 'fastboot'.
   9. (Warning: will clear data.) Type 'fastboot oem unlock' and say yes to prompts. Your phone will clear data and reboot.
 
-#### Leeco Pro 3
+#### Le Eco LePro 3
 
 - Fill me in.
 
@@ -195,7 +195,7 @@ Success! With NEOS OS installed, you are ready to install OpenPilot.
   <summary>Flashing Steps and Troubleshooting</summary>
 
 
-Flashing Notes from @erich
+Flashing Notes from @Erich
 > Images that'll work with 0.6...
 > system.simg https://drive.google.com/file/d/1ySz1zLiy9bP6c8lDRgCo7k2kcCReGF__/view?usp=drivesdk
 > boot.img https://drive.google.com/file/d/1c1ovbvBP8TqOEiNbh-KAPyI5hxlW1_a1/view?usp=drivesdk
