@@ -4,7 +4,18 @@
 
 # Before You Start
 1. Ensure SSH is on in the settings of your comma two. Found in `Settings -> Developer -> Enable SSH`
-2. If you have entered a GitHub username in `Settings -> Developer -> GitHub Username` you must use the private key of a public key saved in your GitHub settings, see [ssh.comma.ai](https://ssh.comma.ai/) for details.  It is highly recommended that new users **not** enter a GitHub Username.  
+2. If you have entered a GitHub username in `Settings -> Developer -> GitHub Username` you must use the private key of a public key saved in your GitHub settings, see [ssh.comma.ai](https://ssh.comma.ai/) for details.  It is highly recommended that new users **not** enter a GitHub Username.
+
+Table of Contents
+=================
+
+   * [Beginner](#beginner)
+      * [Option 1 - Workbench](#option-1---workbench)
+      * [Option 2 - Putty SSH Client](#option-2---putty-ssh-client)
+   * [Advanced](#advanced)
+      * [OpenSSH or Similar Client](#openssh-or-similar-client)
+   * [Mobile SSH Clients](#mobile-ssh-clients)
+   * [Troubleshoot SSH Issues](#troubleshoot-ssh-issues)
 
 # Beginner
 ## Option 1 - Workbench
