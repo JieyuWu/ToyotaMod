@@ -5,6 +5,21 @@
 # Introduction
 This page is a repository of the numerous existing installation guides as well as a supplement for additional information.  If you read through this entire page and relevant links before starting your installation, you are less likely to have installation issues. *Note:* it is recommended that you install the device in our car before loading openpilot onto the device.
 
+Table of Contents
+=================
+
+   * [Installation Videos](#installation-videos)
+   * [Installation Instructions](#installation-instructions)
+   * [Additional Installation Suggestions](#additional-installation-suggestions)
+      * [Aligning and Placing Components](#aligning-and-placing-components)
+      * [Encouraging a Strong Adhesive Bond](#encouraging-a-strong-adhesive-bond)
+      * [Attaching Cables](#attaching-cables)
+      * [Custom Options](#custom-options)
+   * [Installation Troubleshooting](#installation-troubleshooting)
+      * [My mount fell off](#my-mount-fell-off)
+      * [How do I Remove the Residue on the Windshield after removing the Mount](#how-do-i-remove-the-residue-on-the-windshield-after-removing-the-mount)
+
+
 # Installation Videos
 It is recommended that you fully watch an installation video before undertaking your installation.  A number of good installation videos exist:
 
