@@ -6,6 +6,8 @@
 
 This brand currently has limited openpilot support on the F150 and Fusion only through community maintained branches. Safety code is not working properly and should **NOT** be used without fully understanding the ramifications of such. 
 
+Ford currently has a steering lockout on the PSCM, and after 10 seconds, commands will drop for approximately 200-300ms. A fix has not yet been implemented. 
+
 # Community Branches
 
 The following members currently have Ford code. All code listed here is WIP and not expected to work 100%
@@ -59,6 +61,7 @@ TCU | Telematics Control Unit | SYNC Connect LTE
 Control over the steering wheel.
 
 Vehicles without LKAS can use openpilot, so long as the LKAS Enable bit is changed in the PSCM with Forscan. This will throw a recurring DTC for a missing IPMA, but will not show up on the IPC. 
+Ford currently has a steering lockout on the PSCM, and after 10 seconds, commands will drop for approximately 200-300ms. A fix has not yet been implemented. 
 
 ### Torque
 
