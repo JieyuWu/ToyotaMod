@@ -1,8 +1,8 @@
 ![communitywiki](https://user-images.githubusercontent.com/37757984/81886963-eaf4f380-9552-11ea-9206-164dcec6374c.jpeg)
 
 # Quick Start
-* [Installing openpilot](../wiki/Installing-openpilot)
-* [Installation Guides](../wiki/Installation-Guides)
+* [Installing Physical Device](../wiki/Installation-Guides)
+* [Installing openpilot Software](../wiki/Installing-openpilot)
 * [Frequently Asked Questions](../wiki/FAQ)
 * [Troubleshooting](../wiki/Troubleshooting)
 * [General Terms](../wiki/General-Terms)
