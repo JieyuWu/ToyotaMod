@@ -5,6 +5,8 @@
 # Introduction
 This page is a repository of the numerous existing installation guides as well as a supplement for additional information.  If you read through this entire page and relevant links before starting your installation, you are less likely to have installation issues. *Note:* it is recommended that you install the device in our car before loading openpilot onto the device.
 
+Once you have the device installed, you can proceed to [Install Openpilot](https://github.com/commaai/openpilot/wiki/Installing-openpilot).
+
 Table of Contents
 =================
 
