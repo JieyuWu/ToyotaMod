@@ -4,7 +4,7 @@
 
 # On comma two
 ## Prerequisite
-Your comma two must be setup in your car prior to installing openpilot. Please follow the official setup procedures [here](https://comma.ai/setup/two) or one of the [installation guides](https://github.com/commaai/openpilot/wiki/Installation-Guides).
+Your comma two must be setup in your car prior to installing openpilot. Please follow the official setup procedures [here](https://comma.ai/setup/two) or the [device installation guide](https://github.com/commaai/openpilot/wiki/Installation-Guides).
 
 Upon first boot of comma two, do _not_ click "Dashcam software" and instead proceed to the installation paragraph below. If you already have, read the paragraph on removing the Dashcam software.
 
