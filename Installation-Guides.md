@@ -67,7 +67,7 @@ The Comma community have developed the following additional suggestions that may
 
 # Installation Troubleshooting
 ## My mount fell off
-If your mount falls off, discard at least the VHB (the adhesive) or the whole mount if you like.  Any adhesive that has attempted to stick and failed is compromised and the same thing will happen if you attempt to reuse it.  Comma provides you with a second mount, so just use that.  Or order [two new mounts](https://comma.ai/shop/products/comma-two-replacement-mounts) from the shop. Be sure to go through all of the cleaning steps again *cough* IPA *cough*.
+If your mount falls off, discard at least the VHB (the adhesive) or the whole mount if you like.  Any adhesive that has attempted to stick and failed is compromised and the same thing will happen if you attempt to reuse it.  Comma provides you with a second mount, so just use that.  Or order [two new mounts](https://comma.ai/shop/products/comma-two-replacement-mounts) from the shop. Be sure to go through all of the cleaning steps again *cough* IPA *cough*.  You can also purchase additional [VHB adhesive from Amazon](https://smile.amazon.com/gp/product/B07HJ5RLHV), the 3in squares work well.
 ## How do I Remove the Residue on the Windshield after removing the Mount
 IPA is probably all you need to do this (see above for what IPA is).  If it is really bad, things like goo-gone can be used, but be sure to clean them off thoroughly before reinstalling a mount again.
 
