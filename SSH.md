@@ -40,7 +40,7 @@ PING 192.168.2.1 (192.168.2.1): 56 data bytes
 
 5. Open Putty, and enter the hostname as `root@<ip_address>` where <ip_address> is your device ip and change the port to `8022`:
 
-![Putty Main Page](https://user-images.githubusercontent.com/3046315/86838810-7a9bb780-c055-11ea-9a34-b677ce213731.png)
+![Putty Main Page](https://user-images.githubusercontent.com/3046315/87094708-3561bc00-c1f4-11ea-96c9-0029bda9664e.png)
 
 6. Load the private key file in `Connection > SSH > Auth > Private key for authentication`:
 
@@ -68,8 +68,8 @@ Example:
 $ ssh root@192.168.1.100 -p 8022 -i key.pem
 ```
 
-## ssh.comma.ai
-###OpenSSH
+## Connecting to ssh.comma.ai
+### Using OpenSSH
 The instructions on [ssh.comma.ai](https://ssh.comma.ai/) for a saved connection are slightly wrong.  If you want to connect to your comma device by typeing `ssh comma-{dongleid}` your `~/.ssh/config/` file should read as follows (Note the ${%h} entries in the ProxyCommand):
 
 ```
@@ -98,7 +98,7 @@ Host ssh.comma.ai
 
 The one time connection listed on [ssh.comma.ai](https://ssh.comma.ai/) works just fine.
 
-###Putty to ssh.comma.ai
+### Using Putty to Connect to ssh.comma.ai
 Using putty to connect to ssh.comma.ai is a bit involved.  First it assumes you have already gotten the direct SSH connection using Putty to work as described [above](#option-2---putty-ssh-client).
 
 1. Start the pageant program (it is found in the same folder as Putty).
