@@ -54,18 +54,14 @@ This connector is blue with a white plug, and has unique notches with the right 
 This connector is blue with a white plug, and has unique notches with the right notch being flush with the right of the connector, while the left notch is inward. It has the same connector as Hyundai G, but the wiring is different.
 
 ---
-![Hyundai J](https://user-images.githubusercontent.com/37757984/85791455-b09c7b80-b6e6-11ea-9507-7c8c6b3076f6.png)
-
-This connector is white, and has unique wings that protrude from the top of the connector. It is the same connector housing as a Toyota harness, although the wiring is different.
-
----
-
-# Not Yet Released Harness Types
-
----
 ![Hyundai I](https://user-images.githubusercontent.com/37757984/85791454-b09c7b80-b6e6-11ea-959d-30ce905041f1.png)
 
 This connector is light grey, and has unique notches with the left notch being flush with the left of the connector, while the right notch is inward. It has the same connector as Hyundai D, but the wiring is different.
+
+---
+![Hyundai J](https://user-images.githubusercontent.com/37757984/85791455-b09c7b80-b6e6-11ea-9507-7c8c6b3076f6.png)
+
+This connector is white, and has unique wings that protrude from the top of the connector. It is the same connector housing as a Toyota harness, although the wiring is different.
 
 ---
 
