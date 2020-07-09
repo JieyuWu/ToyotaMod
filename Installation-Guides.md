@@ -54,7 +54,7 @@ The Comma community have developed the following additional suggestions that may
 
 ## Encouraging a Strong Adhesive Bond
 Comma provides the following instructions in the package:
-![Mounting Instructions](https://user-images.githubusercontent.com/3046315/87080683-ecead400-c1dc-11ea-8082-1ea27ac1eb1c.jpg)
+![Mounting Instructions](https://user-images.githubusercontent.com/3046315/87081478-4c95af00-c1de-11ea-93e1-474f4f7fa129.jpg)
 * Before adhering any components using adhesive, it is recommended that you clean the area with Isopropyl Alcohol (often called IPA on Discord) to remove any grease, oils, water, or other contaminants.  This is particularly important for the main Comma mount.  Contaminants may cause the adhesive hold to weaken, which could result in your device falling off your windshield.
 * When affixing the main Comma mount to the windshield, try to prevent any air from being trapped under the adhesive.  This can be done by adhering one edge of the mount to the windshield first and "rolling" the rest of the mount onto the windshield.
 * Many people recommend leaving mount adhered to your windshield for 24-48 hours before placing a load on it (such as mounting the C2).  It is also recommended that you keep the mount on the dark out of the sun for this "curing" time period.  Some people have suggested affixing tape to the exterior of your windshield to shade it during this time if you can't keep it in the dark.
