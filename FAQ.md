@@ -24,7 +24,7 @@ The official comma FAQ is found here [comma.ai/faq](https://comma.ai/faq)
 > The Dongle ID is what identifies your device. It can be used to look up drives, and troubleshoot.
 
 ### Where can I find my Dongle ID?
-> The device Dongle ID is found in Settings -> Device -> Dongle ID. If your device is paired with comma connect, you can also log into [my.comma.ai/useradmin](https://my.comma.ai/useradmin) and grab your dongle ID from the main page under Devices.
+> The device Dongle ID is found in `Settings -> Device -> Dongle ID`. If your device is paired with comma connect, you can also log into [my.comma.ai/useradmin](https://my.comma.ai/useradmin) and grab your Dongle ID from the main page under `Devices`.
 
 ### How do I delete my drives?
 > Perform a factory reset to delete your drives fully (answer below this one). An uninstall / reinstall of openpilot will still keep the drives preserved on the device.
