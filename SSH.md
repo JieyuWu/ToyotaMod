@@ -127,7 +127,7 @@ Using putty to connect to ssh.comma.ai is a bit involved.  First it assumes you 
 - Port `22`
 - Telnet command or local proxy command `plink.exe -v %host@%proxyhost -nc %host:%port`
 
-![image](https://user-images.githubusercontent.com/3046315/87095666-fdf40f00-c1f5-11ea-8d45-c545ee1f27da.png)
+![image](https://user-images.githubusercontent.com/3046315/87095770-31cf3480-c1f6-11ea-9b42-3a37415d50c1.png)
 
 10. Go back to `Session`
 11. Type a name in `Saved Session`
