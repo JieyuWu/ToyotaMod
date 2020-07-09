@@ -14,8 +14,15 @@ Table of Contents
       * [Option 2 - Putty SSH Client](#option-2---putty-ssh-client)
    * [Advanced](#advanced)
       * [OpenSSH or Similar Client](#openssh-or-similar-client)
+      * [Connecting to ssh.comma.ai](#connecting-to-sshcommaai)
+         * [Using OpenSSH](#using-openssh)
+         * [Using Putty to Connect to ssh.comma.ai](#using-putty-to-connect-to-sshcommaai)
    * [Mobile SSH Clients](#mobile-ssh-clients)
    * [Troubleshoot SSH Issues](#troubleshoot-ssh-issues)
+      * [When SSH is automatically enabled/disabled](#when-ssh-is-automatically-enableddisabled)
+      * [Invalid Format when trying to connect](#invalid-format-when-trying-to-connect)
+      * [No route to host](#no-route-to-host)
+      * [Permission denied (publickey,keyboard-interactive)](#permission-denied-publickeykeyboard-interactive)
 
 # Beginner
 ## Option 1 - Workbench
