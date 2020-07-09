@@ -102,19 +102,38 @@ The one time connection listed on [ssh.comma.ai](https://ssh.comma.ai/) works ju
 Using putty to connect to ssh.comma.ai is a bit involved.  First it assumes you have already gotten the direct SSH connection using Putty to work as described [above](#option-2---putty-ssh-client).
 
 1. Start the pageant program (it is found in the same folder as Putty).
-2. Pageant will load in your taskbar.  Right click the icon and select View Keys
+2. Pageant will load in your taskbar ![](https://user-images.githubusercontent.com/3046315/87094964-b456f480-c1f4-11ea-971e-57e4ba63e161.png).  Right click the icon and select View Keys
+
+![](https://user-images.githubusercontent.com/3046315/87095063-e7998380-c1f4-11ea-9843-474119b4e6bb.png)
+
 3. Click Add Key
+
+![image](https://user-images.githubusercontent.com/3046315/87095188-24fe1100-c1f5-11ea-8c43-65abfbc20589.png)
+
 4. Locate and select your private key `id_rsa.ppk`
 5. After opening the key, you should see it in the key list
+
+![image](https://user-images.githubusercontent.com/3046315/87095343-6ee6f700-c1f5-11ea-8749-6a91d55be424.png)
+
 6. You can click Close (pageant will keep running)
 7. Open Putty
 8. In the Host Name enter `root@<dongleid>` where <dongleid> is your dongle id and Port `22`
+
+![image](https://user-images.githubusercontent.com/3046315/87095535-c08f8180-c1f5-11ea-9e3d-69707f93d306.png)
+
 9. Under `Connection > Proxy` enter the following:
+- Proxy type `Local`
 - Proxy hostname `ssh.comma.ai`
 - Port `22`
 - Telnet command or local proxy command `plink.exe -v %host@%proxyhost -nc %host:%port`
+
+![image](https://user-images.githubusercontent.com/3046315/87095666-fdf40f00-c1f5-11ea-8d45-c545ee1f27da.png)
+
 10. Go back to `Session`
 11. Type a name in `Saved Session`
+
+![image](https://user-images.githubusercontent.com/3046315/87095535-c08f8180-c1f5-11ea-9e3d-69707f93d306.png)
+
 12. Click `Save`
 13. Click `Open`
 14. You may get a few prompts to accept the server fingerprints.
