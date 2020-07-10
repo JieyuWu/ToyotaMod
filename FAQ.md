@@ -33,12 +33,12 @@ The official comma FAQ is found here [comma.ai/faq](https://comma.ai/faq)
 > Reset the comma two by pressing and holding Power and Volume Up -> Factory Reset -> Full Factory Reset
 
 ### What is the comma two hardware?
-> LeEco LePro 3, Snapdragon 821. Battery and driver camera infrared cut filter are removed. GPS is u-blox NEO-M8N.
+> LeEco LePro 3, Snapdragon 821. Battery and driver camera infrared cut filter are removed. GPS is a NEO-M8.
 
-### I can't See My Screen While Wearing Polarized Sun Glasses
-Try a matte screen protector film which can be trimmed with scissors to fix the screen, that will stop glare and enable you to see the screen with polarized lenses.  This [one from amazon](https://smile.amazon.com/gp/product/B01BZFRC0Y) has been used and recommended.
+### I can't See My Screen While Wearing Polarized Sunglasses
+> Try a matte screen protector film which can be trimmed with scissors to fix the screen, that will stop glare and enable you to see the screen with polarized lenses.  This [one from amazon](https://smile.amazon.com/gp/product/B01BZFRC0Y) has been used and recommended.
 
-# development
+# Development
 
 ### What is the openpilot development workflow? / What are the branches `master`, `devel`, and `release`?
 > Read [this Medium post on Externalization](https://medium.com/@comma_ai/a-2020-theme-externalization-13b33326d8b3).
