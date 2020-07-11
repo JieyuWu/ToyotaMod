@@ -48,7 +48,7 @@ Allows Toyotas without full-range cruise control to gain stop-and-go using openp
 
 ## SDSU (SmartDSU/SmartenedDSU)
 
-Upgrades the Driver Support Unit to passthrough AEB and enable openpilot longitudinal control.  SDSU was first sold as an external, harness-style contraption, and later the SmartenedDSU (DSU modified by forwading a severed CAN connection back into the network by way of an onboard, stripped down, reflashed Panda) and became preferred, with quick creation/installation.
+Upgrades the Driver Support Unit to passthrough AEB and enable openpilot longitudinal control.  SDSU was first sold as an external, harness-style contraption, and later the SmartenedDSU (DSU modified by forwarding a severed CAN connection back into the network by way of an onboard, stripped down, reflashed Panda) and became preferred, with quick creation/installation.
 
 ## Zorro Steering Sensor (ZSS)
 
