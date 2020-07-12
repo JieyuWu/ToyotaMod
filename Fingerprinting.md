@@ -2,7 +2,7 @@
 
 [◄ Home](https://github.com/commaai/openpilot/wiki)
 
-**Getting Car Unrecognized: Dashcam Mode, but have a supported make and model of car? Use the following guides to add support.**
+**Getting `Car Unrecognized: Dashcam Mode`, but have a [supported make and model of car](https://github.com/commaai/openpilot#supported-cars)? Use the following guides to add support.**
 
 # Fingerprinting 2.0
 Used for all officially supported makes such as Honda, Toyota, and is also supported in Hyundai.
