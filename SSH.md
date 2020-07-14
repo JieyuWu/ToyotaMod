@@ -30,9 +30,9 @@ Table of Contents
 Workbench is a user-friendly desktop application for SSH ([Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell)) into your android device running openpilot.
 
 ## Option 2 - Putty SSH Client
-Using Putty will not provide any of the rich feature set found in workbench.  However, if ssh access is all you need, Putty is a simple beginner friendly way to achieve that.
+Using Putty will not provide any of the rich feature sets found in workbench.  However, if ssh access is all you need, Putty is a simple beginner friendly way to achieve that.
 1. Download and install Putty.
-2. Download and save the [Putty Private Key](https://github.com/commaai/openpilot/blob/master/tools/ssh/key/id_rsa.ppk) `Note, Putty uses a different private key format than OpenSSH.  Do not use this key file with OpenSSH`
+2. Download and save the [Putty Private Key](https://github.com/commaai/openpilot/blob/master/tools/ssh/key/id_rsa.ppk) `Note; Putty uses a different private key format than OpenSSH.  Do not use this key file with OpenSSH`
 3. Get the IP address of your EON/C2 in settings under `Settings > WiFi > More Options > Three Dots in Top Left > Advanced` (Please make sure your EON and your computer connect to the same WiFi)
 4. At this point you can optionally check that your computer and device can communicate by doing the following:
 
@@ -45,7 +45,7 @@ PING 192.168.2.1 (192.168.2.1): 56 data bytes
 64 bytes from 192.168.2.1: icmp_seq=1 ttl=64 time=13.899 ms
 ```
 
-5. Open Putty, and enter the hostname as `root@<ip_address>` where <ip_address> is your device ip and change the port to `8022`:
+5. Open Putty, and enter the hostname as `root@<ip_address>` where <ip_address> is your device IP and change the port to `8022`:
 
 ![Putty Main Page](https://user-images.githubusercontent.com/3046315/87094708-3561bc00-c1f4-11ea-96c9-0029bda9664e.png)
 
@@ -61,7 +61,7 @@ This section assumes that you have used SSH before.  If you want to use Putty, u
 ## OpenSSH or Similar Client
 1. Download the private key [from the openpilot repo.](https://github.com/commaai/openpilot/blob/master/tools/ssh/key/id_rsa). Save the key file as a text file and name it something like key.pem.
 2. Open a terminal
-3. Run `$ chmod 600 key.pem` (otherwise the system will think the text file is not safe).
+3. Run `$ chmod 600 key.pem` (otherwise, the system will think the text file is not safe).
 4. Get the IP address of your comma two from `Settings > WiFi > Open WiFi Settings > More Options > Options (top right icon) > Advanced` (please make sure your comma two and your computer connect to the same WiFi).
 5. Ping the device address from your computer to make sure it is reachable.
 6. Under a Unix/Linux, macOS terminal or Windows 10 with OpenSSH, use the command:
@@ -77,7 +77,7 @@ $ ssh root@192.168.1.100 -p 8022 -i key.pem
 
 ## Connecting to ssh.comma.ai
 ### Using OpenSSH
-The instructions on [ssh.comma.ai](https://ssh.comma.ai/) for a saved connection are slightly wrong.  If you want to connect to your comma device by typeing `ssh comma-{dongleid}` your `~/.ssh/config/` file should read as follows (Note the ${%h} entries in the ProxyCommand):
+The instructions on [ssh.comma.ai](https://ssh.comma.ai/) for a saved connection are slightly wrong.  If you want to connect to your comma device by typing `ssh comma-{dongleid}` your `~/.ssh/config/` file should read as follows (Note the ${%h} entries in the ProxyCommand):
 
 ```
 Host comma-*
@@ -91,7 +91,7 @@ Host ssh.comma.ai
   IdentityFile ~/.ssh/my_github_key
 ```
 
-Better yet, if you just want to connect directly to your vehicle without memorizing your DongleID you can do as follows (replacing <DongleID> with, you know the ID.  You can change the host name <comma-rav4> to anything) then you can use `ssh comma-rav4`:
+Better yet, if you just want to connect directly to your vehicle without memorizing your DongleID you can do as follows (replacing <DongleID> with, you know the ID.  You can change the hostname <comma-rav4> to anything) then you can use `ssh comma-rav4`:
 
 ```
 Host comma-rav4
@@ -106,7 +106,7 @@ Host ssh.comma.ai
 The one time connection listed on [ssh.comma.ai](https://ssh.comma.ai/) works just fine.
 
 ### Using Putty to Connect to ssh.comma.ai
-Using putty to connect to ssh.comma.ai is a bit involved.  First it assumes you have already gotten the direct SSH connection using Putty to work as described [above](#option-2---putty-ssh-client).
+Using Putty to connect to ssh.comma.ai is a bit involved.  First, it assumes you have already gotten the direct SSH connection using Putty to work as described [above](#option-2---putty-ssh-client).
 
 1. Start the pageant program (it is found in the same folder as Putty).
 2. Pageant will load in your taskbar ![](https://user-images.githubusercontent.com/3046315/87094964-b456f480-c1f4-11ea-971e-57e4ba63e161.png).  Right click the icon and select View Keys
@@ -145,9 +145,9 @@ Using putty to connect to ssh.comma.ai is a bit involved.  First it assumes you 
 13. Click `Open`
 14. You may get a few prompts to accept the server fingerprints.
 
-You should not be connected to your device.  If you made any mistakes, you can load the saved session and fix the errors, but be sure to click `Save` after making any changes or they will not be permanent.
+You should not be connected to your device.  If you made any mistakes, you can load the saved session and fix the errors, but be sure to click `Save` after making any changes, or they will not be permanent.
 
-Pageant will keep running until you log off you computer.  You can also exit pageant by right-clicking the taskbar icon and selecting `Exit`.
+Pageant will keep running until you log off your computer.  You can also exit pageant by right-clicking the taskbar icon and selecting `Exit`.
 
 # Mobile SSH Clients
 
