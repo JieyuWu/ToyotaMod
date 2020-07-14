@@ -14,13 +14,12 @@ Find out specific vehicle limitations and modifications that members of the comm
 * [Toyota / Lexus](../wiki/Toyota-Lexus)
 
 ## Community Supported Brands
-* [Hyundai / Kia / Genesis](../wiki/Hyundai-Kia-Genesis)
-* [Subaru](../wiki/Subaru)
-* [Chrysler / Jeep / Dodge](../wiki/FCA)
-* [Volkswagen](../wiki/Volkswagen)
 * [Chevrolet / Buick / GMC / Cadillac](../wiki/GM)
+* [Chrysler / Jeep / Dodge](../wiki/FCA)
+* [Hyundai / Kia / Genesis](../wiki/Hyundai-Kia-Genesis)
 * [Nissan](../wiki/Nissan)
-
+* [Subaru](../wiki/Subaru)
+* [Volkswagen](../wiki/Volkswagen)
 
 ### Dashcam Mode Only
 * [Mazda](../wiki/Mazda)
