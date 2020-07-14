@@ -13,14 +13,13 @@ Comma AI currently has no official support for Volkswagen brands, but a communit
 
 # What to buy
 
-## If your car has factory LKAS
+## If your car has LKAS & ACC
 1. [comma two DevKit](https://comma.ai/shop/products/comma-two-devkit)
 2. Select MQB Development Harness
 
-## If your car just has ACC
-You are going to need a Gateway Integration [VW-j533 cable.](https://github.com/commaai/openpilot/wiki/VW-j533-cable)
+## If your car only has ACC
 1. EON/EON Gold & White or Gray Panda (Gray Recommended)
-2. Make your own J533 Harness. (See VW-j533 cable)  
+2. Make your own [VAG J533 Harness](https://github.com/commaai/openpilot/wiki/VW-j533-cable) 
 
 
 
