@@ -32,11 +32,14 @@ Control over the steering wheel is provided by openpilot. All MQB vehicles teste
 ### Torque
 Available steering torque is adequate for most highway driving conditions. All MQB models support the exact same amount of commanded torque, but the different steering rack and suspension geometry between models can result in different effective performance. 
 
+[Torque Demonstration video](https://www.youtube.com/watch?v=8TZAY3am8E4)
 ### Minimum Speeds
 The minimum ACC setpoint is 20mph/30kph. 
 
 ## Longitudinal Control
 Longitudinal control remains with stock ACC, although OP takes control of the engagement process for additional safety and feature needs. The exact behavior depends on whether the vehicle has "ACC High" or "ACC Low" from the factory.
+
+[Stop & Go Demonstration video](https://www.youtube.com/watch?v=Il5zqZj2-58)
 
 ### Stock ACC High: 
 These vehicles support follow-to-stop and automatic resume if the stop is less than three seconds, from the factory. OP can improve on that by resuming on behalf of the driver after longer delays. "ACC high" requires an electronic parking brake, and does make use of it under certain conditions. If the vehicle in question has an EPB, chances are good it supports "ACC high".
