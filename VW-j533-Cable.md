@@ -1,5 +1,8 @@
-# VW j533 Cable 
-REF link some outdated info (https://community.comma.ai/wiki/index.php/J533_Sniffing_Cable)
+[◄ Home](https://github.com/commaai/openpilot/wiki)
+
+[◄ Volkswagen](https://github.com/commaai/openpilot/wiki/Volkswagen)
+
+[REF link; someinfo may be outdated](https://community.comma.ai/wiki/index.php/J533_Sniffing_Cable)
 
 The role of the Gateway (also known J533) is the exchange of data between the CAN data bus systems ('powertrain CAN data bus,' 'convenience CAN data bus' and 'infotainment CAN data bus') and the conversion of diagnostic data from CAN data bus systems.
 
