@@ -15,6 +15,9 @@ The official comma FAQ is found here [comma.ai/faq](https://comma.ai/faq)
 ### What is longitudinal control?
 > In openpilot, longitudinal control means that openpilot can control gas and brake. If a car uses stock longitudinal control, that means the stock system that came with you car is in control.
 
+### How does Lane Change Assist Work?
+> Lane Change Assist only works at or above 45 Mph. Activate the turn signal and, when it is safe to change lanes, gently nudge the wheel in the direction of the turn signal. This must occur within 10 seconds of initiating the turn signal. **Always paying attention when changing lanes, Openpilot has limited or no ability to check if changing lanes is safe.**
+
 # comma two
 
 ### Why won't my comma two turn on?
