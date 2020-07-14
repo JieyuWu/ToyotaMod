@@ -21,4 +21,5 @@ The role of the Gateway (also known J533) is the exchange of data between the CA
 
 1. Gateway Extension Adapter (https://www.aliexpress.com/item/4000334862080.html)
 2. Development Harness
-3. Cloth electrical tape
+3. 60 ohm 60RΩJ 5
+4. Cloth electrical tape
