@@ -18,7 +18,7 @@ Comma AI currently has no official support for Volkswagen brands, but a communit
 2. Select MQB Development Harness
 
 ## If your car just has ACC
-You are going to need a Gateway Integration [VW-j533 cable.](https://github.com/commaai/openpilot/wiki/VW-j533)
+You are going to need a Gateway Integration [VW-j533 cable.](https://github.com/commaai/openpilot/wiki/VW-j533-cable)
 1. [comma two DevKit](https://comma.ai/shop/products/comma-two-devkit) 
 2. Make your own with a Development harness or wait for jyoung to start selling them again.    
 
