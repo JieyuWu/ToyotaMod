@@ -7,7 +7,7 @@
 ### Quick INDI tuning strategy
  - Use moderate values for inner and outer loop (not too high), Prius values: inner 4, outer 3
  - Avoid instability: oscillations or sloppy lane keeping
- - Change parameters by less than 25% at a time
+ - Change one parameter by less than 25% at a time, for clean experimentation
  - Tune actuator effectiveness and actuator delay first. Try to make them as low as possible
  - Tune time constant as low as possible: just above noisy actuation
  - Tune innerloop (steer rate error gain) as high as possible
