@@ -4,11 +4,46 @@
 
 # Lateral Tuning
 
-Quick INDI tuning strategy
- - Put reasonable values for inner + outer loop (not too high), start with the values from the prius
- - Start tuning actuator effectiveness + actuator delay first. Try to make them as low as possible without getting unstable
- - Make innerloop as high as possible
- - Make outerloop as high as possible
+### Quick INDI tuning strategy
+ - Use moderate values for inner and outer loop (not too high), Prius values: inner 4, outer 3
+ - Avoid instability: oscillations or sloppy lane keeping
+ - Tune actuator effectiveness and actuator delay first. Try to make them as low as possible
+ - Tune time constant as low as possible: just above noisy actuation
+ - Tune innerloop (steer rate error gain) as high as possible
+ - Tune outerloop (steer error gain) as high as possible
+
+### Long INDI tuning notes
+* steerActuatorDelay
+  * Control ego ahead on plan
+  * Plan(now + steerActuatorDelay) -> Vehicle Model -> Desired Steer Output
+  * Crude
+    * If turning too early, decrease steerActuatorDelay
+    * If turning too late, increase steerActuatorDelay
+  * Fine
+    * Steer torque, pose yaw are proportional
+    * Normalize torque and yaw signals
+    * Find median phase delay in frequency domain?
+    * Find maximum correlation of varying time delay?
+* lateralTuning.indi.actuatorEffectiveness
+  * Reduce strength of actuation
+  * Too high: weak, sloppy lane centering, slow oscillation
+  * Too low: overpower, saturation, fast oscillation
+  * Just right: just above fast oscillation
+* lateralTuning.indi.timeConstant
+  * Exponential decay of output steer, DT / (DT + tau), lower is better
+  * Too high: sloppy, cannot reach desired steer angle
+  * Too low: noisy actuation, responds to every bump
+  * Just right: just above noisy actuation
+* lateralTuning.indi.outerLoopGain
+  * Steer error gain
+  * Too high: twitchy hyper lane centering
+  * Too low: sloppy, all over lane
+  * Just right: crisp lane centering
+* lateralTuning.indi.innerLoopGain
+  * Steer rate error gain
+  * Too high: jerky oscillation in high curvature
+  * Too low: sloppy, cannot accomplish desired steer angle
+  * Just right: brief oscillation on entering high curvature
 
 # Longitudinal Tuning
 [Skip to tuning](#Tuning-the-longitudinal-PI-controller)
