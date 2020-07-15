@@ -21,5 +21,4 @@ The role of the Gateway (also known J533) is the exchange of data between the CA
 
 1. Gateway Extension Adapter (https://www.aliexpress.com/item/4000334862080.html)
 2. Development Harness
-3. 60 ohm Resistor (5w or less) (https://www.ebay.com/itm/US-Stock-10pcs-60-ohm-60R%CE%A9J-5-watt-Axial-Ceramic-Cement-Power-Resistor-5W/372910807113)
-4. Cloth electrical harness tape (https://www.ebay.com/itm/2roll-Cloth-Tape-Wire-electrical-wiring-harness-car-auto-suv-truck-19mm-15m/192935245762)
+3. Cloth electrical harness tape (https://www.ebay.com/itm/2roll-Cloth-Tape-Wire-electrical-wiring-harness-car-auto-suv-truck-19mm-15m/192935245762)
