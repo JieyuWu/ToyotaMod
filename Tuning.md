@@ -34,16 +34,16 @@
   * Too high: sloppy, cannot reach desired steer angle
   * Too low: noisy actuation, responds to every bump
   * Just right: just above noisy actuation
-* lateralTuning.indi.outerLoopGain
-  * Steer error gain
-  * Too high: twitchy hyper lane centering
-  * Too low: sloppy, all over lane
-  * Just right: crisp lane centering
 * lateralTuning.indi.innerLoopGain
   * Steer rate error gain
   * Too high: jerky oscillation in high curvature
   * Too low: sloppy, cannot accomplish desired steer angle
   * Just right: brief oscillation on entering high curvature
+* lateralTuning.indi.outerLoopGain
+  * Steer error gain
+  * Too high: twitchy hyper lane centering
+  * Too low: sloppy, all over lane
+  * Just right: crisp lane centering
 
 # Longitudinal Tuning
 [Skip to tuning](#Tuning-the-longitudinal-PI-controller)
