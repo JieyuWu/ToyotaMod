@@ -8,7 +8,7 @@ The role of the Gateway (also known J533) is the exchange of data between the CA
 
 ![j533_vw](https://user-images.githubusercontent.com/61742003/87466641-a0d8ce80-c5e4-11ea-8030-c28e031b9d5e.png)
 
-## OBD j533
+## OBD j533 (White or Gray Panda)
 ![J533_Ver3 1_2019 11 20](https://user-images.githubusercontent.com/61742003/87466638-a0d8ce80-c5e4-11ea-9a8d-9346a46cb4f4.png)
 
 1. Gateway Extension Adapter (https://www.aliexpress.com/item/4000334862080.html)
@@ -16,7 +16,7 @@ The role of the Gateway (also known J533) is the exchange of data between the CA
 3. 60 ohm Resistor (5w or less) (https://www.ebay.com/itm/US-Stock-10pcs-60-ohm-60R%CE%A9J-5-watt-Axial-Ceramic-Cement-Power-Resistor-5W/372910807113)
 4. Cloth electrical harness tape (https://www.ebay.com/itm/2roll-Cloth-Tape-Wire-electrical-wiring-harness-car-auto-suv-truck-19mm-15m/192935245762)
 
-## panda relay J533 
+## panda relay J533 (Black Panda)
 ![j533](https://user-images.githubusercontent.com/61742003/87466636-a0403800-c5e4-11ea-9ed3-ea4dcb38f5e4.png)
 
 1. Gateway Extension Adapter (https://www.aliexpress.com/item/4000334862080.html)
