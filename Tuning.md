@@ -12,7 +12,7 @@
  - Tune innerloop (steer rate error gain) as high as possible
  - Tune outerloop (steer error gain) as high as possible
 
-### Long INDI tuning notes
+### Notes on INDI tuning parameters
 * steerActuatorDelay
   * Control ego ahead on plan
   * Plan(now + steerActuatorDelay) -> Vehicle Model -> Desired Steer Output
@@ -25,12 +25,12 @@
     * Find median phase delay in frequency domain?
     * Find maximum correlation of varying time delay?
 * lateralTuning.indi.actuatorEffectiveness
-  * Reduce strength of actuation
+  * Reduce actuation strength as effectiveness increases
   * Too high: weak, sloppy lane centering, slow oscillation
   * Too low: overpower, saturation, fast oscillation
   * Just right: just above fast oscillation
 * lateralTuning.indi.timeConstant
-  * Exponential decay of output steer, DT / (DT + tau), lower is better
+  * Extend exponential decay of prior output steer
   * Too high: sloppy, cannot reach desired steer angle
   * Too low: noisy actuation, responds to every bump
   * Just right: just above noisy actuation
