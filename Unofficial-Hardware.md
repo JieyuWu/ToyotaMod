@@ -84,6 +84,8 @@ _**Make sure to wrap the DC-to-DC converter in electric tape to prevent shorting
 #### Note: Supercapacitors require charging. But unlike with batteries, they will try to pull as much current as possible from the charging source. The more charged they are, the less current they will try to draw. This means that completely uncharged supercapacitors will look like a short-circuit to any monitoring electronics. However, once they're partially full, they'll be kinder to the charger. The OnePlus3T seems to handle this situation well without modification.  
 
 1. Purchase 2 supercapacitors at least 6 Farad and 2.7V. Here's a [link](https://www.amazon.com/gp/product/B082B2NZLL/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1) I used.
+  - Part number: HV0830-2R7605-R
+  - You want a low ESR Value (Max initial of 0.040ohms in this setup). Thus, the small flat low farad (less than 1F) supercaps will not work!
 1. Carefully remove the battery [(iFixit how-to link)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi0_bfVsajqAhXSqp4KHRp_DRYQFjATegQIBBAB&url=https%3A%2F%2Fwww.ifixit.com%2FGuide%2FOnePlus%2B3%2BBattery%2BReplacement%2F119676&usg=AOvVaw0USUqLRFEuYnONLSLj3VzY)
 1. Remove the tiny circuit board from the old battery (shown below). Cut the big metal from the batteries so the board comes out like below. *Take note of which direction the connector for the battery plugs into the phone's socket*, since its possible to insert upside-down. **DON'T PUT IT IN UPSIDE DOWN LATER!**
 1. Cut that circuit board at the point shown in the picture.(Can just use wire-cutters)
