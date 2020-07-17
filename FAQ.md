@@ -42,7 +42,10 @@ The official comma FAQ is found here [comma.ai/faq](https://comma.ai/faq)
 > Try a matte screen protector film which can be trimmed with scissors to fix the screen, that will stop glare and enable you to see the screen with polarized lenses.  This [one from amazon](https://smile.amazon.com/gp/product/B01BZFRC0Y) has been used and recommended.
 
 ### Will the Comma 2 Drain my Car Battery?
-> It shouldn't.  The Comma 2 is designed to turn off after 30 hours of inactivity.  That said, some of the 12v batteries used in hybrid vehicles are rather small (they are mainly used to boot up the computers, at which time the large hybrid battery charges the 12v batteries.)  However, if you are concerned about it, you can decrease the inactivity time as described in this [github commit](https://github.com/ErichMoraga/openpilot/commit/180a976266faff336c92f8ff04859bec76918972#diff-40746976e6fa06a3813d9c8adbfe9f9e)
+> It shouldn't.  The Comma 2 is designed to turn off after 30 hours of inactivity.  That said, some of the 12v batteries used in hybrid vehicles are rather small (they are mainly used to boot up the computers, at which time the large hybrid battery charges the 12v batteries.)
+
+### Can I adjust the brightness calibration?
+> Yes. You can adjust your light sensor calibration in /persist!/params/d/BRIGHTNESS_M and P. M is multiplicative, P is an offset. If it's good at night but dim during the day, increase M. If it's too dim for your liking everywhere, then adjust P.
 
 
 # Development
