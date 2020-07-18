@@ -1,7 +1,7 @@
 [◄ Home](../wiki)
 
 # Overview
-Updating openpilot for most users is intended to be an automatic process, when it comes to official releases (i.e. versions that are listed here: https://github.com/commaai/openpilot/releases). As of this writing, June 3rd, the current latest official release is v0.7.5 (`git checkout release2`)
+Updating openpilot for most users is intended to be an automatic process, when it comes to official releases (i.e. versions that are listed here: https://github.com/commaai/openpilot/releases).
 
 By switching away from the default `release2` branch of Openpilot, you will lose the benefit of Comma's rigorous test and review process.  All other branches can and likely do have bugs, some of which may cause undesirable behavior, **you switch branches at your own risk.**
 
