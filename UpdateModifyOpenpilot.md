@@ -38,7 +38,7 @@ If you want to test out your own modified code, create a fork of the main repo a
 * `release2` - latest official release with compiled binary. Does not need to be built on the device
   * `git checkout release2`
 * `master` - latest openpilot changes. The master branch has submodules, which need to be updated/initialized, otherwise once you reboot your build will fail. Needs to be built on the device.
-  * `git checkout -b master`
+  * `git checkout master`
   * `git submodule update --init --recursive`
   * `reboot` to start build
 * `master-ci` - latest openpilot changes, with submodules already integrated. Needs to be built on the device.
