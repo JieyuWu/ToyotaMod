@@ -23,7 +23,7 @@ Owner         | Link                                                            
 
 # Development
 
-Helpful tips for creating and maintain a successful openpilot fork. 
+Helpful tips for creating and maintaining a successful openpilot fork. 
 
 # Custom Fork Do's and Don'ts
 
@@ -31,6 +31,6 @@ Forks can change many of the fundamental pieces of openpilot software. Because o
 
 ## Do's
 
-https://github.com/commaai/openpilot/blob/master/SAFETY.md
+- [Overview of the safety of openpilot (SAFETY.MD)](https://github.com/commaai/openpilot/blob/master/SAFETY.md)
 
 ## Don'ts
