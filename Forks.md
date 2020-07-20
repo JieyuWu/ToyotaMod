@@ -38,7 +38,8 @@ Forks can change many of the fundamental pieces of openpilot software. Because o
 ## Don'ts
 
 - By in large, comma.ai recommends developers to not touch any of the [panda safety code](https://github.com/commaai/panda) to add new features or modify existing behavior. One exception is `unsafe_mode` defined in [`safety_declarations.h`](https://github.com/commaai/panda/blob/master/board/safety_declarations.h). Some definitions of what each mode does can also be found in that file.
-  - If you would like to propose a change in panda safety, consider opening a pull request. [From @geohot](https://discordapp.com/channels/469524606043160576/524328425415245827/694349303107289141): `if you want code in panda, submit a pull request`
+
+  - If you would like to propose a change in panda safety, consider opening a pull request.
 
 - The integrity of the time variables in the [driver_monitor.py](https://github.com/commaai/openpilot/blob/master/selfdrive/monitoring/driver_monitor.py) file must remain consistent with what's been predefined by comma.
 
