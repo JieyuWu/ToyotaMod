@@ -19,3 +19,7 @@ Owner         | Link                                                            
 @bugsy924         | [bugsy924](https://github.com/bugsy924/openpilot)                   | Subaru (Recommended to use use mlp's fork which contains Bugsy's work).
 @mlp              | [martinl](https://github.com/martinl/openpilot)                     | Subaru (In progress PR supporting both Global and Pre-Global models).
 @RoxasTheNobody98 | [RoxasTheNobody98](https://github.com/roxasthenobody98/openpilot)  | Ford (WIP code. Not recommended due to lack of functional safety code).
+
+# Custom Fork Do's and Don'ts
+
+Forks can change many of the fundamental pieces of openpilot software. Because of this, custom forks are expected to maintain certain safety procedures in order to access comma.ai's server infrastructure. 
