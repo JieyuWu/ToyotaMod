@@ -25,6 +25,8 @@ Owner         | Link                                                            
 
 Helpful tips for creating and maintaining a successful openpilot fork.
 
+- comma.ai suggests familiarizing yourself with [functional safety](https://en.wikipedia.org/wiki/ISO_26262) before starting development on a custom fork.
+
 - [From @Torq_boi](https://discordapp.com/channels/469524606043160576/538741329799413760/695014354428362868): `A lot of people seem to be changing the CAMERA_OFFSET parameter. So I just want to make clear that that just modifies the laneline positions, not the predicted path. If you want the car to consistently drive more left or right you should change the path too. Since OP sometimes relies on lanelines sometimes on path, having them mismatched can cause weirdness.`
 
 # Custom Fork Do's and Don'ts
