@@ -37,4 +37,4 @@ Forks can change many of the fundamental pieces of openpilot software. Because o
 
 - The integrity of the time variables in the [driver_monitor.py](https://github.com/commaai/openpilot/blob/master/selfdrive/monitoring/driver_monitor.py) file must remain consistent with what's been predefined by comma.
 
-*NOTE: To fork maintainers. Disabling or nerfing safety features may get you and your users banned from our servers.*
+*NOTE: To fork maintainers. Disabling or nerfing safety features may get you and your users banned from our servers. comma.ai strongly discourages the use of openpilot forks with safety code either missing or not fully meeting the requirements defined in [SAFETY.md](https://github.com/commaai/openpilot/blob/master/SAFETY.md).*
