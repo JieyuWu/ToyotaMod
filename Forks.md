@@ -23,8 +23,12 @@ Owner         | Link                                                            
 
 # Development
 
-### Custom Fork Do's and Don'ts
+## Custom Fork Do's and Don'ts
 
 Forks can change many of the fundamental pieces of openpilot software. Because of this, custom forks are expected to maintain certain safety procedures in order to access comma.ai's server infrastructure. 
 
+### Do's
+
 https://github.com/commaai/openpilot/blob/master/SAFETY.md
+
+### Don'ts
