@@ -27,6 +27,15 @@ Helpful tips for creating and maintaining a successful openpilot fork.
 
 - comma.ai suggests familiarizing yourself with [functional safety](https://en.wikipedia.org/wiki/ISO_26262) before starting development on a custom fork.
 
+- Here's where some of the commonly modified openpilot files are:
+  - [longcontrol.py](https://github.com/commaai/openpilot/blob/master/selfdrive/controls/lib/longcontrol.py): Controls gas and brakes from an input desired speed, using a PI controller
+
+  - [lane_planner.py](https://github.com/commaai/openpilot/blob/master/selfdrive/controls/lib/lane_planner.py): Calculates `dPoly` (the path openpilot tries to drive) from input lane line and path polys from the model
+
+  - [planner.py](https://github.com/commaai/openpilot/blob/master/selfdrive/controls/lib/planner.py): Has longitudinal acceleration limits. Picks the slowest longitudinal solution to use for cruise control (between set speed and the two longitudinal MPCs)
+
+  - interface.py (path: selfdrive/car/YOUR MAKE/interface.py): Houses the tuning values for each car. Specifies custom alerts/events for that make. Inherits from [interfaces.py](https://github.com/commaai/openpilot/blob/master/selfdrive/car/interfaces.py)
+
 - [From @Torq_boi](https://discordapp.com/channels/469524606043160576/538741329799413760/695014354428362868): `A lot of people seem to be changing the CAMERA_OFFSET parameter. So I just want to make clear that that just modifies the laneline positions, not the predicted path. If you want the car to consistently drive more left or right you should change the path too. Since OP sometimes relies on lanelines sometimes on path, having them mismatched can cause weirdness.`
 
 # Custom Fork Do's and Don'ts
