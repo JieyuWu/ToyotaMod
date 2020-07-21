@@ -47,6 +47,11 @@ The official comma FAQ is found here [comma.ai/faq](https://comma.ai/faq)
 ### Can I adjust the brightness calibration?
 > Yes. You can adjust your light sensor calibration in /persist!/params/d/BRIGHTNESS_M and P. M is multiplicative, P is an offset. If it's good at night but dim during the day, increase M. If it's too dim for your liking everywhere, then adjust P.
 
+### When are my videos uploaded to the cloud?
+> With comma prime, low quality videos and condensed logs are uploaded constantly, but at a maximum rate of 512kbps.  When your device connects to wifi and the vehicle is stopped, it will upload the full logs and high quality videos.
+
+### My storage space is filling up, How long are drive segments kept on my device?
+> Videos used to be deleted on the device after upload.  Now they are saved on your device until additional room is needed.  When less than 5GB or 10% of the drive space remains, the oldest segments will be deleted to clear up room.  On the Comma 2, this results storage for  around 12 hours of segments.  The oldest segments will be deleted to make room for new segments even if the old segments have not been uploaded.
 
 # Development
 
