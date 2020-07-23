@@ -39,18 +39,31 @@ For 2018-2020 Camry models which don't have Full-Speed Range Dynamic Radar Cruis
 
 This limitation does not apply to Camry models with Full-Speed Range Dynamic Radar Cruise Control including the (2018-2020 XLE, XSE, LE HV, XLE HV, and SE HV)
 
-# Make-Specific Terms
+# Toyota/Lexus Terms
 
 The following terms are specific to Toyota and Lexus vehicles and are often used in discussions. 
 
 For general terms, [go here](../wiki/General-Terms).
 
+## Toyota Safety Sense (TSS) Versions
+
+Term | Abbreviation | Definition
+--- | --- | ---
+Toyota Safety Sense 2.0 | TSS2 TSS 2.0| TSS2 builds on the previous TSS-C and TSS-P suites, and consists of six active safety and driver assistance systems: PCS, DRCC, LDA, AHB, RSA, and LTA. It has a better angle sensor, and supports full range ACC on all openpilot compatible models.
+Toyota Safety Sense P | TSSP TSS-P| An advanced active safety package for mid-size and large vehicles, and consists of six active safety and driver assistance systems: PCS, LDA, and AHB. Includes a DSU which does ACC and AEB.
+Toyota Safety Sense C | TSSC TSS-C| An advanced active safety package for compact vehicles, and consists of six active safety and driver assistance systems: PCS, DRCC, LDA, and AHB. It does not feature lane keep assist, thus is not compatible with openpilot.
+
+## Terms and Abbreviations
 Term | Abbreviation | Definition
 --- | --- | ---
 Driver Support Unit | DSU | This embedded system implements cruise control and Automatic Emergency Braking in some Toyota cars.
-Toyota Safety Sense 2 | TSS2 | TSS2 builds on the previous TSS-C and TSS-P suites, and consists of six active safety and driver assistance systems: PCS, DRCC, LDA, AHB, RSA, and LTA. It has a better angle sensor, and supports full range ACC on all openpilot compatible models.
-Toyota Safety Sense P | TSSP | An advanced active safety package for mid-size and large vehicles, and consists of six active safety and driver assistance systems: PCS, LDA, and AHB. Includes a DSU which does ACC and AEB.
-Toyota Safety Sense C | TSSC | An advanced active safety package for compact vehicles, and consists of six active safety and driver assistance systems: PCS, DRCC, LDA, and AHB. It does not feature lane keep assist, thus is not compatible with openpilot.
+Pre-Collision System | PCS | May also include pedestrian detection and be written as PCS w/PD.  This is the main AEB feature.
+Dynamic Radar Cruise Control | DRCC | This is ACC, and may be full speed depending on the model
+Lane Departure Alert | LDA | The audible alert when leaving a lane.  May also include Steering Assist and be listed as LDA w/SA
+Auto High Beams | AHB | Pretty straight forward.
+Road Sign Assist | RSA | The thing that displays speed limit and stop signs on your dash.
+Lane Tracing Assist | LTA | The stock feature that enables lane centering or lane keeping while using DRCC
+
 
 # openpilot Capabilities
 
@@ -66,6 +79,10 @@ Toyotas have very good torque, and work well on local and highway roads.
 
 TSS2 Toyotas have a great angle sensor, as well as select 2019+ TSSP Toyotas.
 Most TSSP Toyotas have a bad angle sensor. This results in jerky, non-precise steering. The worst culprit of this is the Prius. This can be fixed on some models with a ZSS.
+
+### openpilot Replaces LDA LTA
+
+As noted in the [comma.ai FAQ](https://comma.ai/faq), open pilot replaces the LDA and LTA features on Toyota and Lexus vehicles when open pilot is enabled.  LDA alerts will originate from openpilot when openpilot is enabled, even when the cruise control feature is not enabled.  You can disable LDA warnings inside the openpilot settings.  Sadly, if your vehicle is equiped with LDA w/SA, openpilot does not currently emulate the Steering Assist function when the cruise control is disabled.  
 
 ## Longitudinal Control
 
