@@ -5,7 +5,6 @@
 Table of Contents
 =================
 
-   * [Table of Contents](#table-of-contents)
    * [Supported Toyota/Lexus Vehicles](#supported-toyotalexus-vehicles)
       * [Toyota Camry Support](#toyota-camry-support)
    * [Make-Specific Terms](#make-specific-terms)
