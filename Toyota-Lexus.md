@@ -55,7 +55,7 @@ Toyota Safety Sense C | TSSC | An advanced active safety package for compact veh
 
 ## Lateral Control
 
-Control over the steering wheel.
+Control over the steering wheel.  openpilot handles lateral control for all supported Toyota/Lexus vehicles.  However, some TSSP vehicles may have jerky non-precise steering as noted in [Steering Sensor](https://github.com/commaai/openpilot/wiki/Toyota-Lexus#steering-sensor).
 
 ### Torque
 
@@ -70,9 +70,13 @@ Most TSSP Toyotas have a bad angle sensor. This results in jerky, non-precise st
 
 Control over the gas and brakes.
 
-### DSU
+### TSS2 Vehicles
 
-The Driver Support Unit is what controls AEB and longitudinal on TSSP cars. This unit must be unplugged to give openpilot control, although this removes AEB.  [SDSU](https://github.com/wocsor/panda/tree/smart_dsu) solves this problem, by passing through the correct AEB messages while allowing openpilot to control longitudinal.
+openpilot handles longitudinal control for these vehicles without any additional modifications.  AEB and blindspot warning will continue to function as they did on the original vehicle.
+
+### TSSP Vehicles
+
+The Driver Support Unit is what controls AEB and longitudinal on TSSP cars. This unit must be unplugged to give openpilot control, although this removes AEB.  Users are strongly discouraged from disconnecting their DSU and abandoning AEB.  Instead, a [SDSU](https://github.com/commaai/openpilot/wiki/Toyota-Lexus#sdsu-smartdsusmarteneddsu) solves this problem, by passing through the correct AEB messages while allowing openpilot to control longitudinal.
 
 # Community Features
 
@@ -82,7 +86,7 @@ Allows Toyotas without full-range cruise control to gain stop-and-go using openp
 
 ## SDSU (SmartDSU/SmartenedDSU)
 
-Upgrades the Driver Support Unit to passthrough AEB and enable openpilot longitudinal control.  SDSU was first sold as an external, harness-style contraption, and later the SmartenedDSU (DSU modified by forwarding a severed CAN connection back into the network by way of an onboard, stripped down, reflashed Panda) and became preferred, with quick creation/installation.
+Upgrades the Driver Support Unit to passthrough AEB and enable openpilot longitudinal control.  [SDSU](https://github.com/wocsor/panda/tree/smart_dsu) was first sold as an external, harness-style contraption, and later the [SmartenedDSU](https://discord.com/channels/469524606043160576/532179801474203649/687669433145229385) (DSU modified by forwarding a severed CAN connection back into the network by way of an onboard, stripped down, reflashed Panda) and became preferred, with quick creation/installation.
 
 ## Zorro Steering Sensor (ZSS)
 
