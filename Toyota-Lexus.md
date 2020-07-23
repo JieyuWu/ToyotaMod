@@ -73,11 +73,17 @@ Control over the gas and brakes.
 
 ### TSS2 Vehicles
 
-openpilot handles longitudinal control for these vehicles without any additional modifications.  AEB and blindspot warning will continue to function as they did on the original vehicle.
+openpilot handles longitudinal control for these vehicles without any additional modifications.  AEB and blindspot warning will continue to function as they did on the original vehicle.  There is no option on these vehicles to use Stock ACC while using openpilot.
 
 ### TSSP Vehicles
 
 The Driver Support Unit is what controls AEB and longitudinal on TSSP cars. This unit must be unplugged to give openpilot control, although this removes AEB.  Users are strongly discouraged from disconnecting their DSU and abandoning AEB.  Instead, a [SDSU](https://github.com/commaai/openpilot/wiki/Toyota-Lexus#sdsu-smartdsusmarteneddsu) solves this problem, by passing through the correct AEB messages while allowing openpilot to control longitudinal.
+
+TSSP vehicle owners have the benefit of choosing to use openpilot or stock ACC, this is not an option for TSS2 vehicle owners.  SmartenedDSU owners may also have the option to switch between stock and openpilot for each drive.
+
+### Stock vs openpilot Longitudinal Control Differences
+
+Both systems work well and there are numerous people who prefer one system over the other.  Generally, the stock ACC is slower to accelerate from a stop and will keep a larger following distance as low speed.  openpilot on the other hand accelerates more aggressively and maintains a closer distance at low speeds but a larger distance as high (freeway) speeds.  Some hybrid owners prefer the stock system because its gentler acceleration profile means less use of the internal combustion engine in traffic.
 
 # Community Features
 
