@@ -14,7 +14,6 @@ Table of Contents
          * [Steering Sensor](#steering-sensor)
       * [Longitudinal Control](#longitudinal-control)
          * [DSU](#dsu)
-         * [Non-DSU Cars](#non-dsu-cars)
    * [Community Features](#community-features)
       * [comma pedal](#comma-pedal)
       * [SDSU (SmartDSU/SmartenedDSU)](#sdsu-smartdsusmarteneddsu)
@@ -74,10 +73,6 @@ Control over the gas and brakes.
 ### DSU
 
 The Driver Support Unit is what controls AEB and longitudinal on TSSP cars. This unit must be unplugged to give openpilot control, although this removes AEB.  [SDSU](https://github.com/wocsor/panda/tree/smart_dsu) solves this problem, by passing through the correct AEB messages while allowing openpilot to control longitudinal.
-
-### Non-DSU Cars
-
-Non-DSU cars such as the Camry cannot use openpilot longitudinal control. They utilize a different radar unit that directly sends gas and brake commands, thus is impossible to intercept without a radar swap.
 
 # Community Features
 
