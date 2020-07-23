@@ -35,7 +35,7 @@ The most up-to-date list of supported vehicles is on the [openpilot main page](h
 * <u>No ALC below</u> - No [lateral control](https://github.com/commaai/openpilot/wiki/Toyota-Lexus#lateral-control), this doesn't apply to any supported Toyota/Lexus vehicles currently.
 
 ## Toyota Camry Support
-For 2018-2020 Camry 4CYL L, 4CYL LE and 4CYL SE non-hybrid models which don't have Full-Speed Range Dynamic Radar Cruise Control <u>openpilot will not function below 25mph</u>.  There is no currently known solution for this, these vehicles **cannot** use a comma pedal to solve this issue.  This is because the Camry uses a Continental radar not used on other vehicles and messages from the radar cut out completely below 25mph.
+For 2018-2020 Camry models which don't have Full-Speed Range Dynamic Radar Cruise Control <u>openpilot will not function below 25mph</u> this includes the 4CYL L, 4CYL LE and 4CYL SE non-hybrid models.  There is no currently known solution for this, these vehicles **cannot** use a comma pedal to solve this issue.  This is because these models use a Continental radar not used on other vehicles and messages from the radar cut out completely below 25mph.
 
 This limitation does not apply to Camry models with Full-Speed Range Dynamic Radar Cruise Control including the (2018-2020 XLE, XSE, LE HV, XLE HV, and SE HV)
 
