@@ -5,6 +5,7 @@
 Table of Contents
 =================
 
+   * [Table of Contents](#table-of-contents)
    * [Supported Toyota/Lexus Vehicles](#supported-toyotalexus-vehicles)
       * [Toyota Camry Support](#toyota-camry-support)
    * [Make-Specific Terms](#make-specific-terms)
@@ -13,7 +14,8 @@ Table of Contents
          * [Torque](#torque)
          * [Steering Sensor](#steering-sensor)
       * [Longitudinal Control](#longitudinal-control)
-         * [DSU](#dsu)
+         * [TSS2 Vehicles](#tss2-vehicles)
+         * [TSSP Vehicles](#tssp-vehicles)
    * [Community Features](#community-features)
       * [comma pedal](#comma-pedal)
       * [SDSU (SmartDSU/SmartenedDSU)](#sdsu-smartdsusmarteneddsu)
