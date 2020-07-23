@@ -15,13 +15,13 @@ Table of Contents
       * [Longitudinal Control](#longitudinal-control)
          * [TSS2 Vehicles](#tss2-vehicles)
          * [TSSP Vehicles](#tssp-vehicles)
+         * [Stock vs openpilot Longitudinal Control Differences](#stock-vs-openpilot-longitudinal-control-differences)
    * [Community Features](#community-features)
-      * [comma pedal](#comma-pedal)
+      * [<a href="../wiki/comma-pedal">comma pedal</a>](#comma-pedal)
       * [SDSU (SmartDSU/SmartenedDSU)](#sdsu-smartdsusmarteneddsu)
       * [Zorro Steering Sensor (ZSS)](#zorro-steering-sensor-zss)
    * [Common Toyota/Lexus Questions:](#common-toyotalexus-questions)
       * [How can I find out what version of Toyota Safety Sense (TSS) or other features my car has?](#how-can-i-find-out-what-version-of-toyota-safety-sense-tss-or-other-features-my-car-has)
-
 
 # Supported Toyota/Lexus Vehicles
 
