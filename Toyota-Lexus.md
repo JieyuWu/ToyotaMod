@@ -2,7 +2,25 @@
 
 [◄ Home](../wiki)
 
+# Supported Toyota/Lexus Vehicles
+
+The most up-to-date list of supported vehicles is on the [openpilot main page](https://github.com/commaai/openpilot#supported-cars).  Please take careful note of the following columns and **pay attention to and read any footnotes**:
+* <u>Supported Package</u> - Mandatory trim levels or options required for openpilot to work, if any.  All means all versions of this model work.
+* <u>ACC</u> - What is in charge of [longitudinal control](https://github.com/commaai/openpilot/wiki/Toyota-Lexus#longitudinal-control). This can be either Stock (your vehicle's cruise control system) or openpilot. 
+  * Footnote 3 applies to a number of Toyota vehicles.  See discussion of [Disconnecting DSU](#).
+* <u>No ACC accel below</u> - The car will not provide any gas below these speeds.  0 mph means that the vehicle is capable of stop-and-go driving.
+  * Footnote 1, see the [comma pedal](https://github.com/commaai/openpilot/wiki/Toyota-Lexus#comma-pedal).
+  * For footnote 4 see [openpilot Camry Support](https://github.com/commaai/openpilot/wiki/Toyota-Lexus#toyota-camry-support).
+* <u>No ALC below</u> - No [lateral control](https://github.com/commaai/openpilot/wiki/Toyota-Lexus#lateral-control), this doesn't apply to any supported Toyota/Lexus vehicles currently.
+
+## Toyota Camry Support
+For 2018-2020 Camry 4CYL L, 4CYL LE and 4CYL SE non-hybrid models which don't have Full-Speed Range Dynamic Radar Cruise Control <u>openpilot will not function below 25mph</u>.  There is no currently known solution for this, these vehicles **cannot** use a comma pedal to solve this issue.  This is because the Camry uses a Continental radar not used on other vehicles and messages from the radar cut out completely below 25mph.
+
+This limitation does not apply to Camry models with Full-Speed Range Dynamic Radar Cruise Control including the (2018-2020 XLE, XSE, LE HV, XLE HV, and SE HV)
+
 # Make-Specific Terms
+
+The following terms are specific to Toyota and Lexus vehicles and are often used in discussions. 
 
 For general terms, [go here](../wiki/General-Terms).
 
@@ -53,3 +71,8 @@ Upgrades the Driver Support Unit to passthrough AEB and enable openpilot longitu
 ## Zorro Steering Sensor (ZSS)
 
 Upgrades TSSP cars with a [better angle sensor](https://github.com/zorrobyte/betterToyotaAngleSensorForOP) which allows more accurate steering with openpilot.
+
+# Common Toyota/Lexus Questions:
+
+## How can I find out what version of Toyota Safety Sense (TSS) or other features my car has?
+> A couple of helpful links.  You can lookup you vehicle details using your VIN on the [Toyota Vehicle Information Lookup](https://www.toyota.com/owners/my-vehicle/vehicle-specification).  You can also review this handy [TSS Applicability Chart](https://cdn.discordapp.com/attachments/524327905937850394/669113172489404416/TSS_Features.pdf)
