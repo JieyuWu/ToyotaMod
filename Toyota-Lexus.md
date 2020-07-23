@@ -7,11 +7,14 @@ Table of Contents
 
    * [Supported Toyota/Lexus Vehicles](#supported-toyotalexus-vehicles)
       * [Toyota Camry Support](#toyota-camry-support)
-   * [Make-Specific Terms](#make-specific-terms)
+   * [Toyota/Lexus Terms](#toyotalexus-terms)
+      * [Toyota Safety Sense (TSS) Versions](#toyota-safety-sense-tss-versions)
+      * [Terms and Abbreviations](#terms-and-abbreviations)
    * [openpilot Capabilities](#openpilot-capabilities)
       * [Lateral Control](#lateral-control)
          * [Torque](#torque)
          * [Steering Sensor](#steering-sensor)
+         * [openpilot Replaces LDA LTA](#openpilot-replaces-lda-lta)
       * [Longitudinal Control](#longitudinal-control)
          * [TSS2 Vehicles](#tss2-vehicles)
          * [TSSP Vehicles](#tssp-vehicles)
@@ -82,7 +85,7 @@ Most TSSP Toyotas have a bad angle sensor. This results in jerky, non-precise st
 
 ### openpilot Replaces LDA LTA
 
-As noted in the [comma.ai FAQ](https://comma.ai/faq), open pilot replaces the LDA and LTA features on Toyota and Lexus vehicles when open pilot is enabled.  LDA alerts will originate from openpilot when openpilot is enabled, even when the cruise control feature is not enabled.  You can disable LDA warnings inside the openpilot settings.  Sadly, if your vehicle is equiped with LDA w/SA, openpilot does not currently emulate the Steering Assist function when the cruise control is disabled.  
+As noted in the [comma.ai FAQ](https://comma.ai/faq), openpilot replaces the LDA and LTA features on Toyota and Lexus vehicles when openpilot is enabled.  LDA alerts will originate from openpilot when openpilot is enabled, even when the cruise control feature is not enabled.  You can disable LDA warnings inside the openpilot settings.  Sadly, if your vehicle is equiped with LDA w/SA, openpilot does not currently emulate the Steering Assist function when the cruise control is disabled.  
 
 ## Longitudinal Control
 
