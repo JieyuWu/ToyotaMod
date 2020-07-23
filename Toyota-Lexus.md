@@ -17,7 +17,7 @@ Table of Contents
          * [TSSP Vehicles](#tssp-vehicles)
          * [Stock vs openpilot Longitudinal Control Differences](#stock-vs-openpilot-longitudinal-control-differences)
    * [Community Features](#community-features)
-      * [<a href="../wiki/comma-pedal">comma pedal</a>](#comma-pedal)
+      * [comma pedal](#comma-pedal)
       * [SDSU (SmartDSU/SmartenedDSU)](#sdsu-smartdsusmarteneddsu)
       * [Zorro Steering Sensor (ZSS)](#zorro-steering-sensor-zss)
    * [Common Toyota/Lexus Questions:](#common-toyotalexus-questions)
@@ -87,9 +87,9 @@ Both systems work well and there are numerous people who prefer one system over 
 
 # Community Features
 
-## [comma pedal](../wiki/comma-pedal)
+## comma pedal
 
-Allows Toyotas without full-range cruise control to gain stop-and-go using openpilot with a device plugged into the gas pedal.
+A [comma pedal](../wiki/comma-pedal) allows Toyotas without full-range cruise control to gain stop-and-go using openpilot with a device plugged into the gas pedal.
 
 ## SDSU (SmartDSU/SmartenedDSU)
 
