@@ -11,6 +11,111 @@
 # Overview
 Comma AI currently has no official support for Volkswagen brands, but a community port is available, with plans to upstream for official support in the near future. The community port is designed to support any Volkswagen MQB vehicle with ACC radar. Check the Vehicle Support section for details and caveats.
 
+
+# Supported Vehicles
+
+<details><summary>Fully Tested and Supported</summary>
+<p>
+
+These vehicles are confirmed supported by the community Volkswagen port, because they have been tested on at least one representative car in the wild. Both automatic and manual transmissions are supported.
+The vehicle must have ACC (radar-based cruise control). For vehicles without factory Lane Assist, a custom harness will be required to use modern Comma Two hardware, and a diagnostic tool will be needed to make minor coding changes to the steering rack in order for OP to steer, and coding changes to the instrument cluster will be needed to receive feedback and status information.
+- 2012-2019 Mk3 Audi A3 (tested variants only) [Wiki]
+	- A3
+	- A3 e-tron
+- 2014-current Mk3 Audi TT / TTRS [Wiki]
+- 2017-current Mk1 Audi Q2 [Wiki]
+- 2018-current Mk2 Audi Q3 [Wiki]
+- 2016-current Mk1 SEAT Ateca [Wiki]
+- 2013-current Mk3 Škoda Octavia [Wiki]
+- 2019-current Mk1 Škoda Scala [Wiki]
+- 2015-current B8 Škoda Superb [Wiki]
+- 2018-2019 Mk1 Volkswagen Atlas (Teramont in some markets) [Wiki]
+- 2012-2019 Mk7 and Mk7.5 Volkswagen Golf (tested variants only) [Wiki]
+	- Please note the MY changeover from Mk6 to Mk7 varied by market, USA did not get Golf 7 until MY 2014!
+	- e-Golf
+	- Golf
+	- Golf GTE (sport hybrid)
+	- Golf GTI
+	- Golf R
+- 2019-current Volkswagen Jetta (except GLI) and Sagitar (Mk7) [Wiki]
+	- The GLI variant is architecturally compatible, but factory ACC appears unavailable (thanks for nothing VW)
+- 2015-current B8 Volkswagen Passat [Wiki]
+	- This is NOT the Passat currently available in North America, which is based on the currently unsupported NMS platform
+- 2015-current Mk2 Volkswagen Touran [Wiki]
+</p>
+</details>
+
+<details><summary>Supportable but Untested</summary>
+<p>
+
+These vehicle-classes should work fine with openpilot, to the best of our information, but have not yet been tested. Minor tweaks or other support may be needed. Be cautious if making an openpilot or vehicle purchase decision based on this information. If in doubt, ask on Discord.
+- All MQB vehicles not listed above, with ACC radar
+	- 2012-current Mk3 Audi A3 variants not explicitly tested so far
+		- Audi S3
+		- Audi RS3
+	- 2012-current Mk3 SEAT León [Wiki]
+	- 2019-current Mk1 SEAT Tarraco [Wiki]
+	- 2019-current Mk1 Škoda Kamiq [Wiki]
+- 2017-current Mk1 Škoda Karoq [Wiki]
+	- 2017-current Mk1 Škoda Kodiaq [Wiki]
+	- 2018-current Mk1 Volkswagen Arteon [Wiki]
+	- 2018-current Mk4 Volkswagen Bora [Wiki]
+	- 2013-2019 Volkswagen Golf variants not explicitly tested so far (Mk7 and Mk7.5) [Wiki]
+		- Golf Alltrack
+		- Golf GTD (sport diesel)
+		- Golf GTI TCR
+		- Golf Sportsvan / SV
+		- Golf SportWagen
+	- 2017-current Mk2 Volkswagen Crafter [Wiki]
+	- 2015-current Mk1 Volkswagen Lamando [Wiki]
+		-Made in China, limited info available, unable to fully verify
+	- 2018-current Mk3 Volkswagen Lavida [Wiki]
+		-Made in China, limited info available, unable to fully verify
+	- 2018-current Mk1 Volkswagen Tayron [Wiki]
+		-Made in China, limited info available, unable to fully verify
+	- 2016-current Mk2 Volkswagen Tiguan [Wiki]
+		-In North America, all 2016-2017 Tiguans and the 2018 Tiguan "Limited" are still Mk1 PQ46 Mk1 (see PQ46 below); all other 2018 and all 2019-forward are MQB Mk2
+	- 2018-current Mk1 Volkswagen Tharu / Tarek [Wiki]
+		-Made in China, limited info available, unable to fully verify
+</p>
+</details>
+
+<details><summary>Long Term Roadmap</summary>
+<p>
+
+We think these vehicles can be supported at some point, but they are not supported just yet. Code changes will be required. There are no firm dates for any of these items. If you have a vehicle in this section and are interested in testing with openpilot, please ask on Discord before proceeding.
+- Longitudinal control using visiond to drive known ACC messaging, for vehicles without radar. It's not yet known specifically what retrofits we'll need for vehicles with cruise control only, but we'll probably need to change out the steering wheel buttons or control stalk as applicable.
+- All MQB-A0 vehicles. We think these SHOULD work, but ran into unknown issues with the first one we tested and were not able to complete troubleshooting with the owner. Contact us on Discord if you have access to a legitimate VCDS interface for diagnostics and are interested in trying.
+	- 2018-current Mk2 Audi A1 [Wiki]
+	- 2017-current SEAT Arona [Wiki]
+	- 2017-current SEAT Ibiza [Wiki]
+	- 2018-current Mk6 Volkswagen Polo [Wiki]
+	- 2019-current Mk1 Volkswagen T-Cross [Wiki]
+- All PQ35/PQ46/NMS vehicles. We hope and plan to provide some level of official support in the long-term future, and we are having good success in early testing. Vehicles in this set may or may not be supportable. Most if not all should have electric power steering racks, but earlier vehicles may or may not have configurable support for Lane Assist commands. Do not purchase a vehicle based solely on this list.
+	- PQ35: https://en.wikipedia.org/wiki/Volkswagen_Group_A_platform#A5_(PQ35)
+	- PQ46, including New Midsize Sedan (NMS): https://en.wikipedia.org/wiki/Volkswagen_Group_B_platform#PQ46_(A6)
+- All MLB and MLBevo vehicles (requires FlexRay support, VERY long term future)
+	- 2018-current Volkswagen Touareg
+	- All modern Audi not listed as MQB: A4, A5, A6, A7, A8, R8, Q5, Q7, Q8, e-Tron SUV and all variants thereof
+- All MEB (new electric mass-market platform) vehicles, big question marks here until we see one, but we have cautious optimism.
+- All MQBevo vehicles (the new Golf Mk8 and all future refreshed MQBs), big question marks here until we see one, but we have cautious optimism.
+- All New Small Family (NSF) vehicles, supportability status totally unknown at this time. Contact us if you are interested in testing and you have a legitimate VCDS interface for diagnostics and settings changes.
+	- 2011-current SEAT Mii [Wiki]
+	- 2011-current Škoda Citigo [Wiki]
+	- 2011-current Volkswagen Up! [Wiki]
+</p>
+</details>
+
+<details><summary>Unsupportable</summary>
+<p>
+
+These vehicles either don't have electric power steering, or we don't have a known control channel, or there is no factory option or ability to retrofit the necessary ACC and steering components. Support could be reexamined if new information comes to light, but at this time we have no plans to investigate further.
+- Volkswagen Touareg prior to 2018 (hydraulic power steering, lane departure warning only via steering wheel haptic)
+- Volkswagen Phaeton (hydraulic power steering, lane departure warning only via steering wheel haptic)
+- NSF (New Small Family) supermini models without factory options for ACC or LKAS.
+</p>
+</details>
+
 # What to buy
 
 ## If your car has LKAS & ACC
