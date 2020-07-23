@@ -2,6 +2,27 @@
 
 [◄ Home](../wiki)
 
+Table of Contents
+=================
+
+   * [Supported Toyota/Lexus Vehicles](#supported-toyotalexus-vehicles)
+      * [Toyota Camry Support](#toyota-camry-support)
+   * [Make-Specific Terms](#make-specific-terms)
+   * [openpilot Capabilities](#openpilot-capabilities)
+      * [Lateral Control](#lateral-control)
+         * [Torque](#torque)
+         * [Steering Sensor](#steering-sensor)
+      * [Longitudinal Control](#longitudinal-control)
+         * [DSU](#dsu)
+         * [Non-DSU Cars](#non-dsu-cars)
+   * [Community Features](#community-features)
+      * [comma pedal](#comma-pedal)
+      * [SDSU (SmartDSU/SmartenedDSU)](#sdsu-smartdsusmarteneddsu)
+      * [Zorro Steering Sensor (ZSS)](#zorro-steering-sensor-zss)
+   * [Common Toyota/Lexus Questions:](#common-toyotalexus-questions)
+      * [How can I find out what version of Toyota Safety Sense (TSS) or other features my car has?](#how-can-i-find-out-what-version-of-toyota-safety-sense-tss-or-other-features-my-car-has)
+
+
 # Supported Toyota/Lexus Vehicles
 
 The most up-to-date list of supported vehicles is on the [openpilot main page](https://github.com/commaai/openpilot#supported-cars).  Please take careful note of the following columns and **pay attention to and read any footnotes**:
