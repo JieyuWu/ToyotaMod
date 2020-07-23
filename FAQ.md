@@ -80,3 +80,39 @@ Table of Contents
 
 ### What is the openpilot development workflow? / What are the branches `master`, `devel`, and `release`?
 > Read [this Medium post on Externalization](https://medium.com/@comma_ai/a-2020-theme-externalization-13b33326d8b3).
+
+# Discord Help
+
+comma.ai is a very open company.  Their developers spend a lot of time on the Discord Server working with users and collaborating with other community developers.  This is awesome.  <u>But please don't abuse this.</u>  Asking questions that have already be answered is a waste of everyone's time.  Wasting developer time, means slower improvements for us all.  
+
+### Before Asking a Question
+> Please follow the instructions on the #Guidelines channel, specifically:
+
+```
+• Is it answered on https://comma.ai/faq ?
+• Is it answered on https://wiki.comma.ai/ ?
+• Is the answer found in the pins of a related channel? (Discord Pins)
+• Has the question been asked before? (Discord Search)
+• Have you read the channel description to confirm this is the correct place for your question?
+```
+
+### How do I search on discord?
+> Basic word searching is simple, but you may have better luck if you use search modifiers:
+
+![image](https://user-images.githubusercontent.com/3046315/88340440-afb03700-ccf0-11ea-8572-0fa203cf927d.png)
+
+> So if you have a question about a Toyota Camry you should search in the #Toyota-Lexus channel such as: `in:#toyota-lexus <search term>`
+
+### How do I read discord channel pins?
+> On the web app, it is as simple as clicking on the pin icon in the top right of the channel:
+
+![image](https://user-images.githubusercontent.com/3046315/88341372-55b07100-ccf2-11ea-8dbd-446492805946.png)
+
+> On the mobile app pins can be found by dragging from the right edge of the screen to the left.
+
+### How do I read the channel description?
+> On the mobile app, the channel description is located at the top of the page.  If the description is truncated, you can click on it to read the entire contents:
+
+![image](https://user-images.githubusercontent.com/3046315/88342237-e63b8100-ccf3-11ea-823a-660dfd1e3b99.png)
+
+> On the mobile app the channel description can be found by dragging from the right edge of the screen to the left.
