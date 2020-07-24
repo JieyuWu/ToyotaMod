@@ -1,5 +1,18 @@
 [◄ Home](../wiki)
 
+Table of Contents
+=================
+
+  * [Git Branches](#git-branches)
+  * [Why Would a User Switch Branches?](#why-would-a-user-switch-branches)
+  * [How to Switch to master-ci (Non-Developers)](#how-to-switch-to-master-ci-non-developers)
+  * [How to Checkout a Specific Release](#how-to-checkout-a-specific-release)
+  * [For Developers](#for-developers)
+     * [1. <a href="../wiki/SSH">SSH</a> into your comma2/EON](#1-ssh-into-your-comma2eon)
+     * [2. Checkout your desired branch](#2-checkout-your-desired-branch)
+     * [3. (Optional) Monitor build process after reboot](#3-optional-monitor-build-process-after-reboot)
+     * [Developer Notes](#developer-notes)
+
 # Overview
 Updating openpilot for most users is intended to be an automatic process, when it comes to official releases (i.e. versions that are listed here: https://github.com/commaai/openpilot/releases).
 
