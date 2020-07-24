@@ -21,6 +21,14 @@ This command will replace whatever version of openpilot you are currently runnin
 
 `cd /data && rm -rf openpilot && git clone -b master-ci https://github.com/commaai/openpilot && reboot`
 
+## How to Checkout a Specific Release
+1. You will first need to gain access to your device using SSH, see the [SSH instructions](https://github.com/commaai/openpilot/wiki/SSH). 
+2. Then you need to run the following command:
+ 
+This command will replace whatever version of openpilot you are currently running with the `master-ci` branch. **Caution:** this command will blow away the openpilot directory, so if you are a developer who has made changes to openpilot, this command is not for you.
+
+`cd /data && rm -rf openpilot && git clone -b v0.7.6 https://github.com/commaai/openpilot && reboot`
+
 ## For Developers
 
 However, if you want to test out newer, unreleased version like 0.8.0, the easiest way is to `git clone` openpilot directly onto your CommaTwo/EON and `git checkout` the master branch (could potentially be unstable since changes are made daily). The steps below show how to ensure you are on the git branch that has the latest code changes. 
