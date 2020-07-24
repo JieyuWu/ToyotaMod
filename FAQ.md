@@ -47,6 +47,10 @@ Table of Contents
 ### How does Lane Change Assist Work?
 > Lane Change Assist only works at or above 45 Mph. Activate the turn signal and, when it is safe to change lanes, gently nudge the wheel in the direction of the turn signal. This must occur within 10 seconds of initiating the turn signal. **Always paying attention when changing lanes, Openpilot has limited or no ability to check if changing lanes is safe.**
 
+### How to a Change a Specific Release?
+
+See the instructions for how to [checkout a specific release](https://github.com/commaai/openpilot/wiki/Update-Modify-openpilot#how-to-checkout-a-specific-release).  
+
 # comma two
 
 ### Why won't my comma two turn on?
