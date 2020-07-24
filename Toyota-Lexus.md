@@ -32,7 +32,7 @@ The most up-to-date list of supported vehicles is on the [openpilot main page](h
 * <u>Supported Package</u> - Mandatory trim levels or options required for openpilot to work, if any.  All means all versions of this model work.
 * <u>ACC</u> - What is in charge of [longitudinal control](https://github.com/commaai/openpilot/wiki/Toyota-Lexus#longitudinal-control). This can be either Stock (your vehicle's cruise control system) or openpilot. 
   * Footnote 3 applies to a number of Toyota vehicles.  See discussion of [Disconnecting DSU](#).
-* <u>No ACC accel below</u> - The car will not provide any gas below these speeds.  0 mph means that the vehicle is capable of stop-and-go driving.
+* <u>No ACC accel below</u> - Cruise control will not work below these speeds.  0 mph means that the vehicle is capable of stop-and-go driving.
   * Footnote 1, see the [comma pedal](https://github.com/commaai/openpilot/wiki/Toyota-Lexus#comma-pedal).
   * For footnote 4 see [openpilot Camry Support](https://github.com/commaai/openpilot/wiki/Toyota-Lexus#toyota-camry-support).
 * <u>No ALC below</u> - No [lateral control](https://github.com/commaai/openpilot/wiki/Toyota-Lexus#lateral-control), this doesn't apply to any supported Toyota/Lexus vehicles currently.
