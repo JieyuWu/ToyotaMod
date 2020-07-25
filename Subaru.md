@@ -17,6 +17,7 @@ Pre-Global Platform | Pre-Global | Refers to models with ES predating Global Pla
 ## Global
 | Make      | Model (US Market Reference)   | Supported Package | ACC              | No ACC accel below | No ALC below |
 | ----------| ------------------------------| ------------------| -----------------| -------------------| -------------|
+| Subaru    | Ascent 2019                   | EyeSight          | Stock            | 0mph               | 0mph         |
 | Subaru    | Crosstrek 2018-19             | EyeSight          | Stock            | 0mph               | 0mph         |
 | Subaru    | Forester 2019                 | EyeSight          | Stock            | 0mph               | 0mph         |
 | Subaru    | Impreza 2017-19               | EyeSight          | Stock            | 0mph               | 0mph         |
@@ -69,7 +70,7 @@ Drives
 # Work in progress
 | Make      | Model (US Market Reference)   | Supported Package | ACC              | No ACC accel below | No ALC below |
 | ----------| ------------------------------| ------------------| -----------------| -------------------| -------------|
-| Subaru    | Ascent 2019-20                | EyeSight          | Stock            | 0mph               | 0mph         |
+| Subaru    | Ascent 2020                   | EyeSight          | Stock            | 0mph               | 0mph         |
 | Subaru    | Crosstrek 2020                | EyeSight          | Stock            | 0mph               | 0mph         |
 | Subaru    | Crosstrek 2020 Hybrid         | EyeSight          | Stock            | 0mph               | 0mph         |
 | Subaru    | Outback 2019                  | EyeSight          | Stock            | 0mph               | 0mph         |
