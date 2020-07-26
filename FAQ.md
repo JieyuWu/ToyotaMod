@@ -19,7 +19,7 @@ Table of Contents
      * [How do I delete my drives?](#how-do-i-delete-my-drives)
      * [How can I reset the device?](#how-can-i-reset-the-device)
      * [What is the comma two hardware?](#what-is-the-comma-two-hardware)
-     * [I can't See My Screen While Wearing Polarized Sunglasses](#i-cant-see-my-screen-while-wearing-polarized-sunglasses)
+     * [I can't see my screen while wearing polarized sunglasses](#i-cant-see-my-screen-while-wearing-polarized-sunglasses)
      * [Will the Comma 2 Drain my Car Battery?](#will-the-comma-2-drain-my-car-battery)
      * [Can I adjust the brightness calibration?](#can-i-adjust-the-brightness-calibration)
      * [When are my videos uploaded to the cloud?](#when-are-my-videos-uploaded-to-the-cloud)
@@ -71,7 +71,7 @@ See the instructions for how to [checkout a specific release](https://github.com
 ### What is the comma two hardware?
 > LeEco LePro 3, Snapdragon 821. Battery and driver camera infrared cut filter are removed. GPS is a NEO-M8.
 
-### I can't See My Screen While Wearing Polarized Sunglasses
+### I can't see my screen while wearing polarized sunglasses
 > Try a matte screen protector film which can be trimmed with scissors to fix the screen, that will stop glare and enable you to see the screen with polarized lenses.  This [one from amazon](https://smile.amazon.com/gp/product/B01BZFRC0Y) has been used and recommended.
 
 ### Will the Comma 2 Drain my Car Battery?
