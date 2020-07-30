@@ -12,6 +12,9 @@ Table of Contents
      * [What is lateral control?](#what-is-lateral-control)
      * [What is longitudinal control?](#what-is-longitudinal-control)
      * [How does Lane Change Assist Work?](#how-does-lane-change-assist-work)
+     * [How to a Change a Specific Release?](#how-to-a-change-a-specific-release)
+     * [Where are my videos stored? How can I stitch the segments together?](#where-are-my-videos-stored-how-can-i-stitch-the-segments-together)
+     * [When are my videos uploaded to the cloud?](#when-are-my-videos-uploaded-to-the-cloud)
    * [comma two](#comma-two)
      * [Why won't my comma two turn on?](#why-wont-my-comma-two-turn-on)
      * [What is a Dongle ID?](#what-is-a-dongle-id)
@@ -22,7 +25,6 @@ Table of Contents
      * [I can't see my screen while wearing polarized sunglasses](#i-cant-see-my-screen-while-wearing-polarized-sunglasses)
      * [Will the Comma 2 Drain my Car Battery?](#will-the-comma-2-drain-my-car-battery)
      * [Can I adjust the brightness calibration?](#can-i-adjust-the-brightness-calibration)
-     * [When are my videos uploaded to the cloud?](#when-are-my-videos-uploaded-to-the-cloud)
      * [My storage space is filling up, How long are drive segments kept on my device?](#my-storage-space-is-filling-up-how-long-are-drive-segments-kept-on-my-device)
    * [Development](#development)
      * [What is the openpilot development workflow? / What are the branches master, devel, and release?](#what-is-the-openpilot-development-workflow--what-are-the-branches-master-devel-and-release)
@@ -31,7 +33,6 @@ Table of Contents
      * [How do I search on discord?](#how-do-i-search-on-discord)
      * [How do I read discord channel pins?](#how-do-i-read-discord-channel-pins)
      * [How do I read the channel description?](#how-do-i-read-the-channel-description)
-
 
 # openpilot
 
@@ -50,6 +51,9 @@ Table of Contents
 ### How to a Change a Specific Release?
 
 > See the instructions for how to [checkout a specific release](https://github.com/commaai/openpilot/wiki/Update-Modify-openpilot#how-to-checkout-a-specific-release).
+
+### When are my videos uploaded to the cloud?
+> With comma prime, low quality videos and condensed logs are uploaded constantly, but at a maximum rate of 512kbps.  When your device connects to wifi and the vehicle is stopped, it will upload the full logs and high quality videos.
 
 ### Where are my videos stored? How can I stitch the segments together?
 
@@ -93,9 +97,6 @@ cat fcamera* > output.hevc
 
 ### Can I adjust the brightness calibration?
 > Yes. You can adjust your light sensor calibration in /persist!/params/d/BRIGHTNESS_M and P. M is multiplicative, P is an offset. If it's good at night but dim during the day, increase M. If it's too dim for your liking everywhere, then adjust P.
-
-### When are my videos uploaded to the cloud?
-> With comma prime, low quality videos and condensed logs are uploaded constantly, but at a maximum rate of 512kbps.  When your device connects to wifi and the vehicle is stopped, it will upload the full logs and high quality videos.
 
 ### My storage space is filling up, How long are drive segments kept on my device?
 > Videos used to be deleted on the device after upload.  Now they are saved on your device until additional room is needed.  When less than 5GB or 10% of the drive space remains, the oldest segments will be deleted to clear up room.  On the Comma 2, this results storage for  around 12 hours of segments.  The oldest segments will be deleted to make room for new segments even if the old segments have not been uploaded.
