@@ -73,6 +73,7 @@ Drives
 | Subaru    | Ascent 2020                   | EyeSight          | Stock            | 0mph               | 0mph         |
 | Subaru    | Crosstrek 2020                | EyeSight          | Stock            | 0mph               | 0mph         |
 | Subaru    | Crosstrek 2020 Hybrid         | EyeSight          | Stock            | 0mph               | 0mph         |
+| Subaru    | Forester 2020                 | EyeSight          | Stock            | 0mph               | 0mph         |
 | Subaru    | Outback 2019                  | EyeSight          | Stock            | 0mph               | 0mph         |
 | Subaru    | Outback 2020                  | EyeSight          | Stock            | 0mph               | 0mph         |
 
