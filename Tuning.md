@@ -5,17 +5,18 @@
 # Lateral Tuning
 
 ### Quick INDI tuning strategy
- - Use moderate values for inner and outer loop (not too high), Prius values: inner 4, outer 3
- - Avoid instability: oscillations or sloppy lane keeping
- - Change one parameter by less than 25% at a time, for clean experimentation
- - Tune actuator effectiveness and actuator delay first. Try to make them as low as possible
- - Tune time constant as low as possible: just above noisy actuation
- - Tune innerloop (steer rate error gain) as high as possible
- - Tune outerloop (steer error gain) as high as possible
+ - Start with moderate values for outer (angle error) and inner (rate error) loops, Prius values: inner 4, outer 3
+ - Avoid instability: jerky over-steering, oscillations, or sloppy lane keeping
+ - Change one parameter by less than 10% at a time, with clean experiments on the same road segment and speed.
+ - Tune actuator delay first. Lowest value that enters and exits curves on time.
+ - Tune actuator effectiveness. Lowest value without oversteering - may vary with speed.
+ - Tune time constant. Lowest value with smooth actuation.
+ - Tune inner loop (steer rate error gain). Highest value with steady corrections on curves.
+ - Tune outer loop (steer error gain). Highest value with smooth corrections on straights.
 
 ### Notes on INDI tuning parameters
 * steerActuatorDelay
-  * Control ego ahead on plan
+  * Controls from on plan forecast
   * Plan(now + steerActuatorDelay) -> Vehicle Model -> Desired Steer Output
   * Crude
     * If turning too early, decrease steerActuatorDelay
@@ -26,20 +27,20 @@
     * Find median phase delay in frequency domain?
     * Find maximum correlation of varying time delay?
 * lateralTuning.indi.actuatorEffectiveness
-  * Reduce actuation strength as effectiveness increases
-  * Too high: weak, sloppy lane centering, slow oscillation
-  * Too low: overpower, saturation, fast oscillation
+  * As effectiveness increases, actuation strength decreases
+  * Too high: weak, sloppy lane centering, slow oscillation, can't follow high curvature
+  * Too low: overpower, saturation, jerky, fast oscillation
   * Just right: just above fast oscillation
 * lateralTuning.indi.timeConstant
   * Extend exponential decay of prior output steer
-  * Too high: sloppy, cannot reach desired steer angle
+  * Too high: sloppy lane centering
   * Too low: noisy actuation, responds to every bump
-  * Just right: just above noisy actuation
+  * Just right: just above noisy actuation and lane centering instability
 * lateralTuning.indi.innerLoopGain
   * Steer rate error gain
   * Too high: jerky oscillation in high curvature
   * Too low: sloppy, cannot accomplish desired steer angle
-  * Just right: brief oscillation on entering high curvature
+  * Just right: brief snap on entering high curvature
 * lateralTuning.indi.outerLoopGain
   * Steer error gain
   * Too high: twitchy hyper lane centering
