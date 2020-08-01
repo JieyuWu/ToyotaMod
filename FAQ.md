@@ -96,7 +96,7 @@ cat fcamera* > output.hevc
 > It shouldn't.  The Comma 2 is designed to turn off after 30 hours of inactivity.  That said, some of the 12v batteries used in hybrid vehicles are rather small (they are mainly used to boot up the computers, at which time the large hybrid battery charges the 12v batteries.)
 
 ### Can I adjust the brightness calibration?
-> Yes. You can adjust your light sensor calibration in /persist!/params/d/BRIGHTNESS_M and P. M is multiplicative, P is an offset. If it's good at night but dim during the day, increase M. If it's too dim for your liking everywhere, then adjust P.
+> Yes. You can adjust your light sensor calibration in /persist/comma/params/d/BRIGHTNESS_M and P. M is multiplicative, P is an offset. If it's good at night but dim during the day, increase M. If it's too dim for your liking everywhere, then adjust P.
 
 ### My storage space is filling up, How long are drive segments kept on my device?
 > Videos used to be deleted on the device after upload.  Now they are saved on your device until additional room is needed.  When less than 5GB or 10% of the drive space remains, the oldest segments will be deleted to clear up room.  On the Comma 2, this results storage for  around 12 hours of segments.  The oldest segments will be deleted to make room for new segments even if the old segments have not been uploaded.
