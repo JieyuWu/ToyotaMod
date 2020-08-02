@@ -59,6 +59,31 @@ Ensure that every single ecu has its firmware in this file.
 4. After changes are made, push to your repo
 5. Create a pull request to ensure the car is supported in the next release
 
+## Fingerprinting 2.0 (Alternative)
+
+*Wiki entry WIP* 🚧
+
+This does not require login to Comma Connect, in case it is down or you are unable to pair:
+
+Open one SSH connection/session/window:
+
+```sh
+cd /data/openpilot/selfdrive/boardd
+pkill ./manager.py
+./boardd
+```
+
+In another connection/session/window:
+
+```sh
+cd /data/openpilot/selfdrive/car/
+python fw_versions.py
+```
+
+Start Car when message shows getting Vin then run `python fw_versions.py` again.
+
+Use information from script outputs like the main set of instructions for fingerprinting 2.0 above.
+
 # Fingerprinting 1.0
 The deprecated version of fingerprinting. Used for most community supported makes.
 
