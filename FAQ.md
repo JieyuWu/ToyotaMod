@@ -69,6 +69,12 @@ cat fcamera1.hevc fcamera2.hevc fcamera3.hevc > output.hevc
 cat fcamera* > output.hevc
 ```
 
+> Yet another option that doesn't require any renaming, simply change the date and time to match the start of your drive:
+```
+cd /data/realdata
+find . -type f -wholename "*2020-08-01--09-01-14--*/*.hevc" -exec cat {} + > drive.hevc
+```
+
 # comma two
 
 ### Why won't my comma two turn on?
