@@ -36,6 +36,8 @@ ASCM in the trunk:
 Any GM vehicle 2016+ with front camera and LKAs. These will only have ALC (aka lane centering), but not ACC via OpenPilot.
 See [Unofficial GM fork](https://shulerent.com/openpilot-2019-chevy-bolt-port/) for more info.
 
+For the Chevy Bolt specifically, see the [openpilot Bolt wiki](https://github.com/commaai/openpilot/wiki/Chevy-Bolt).
+
 # openpilot Capabilities
 
 ## Lateral Control
