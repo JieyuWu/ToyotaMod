@@ -12,7 +12,7 @@ See [SSH](../wiki/SSH) for more information.
 
 ### Run the command
 
-`make recover` or `make`
+`pkill -f boardd; cd /data/openpilot/panda/board; make; reboot`
 
 Doing this a few times may unstick a panda that isn't flashing properly.
 
