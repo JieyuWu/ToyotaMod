@@ -1,0 +1,3 @@
+Picking up where J. Shuler left off...
+
+![](http://justine-haupt.com/bolt/images/openpilot_BoltConfigurations.png)
