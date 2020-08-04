@@ -70,7 +70,7 @@ Drives
 # Work in progress
 | Make      | Model (US Market Reference)   | Supported Package | ACC              | No ACC accel below | No ALC below | Comments |
 | ----------| ------------------------------| ------------------| -----------------| -------------------| -------------| ---------|
-| Subaru    | Ascent 2020                   | EyeSight          | Stock            | 0mph               | 0mph         | Requires FPv2 |
+| Subaru    | Ascent 2020                   | EyeSight          | Stock            | 0mph               | 0mph         | FPv1 same as Impreza, Requires FPv2 |
 | Subaru    | Crosstrek 2020                | EyeSight          | Stock            | 0mph               | 0mph         | Different torque limits |
 | Subaru    | Crosstrek 2020 Hybrid         | EyeSight          | Stock            | 0mph               | 0mph         | New/different hybrid signals, harness pin swap |
 | Subaru    | Forester 2020                 | EyeSight          | Stock            | 0mph               | 0mph         | CruiseControl message is not used |
