@@ -68,14 +68,14 @@ Drives
 - [2018 Subaru Impreza City Drive Timelapse](https://www.youtube.com/watch?v=LMCTiQE_Ado)
 
 # Work in progress
-| Make      | Model (US Market Reference)   | Supported Package | ACC              | No ACC accel below | No ALC below |
-| ----------| ------------------------------| ------------------| -----------------| -------------------| -------------|
-| Subaru    | Ascent 2020                   | EyeSight          | Stock            | 0mph               | 0mph         |
-| Subaru    | Crosstrek 2020                | EyeSight          | Stock            | 0mph               | 0mph         |
-| Subaru    | Crosstrek 2020 Hybrid         | EyeSight          | Stock            | 0mph               | 0mph         |
-| Subaru    | Forester 2020                 | EyeSight          | Stock            | 0mph               | 0mph         |
-| Subaru    | Outback 2019                  | EyeSight          | Stock            | 0mph               | 0mph         |
-| Subaru    | Outback 2020                  | EyeSight          | Stock            | 0mph               | 0mph         |
+| Make      | Model (US Market Reference)   | Supported Package | ACC              | No ACC accel below | No ALC below | Comments |
+| ----------| ------------------------------| ------------------| -----------------| -------------------| -------------| ---------|
+| Subaru    | Ascent 2020                   | EyeSight          | Stock            | 0mph               | 0mph         | Requires FPv2 |
+| Subaru    | Crosstrek 2020                | EyeSight          | Stock            | 0mph               | 0mph         | Different torque limits |
+| Subaru    | Crosstrek 2020 Hybrid         | EyeSight          | Stock            | 0mph               | 0mph         | New/different hybrid signals, harness pin swap |
+| Subaru    | Forester 2020                 | EyeSight          | Stock            | 0mph               | 0mph         | CruiseControl message is not used |
+| Subaru    | Outback 2019                  | EyeSight          | Stock            | 0mph               | 0mph         | Reversed driver torque signal |
+| Subaru    | Outback 2020                  | EyeSight          | Stock            | 0mph               | 0mph         | New/different signals, harness pin swap |
 
 WIP models support is incomplete and untested
 - current state https://github.com/martinl/openpilot/tree/subaru-PR-test
