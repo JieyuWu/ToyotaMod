@@ -3,7 +3,7 @@
 |![](http://justine-haupt.com/bolt/images/openpilot_bolt_comma2.png)| ![](http://justine-haupt.com/bolt/images/openpilot_bolt_jshuler.png)|
 | ------------- |:-------------:|
 |![](http://justine-haupt.com/bolt/images/openpilot_bolt_NVIDIAJetsonNano.png)|
-
+To contribute to the above diagrams, download the [svg file](http://www.justine-haupt.com/bolt/images/openpilot_systemdiagram.svg) and use Inkscape.
 ## Running on an NVIDIA Jetson Nano instead of a Comma 2 ##
 Advanced configuration. If you just want reliable L2 autonomy on your Chevy Bolt, use the Comma 2.
 ### Installation (work in progress 8/4/20) ###
