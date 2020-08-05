@@ -21,7 +21,7 @@
 15. Run #chown $USER /data/params
 
 ### Connecting to car/hardware and running openpilot ###
-* The camera indexes are set based on the order in which they're connected. To edit this look at ~/openpilot/selfdrive/camerad/cameras/camera_webcam.cc
+Note: The camera indexes are set based on the order in which they're connected. To edit this look at ~/openpilot/selfdrive/camerad/cameras/camera_webcam.cc
 1. Connect the road facing camera first, then the driver facing camera
 2. Connect computer to panda
 3. In ~/openpilot/tools/webcam run $./accept_terms.py 
