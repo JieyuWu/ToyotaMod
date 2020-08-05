@@ -9,6 +9,7 @@ To contribute to the above diagrams, download the [svg file](http://www.justine-
 ## Running on an NVIDIA Jetson Nano instead of a Comma 2 ##
 Advanced configuration. If you just want reliable L2 autonomy on your Chevy Bolt, use the Comma 2.
 ### Installation (work in progress 8/5/20) ###
+Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/tools/webcam)
 1. Download the OS image from nvidia and flash it to a microSD card
 2. Boot the Jetson and go through the configuration process. Connect to a network (a Wifi dongle is needed)
 3. SSH is enabled by default. Can log in remotely at this point.
@@ -35,5 +36,3 @@ Note: The camera indexes are set based on the order in which they're connected. 
 4. In ~/openpilot/selfdrive run $PASSIVE=0 NOSENSOR=1 WEBCAM=1 ./manager.py
 5. Start the car. The UI should show the road webcam's view
 6. Engage
-
-These instructions compiled and modified from the [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/tools/webcam)
