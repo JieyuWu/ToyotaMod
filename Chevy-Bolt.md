@@ -7,11 +7,11 @@
 1. Download the OS image from nvidia and flash it to a microSD card
 2. Boot the Jetson and go through the configuration process. Connect to a network (a Wifi dongle is needed)
 3. SSH is enabled by default. Can log in remotely at this point.
-4. Install Python 3.8 (or 3.7?)
+4. Install Python 3.8
 5. In your .bashrc file, add "export PYTHONPATH=$HOME/openpilot"
-6. In ~/openpilot/tools run ubuntu_setup.sh. This just installs all the dependencies needed for openpilot.
-> This may take a very long time, and may fail on a bunch of dependencies. The ubuntu_setup.sh script uses pip to install dependencies and for some reason the following failed for me: h5py, kiwisolver, matplotlib, opencv-python, osmium, pygame, pyproj, scipy, shapely, tensorflow, sympy
-6b. Solution to above problem: run #apt install h5py
+6. In ~/openpilot/tools run ubuntu_setup.sh, which just installs all the dependencies needed for openpilot. When it gets to the point where it says "Installing dependencies from Pipfile.lock" it will take a very long time and eventually (probably), fail. This is part of the pipenv install process (line 88 in ubuntu_setup.sh). Specifically, the following installations failed for me: h5py, kiwisolver, matplotlib, opencv-python, osmium, pygame, pyproj, scipy, shapely, tensorflow, sympy
+6a. The fix:
+
 7. Install tensorflow 2.2 
 8. Install nvidia drivers: nvidia-xxx/cuda10.0/cudnn7.6.5
 9. Install OpenCL Driver
