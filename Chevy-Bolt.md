@@ -3,7 +3,7 @@
 ![](http://justine-haupt.com/bolt/images/openpilot_BoltConfigurations.png)
 
 ## Running on an NVIDIA Jetson Nano instead of a Comma 2 ##
-### Installation ###
+### Installation (work in progress 8/4/20) ###
 1. Download the OS image from nvidia and flash it to a microSD card
 2. Boot the Jetson and go through the configuration process. Connect to a network (a Wifi dongle is needed)
 3. SSH is enabled by default. Can log in remotely at this point.
