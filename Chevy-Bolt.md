@@ -16,7 +16,7 @@ Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/
 4. Install Python 3.8
 5. In your .bashrc file, add "export PYTHONPATH=$HOME/openpilot"
 6. In ~/openpilot/tools run ubuntu_setup.sh, which just installs all the dependencies needed for openpilot. When it gets to the point where it says "Installing dependencies from Pipfile.lock" it will take a very long time and eventually (probably), fail. This is part of the pipenv install process (line 88 in ubuntu_setup.sh). Specifically, the following installations failed for me: h5py, kiwisolver, matplotlib, opencv-python, osmium, pygame, pyproj, scipy, shapely, tensorflow, sympy
-   1. The fix:
+   1. The fix: According to [this](https://forums.developer.nvidia.com/t/tensorflow-installation-hang-at-h5py/75717) NVIDIA forum, installing the packages in a different order, such that h5py happens later, may clear the issue. The packages can be installed manually, one by one, with either apt or pip. 
 
 7. Install tensorflow 2.2 
 8. Install nvidia drivers: nvidia-xxx/cuda10.0/cudnn7.6.5
