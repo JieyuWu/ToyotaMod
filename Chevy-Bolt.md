@@ -13,12 +13,14 @@ Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/
 1. Download the Ubuntu-based OS image (JetPack) from nvidia and flash it to a microSD card
 2. Boot the Jetson and go through the configuration process. Connect to a network (a Wifi dongle is needed)
 3. SSH is enabled by default. Can log in remotely at this point.
-4. Install Python 3.8 (edit: already installed on Jeton?)
-5. In your .bashrc file, add "export PYTHONPATH=$HOME/openpilot"
-6. In ~/openpilot/tools run ubuntu_setup.sh, which just installs all the dependencies needed for openpilot. When it gets to the point where it says "Installing dependencies from Pipfile.lock" it will take a very long time and eventually (probably), fail. This is part of the pipenv install process (line 88 in ubuntu_setup.sh). Specifically, the following installations failed for me: h5py, kiwisolver, matplotlib, opencv-python, osmium, pygame, pyproj, scipy, shapely, tensorflow, sympy. 
+4. In the home directory do $git clone https://github.com/commaai/openpilot.git
+5. Add the openpilot directory to your python path (add "export PYTHONPATH=$HOME/openpilot" to the .bashrc file) and source it (or log out/in)
+6. The next step *should* be to run ubuntu_setup.sh in ~/openpilot/tools , which just installs all the dependencies needed for openpilot. However, this will fail on the Jetson Nano. Specifically, the pipenv installation tries, but fails, to install the following: h5py, kiwisolver, matplotlib, opencv-python, osmium, pygame, pyproj, scipy, shapely, tensorflow, sympy. 
     1. THE FIX -- Install packages manually, and in a certain order:
+        1. Use mdegan's nano_build_opencv script to install OpenCV on the Nano: Do $git clone https://github.com/mdegans/nano_build_opencv.git, cd into nano_build_opencv, and run build_opencv.sh.
         1. Install TensorFlow, which is a special case on the Jetson. To install, follow [these instructions](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html). This will install some of the other dependencies required by pipenv, like h5py.
-        2. $sudo apt install python3-pyosmium python-pygame python3-pyproj python3-shapely python3-opencv nvidia-cuda
+        2. $sudo apt install python3-pyosmium python3-pyproj python3-shapely python3-opencv nvidia-cuda
+        3. $pip install pygame
 
 
 7. Install nvidia drivers: nvidia-xxx/cuda10.0/cudnn7.6.5
