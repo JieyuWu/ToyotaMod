@@ -7,7 +7,7 @@
 1. Download the OS image from nvidia and flash it to a microSD card
 2. Boot the Jetson and go through the configuration process. Connect to a network (a Wifi dongle is needed)
 3. SSH is enabled by default. Can log in remotely at this point.
-4. Install Python 3.7
+4. Install Python 3.8 (not 3.7?)
 5. Run #pip install --upgrade pip
 6. In your .bashrc file, add "export PYTHONPATH=$HOME/openpilot"
 7. In ~/openpilot/tools run ubuntu_setup.sh
