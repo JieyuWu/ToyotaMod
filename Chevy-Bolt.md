@@ -10,13 +10,13 @@ To contribute to the above diagrams, download the [svg file](http://www.justine-
 This is an advanced configuration. If you just want reliable L2 autonomy on your Chevy Bolt, use the Comma 2.
 ### Installation (work in progress 8/5/20) ###
 Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/tools/webcam)
-1. Download the OS image from nvidia and flash it to a microSD card
+1. Download the Ubuntu-based OS image (JetPack) from nvidia and flash it to a microSD card
 2. Boot the Jetson and go through the configuration process. Connect to a network (a Wifi dongle is needed)
 3. SSH is enabled by default. Can log in remotely at this point.
-4. Install Python 3.8
+4. Install Python 3.8 (edit: already installed on Jeton?)
 5. In your .bashrc file, add "export PYTHONPATH=$HOME/openpilot"
 6. In ~/openpilot/tools run ubuntu_setup.sh, which just installs all the dependencies needed for openpilot. When it gets to the point where it says "Installing dependencies from Pipfile.lock" it will take a very long time and eventually (probably), fail. This is part of the pipenv install process (line 88 in ubuntu_setup.sh). Specifically, the following installations failed for me: h5py, kiwisolver, matplotlib, opencv-python, osmium, pygame, pyproj, scipy, shapely, tensorflow, sympy. According to [this](https://forums.developer.nvidia.com/t/tensorflow-installation-hang-at-h5py/75717) NVIDIA forum, installing the packages in a different order, such that h5py happens later, may clear the issue. The packages can be installed manually, one by one, with either apt or pip. 
-    1. THE FIX: Install packages manually, and in a certain order
+    1. THE FIX -- Install packages manually, and in a certain order:
         1. Install TensorFlow, which is a special case on the Jetson. To install, follow [these instructions](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html). This will install some of the other dependencies required by pipenv, like h5py.
         2. $sudo apt install python3-pyosmium python-pygame python3-pyproj python3-shapely python3-opencv nvidia-cuda
 
