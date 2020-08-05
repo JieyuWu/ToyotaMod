@@ -20,7 +20,13 @@
 14. Add /data and /data/params to the root directory.
 15. Run #chown $USER /data/params
 
-Notes: The camera indexes are set based on the order in which they're connected. To edit this look at ~/openpilot/selfdrive/camerad/cameras/camera_webcam.cc
-
+### Connecting to car/hardware and running openpilot ###
+* The camera indexes are set based on the order in which they're connected. To edit this look at ~/openpilot/selfdrive/camerad/cameras/camera_webcam.cc
+1. Connect the road facing camera first, then the driver facing camera
+2. Connect computer to panda
+3. In ~/openpilot/tools/webcam run $./accept_terms.py 
+4. In ~/openpilot/selfdrive run $PASSIVE=0 NOSENSOR=1 WEBCAM=1 ./manager.py
+5. Start the car. The UI should show the road webcam's view
+6. Engage
 
 These instructions compiled from the [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/tools/webcam)
