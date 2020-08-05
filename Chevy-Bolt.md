@@ -1,7 +1,6 @@
 
 
-![](http://justine-haupt.com/bolt/images/openpilot_bolt_comma2.png)
-![](http://justine-haupt.com/bolt/images/openpilot_bolt_jshuler.png)
+|![](http://justine-haupt.com/bolt/images/openpilot_bolt_comma2.png)| ![](http://justine-haupt.com/bolt/images/openpilot_bolt_jshuler.png)|
 ![](http://justine-haupt.com/bolt/images/openpilot_bolt_NVIDIAJetsonNano.png)
 
 ## Running on an NVIDIA Jetson Nano instead of a Comma 2 ##
