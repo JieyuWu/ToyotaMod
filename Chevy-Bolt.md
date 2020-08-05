@@ -9,7 +9,7 @@ To contribute to the above diagrams, download the [svg file](http://www.justine-
 ## Running on an NVIDIA Jetson Nano instead of a Comma 2 ##
 This is an advanced configuration. If you just want reliable L2 autonomy on your Chevy Bolt, use the Comma 2.
 ### Hardware ###
-#### As tested by J. Haupt: ####
+**As tested by J. Haupt:**
 * NVIDIA Jetson Nano running JetPack (NVIDIA's default OS based on Ubuntu)
 * 64GB MicroSD Card 
 * 5.5" OLED HDMI display, namely [this one](https://www.amazon.com/5-5inch-HDMI-AMOLED-Resolution-Capacitive/dp/B07N8WWDRK)
