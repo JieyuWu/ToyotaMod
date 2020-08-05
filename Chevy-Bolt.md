@@ -10,7 +10,7 @@
 4. Install Python 3.8
 5. In your .bashrc file, add "export PYTHONPATH=$HOME/openpilot"
 6. In ~/openpilot/tools run ubuntu_setup.sh, which just installs all the dependencies needed for openpilot. When it gets to the point where it says "Installing dependencies from Pipfile.lock" it will take a very long time and eventually (probably), fail. This is part of the pipenv install process (line 88 in ubuntu_setup.sh). Specifically, the following installations failed for me: h5py, kiwisolver, matplotlib, opencv-python, osmium, pygame, pyproj, scipy, shapely, tensorflow, sympy
-6a. The fix:
+   1. The fix:
 
 7. Install tensorflow 2.2 
 8. Install nvidia drivers: nvidia-xxx/cuda10.0/cudnn7.6.5
