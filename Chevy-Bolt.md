@@ -9,7 +9,9 @@
 3. SSH is enabled by default. Can log in remotely at this point.
 4. Install Python 3.8 (or 3.7?)
 5. In your .bashrc file, add "export PYTHONPATH=$HOME/openpilot"
-6. In ~/openpilot/tools run ubuntu_setup.sh
+6. In ~/openpilot/tools run ubuntu_setup.sh. This just installs all the dependencies needed for openpilot.
+> This may take a very long time, and may fail on a bunch of dependencies. The ubuntu_setup.sh script uses pip to install dependencies and for some reason the following failed for me: h5py, kiwisolver, matplotlib, opencv-python, osmium, pygame, pyproj, scipy, shapely, tensorflow, sympy
+6b. Solution to above problem: run #apt install h5py
 7. Install tensorflow 2.2 
 8. Install nvidia drivers: nvidia-xxx/cuda10.0/cudnn7.6.5
 9. Install OpenCL Driver
@@ -29,4 +31,4 @@ Note: The camera indexes are set based on the order in which they're connected. 
 5. Start the car. The UI should show the road webcam's view
 6. Engage
 
-These instructions compiled from the [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/tools/webcam)
+These instructions compiled and modified from the [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/tools/webcam)
