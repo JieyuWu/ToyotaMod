@@ -1,6 +1,8 @@
 
 
-![](http://justine-haupt.com/bolt/images/openpilot_BoltConfigurations.png)
+![](http://justine-haupt.com/bolt/images/openpilot_bolt_comma2.png)
+![](http://justine-haupt.com/bolt/images/openpilot_bolt_jshuler.png)
+![](justine-haupt.com/bolt/images/openpilot_bolt_NVIDIAJetsonNano.png)
 
 ## Running on an NVIDIA Jetson Nano instead of a Comma 2 ##
 ### Installation (work in progress 8/4/20) ###
