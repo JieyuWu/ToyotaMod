@@ -12,6 +12,7 @@ This is an advanced configuration. If you just want reliable L2 autonomy on your
 *As tested by J. Haupt*
 * NVIDIA [Jetson Nano](https://developer.nvidia.com/buy-jetson?product=jetson_nano&location=US) running JetPack (NVIDIA's default OS based on Ubuntu)
 * Case and cooling fan for the Nano
+* Power cable (TBD -- Will test first w/ USB power in Bolt. Plan Bs: 12V port or OBD-II)
 * 64GB MicroSD Card 
 * 5.5" OLED HDMI display, namely [this one](https://www.amazon.com/5-5inch-HDMI-AMOLED-Resolution-Capacitive/dp/B07N8WWDRK)
 * Two Logitech C920 HD webcams (or one plus something else). The C920 is hard to get (or discontinued?), so I resorted to eBay.
