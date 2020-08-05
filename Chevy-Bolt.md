@@ -8,6 +8,13 @@ To contribute to the above diagrams, download the [svg file](http://www.justine-
 
 ## Running on an NVIDIA Jetson Nano instead of a Comma 2 ##
 This is an advanced configuration. If you just want reliable L2 autonomy on your Chevy Bolt, use the Comma 2.
+### Hardware ###
+#### As tested by J. Haupt: ####
+* NVIDIA Jetson Nano running JetPack (NVIDIA's default OS based on Ubuntu)
+* 64GB MicroSD Card 
+* 5.5" OLED HDMI display, namely [this one](https://www.amazon.com/5-5inch-HDMI-AMOLED-Resolution-Capacitive/dp/B07N8WWDRK)
+* Two Logitech C920 HD webcams
+
 ### Installation (work in progress 8/5/20) ###
 Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/tools/webcam)
 1. Download the Ubuntu-based OS image (JetPack) from nvidia and flash it to a microSD card
