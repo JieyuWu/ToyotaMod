@@ -1,12 +1,11 @@
 ## System Diagrams ##
-|||
+
+|![](http://justine-haupt.com/bolt/images/openpilot_bolt_comma2.png)| ![](http://justine-haupt.com/bolt/images/openpilot_bolt_jshuler.png)|
 | ------------- |:-------------:|
-||![](http://justine-haupt.com/bolt/images/openpilot_bolt_comma2.png)| ![](http://justine-haupt.com/bolt/images/openpilot_bolt_jshuler.png)|
 |![](http://justine-haupt.com/bolt/images/openpilot_bolt_NVIDIAJetsonNano.png)|
 
-
-
 ## Running on an NVIDIA Jetson Nano instead of a Comma 2 ##
+Advanced configuration. If you just want reliable L2 autonomy on your Chevy Bolt, use the Comma 2.
 ### Installation (work in progress 8/4/20) ###
 1. Download the OS image from nvidia and flash it to a microSD card
 2. Boot the Jetson and go through the configuration process. Connect to a network (a Wifi dongle is needed)
