@@ -33,7 +33,8 @@ AHBC | Automatic High Beam Control |
 APA | Active Park Assist |
 APIM | Accessory Protocol Interface Module | SYNC Screen
 BLIS | Blind Spot Information System |
-CCM | Cruise Control Module | ACC Radar Module
+CADS | Collision Avoidance Detection System | ACC Radar Module for Stop/Go (IPMA does longitudinal calcs)
+CCM | Cruise Control Module | ACC Radar Module for Non Stop/Go
 CTA | Cross Traffic Alert | 
 DAS | Driver Alertness System |
 FCIM | Front Controls Interface Module | SYNC Surround (Climate, Hazards, 360 Cam, Hill Descent)
