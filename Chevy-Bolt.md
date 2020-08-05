@@ -8,17 +8,18 @@
 2. Boot the Jetson and go through the configuration process. Connect to a network (a Wifi dongle is needed)
 3. SSH is enabled by default. Can log in remotely at this point.
 4. Install Python 3.7
-5. In your .bashrc file, add "export PYTHONPATH=$HOME/openpilot"
-5. In ~/openpilot/tools run ubuntu_setup.sh
-6. Install tensorflow 2.2 
-7. Install nvidia drivers: nvidia-xxx/cuda10.0/cudnn7.6.5
-8. Install OpenCL Driver
-9. Install OpenCV4 (ignore the Python part)
-10. In ~/openpilot/selfdrive/camerad/cameras/camera_webcam.cc, edit lines 72 and 146 as needed if any cameras are inverted
-11. Build and compile openpilot by running $scons use_webcam=1 (in ~/openpilot directory)
-12. Run $touch prebuilt
-13. Add /data and /data/params to the root directory.
-14. Run #chown $USER /data/params
+5. Run #pip install --upgrade pip
+6. In your .bashrc file, add "export PYTHONPATH=$HOME/openpilot"
+7. In ~/openpilot/tools run ubuntu_setup.sh
+8. Install tensorflow 2.2 
+9. Install nvidia drivers: nvidia-xxx/cuda10.0/cudnn7.6.5
+10. Install OpenCL Driver
+11. Install OpenCV4 (ignore the Python part)
+12. In ~/openpilot/selfdrive/camerad/cameras/camera_webcam.cc, edit lines 72 and 146 as needed if any cameras are inverted
+13. Build and compile openpilot by running $scons use_webcam=1 (in ~/openpilot directory)
+14. Run $touch prebuilt
+15. Add /data and /data/params to the root directory.
+16. Run #chown $USER /data/params
 
 Notes: The camera indexes are set based on the order in which they're connected. To edit this look at ~/openpilot/selfdrive/camerad/cameras/camera_webcam.cc
 
