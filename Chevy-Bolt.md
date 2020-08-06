@@ -31,7 +31,7 @@ Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/
     2. Reboot Nano (working headless you wouldn't know, but a message pops up on the display at some point asking for a reboot, yikes!)
     3. Install TensorFlow by following [these instructions](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html). This will install some of the other dependencies required by pipenv, like h5py. NOTE, when issueing the last command in those instructions (the one that actually installs tensorflow with "pip3 install", run with "sudo -H" instead of just sudo.
 
-----work in progress up to this point so far (8/5/20)-----
+----work in progress (8/5/20)-----
 
     4. Now run ubuntu_setup.sh (in ~/openpilot/tools)
 ????
