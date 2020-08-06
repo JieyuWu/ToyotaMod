@@ -19,7 +19,7 @@ This is an advanced configuration. If you just want reliable L2 autonomy on your
 
 *(As tested by J. Haupt)*
 
-### Installation (work in progress 8/5/20) ###
+### Installation ###
 Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/tools/webcam)
 1. Download the Ubuntu-based OS image (JetPack) from nvidia and flash it to a microSD card
 2. Boot the Jetson and go through the configuration process. Connect to a network (a Wifi dongle is needed)
@@ -31,6 +31,8 @@ Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/
     2. Reboot Nano (working headless you wouldn't know, but a message pops up on the display at some point asking for a reboot, yikes!)
     3. Install TensorFlow by following [these instructions](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html). This will install some of the other dependencies required by pipenv, like h5py. NOTE, when issueing the last command in those instructions (the one that actually installs tensorflow with "pip3 install", run with "sudo -H" instead of just sudo.
     4. Now run ubuntu_setup.sh (in ~/openpilot/tools)
+
+----work in progress up to this point so far (8/5/20)-----
 
 ????
     4. $sudo apt install python3-pyosmium python3-pyproj python3-shapely python3-opencv nvidia-cuda
