@@ -29,7 +29,7 @@ Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/
 6. The next step *should* be to run ubuntu_setup.sh in ~/openpilot/tools, which just installs all the dependencies needed for openpilot. However, this will fail on the Jetson Nano. Specifically, the pipenv installation tries, but fails, to install the following: h5py, kiwisolver, matplotlib, opencv-python, osmium, pygame, pyproj, scipy, shapely, tensorflow, sympy. The issue is that a few of the dependencies have special installation processes on the Nano, and should be completed before running ubuntu_setup.sh. **THE FIX:**
     1. Use mdegan's nano_build_opencv script to install OpenCV on the Nano: Do $git clone https://github.com/mdegans/nano_build_opencv.git, cd into nano_build_opencv, and run build_opencv.sh. This takes a long time (many hours... 8?) to complete.
     2. Reboot Nano (working headless you wouldn't know, but a message pops up on the display at some point asking for a reboot, yikes!)
-    3. Install TensorFlow by following [these instructions](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html). This will install some of the other dependencies required by pipenv, like h5py.
+    3. Install TensorFlow by following [these instructions](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html). This will install some of the other dependencies required by pipenv, like h5py. NOTE, when issueing the last command in those instructions (the one that actually installs tensorflow with "pip3 install", run with "sudo -H" instead of just sudo.
     4. Now run ubuntu_setup.sh (in ~/openpilot/tools)
 
 ????
