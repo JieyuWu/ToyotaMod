@@ -16,6 +16,7 @@ This is an advanced configuration. If you just want reliable L2 autonomy on your
 * 5.5" OLED HDMI display, namely [this one](https://www.amazon.com/5-5inch-HDMI-AMOLED-Resolution-Capacitive/dp/B07N8WWDRK)
 * Two Logitech C920 HD webcams (or one plus something else). The C920 is hard to get (or discontinued?), so I resorted to eBay.
 * USB-A to USB-A cable to connect to Panda, or much more common USB-A to Mini-B along with Panda Paw.
+
 *(As tested by J. Haupt)*
 
 ### Installation (work in progress 8/5/20) ###
