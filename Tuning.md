@@ -4,23 +4,26 @@
 
 # Lateral Tuning
 
-### Quick INDI tuning strategy
- - Start with moderate values for outer (angle error) and inner (rate error) loops, Prius values: inner 4, outer 3
- - Avoid instability: jerky over-steering, oscillations, or sloppy lane keeping
- - Change one parameter by less than 10% at a time, with clean experiments on the same road segment and speed.
- - Tune actuator delay first. Lowest value that enters and exits curves on time.
- - Tune actuator effectiveness. Lowest value without oversteering - may vary with speed.
- - Tune time constant. Lowest value with smooth actuation.
- - Tune inner loop (steer rate error gain). Highest value with steady corrections on curves.
- - Tune outer loop (steer error gain). Highest value with smooth corrections on straights.
+### INDI tuning strategy
+ - Vary one parameter at a time, by less than 10%, finding lower and upper edges of stability.
+ - Use a road you travel often and know well, with straights and curves, and excellent lane markings on both sides.
+ - Start with moderate values for outer (angle error) and inner (rate error) loops,  like the Prius's outer 3, inner 4.
+ - Avoid instability: wobble, sloppy lane keeping, entering or exiting corners poorly, oscillating or jerky steering.
+
+1. CRITICAL: Tune actuator delay first. Enter and exit curves dead center, no wobble on straights.
+2. Tune actuator effectiveness. Lowest value without oversteering. May vary with speed.
+3. Tune time constant. Lowest value with smooth actuation.
+4. Tune inner loop (steer rate error gain). Highest value with smooth corrections on curves.
+5. Tune outer loop (steer error gain). Highest value with smooth corrections on straights.
 
 ### Notes on INDI tuning parameters
 * steerActuatorDelay
-  * Controls from on plan forecast
   * Plan(now + steerActuatorDelay) -> Vehicle Model -> Desired Steer Output
+  * Emits controls ahead on plan
   * Crude
     * If turning too early, decrease steerActuatorDelay
     * If turning too late, increase steerActuatorDelay
+    * On straight section, vary in small steps away from best guess until the plan wobbles left and right.
   * Fine
     * Steer torque, pose yaw are proportional
     * Normalize torque and yaw signals
@@ -28,7 +31,7 @@
     * Find maximum correlation of varying time delay?
 * lateralTuning.indi.actuatorEffectiveness
   * As effectiveness increases, actuation strength decreases
-  * Too high: weak, sloppy lane centering, slow oscillation, can't follow high curvature
+  * Too high: weak, sloppy lane centering, slow oscillation, can't follow high curvature, high steering error causes snappy corrections
   * Too low: overpower, saturation, jerky, fast oscillation
   * Just right: just above fast oscillation
 * lateralTuning.indi.timeConstant
