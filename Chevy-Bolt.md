@@ -9,7 +9,6 @@ To contribute to the above diagrams, download the [.svg file](http://www.justine
 ## Running on an NVIDIA Jetson Nano instead of a Comma 2 ##
 This is an advanced configuration. If you just want reliable L2 autonomy on your Chevy Bolt, use the Comma 2.
 ### Hardware ###
-*As tested by J. Haupt*
 * NVIDIA [Jetson Nano](https://developer.nvidia.com/buy-jetson?product=jetson_nano&location=US) running JetPack (NVIDIA's default OS based on Ubuntu)
 * Case and cooling fan for the Nano
 * Power cable (TBD -- Will test first w/ USB power in Bolt. Plan Bs: 12V port or OBD-II)
@@ -17,6 +16,7 @@ This is an advanced configuration. If you just want reliable L2 autonomy on your
 * 5.5" OLED HDMI display, namely [this one](https://www.amazon.com/5-5inch-HDMI-AMOLED-Resolution-Capacitive/dp/B07N8WWDRK)
 * Two Logitech C920 HD webcams (or one plus something else). The C920 is hard to get (or discontinued?), so I resorted to eBay.
 * USB-A to USB-A cable to connect to Panda, or much more common USB-A to Mini-B along with Panda Paw.
+*(As tested by J. Haupt)*
 
 ### Installation (work in progress 8/5/20) ###
 Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/tools/webcam)
