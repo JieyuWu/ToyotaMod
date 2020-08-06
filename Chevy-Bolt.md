@@ -64,3 +64,9 @@ Note: The camera indexes are set based on the order in which they're connected. 
 4. In ~/openpilot/selfdrive run $PASSIVE=0 NOSENSOR=1 WEBCAM=1 ./manager.py
 5. Start the car. The UI should show the road webcam's view
 6. Engage
+
+## References ##
+Giraffe Info:
+[Gerber files](http://www.justine-haupt.com/bolt/giraffefab/)
+[Parts list](http://www.justine-haupt.com/bolt/giraffeparts/)
+[J. Shuler's design page](https://easyeda.com/jshuler/chevy-bolt-openpilot-giraffe-rev-3)
