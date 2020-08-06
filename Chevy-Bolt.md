@@ -6,6 +6,13 @@
 
 To contribute to the above diagrams, download the [.svg file](http://www.justine-haupt.com/bolt/images/openpilot_systemdiagram.svg) and use Inkscape. The .svg file also includes a bunch of "general case" diagrams for openpilot not specific to the Bolt, but they may contain errors.
 
+## Comma 2 ##
+The Comma 2 has an onboard Panda and removes the need for the Giraffe by connecting directly to the car's buses.  To do this, you'll need a harness modified to connect properly to the right buses:
+
+TBD Diagram
+
+To connect the Comma Pedal you can tap into the ethernet run for the Comma Power using an ethernet splitter and extend it to the pedal.  (This configuration is untested on the Bolt).
+
 ## Running on an NVIDIA Jetson Nano instead of a Comma 2 ##
 This is an advanced configuration. If you just want reliable L2 autonomy on your Chevy Bolt, use the Comma 2.
 ### Hardware ###
