@@ -38,7 +38,7 @@ Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/
     2. Reboot Nano (working headless you wouldn't know, but a message pops up on the display at some point asking for a reboot, yikes!)
     3. Install TensorFlow by following [these instructions](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html). This will install some of the other dependencies required by pipenv, like h5py. NOTE, when issueing the last command in those instructions (the one that actually installs tensorflow with "pip3 install", run with "sudo -H" instead of just sudo.
     4. Now run ubuntu_setup.sh (in ~/openpilot/tools)
-7. Do `$sudo apt install scons cython nvidia-cuda`
+7. Do `$sudo apt install scons cython` ... need nvidia-cuda and nvidia-opencv too?
 8. Do `$pip3 install jinja2 sympy cffi pygame`
 9. In /usr/bin/scons, edit the shebang to use python3: `#! /usr/bin/python3`
 10. In ~/openpilot/selfdrive/boardd/boardd.cc, comment lines 41-43 (`const uint32_t NO_IGNITION_CNT_MAX = 2 * 60 * 60 * 30; 42 const float VBATT_START_CHARGING = 11.5; 43 const float VBATT_PAUSE_CHARGING = 11.0;`
