@@ -37,10 +37,9 @@ Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/
     1. Use mdegan's nano_build_opencv script to install OpenCV on the Nano: Do `$git clone https://github.com/mdegans/nano_build_opencv.git`, then cd into nano_build_opencv, and do `$./build_opencv.sh.` This takes a long time (many hours... 8?) to complete.
     2. Reboot Nano (working headless you wouldn't know, but a message pops up on the display at some point asking for a reboot, yikes!)
     3. Install TensorFlow by following [these instructions](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html). This will install some of the other dependencies required by pipenv, like h5py. NOTE, when issueing the last command in those instructions (the one that actually installs tensorflow with "pip3 install", run with "sudo -H" instead of just sudo.
+    4. Now run ubuntu_setup.sh (in ~/openpilot/tools). Everything should run fine until it gets to line 88 (`pipenv install --dev --system --deploy`), at which point will give "An error occured while installing" a few packages, like h5py v2.10.0 and some others. But if you run `$pip freeze` to display the versions of all installed modules, you should find that they are in fact installed. 
 
 ----work in progress (8/7/20)-----
-
-    4. Now run ubuntu_setup.sh (in ~/openpilot/tools). **everything runs fine until it gets to `pipenv install --dev --system --deploy'**
 
 7. Do `$sudo apt install scons cython` ... need nvidia-cuda and nvidia-opencv too?
 8. Do `$pip3 install jinja2 sympy cffi pygame pyopencl`
