@@ -41,8 +41,7 @@ Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/
 
 ----work in progress (8/6/20)-----
 
-7. Do $sudo apt install scons
-8. Do $pip3 install cython
+7. Do $sudo apt install scons cython
 
 
 ????
