@@ -24,7 +24,7 @@ This is an advanced configuration. If you just want reliable L2 autonomy on your
 * Two Logitech C920 HD webcams (or one plus something else). The C920 is hard to get (or discontinued?), so I resorted to eBay.
 * USB-A to USB-A cable to connect to Panda, or much more common USB-A to Mini-B along with Panda Paw.
 
-*(As tested by J. Haupt)*
+*(configuration tested by J. Haupt)*
 
 ### Installation ###
 Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/tools/webcam)
@@ -37,7 +37,10 @@ Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/
     1. Use mdegan's nano_build_opencv script to install OpenCV on the Nano: Do `$git clone https://github.com/mdegans/nano_build_opencv.git`, then cd into nano_build_opencv, and do `$./build_opencv.sh.` This takes a long time (many hours... 8?) to complete.
     2. Reboot Nano (working headless you wouldn't know, but a message pops up on the display at some point asking for a reboot, yikes!)
     3. Install TensorFlow by following [these instructions](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html). This will install some of the other dependencies required by pipenv, like h5py. NOTE, when issueing the last command in those instructions (the one that actually installs tensorflow with "pip3 install", run with "sudo -H" instead of just sudo.
-    4. Now run ubuntu_setup.sh (in ~/openpilot/tools)
+    4. Now run ubuntu_setup.sh (in ~/openpilot/tools). **IMPORTANT NOTE** This ultimately failed the first time I tried it. In desperation I tried changing the pyenv version numbers (lines 78 and 79) to the version of python3 that was already on the Jetson. That caused more trouble, so I reverted the numbers back to the original values and ran the script again to get back to the starting point, and this time it worked. So there's some kind of weird hack here and I don't know this process fixed it.
+
+----work in progress (8/7/20)-----
+
 7. Do `$sudo apt install scons cython` ... need nvidia-cuda and nvidia-opencv too?
 8. Do `$pip3 install jinja2 sympy cffi pygame pyopencl`
 9. In /usr/bin/scons, edit the shebang to use python3: `#! /usr/bin/python3`
