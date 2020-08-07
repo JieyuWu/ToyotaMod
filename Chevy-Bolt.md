@@ -40,7 +40,7 @@ Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/
 
 ----work in progress (8/7/20)-----
 
-    4. Now run ubuntu_setup.sh (in ~/openpilot/tools).
+    4. Now run ubuntu_setup.sh (in ~/openpilot/tools). **everything runs fine until it gets to `pipenv install --dev --system --deploy'**
 
 7. Do `$sudo apt install scons cython` ... need nvidia-cuda and nvidia-opencv too?
 8. Do `$pip3 install jinja2 sympy cffi pygame pyopencl`
