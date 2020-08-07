@@ -41,7 +41,12 @@ Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/
 7. Do `$sudo apt install scons cython`
 8. Do `$pip install jinja2`
 9. In /usr/bin/scons, edit the shebang to use python3: `#! /usr/bin/python3`
-12. Build and compile openpilot by running `$scons use_webcam=1` (in ~/openpilot directory)
+10. In ~/openpilot/selfdrive/boardd/boardd.cc, comment lines 41-43
+ `const uint32_t NO_IGNITION_CNT_MAX = 2 * 60 * 60 * 30;  // turn off charge after 30 hrs
+ const float VBATT_START_CHARGING = 11.5;
+ const float VBATT_PAUSE_CHARGING = 11.0;`
+
+11. Build and compile openpilot by running `$scons use_webcam=1` (in ~/openpilot directory)
 
 ----work in progress (8/6/20)-----
 
