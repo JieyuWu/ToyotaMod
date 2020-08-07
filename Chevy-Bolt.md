@@ -41,12 +41,7 @@ Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/
 7. Do `$sudo apt install scons cython`
 8. Do `$pip3 install jinja2 sympy cffi`
 9. In /usr/bin/scons, edit the shebang to use python3: `#! /usr/bin/python3`
-10. In ~/openpilot/selfdrive/boardd/boardd.cc, comment lines 41-43
-> 41 const uint32_t NO_IGNITION_CNT_MAX = 2 * 60 * 60 * 30;
-
-> 42 const float VBATT_START_CHARGING = 11.5;
-
-> 43 const float VBATT_PAUSE_CHARGING = 11.0;
+10. In ~/openpilot/selfdrive/boardd/boardd.cc, comment lines 41-43 (`const uint32_t NO_IGNITION_CNT_MAX = 2 * 60 * 60 * 30; 42 const float VBATT_START_CHARGING = 11.5; 43 const float VBATT_PAUSE_CHARGING = 11.0;`
 
 11. Build and compile openpilot by running `$scons use_webcam=1` (in ~/openpilot directory)
 
