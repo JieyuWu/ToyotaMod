@@ -39,7 +39,7 @@ Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/
     3. Install TensorFlow by following [these instructions](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html). This will install some of the other dependencies required by pipenv, like h5py. NOTE, when issueing the last command in those instructions (the one that actually installs tensorflow with "pip3 install", run with "sudo -H" instead of just sudo.
     4. Now run ubuntu_setup.sh (in ~/openpilot/tools). Everything should run fine until it gets to line 88 (`pipenv install --dev --system --deploy`), at which point will give "An error occured while installing" a few packages, like h5py v2.10.0 and some others. But if you run `$pip freeze` to display the versions of all installed modules, you should find that some are in fact installed, and the ones that aren't can be manually installed using pip.
 
-***8/7/20 -- everything below is untested***
+***work in progress -- everything below is untested (8/7/20 -jh)***
 
 7. Do `$sudo apt install scons cython` ... need nvidia-cuda and nvidia-opencv too?
 8. Do `$pip3 install jinja2 sympy cffi pygame pyopencl`
