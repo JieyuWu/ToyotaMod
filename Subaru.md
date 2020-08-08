@@ -28,7 +28,7 @@ Pre-Global Platform | Pre-Global | Refers to models with ES predating Global Pla
 | ----------| ------------------------------| ------------------| -----------------| -------------------| -------------|
 | Subaru    | Forester 2017-18              | EyeSight          | Stock            | 0mph               | 0mph         |
 | Subaru    | Legacy 2015-18                | EyeSight          | Stock            | 0mph               | 0mph         |
-| Subaru    | Outback 2015-18               | EyeSight          | Stock            | 0mph               | 0mph         |
+| Subaru    | Outback 2015-19               | EyeSight          | Stock            | 0mph               | 0mph         |
 
 Community supported models are available in custom fork at https://github.com/bugsy924/openpilot
 
@@ -74,7 +74,6 @@ Drives
 | Subaru    | Crosstrek 2020                | EyeSight          | Stock            | 0mph               | 0mph         | Different torque limits |
 | Subaru    | Crosstrek 2020 Hybrid         | EyeSight          | Stock            | 0mph               | 0mph         | New/different hybrid signals, harness pin swap |
 | Subaru    | Forester 2020                 | EyeSight          | Stock            | 0mph               | 0mph         | CruiseControl message is not used |
-| Subaru    | Outback 2019                  | EyeSight          | Stock            | 0mph               | 0mph         | Reversed driver torque signal |
 | Subaru    | Outback 2020                  | EyeSight          | Stock            | 0mph               | 0mph         | New/different signals, harness pin swap |
 
 WIP models support is incomplete and untested
