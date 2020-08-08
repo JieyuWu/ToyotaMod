@@ -13,6 +13,10 @@ TBD Diagram
 
 To connect the Comma Pedal you can tap into the ethernet run for the Comma Power using an ethernet splitter and extend it to the pedal.  (This configuration is untested on the Bolt).
 
+## Pedal Interceptor ##
+
+***coming soon (8/8/20 -jh)***
+
 ## Running on an NVIDIA Jetson Nano instead of a Comma 2 ##
 This is an advanced configuration. If you just want reliable L2 autonomy on your Chevy Bolt, use the Comma 2.
 ### Hardware ###
@@ -39,35 +43,7 @@ Reference: [tools/webcam wiki](https://github.com/commaai/openpilot/tree/master/
     3. Install TensorFlow by following [these instructions](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html). This will install some of the other dependencies required by pipenv, like h5py. NOTE, when issueing the last command in those instructions (the one that actually installs tensorflow with "pip3 install", run with "sudo -H" instead of just sudo.
     4. Now run ubuntu_setup.sh (in ~/openpilot/tools). Everything should run fine until it gets to line 88 (`pipenv install --dev --system --deploy`), at which point will give "An error occured while installing" a few packages, like h5py v2.10.0 and some others. But if you run `$pip freeze` to display the versions of all installed modules, you should find that some are in fact installed, and the ones that aren't can be manually installed using pip.
 
-***work in progress -- everything below is untested (8/7/20 -jh)***
-
-7. Do `$sudo apt install scons cython` ... need nvidia-cuda and nvidia-opencv too?
-8. Do `$pip3 install jinja2 sympy cffi pygame pyopencl`
-9. In /usr/bin/scons, edit the shebang to use python3: `#! /usr/bin/python3`
-10. In ~/openpilot/selfdrive/boardd/boardd.cc, comment lines 41-43 (`const uint32_t NO_IGNITION_CNT_MAX = 2 * 60 * 60 * 30; 42 const float VBATT_START_CHARGING = 11.5; 43 const float VBATT_PAUSE_CHARGING = 11.0;`
-
-11. Build and compile openpilot by running `$scons use_webcam=1` (in ~/openpilot directory)
-
-????
-    4. $sudo apt install python3-pyosmium python3-pyproj python3-shapely python3-opencv
-
-????
-7. Install nvidia drivers: nvidia-xxx/cuda10.0/cudnn7.6.5
-9. Install OpenCL Driver
-
-
-13. Run $touch prebuilt
-14. Add /data and /data/params to the root directory.
-15. Run #chown $USER /data/params
-
-### Connecting to car/hardware and running openpilot ###
-Note: The camera indexes are set based on the order in which they're connected. To edit this look at ~/openpilot/selfdrive/camerad/cameras/camera_webcam.cc
-1. Connect the road facing camera first, then the driver facing camera
-2. Connect computer to panda
-3. In ~/openpilot/tools/webcam run $./accept_terms.py 
-4. In ~/openpilot/selfdrive run $PASSIVE=0 NOSENSOR=1 WEBCAM=1 ./manager.py
-5. Start the car. The UI should show the road webcam's view
-6. Engage
+***work in progress -- (8/7/20 -jh)***
 
 ## References ##
 Giraffe Info:
