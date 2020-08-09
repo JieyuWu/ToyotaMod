@@ -9,9 +9,19 @@ To contribute to the above diagrams, download the [.svg file](http://www.justine
 ## Comma 2 ##
 The Comma 2 has an onboard Panda and removes the need for the Giraffe by connecting directly to the car's buses.  To do this, you'll need a harness modified to connect properly to the right buses:
 
-TBD Diagram
 
-To connect the Comma Pedal you can tap into the ethernet run for the Comma Power using an ethernet splitter and extend it to the pedal.  (This configuration is untested on the Bolt).
+To build this yourself you'll need the following parts:
+1. [Male LKAS Connector](https://www.digikey.com/products/en?keywords=34825-0124%20)
+2. [Female LKAS Connector](https://www.digikey.com/products/en?keywords=%2034824-0124)
+3. [At least 12 crimp sockets for the Female Connector](https://www.digikey.com/product-detail/en/molex/5600230548/WM16762CT-ND/7428700)
+4. 22-24 AWG wire.  Recommend PVC for abrasion resistance.
+5. [Comma Dev Harness Wires](https://comma.ai/shop/products/comma-car-harness) (select Development Vehicle, only need a Black Panda if you have an Eon) or 6 & 7:
+6. [26-socket Connector](https://www.digikey.com/products/en?keywords=5016462600)
+7. [At least 18 crimp sockets](https://www.digikey.com/product-detail/en/molex/5016471000/WM6057CT-ND/1787797)  
+
+To assemble, you'll need a crimping tool and a soldering kit.  Crimp the sockets onto the wires for the female connectors and insert to the proper slots.  Solder the wires to the male connector, wire directly to exterior pins. I shrink-wrapped the solder joints and I plan to reinforce the pins / solder joints with epoxy resin once I'm sure no more solder modifications are needed.
+
+To connect the Comma Pedal we think you can tap into the ethernet run for the Comma Power using an ethernet splitter and extend it to the pedal.  (This configuration is untested on the Bolt).
 
 ## Pedal Interceptor ##
 
