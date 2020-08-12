@@ -117,17 +117,16 @@ These vehicles either don't have electric power steering, or we don't have a kno
 </details>
 
 # What to buy for MQB vehicles
+Purchasing the Comma two (c2) is the easiest way to get started. it also possible to build your own eon and save some $$.
 
 ## If your car has LKAS & ACC
 1. [comma two DevKit](https://comma.ai/shop/products/comma-two-devkit)
 2. Select MQB Development Harness
-<sub>(VW golf and MQB development car Harness's are the same)<sub>
+<sub><sup>(VW golf and MQB development car Harness's are the same)</sup></sub>
 
-## If your car only has ACC
-1. EON/EON Gold & White or Gray Panda (Gray Recommended)
+## If your car only has ACC 
+1. [comma two DevKit](https://comma.ai/shop/products/comma-two-devkit)
 2. Make your own [VAG J533 Harness](https://github.com/commaai/openpilot/wiki/VW-j533-cable) 
-
-
 
 # openpilot Capabilities
 
