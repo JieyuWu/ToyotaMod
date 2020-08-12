@@ -26,8 +26,8 @@ To assemble, you'll need a crimping tool and a soldering kit.  Crimp the sockets
 To connect the Comma Pedal we think you can tap into the ethernet run for the Comma Power using an ethernet splitter and extend it to the pedal.  (This configuration is untested on the Bolt).
 
 ## Pedal Interceptor ##
-
-***coming soon (8/8/20 -jh)***
+Wiring the comma.ai Pedal Interceptor for the Chevy Bolt:
+![](http://justine-haupt.com/bolt/images/PedalBoltWiringDiagram.png)
 
 ## Running on an NVIDIA Jetson Nano instead of a Comma 2 ##
 This is an advanced configuration. If you just want reliable L2 autonomy on your Chevy Bolt, use the Comma 2.
