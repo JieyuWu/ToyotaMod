@@ -116,11 +116,12 @@ These vehicles either don't have electric power steering, or we don't have a kno
 </p>
 </details>
 
-# What to buy
+# What to buy for MQB vehicles
 
 ## If your car has LKAS & ACC
 1. [comma two DevKit](https://comma.ai/shop/products/comma-two-devkit)
 2. Select MQB Development Harness
+<sub>(VW golf and MQB development car Harness's are the same)<sub>
 
 ## If your car only has ACC
 1. EON/EON Gold & White or Gray Panda (Gray Recommended)
