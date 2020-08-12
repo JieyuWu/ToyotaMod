@@ -9,7 +9,8 @@ To contribute to the above diagrams, download the [.svg file](http://www.justine
 ## Comma 2 ##
 The Comma 2 has an onboard Panda and removes the need for the Giraffe by connecting directly to the car's buses.  To do this, you'll need a harness modified to connect properly to the right buses:
 
-![Comma2 Harness Wiring](https://i.imgur.com/zaTfNip.png)
+![Comma2 Harness Wiring](https://i.imgur.com/QGDNHLQ.png)
+[Link to the Diagram on EasyEDA](https://easyeda.com/editor#id=76ac44b218d640e2bd9da8de83d87195)
 
 To build this yourself you'll need the following parts:
 1. [Male LKAS Connector](https://www.digikey.com/products/en?keywords=34825-0124%20)
