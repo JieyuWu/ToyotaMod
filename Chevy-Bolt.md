@@ -26,6 +26,11 @@ To assemble, you'll need a crimping tool and a soldering kit.  Crimp the sockets
 To connect the Comma Pedal we think you can tap into the ethernet run for the Comma Power using an ethernet splitter and extend it to the pedal.  (This configuration is untested on the Bolt).
 
 ## Pedal Interceptor ##
+* Gerber files and BOM available [here](http://www.justine-haupt.com/bolt/pedalfab/)
+* The vehicle-side TPS connector is [BWD P/N PT977 (AKA S-1478)](https://shop.advanceautoparts.com/p/bwd-electrical-connector-pt977/10433652-P?utm_medium=ymme)
+* The Pedal Interceptor wiki is [here](https://community.comma.ai/wiki/index.php/Comma_Pedal)
+* Instructions for the initial installation of the firmware are [here](https://medium.com/@jfrux/flashing-the-comma-pedal-with-ubuntu-a83fb668f6e2)
+
 Wiring the comma.ai Pedal Interceptor for the Chevy Bolt:
 ![](http://justine-haupt.com/bolt/images/PedalBoltWiringDiagram.png)
 
