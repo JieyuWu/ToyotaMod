@@ -154,8 +154,9 @@ Pageant will keep running until you log off your computer.  You can also exit pa
 * Android
   * ConnectBot - https://f-droid.org/en/packages/org.connectbot/
   * Terminus - https://play.google.com/store/apps/details?id=com.server.auditor.ssh.client
+    - Supports Putty .ppk key.
   * JuiceSSH - https://play.google.com/store/apps/details?id=com.sonelli.juicessh
-
+  
 * iOS
   * Terminus - https://apps.apple.com/us/app/termius-ssh-shell-console-terminal/id549039908
 
