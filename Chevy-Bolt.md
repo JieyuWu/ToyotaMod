@@ -52,6 +52,9 @@ Wiring the comma.ai Pedal Interceptor for the Chevy Bolt:
 ## Adding IR LEDs for improved night performance ##
 (Coming soon)
 
+## Info on an abortive effort to get OpenPilot running on an SBC ##
+[Installing OpenPilot on an NVIDIA Jetson Nano](https://github.com/commaai/openpilot/wiki/Installing-OpenPilot-on-an-NVIDIA-Jetson-Nano)
+
 ## References ##
 Giraffe Info:
 [Gerber files](http://www.justine-haupt.com/bolt/giraffefab/)
