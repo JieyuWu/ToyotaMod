@@ -35,6 +35,14 @@ To connect the Comma Pedal we think you can tap into the ethernet run for the Co
 Wiring the comma.ai Pedal Interceptor for the Chevy Bolt:
 ![](http://justine-haupt.com/bolt/images/PedalBoltWiringDiagram.png)
 
+## Alternate Single-Side Pedal Interceptor ## 
+*This version is only slightly longer and has a much larger test point for entering DFU/programming mode*
+* Gerber files and BOM available [here](http://www.justine-haupt.com/bolt/pedalfab/)
+* The vehicle-side TPS connector is [BWD P/N PT977 (AKA S-1478)](https://shop.advanceautoparts.com/p/bwd-electrical-connector-pt977/10433652-P?utm_medium=ymme)
+* J. Shuler's 3D model for printing the mating connector housing for the TPS connector is [here](https://www.tinkercad.com/things/em6XUplxMTj). If you don't feel like making an Autocad account, the STL can be downloaded directly [here](http://justine-haupt.com/bolt/pedal_Mechanical/BoltMaleTPSConnectorHousing_jshuler.stl)
+* The Pedal Interceptor wiki is [here](https://community.comma.ai/wiki/index.php/Comma_Pedal)
+* Instructions for the initial installation of the firmware are [here](https://medium.com/@jfrux/flashing-the-comma-pedal-with-ubuntu-a83fb668f6e2)
+
 ## Running on an NVIDIA Jetson Nano instead of a Comma 2 ##
 This is an advanced configuration. If you just want reliable L2 autonomy on your Chevy Bolt, use the Comma 2.
 ### Hardware ###
