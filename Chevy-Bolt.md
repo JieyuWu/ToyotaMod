@@ -43,7 +43,16 @@ Wiring the comma.ai Pedal Interceptor for the Chevy Bolt:
 * The Pedal Interceptor wiki is [here](https://community.comma.ai/wiki/index.php/Comma_Pedal)
 * Instructions for the initial installation of the firmware are [here](https://medium.com/@jfrux/flashing-the-comma-pedal-with-ubuntu-a83fb668f6e2)
 
-## Running on an NVIDIA Jetson Nano instead of a Comma 2 ##
+## Modding the EON ##
+(Coming soon)
+* Externalizing the camera so that the EON doesn't have to be co-located with the camera 
+* Removing the battery for improved thermal resistance
+* Replacing the casing and mounting above the rear-view mirror
+
+## Adding IR LEDs for improved night performance ##
+(Coming soon)
+
+## Running on an NVIDIA Jetson Nano instead of a Comma 2 EDIT: GIVEN UP ON THIS, LEFT FOR POSTERITY ##
 This is an advanced configuration. If you just want reliable L2 autonomy on your Chevy Bolt, use the Comma 2.
 ### Hardware ###
 * NVIDIA [Jetson Nano](https://developer.nvidia.com/buy-jetson?product=jetson_nano&location=US) running JetPack (NVIDIA's default OS based on Ubuntu)
