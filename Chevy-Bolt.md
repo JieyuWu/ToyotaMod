@@ -37,7 +37,7 @@ Wiring the comma.ai Pedal Interceptor for the Chevy Bolt:
 
 ## Alternate Single-Side Pedal Interceptor ## 
 *This version is only slightly longer and has a much larger test point for entering DFU/programming mode*
-* Gerber files and BOM available [here](http://www.justine-haupt.com/bolt/pedalfab/)
+* KiCad design files, Gerber Files and BOM available [here](http://justine-haupt.com/bolt/singlesidepedal/)
 * The vehicle-side TPS connector is [BWD P/N PT977 (AKA S-1478)](https://shop.advanceautoparts.com/p/bwd-electrical-connector-pt977/10433652-P?utm_medium=ymme)
 * J. Shuler's 3D model for printing the mating connector housing for the TPS connector is [here](https://www.tinkercad.com/things/em6XUplxMTj). If you don't feel like making an Autocad account, the STL can be downloaded directly [here](http://justine-haupt.com/bolt/pedal_Mechanical/BoltMaleTPSConnectorHousing_jshuler.stl)
 * The Pedal Interceptor wiki is [here](https://community.comma.ai/wiki/index.php/Comma_Pedal)
