@@ -158,5 +158,5 @@ For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-T
 Term | Abbreviation | Definition
 --- | --- | ---
 Modularer Querbaukasten / Modular Transverse Matrix | MQB | Strategy for shared modular design between VAG group makes and models. MQB cars with ACC work with Openpilot.
-EPB |  Electronic Parking break | 
+Electronic Parking break | EPB |  
 jyoung8607 | jyoung | First to make OP work in VW
