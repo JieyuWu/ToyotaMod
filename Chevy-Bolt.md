@@ -1,4 +1,4 @@
-## System Diagrams ##
+## Configuration Variations ##
 
 ![](http://justine-haupt.com/bolt/images/openpilot_BoltConfigurations.png)
 
