@@ -52,6 +52,7 @@ Longitudinal control is not supported by OP with Mazda. OP relies on the stock M
 Note that OP takes control of the engagement process and will not allow the MRCC to engage if LKAS is not available, i.e, when used with OP you will not be able to engage ACC on low speeds. That behavior is required by OP safety model.
 
 # Custom solutions:
+Note: Mazda harness is now available at comma shop. Look for "Mazda Development" when you select a vehicle. 
 ## Harness Connector parts:
 * [OP connector](https://www.digikey.com/product-detail/en/molex/5016462600/WM6066-ND/1787767)
 * [Camera side](https://www.digikey.com/product-detail/en/molex/0348240124/WM10324-ND/4504597)
