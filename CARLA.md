@@ -1,4 +1,4 @@
-Run openpilot with driving simulator CARLA, which uses docker.
+Run openpilot with driving simulator [CARLA](http://carla.org/), which uses docker.
 
 openpilot sim
 
