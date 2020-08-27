@@ -23,8 +23,6 @@ Find out specific vehicle limitations and modifications that members of the comm
 
 ### Dashcam Mode Only
 * [Mazda](../wiki/Mazda)
-
-### Limited Lateral Support
 * [Ford](../wiki/Ford)
 
 # Development
