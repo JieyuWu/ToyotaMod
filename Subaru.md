@@ -30,7 +30,7 @@ Pre-Global Platform | Pre-Global | Refers to models with ES predating Global Pla
 | Subaru    | Legacy 2015-18                | EyeSight          | Stock            | 0mph               | 0mph         |
 | Subaru    | Outback 2015-19               | EyeSight          | Stock            | 0mph               | 0mph         |
 
-Community supported models are available in custom fork at https://github.com/bugsy924/openpilot
+Community supported models are available in custom fork at https://github.com/martinl/openpilot
 
 # openpilot capabilities
 
