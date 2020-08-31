@@ -93,7 +93,7 @@ find . -type f -wholename "*2020-08-01--09-01-14--*/*.hevc" -exec cat {} + > dri
 > Reset the comma two by pressing and holding Power and Volume Up -> Factory Reset -> Full Factory Reset
 
 ### What is the comma two hardware?
-> LeEco LePro 3, Snapdragon 821. Battery and driver camera infrared cut filter are removed. GPS is a NEO-M8.
+> LeEco LePro 3, Snapdragon 821. Battery and driver camera infrared filter are removed.
 
 ### I can't see my screen while wearing polarized sunglasses
 > Try a matte screen protector film which can be trimmed with scissors to fix the screen, that will stop glare and enable you to see the screen with polarized lenses.  This [one from amazon](https://smile.amazon.com/gp/product/B01BZFRC0Y) has been used and recommended.
