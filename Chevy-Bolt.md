@@ -33,7 +33,8 @@ To connect the Comma Pedal we think you can tap into the ethernet run for the Co
 Wiring the comma.ai Pedal Interceptor for the Chevy Bolt:
 ![](http://justine-haupt.com/bolt/images/PedalBoltWiringDiagram.png)
 ## Installing firmware, updating, etc ##
-This is the official wiki for configuring. Use the instructions to ssh into the Comma2 or Eon: [Configuring_OpenPilot](https://community.comma.ai/wiki/index.php/Configuring_OpenPilot)
+
+Use the instructions on the official wiki to ssh into the Comma2 or Eon: [Configuring_OpenPilot](https://community.comma.ai/wiki/index.php/Configuring_OpenPilot)
 
 (From Felger:) The first time you install a new fork that uses submodules (e.g. Panda or Pedal) you need to run:
 
