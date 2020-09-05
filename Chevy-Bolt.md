@@ -30,6 +30,19 @@ To connect the Comma Pedal we think you can tap into the ethernet run for the Co
 * The Pedal Interceptor wiki is [here](https://community.comma.ai/wiki/index.php/Comma_Pedal)
 * Instructions for the initial installation of the firmware are [here](https://medium.com/@jfrux/flashing-the-comma-pedal-with-ubuntu-a83fb668f6e2)
 
+##Installing firmware, updating, etc##
+This is the official wiki for configuring. Use the instructions to ssh into the Comma2 or Eon: [Configuring_OpenPilot](https://community.comma.ai/wiki/index.php/Configuring_OpenPilot)
+
+(From Felger:) The first time you install a new fork that uses submodules (e.g. Panda or Pedal) you need to run:
+git submodule init
+git submodule update
+
+Then to change panda code, for example, run
+pkill -f boardd
+Then in /data/openpilot/panda/board run
+make
+
+
 Wiring the comma.ai Pedal Interceptor for the Chevy Bolt:
 ![](http://justine-haupt.com/bolt/images/PedalBoltWiringDiagram.png)
 
@@ -43,9 +56,7 @@ Wiring the comma.ai Pedal Interceptor for the Chevy Bolt:
 
 ## Modding the EON ##
 (Coming soon)
-* Externalizing the camera so that the EON doesn't have to be co-located with the camera 
-* Removing the battery for improved thermal resistance
-* Replacing the casing and mounting above the rear-view mirror
+
 
 ## Adding IR LEDs for improved night performance ##
 (Coming soon)
