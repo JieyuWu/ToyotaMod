@@ -30,6 +30,8 @@ To connect the Comma Pedal we think you can tap into the ethernet run for the Co
 * The Pedal Interceptor wiki is [here](https://community.comma.ai/wiki/index.php/Comma_Pedal)
 * Instructions for the initial installation of the firmware are [here](https://medium.com/@jfrux/flashing-the-comma-pedal-with-ubuntu-a83fb668f6e2)
 
+Wiring the comma.ai Pedal Interceptor for the Chevy Bolt:
+![](http://justine-haupt.com/bolt/images/PedalBoltWiringDiagram.png)
 ## Installing firmware, updating, etc ##
 This is the official wiki for configuring. Use the instructions to ssh into the Comma2 or Eon: [Configuring_OpenPilot](https://community.comma.ai/wiki/index.php/Configuring_OpenPilot)
 
@@ -47,9 +49,6 @@ Then in /data/openpilot/panda/board run
 
 `make`
 
-
-Wiring the comma.ai Pedal Interceptor for the Chevy Bolt:
-![](http://justine-haupt.com/bolt/images/PedalBoltWiringDiagram.png)
 
 ## Alternate Single-Side Pedal Interceptor ## 
 *This version is only slightly longer and has a much larger test point for entering DFU/programming mode*
