@@ -30,7 +30,7 @@ To connect the Comma Pedal we think you can tap into the ethernet run for the Co
 * The Pedal Interceptor wiki is [here](https://community.comma.ai/wiki/index.php/Comma_Pedal)
 * Instructions for the initial installation of the firmware are [here](https://medium.com/@jfrux/flashing-the-comma-pedal-with-ubuntu-a83fb668f6e2)
 
-##Installing firmware, updating, etc##
+## Installing firmware, updating, etc ##
 This is the official wiki for configuring. Use the instructions to ssh into the Comma2 or Eon: [Configuring_OpenPilot](https://community.comma.ai/wiki/index.php/Configuring_OpenPilot)
 
 (From Felger:) The first time you install a new fork that uses submodules (e.g. Panda or Pedal) you need to run:
