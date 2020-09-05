@@ -40,8 +40,11 @@ This is the official wiki for configuring. Use the instructions to ssh into the 
 `git submodule update`
 
 Then to change panda code, for example, run
+
 `pkill -f boardd`
+
 Then in /data/openpilot/panda/board run
+
 `make`
 
 
