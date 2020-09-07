@@ -11,3 +11,6 @@ https://carla.readthedocs.io/en/latest/start_quickstart/
 https://github.com/commaai/openpilot/labels/simulation
 
 https://github.com/commaai/openpilot/pull/1987
+
+Instructions for running openpilot and Carla via docker. 
+https://github.com/commaai/openpilot/blob/runcarla/tools/sim/README.md
