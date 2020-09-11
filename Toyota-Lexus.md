@@ -7,6 +7,7 @@ Table of Contents
 
    * [Supported Toyota/Lexus Vehicles](#supported-toyotalexus-vehicles)
       * [Toyota Camry Support](#toyota-camry-support)
+      * [2021+ Toyota RAV4 Prime Support (new `STEERING_LKA`)](#2021-toyota-rav4-prime-support)
    * [Toyota/Lexus Terms](#toyotalexus-terms)
       * [Toyota Safety Sense (TSS) Versions](#toyota-safety-sense-tss-versions)
       * [Terms and Abbreviations](#terms-and-abbreviations)
@@ -41,6 +42,12 @@ The most up-to-date list of supported vehicles is on the [openpilot main page](h
 For 2018-2020 Camry models which don't have Full-Speed Range Dynamic Radar Cruise Control <u>openpilot will not function below 25mph</u> this includes the 4CYL L, 4CYL LE and 4CYL SE non-hybrid models.  There is no currently known solution for this, these vehicles **cannot** use a comma pedal to solve this issue.  This is because these models use a Continental radar not used on other vehicles and messages from the radar cut out completely below 25mph.
 
 This limitation does not apply to Camry models with Full-Speed Range Dynamic Radar Cruise Control including the (2018-2020 XLE, XSE, LE HV, XLE HV, and SE HV)
+
+## 2021+ Toyota RAV4 Prime Support (new `STEERING_LKA`)
+
+There is a new `STEERING_LKA` message in the RAV4 Prime that is used that currently has an unknown "authentication code" scheme appended to the end. The algorithm for this "authentication code" is currently unknown and OP is unable to control latitude. This message has not been seen on other Toyotas yet. Follow the issue below for more info:
+
+https://github.com/commaai/openpilot/issues/2103
 
 # Toyota/Lexus Terms
 
