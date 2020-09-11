@@ -59,7 +59,7 @@ If this doesn't fix the issue, it is possible to purchase replacement cables and
 
 Get a better USB cable: thicker gauge and shorter length. The Panda outputs 5V, but due to resistance in the cable, there is voltage drop to the point where the EON cannot charge effectively.
 
-### Errors Relating to CAN
+### Errors Relating to CAN or Not Detecting Ignition
 * [Anker USB-C Cable - similar length to included cable](https://www.amazon.com/gp/product/B076D76DRQ)
 * [Angled USB-C Cable - slightly shorter than included cable](https://www.amazon.com/gp/product/B07VMKRKBR)
 
