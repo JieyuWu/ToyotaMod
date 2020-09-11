@@ -7,7 +7,7 @@ Table of Contents
 
    * [Supported Toyota/Lexus Vehicles](#supported-toyotalexus-vehicles)
       * [Toyota Camry Support](#toyota-camry-support)
-      * [2021+ Toyota RAV4 Prime Support (new `STEERING_LKA`)](#2021-toyota-rav4-prime-support)
+      * [2021+ Toyota RAV4 Prime Support (new `STEERING_LKA`)](#2021-toyota-rav4-prime-support-new-steering_lka)
    * [Toyota/Lexus Terms](#toyotalexus-terms)
       * [Toyota Safety Sense (TSS) Versions](#toyota-safety-sense-tss-versions)
       * [Terms and Abbreviations](#terms-and-abbreviations)
