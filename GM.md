@@ -4,7 +4,7 @@
 
 **This brand is community supported. Enable it with the toggle in Settings->Developer->Enable Community Features.**
 
-# Make-Specific Terms
+# gm-Specific Terms
 
 For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-Terms).
 
@@ -38,30 +38,18 @@ See [Unofficial GM fork](https://shulerent.com/openpilot-2019-chevy-bolt-port/) 
 
 For the Chevy Bolt specifically, see the [openpilot Bolt wiki](https://github.com/commaai/openpilot/wiki/Chevy-Bolt).
 
-# openpilot Capabilities
+# Capabilities
 
-## Lateral Control
+## Minimum Speeds
 
-Control over the steering wheel.
-
-### Torque
-
-### Minimum Speeds
-
-8mph minimum speed for lateral control
-
-## Longitudinal Control
-
-Control over the gas and brakes.
-Longitudinal control is provided by OpenPilot.
-
-### Minimum Speeds
+All:
+8mph for lateral control. First engagement must be above 18 mph.
 
 2017 MY:
-8mph minimum speed for longitudinal control
+8mph for longitudinal control
 
 2018+ MY:
-0mph minimum speed for longitudinal control
+0mph for longitudinal control
 
 ### Auto-Resume
 
