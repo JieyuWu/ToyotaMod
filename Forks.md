@@ -19,7 +19,7 @@ Owner         | Link                                                            
 @xx979xx          | [xx979xx](https://github.com/xx979xx/openpilot/tree/HKG_community)  | Hyundai / Kia / Genesis
 @eFini            | [dragonpilot](https://github.com/dragonpilot-community/dragonpilot) | Heavily modified fork of openpilot with many different customizations accessible via UI.
 @jyoung8607       | [jyoung8607](https://github.com/jyoung8607/openpilot)               | Volkswagen
-@ShaneSmiskol     | [Stock Additions](https://github.com/ShaneSmiskol/openpilot)        | Close to stock, has an implementation of following distance profiles similar to the stock Toyota cruise control system.
+@ShaneSmiskol     | [Stock Additions](https://github.com/ShaneSmiskol/openpilot)        | Close to stock, has an implementation of following distance profiles similar to the stock Toyota cruise control system. Supports Prius w/ ZSS
 @bugsy924         | [bugsy924](https://github.com/bugsy924/openpilot)                   | Subaru (Recommended to use use mlp's fork which contains Bugsy's work).
 @mlp              | [martinl](https://github.com/martinl/openpilot)                     | Subaru (In progress PR supporting both Global and Pre-Global models).
 @RoxasTheNobody98 | [RoxasTheNobody98](https://github.com/roxasthenobody98/openpilot)  | Ford (WIP code. Not recommended due to lack of functional safety code).
