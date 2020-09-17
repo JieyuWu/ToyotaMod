@@ -71,9 +71,10 @@ Pre-Collision System | PCS | May also include pedestrian detection and be writte
 Dynamic Radar Cruise Control | DRCC | This is ACC, and may be full speed depending on the model
 Lane Departure Alert | LDA | The audible alert when leaving a lane.  May also include Steering Assist and be listed as LDA w/SA
 Auto High Beams | AHB | Pretty straight forward.
-Road Sign Assist | RSA | The thing that displays speed limit and stop signs on your dash.
+Road Sign Assist | RSA* | The thing that displays speed limit and stop signs on your dash.
 Lane Tracing Assist | LTA | The stock feature that enables lane centering or lane keeping while using DRCC
 
+* RSA Is not available on Canadian sold TSS2 Models.
 
 # openpilot Capabilities
 
