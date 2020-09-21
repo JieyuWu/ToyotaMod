@@ -43,7 +43,7 @@ Term | Abbreviation | Definition
 Adaptive Cruise Control | ACC | A cruise control system that automatically adjusts the vehicle speed to maintain a safe distance from vehicles ahead.
 Advanced Driver-Assistance Systems | ADAS | Electronic systems that aid the driver.
 (Automatic) Lane Centering | (A)LC | A system designed to keep a car centered in the lane, relieving the driver of the task of steering.
-Collision Avoidance System | AEB, CMS, FCW(S), PCS | A system designed to prevent or reduce the severity of a collision.
+Collision Avoidance System | AEB, CMS, FCW(S), FCA, PCS | A system designed to prevent or reduce the severity of a collision.
 Driver Monitoring (System) | DM(S), DAM | A system that uses infrared sensors and/or cameras to monitor driver attentiveness
 hugging | | An undesired behavior where the vehicle drives too closely to one side of the lane.
 Lane Keep Assist (System) | LKA(S) | Lane keep assist is what comes with most cars sold today. It will assist the driver if they go over a lane line, but will not keep the car centered in the lane.
