@@ -5,13 +5,14 @@
 # Lateral Tuning
 
 ### INDI tuning strategy
- - Search Discord / Github for prior work on INDI tuning for your vehicle
- - Vary one parameter at a time, by less than 10%, finding lower and upper edges of stability.
-  - Parameters are not independent, make it easy to notice improvements.
+ - Search Discord / Github for prior INDI tuning efforts for your vehicle
+ - Vary one parameter at a time, by less than 10%.
+  - Make it easy to notice improvements. Parameters effect each other.
  - Use a road you travel often and know well, with straights and curves, and excellent lane markings on both sides.
   - Don't confuse tuning with poor planning from poor lane markings, or unexpected behavior from unknown roads.
  - Start with moderate values for outer (error) and inner (rate error) loops,  like the Prius's outer 3, inner 4.
  - Avoid instability: over/underturning, early / late corner enter / exit, sloppy lane keeping, oscillating or jerky steering.
+  - Find the lower and upper edges of stability, use something moderate and performant.
 
 1. CRITICAL: Tune actuator delay first.
 2. Tune actuator effectiveness. Lowest value without oversteering. May vary with speed.
