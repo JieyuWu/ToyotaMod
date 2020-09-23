@@ -4,10 +4,6 @@
 
 **This brand is community supported. Enable it with the toggle in Settings->Developer->Enable Community Features.**
 
-### TEMP REF Wiki links
-* [jyoung8607](https://github.com/jyoung8607/openpilot/wiki/Wiring-Harness-Info)
-* [community.comma.ai ](https://community.comma.ai/wiki/index.php/Volkswagen)
-
 # Overview
 Comma AI currently has no official support for Volkswagen brands, but a community port is available, with plans to upstream for official support in the near future. The community port is designed to support any Volkswagen MQB vehicle with ACC radar. Check the Vehicle Support section for details and caveats.
 
@@ -130,7 +126,7 @@ Purchasing the Comma two (c2) is the easiest way to get started. it also possibl
 
 # Installing the Community Port
 
-If you need to run the Community port, you MUST install stock openpilot first. If you're at the EON/Comma Two installer prompt and it's asking for a download URL, install using the normal methods and instructions. Then, [connect via SSH](https://github.com/commaai/openpilot/wiki/SSH) and run the following command:
+If you need to run the Community port, you MUST [install stock openpilot](https://github.com/commaai/openpilot/wiki/Installing-openpilot#install-openpilot) first. If you're at the EON/Comma Two installer prompt and it's asking for a download URL, install using the normal methods and instructions. Enable developer and SSH in the setting menu. Then, [connect via SSH](https://github.com/commaai/openpilot/wiki/SSH) and run the following command:
 
 `cd /data && mv openpilot backup-openpilot && git clone`
 
