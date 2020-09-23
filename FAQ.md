@@ -23,7 +23,7 @@ Table of Contents
      * [How can I reset the device?](#how-can-i-reset-the-device)
      * [What is the comma two hardware?](#what-is-the-comma-two-hardware)
      * [I can't see my screen while wearing polarized sunglasses](#i-cant-see-my-screen-while-wearing-polarized-sunglasses)
-     * [Will the Comma 2 Drain my Car Battery?](#will-the-comma-2-drain-my-car-battery)
+     * [Will the comma two kill my car battery?](#will-the-comma-two-kill-my-car-battery)
      * [Can I adjust the brightness calibration?](#can-i-adjust-the-brightness-calibration)
      * [My storage space is filling up, How long are drive segments kept on my device?](#my-storage-space-is-filling-up-how-long-are-drive-segments-kept-on-my-device)
    * [Development](#development)
@@ -98,8 +98,8 @@ find . -type f -wholename "*2020-08-01--09-01-14--*/*.hevc" -exec cat {} + > dri
 ### I can't see my screen while wearing polarized sunglasses
 > Try a matte screen protector film which can be trimmed with scissors to fix the screen, that will stop glare and enable you to see the screen with polarized lenses.  This [one from amazon](https://smile.amazon.com/gp/product/B01BZFRC0Y) has been used and recommended.
 
-### Will the Comma 2 Drain my Car Battery?
-> It shouldn't.  The Comma 2 is designed to turn off after 30 hours of inactivity.  That said, some of the 12v batteries used in hybrid vehicles are rather small (they are mainly used to boot up the computers, at which time the large hybrid battery charges the 12v batteries.)
+### Will the comma two kill my car battery?
+> It shouldn't.  The comma two is designed to turn off after 30 hours of inactivity, or after a shorter amount of time if it senses the car battery is running low.
 
 ### Can I adjust the brightness calibration?
 > Yes. You can adjust your light sensor calibration in /persist/comma/params/d/BRIGHTNESS_M and P. M is multiplicative, P is an offset. If it's good at night but dim during the day, increase M. If it's too dim for your liking everywhere, then adjust P.
