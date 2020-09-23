@@ -60,6 +60,8 @@ If this doesn't fix the issue, it is possible to purchase replacement cables and
 Get a better USB cable: thicker gauge and shorter length. The Panda outputs 5V, but due to resistance in the cable, there is voltage drop to the point where the EON cannot charge effectively.
 
 ### Errors Relating to CAN or Not Detecting Ignition
+For a cable to work, it must have all pins present. The only specs that do are **USB-C 3.1 Gen 2** or **USB-C with Thunderbolt**.
+Cables below are recommended and confirmed to work. We ship with a 1.5ft cable for most harnesses, or a 3 meter cable on Nissan and OBD-II harnesses.
 * [Anker USB-C Cable - similar length to included cable](https://www.amazon.com/gp/product/B076D76DRQ)
 * [Angled USB-C Cable - slightly shorter than included cable](https://www.amazon.com/gp/product/B07VMKRKBR)
 
