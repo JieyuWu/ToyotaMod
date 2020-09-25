@@ -4,7 +4,7 @@
 
 **This brand is community supported. Enable it with the toggle in Settings->Developer->Enable Community Features.**
 
-# Install Location
+# ADAS Locations
 
 The Nissan harness needs to be plugged into the ADAS module (NOT the lane keep assist camera). This module can be in a wide range of locations, which is why the comma two ships with a 3 meter long USB-C cable.
 
