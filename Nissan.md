@@ -10,7 +10,7 @@ The Nissan harness needs to be plugged into the ADAS module (NOT the lane keep a
 
 Below are locations the community has found for their cars. Please note, if your car isn't below you will need to locate the ADAS module. Join others on [discord.comma.ai](https://discord.comma.ai) in the #nissan channel to get tips and tricks. [Techinfo](https://www.nissan-techinfo.com/) can help.
 
-## Leaf 2019-20
+## Leaf 2018-20
 ![image](https://user-images.githubusercontent.com/37757984/94322928-da18ad80-ff48-11ea-9aaa-b4fde9783a7f.png)
 
 It is just above the glove box location once removed. The picture is taken with the camera pointed up into the cavity not directly head on. 
