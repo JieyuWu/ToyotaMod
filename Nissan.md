@@ -10,7 +10,7 @@ For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-T
 
 Term | Abbreviation | Definition
 --- | --- | ---
-Fill | these | out! :)
+ProPILOT | | Nissan's driver assistance system
 
 # openpilot Capabilities
 
@@ -20,7 +20,11 @@ Control over the steering wheel.
 
 ### Torque
 
+Nissans have great torque, and can take most turns in normal driving situations.
+
 ### Minimum Speeds
+
+Nissans control the wheel down to 0mph.
 
 ## Longitudinal Control
 
