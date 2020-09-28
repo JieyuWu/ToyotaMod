@@ -33,6 +33,7 @@ Term | Abbreviation | Definition
 longitudinal | long | Refers to gas and brake control
 lateral | lat | Refers to steering control
 Model predictive control | MPC | An advanced method of process control that is used to control a process while satisfying a set of constraints. Used for longitudinal control.
+lead | | Selected radar point from your car's radar by openpilot
 
 # driver-assistance terms
 
