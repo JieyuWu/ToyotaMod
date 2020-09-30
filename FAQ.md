@@ -28,6 +28,7 @@ Table of Contents
      * [My storage space is filling up, How long are drive segments kept on my device?](#my-storage-space-is-filling-up-how-long-are-drive-segments-kept-on-my-device)
    * [Development](#development)
      * [What is the openpilot development workflow? / What are the branches master, devel, and release?](#what-is-the-openpilot-development-workflow--what-are-the-branches-master-devel-and-release)
+     * [What do the LED colors mean?](#what-do-the-led-colors-mean)
    * [Discord Help](#discord-help)
      * [Before Asking a Question](#before-asking-a-question)
      * [How do I search on discord?](#how-do-i-search-on-discord)
@@ -111,6 +112,17 @@ find . -type f -wholename "*2020-08-01--09-01-14--*/*.hevc" -exec cat {} + > dri
 
 ### What is the openpilot development workflow? / What are the branches `master`, `devel`, and `release`?
 > Read [this Medium post on Externalization](https://medium.com/@comma_ai/a-2020-theme-externalization-13b33326d8b3).
+
+### What do the LED colors mean?
+> The LED indicates the status of the inbuilt Panda (UNO).
+
+```
+* White: CAN send enabled
+* Red: This is your panda's heartbeat(power). It fades in and out
+* Green: Bad firmware or firmware flashing (only green, fast)
+* Blue (static): CAN detected
+* Blue (fades in and out): power saving
+```
 
 # Discord Help
 
