@@ -16,4 +16,10 @@ See [SSH](../wiki/SSH) for more information.
 
 Doing this a few times may unstick a panda that isn't flashing properly.
 
+### Alternative command
+
+This alternative command can be ran if flashing the Panda via the standard process proves unsuccessful.
+
+`cd /data/openpilot/panda ; pkill -f boardd ; PYTHONPATH=.. python -c "from panda import Panda; Panda().flash()"`
+
 https://github.com/commaai/panda
