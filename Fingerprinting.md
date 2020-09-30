@@ -89,11 +89,11 @@ The deprecated version of fingerprinting. Used for most community supported make
 
 ## Creating Fingerprint 1.0 (deprecated)
 
-1. Turn off car, connect Panda to car (normally via Giraffe or car harness) and connect Panda to EON running OpenPilot.
+1. Turn off car, connect Panda to car (normally via Giraffe or car harness) and connect Panda to comma device running OpenPilot.
 
-2. If you have the car harness, disable openpilot in EON UI settings so that your car is using the stock system. If you have a giraffe, set the switches so that the stock system is enabled. For this procedure you want to collect the messages sent by the stock system, not openpilot.
+2. If you have the car harness, disable openpilot in UI settings so that your car is using the stock system. If you have a giraffe, set the switches so that the stock system is enabled. For this procedure you want to collect the messages sent by the stock system, not openpilot.
 
-3. Run these commands in 2 separate sessions (SSH into EON, run "tmux a" and press "\` + c" to create new sessions)...  
+3. Run these commands in 2 separate sessions (SSH into comma device, run "tmux a" and press "\` + c" to create new sessions)...  
 in first session run:  
     `/data/openpilot/selfdrive/boardd/boardd`  
 in second session run (one line):  
@@ -112,4 +112,4 @@ in second session run (one line):
     `/data/openpilot/selfdrive/car/<car make>/values.py`  
 Create new sub-section for car or overwrite pre-existing fingerprint of similar car.
 
-8. Turn off car's ignition, then reboot EON.
+8. Turn off car's ignition, then reboot comma device.
