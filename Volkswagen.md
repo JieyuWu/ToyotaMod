@@ -123,6 +123,7 @@ Purchasing the Comma two (c2) is the easiest way to get started. it also possibl
 ## If your car only has ACC 
 1. [comma two DevKit](https://comma.ai/shop/products/comma-two-devkit)
 2. Make your own [VAG J533 Harness](https://github.com/commaai/openpilot/wiki/VW-j533-cable) 
+3. Use VCDS to enable openpilot to instruct the steering rack
 
 # Installing the Community Port
 
