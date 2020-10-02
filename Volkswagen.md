@@ -128,9 +128,7 @@ Purchasing the Comma two (c2) is the easiest way to get started. it also possibl
 
 If you need to run the Community port, you MUST [install stock openpilot](https://github.com/commaai/openpilot/wiki/Installing-openpilot#install-openpilot) first. If you're at the EON/Comma Two installer prompt and it's asking for a download URL, install using the normal methods and instructions. Enable developer and SSH in the setting menu. Then, [connect via SSH](https://github.com/commaai/openpilot/wiki/SSH) and run the following command:
 
-`cd /data && mv openpilot backup-openpilot && git clone`
-
-`https://github.com/jyoung8607/openpilot.git -b vw-community-devel && reboot`
+`cd /data && mv openpilot backup-openpilot && git clone https://github.com/jyoung8607/openpilot.git -b vw-community-devel && reboot`
 
 
 # openpilot Capabilities
