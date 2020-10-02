@@ -21,4 +21,7 @@ The role of the Gateway (also known J533) is the exchange of data between the CA
 2. [MQB Development Harness](https://comma.ai/shop/products/comma-car-harness)
 3. Cloth electrical harness tape
 
+## wp/gp/bp J533 harness diagrams together
+![j533 harness diagrams together](https://raw.githubusercontent.com/actuallylemoncurd/photo/main/BPWPGPdiagram.png)
+
 ![j533 cable location](https://cdn.discordapp.com/attachments/534359517836607488/667975270749306890/image0.jpg)
