@@ -60,7 +60,7 @@ PING 192.168.2.1 (192.168.2.1): 56 data bytes
 
 Windows 10 already comes with an SSH client and has everything you need to SSH into an EON/C2.
 
-1. Get the IP address of your EON/C2 in settings under `Settings [⚙️ icon] > WiFi > Open WiFi Settings > More Options > Three Dots in Top Left > Advanced` (Please make sure your EON and your computer connect to the same WiFi).
+1. Get the IP address of your EON/C2 in settings under `Settings [⚙️ icon] > WiFi > Open WiFi Settings > More Options > Three Dots in Top Left > Advanced` (Please make sure your EON/C2 and your computer connect to the same WiFi).
 2. Open PowerShell. You can find PowerShell by pressing the Start Menu and typing "PowerShell".
 3. Run the command `Invoke-WebRequest "https://raw.githubusercontent.com/commaai/openpilot/master/tools/ssh/id_rsa" -OutFile "id_rsa"`
    * This will save a file called `id_rsa` to the current directory, which is likely `C:\Users\<your username here>\`. 
