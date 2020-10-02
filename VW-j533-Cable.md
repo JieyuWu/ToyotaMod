@@ -15,7 +15,7 @@ The role of the Gateway (also known J533) is the exchange of data between the CA
 4. Cloth electrical harness tape
 
 ## panda relay J533 (Black Panda)
-![j533 black panda](https://user-images.githubusercontent.com/61742003/87491626-a3541c00-c616-11ea-8a8f-8ffdb8de9f1d.jpg)
+![j533 black panda](https://raw.githubusercontent.com/actuallylemoncurd/photo/main/BP%20diagram%20final.png)
 
 1. [Gateway Extension Adapter](https://www.aliexpress.com/item/4000334862080.html)
 2. [MQB Development Harness](https://comma.ai/shop/products/comma-car-harness)
