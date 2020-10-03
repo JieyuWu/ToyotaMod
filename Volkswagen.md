@@ -123,7 +123,7 @@ Purchasing the Comma two (c2) is the easiest way to get started. it also possibl
 ## If your car only has ACC 
 1. [comma two DevKit](https://comma.ai/shop/products/comma-two-devkit)
 2. Make your own [VAG J533 Harness](https://github.com/commaai/openpilot/wiki/VW-j533-cable) 
-3. Use VCDS to enable openpilot to instruct the steering rack
+3. Recode the steering rack and instrument cluster to believe the car has lane assist (this allows lateral control via CAN messages to the steering rack). Use VCDS to modify control module 17 (instruments) and module (steering assist).
 
 # Installing the Community Port
 
