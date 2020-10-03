@@ -33,4 +33,4 @@ Data from pins 7/17 comes into CAN2 of the blackpanda from the socket end of the
 ![j533 harness diagrams together](https://raw.githubusercontent.com/actuallylemoncurd/photo/main/BPWPGPdiagram.png)
 
 ![j533 cable location](https://cdn.discordapp.com/attachments/534359517836607488/667975270749306890/image0.jpg)
-Lay on your back in the driver's footwell with a torch. Get as close to the firewall as possible. Look up. You will see a red connector. This is the J533 connector. It is plugged into the J533 CAN gateway
+Lay on your back in the driver's footwell with a torch. Get as close to the firewall as possible. Look up. You will see a (sometimes) red connector. (It's not red in this picture but it's in the red circle). This is the J533 connector. It is plugged into the J533 CAN gateway
