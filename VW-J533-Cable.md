@@ -20,11 +20,14 @@ The role of the Gateway (also known J533) is the exchange of data between the CA
 ## panda relay J533 (Black Panda for Comma Two)
 ![j533 black panda](https://raw.githubusercontent.com/actuallylemoncurd/photo/main/BP%20diagram%20final.png)
 
-A source of some confusion is which direction data flows. In summary, the critical connection is for openpilot to intercept pins 7/17 of the J533 connector. The comma relay 'man-in-the-middles' the flow of data down the "can bus extended (7/17 on the J533 connector)" pathway. It's easy to wire it the wrong way around. Data from pins 7/17 comes into CAN2 (the socket end of the aliexpress harness), gets manipulated by openpilot to add steering commands and then is sent out CAN0 towards the J533 gateway. CAN0 and CAN2 are electrically connected together when the relay is operating in passthrough mode. So CAN0 should be connected to the red plug and CAN2 should be connected to the black socket. 
+A source of some confusion is which direction data flows. In summary, the critical connection is for openpilot to intercept pins 7/17 of the J533 connector. The comma relay 'man-in-the-middles' the flow of data down the VW "extended can bus" (7/17 on the J533 connector). It's easy to wire it the wrong way around. 
+
+Data from pins 7/17 comes into CAN2 of the blackpanda from the socket end of the Aliexpress harness, gets manipulated by openpilot to add steering commands, and then is sent out CAN0 of the black panda to the J533 gateway via the red plug of the Aliexpress harness. CAN0 and CAN2 are electrically connected together when the relay is operating in passthrough mode. So CAN0 should be connected to the red plug and CAN2 should be connected to the black socket. 
 
 1. [Gateway Extension Adapter](https://www.aliexpress.com/item/4000334862080.html)
 2. [MQB Development Harness](https://comma.ai/shop/products/comma-car-harness)
 3. Cloth electrical harness tape
+4. Electrical connectors (butt splices if you're brave or DSUB pins/sockets if you are non-committal) 
 
 ## wp/gp/bp J533 harness diagrams together
 ![j533 harness diagrams together](https://raw.githubusercontent.com/actuallylemoncurd/photo/main/BPWPGPdiagram.png)
