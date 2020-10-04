@@ -58,7 +58,7 @@ Table of Contents
 
 ### Where are my videos stored? How can I stitch the segments together?
 
-> Videos are stored on the device in `/data/realdata` as 1 minute segment directories.  Each directory contains the log data and video in `hevc` form.  You can stitch these videos together using this command:
+> Videos are stored on the device in `/sdcard/realdata` as 1 minute segment directories.  Each directory contains the log data and video in `hevc` form.  You can stitch these videos together using this command:
 
 ```
 cat fcamera1.hevc fcamera2.hevc fcamera3.hevc > output.hevc 
