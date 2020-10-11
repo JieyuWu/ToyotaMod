@@ -9,18 +9,73 @@ The easiest and safest way to perform the build and package process is to use an
 I am going to assume you know how to SSH into your EON / Comma2. For the purpose of this document I will refer to your device as an EON - but it also applies to the Comma2.
 
 
-# Preparing your EON
+# Deployment Steps
 
-1. Generate RSA key pair as /tmp/deploy_key
+## (Only need to do this once) 1. Generate RSA key pair as /tmp/deploy_key
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 Do not password protect it; change the email to the email associated with your account
 When prompted for a location, enter "/tmp/deploy_key"
-this will generate two files - deploy_key and deploy_key.pub. Please backup these files (I sftp into a server of mine and uploaded them for safe keeping)
-2. Add deploy key to your Github account
+this will generate two files - deploy_key and deploy_key.pub. **Please backup these files** (I sftp into a server of mine and uploaded them for safe keeping)
+
+**If you have already generated the key pair, simply upload them to the eon and place them in /tmp**
+They will stay there until you do a factory reset.
+
+## 2. Add deploy key to your Github account
 On the EON, run cat /tmp/deploy_key.pub. Copy the block of text that is outputted. (It should begin with ssh-rsa and end with your email in quotes)
 Open your Github profile settings, and select keys: [https://github.com/settings/keys](https://github.com/settings/keys)
 Click New SSH Key, enter any name you wish, and paste the public key text. Save
 
+## 3. Prepare the working directories
+`cd /data
+rm -r openpilot
+rm -r openpilot_source
+git clone https://github.com/JasonJShuler/openpilot.git openpilot_source
+cd openpilot_source
+git checkout <branch_name>`
+In the clone line, replace the url with your repository and the branch name with your desired source branch. (note that this branch needs to match your deployment 
+
+## Optional Step - compile installers
+If you customized the installer, you need to rebuild the binaries and check them in.
+replace <branch_name> with the name of your branch. this should be the same branch you have configured in the scripts.
+`cd /data/openpilot_source
+git checkout <branch_name>
+git fetch
+git pull
+cd /data/openpilot_source/installer
+make
+cd installers
+cd updater
+make
+cd /data/openpilot_source
+git add .
+git commit -m "updating installers"
+git push`
+
+
+## Run prep commands
+These can just be pasted into the terminal. Be sure to press enter after the last line
+Note: replace the master branch name with your source branch name.
+`cd /data/openpilot_source
+git reset --hard
+git fetch origin
+git checkout master
+git clean -xdf
+git submodule update --init
+git submodule foreach --recursive git reset --hard
+git submodule foreach --recursive git clean -xdf
+`
+## Perform the Build / Deploy
+
+Note: replace "devel" with your target branch. Typical values are "master-ci" or "devel"
+Note: if you have made any hotfixes the push will fail - TODO: steps to resolve
+`PUSH=devel /data/openpilot_source/release/build_devel.sh`
+
+If you did everything right, and your code is good, it will package and deploy
+
+## OPTIONAL - Host your installer binary
+The file /data/openpilot_source/installer/installers/install_openpilot should be uploaded to a webserver - you can name it whatever you want. The url to this file will allow people to install your fork from the EON without using SSH or Workbench. Note that newer cert issued by Comodo - which has been renamed to Sectigo - are not trusted and will not work. Use a digicert, or even a free ssl cert.
+
+Finally, I recommend you uninstall OP and test your install url.
 
 
 
