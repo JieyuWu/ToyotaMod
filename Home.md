@@ -45,7 +45,7 @@ Community guides that help you contribute to openpilot, or make your own modific
 * [openpilot on PC](../wiki/Webcam)
 * [Simulation in CARLA](../wiki/CARLA)
 * [Reflash CommaTwo/EON OS (NEOS)](../wiki/Flash-NEOS) - **TODO**
-* [Building and deploying a release branch](../wiki/BuildRelease)
+* [Building and deploying a release branch](../wiki/Packaging-a-Release)
 
 ### Hardware
 * [comma pedal](../wiki/comma-pedal)
