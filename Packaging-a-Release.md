@@ -8,6 +8,63 @@ The easiest and safest way to perform the build and package process is to use an
 
 I am going to assume you know how to SSH into your EON / Comma2. For the purpose of this document I will refer to your device as an EON - but it also applies to the Comma2.
 
+# Required code modifications
+
+## selfdrive/common/version.h
+Edit this to be specific to your fork / branch.
+I suggest appending a short ID and a secondary version for your release
+ex: 0.7.4-GM-0.1
+Your version should be incremented with each release to ensure the update can be identified
+
+If you updated Panda code, you should also update
+panda/VERSION
+I am using the same format as the OP version. It is even more important to update this, as OP uses it to decide if it should flash the Panda.
+
+
+## release/build_devel.sh
+Search for "commaai" and replace it with your github username. there should be 4 instances.
+As of this writing, they are lines 10, 17, 20 and 40
+
+Find this block and update the publisher info to match you
+starts at line 29
+`export GIT_COMMITTER_NAME="<Name>"
+export GIT_COMMITTER_EMAIL="<email>"
+export GIT_AUTHOR_NAME="<name>"
+export GIT_AUTHOR_EMAIL="<email>"`
+
+Around line 60, the submodules are added. If you are using a different branch than master, update the branch name
+`add_subtree "cereal" "cereal" master
+add_subtree "panda" "panda" master
+add_subtree "opendbc" "opendbc" master
+add_subtree "openpilot-pyextra" "pyextra" master`
+
+
+## installer/installer.c
+
+Around line 34
+Update the repository url
+`#define GIT_CLONE_COMMAND "git clone https://github.com/jasonjshuler/openpilot.git"`
+
+
+## installer/Makefile
+Around line 95, update the target branch name. I think it defaults to master2
+This should match the branch you intend people to use. I recommend devel.
+`					-DBRANCH=devel \`
+
+
+
+## Commit and push all your changes. Make sure your submodules are updated as well
+
+
+
+
+
+
+
+
+
+
+
 
 # Deployment Steps
 
@@ -29,14 +86,12 @@ Click New SSH Key, enter any name you wish, and paste the public key text. Save
 `cd /data
 rm -r openpilot
 rm -r openpilot_source
-git clone https://github.com/JasonJShuler/openpilot.git openpilot_source
-cd openpilot_source
-git checkout <branch_name>`
-In the clone line, replace the url with your repository and the branch name with your desired source branch. (note that this branch needs to match your deployment 
+git clone https://github.com/JasonJShuler/openpilot.git openpilot_source`
+In the clone line, replace the url with your repository and the branch name with your desired source branch. (note that this branch needs to match your deployment script and installer code
 
-## Optional Step - compile installers
+## Optional Step - compile installers (Only needs to be done once after you change the installer files)
 If you customized the installer, you need to rebuild the binaries and check them in.
-replace <branch_name> with the name of your branch. this should be the same branch you have configured in the scripts.
+Replace <branch_name> with the name of your branch. this should be the same branch you have configured in the scripts.
 `cd /data/openpilot_source
 git checkout <branch_name>
 git fetch
@@ -67,10 +122,10 @@ git submodule foreach --recursive git clean -xdf
 ## Perform the Build / Deploy
 
 Note: replace "devel" with your target branch. Typical values are "master-ci" or "devel"
-Note: if you have made any hotfixes the push will fail - TODO: steps to resolve
+Note: if you have made any hotfixes the push will fail - **TODO: steps to resolve**
 `PUSH=devel /data/openpilot_source/release/build_devel.sh`
 
-If you did everything right, and your code is good, it will package and deploy
+If you did everything right, and your code is good, it will package and deploy. Your users' devices will auto-update on the next reboot
 
 ## OPTIONAL - Host your installer binary
 The file /data/openpilot_source/installer/installers/install_openpilot should be uploaded to a webserver - you can name it whatever you want. The url to this file will allow people to install your fork from the EON without using SSH or Workbench. Note that newer cert issued by Comodo - which has been renamed to Sectigo - are not trusted and will not work. Use a digicert, or even a free ssl cert.
