@@ -31,9 +31,9 @@ Table of Contents
 Workbench is a user-friendly desktop application for SSH ([Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell)) into your android device running openpilot.
 
 ## Option 2 - Putty SSH Client
-Using Putty will not provide any of the rich feature sets found in workbench.  However, if ssh access is all you need, Putty is a simple beginner friendly way to achieve that.
+Putty is a simple beginner friendly way to connect to a comma device via SSH.
 1. Download and install Putty.
-2. Download and save the [Putty Private Key](https://github.com/commaai/openpilot/blob/master/tools/ssh/key/id_rsa.ppk) `Note; Putty uses a different private key format than OpenSSH.  Do not use this key file with OpenSSH`
+2. Download and save the [Putty Private Key](https://github.com/commaai/openpilot/blob/master/tools/ssh/key/id_rsa.ppk) `Right click the 'Raw' button and Save As to download`
 3. Get the IP address of your EON/C2 in settings under `Settings > WiFi > Open WiFi Settings > More Options > Three Dots in Top Left > Advanced` (Please make sure your EON and your computer connect to the same WiFi)
 4. At this point you can optionally check that your computer and device can communicate by doing the following:
 
