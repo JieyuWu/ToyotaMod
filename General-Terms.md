@@ -30,6 +30,7 @@ panda paw | | A device to help you unbrick a panda.
 # openpilot terms
 Term | Abbreviation | Definition
 --- | --- | ---
+End to end | E2E | End to end means the model reacts like a human would. It assesses the whole picture and acts accordingly. Unlike other approaches where things must be marked by hand, end to end learns all the nuances of driving.
 longitudinal | long | Refers to gas and brake control
 lateral | lat | Refers to steering control
 Model predictive control | MPC | An advanced method of process control that is used to control a process while satisfying a set of constraints. Used for longitudinal control.
