@@ -15,7 +15,7 @@ Below are locations the community has found for their cars. Please note, if your
 
 It is just above the glove box location once removed. The picture is taken with the camera pointed up into the cavity not directly head on. 
 
-## Rogue 2019
+## Rogue 2018-19
 ![image](https://user-images.githubusercontent.com/37757984/94323035-2368fd00-ff49-11ea-8b42-3fc9c40cf2cb.png)
 
 There is no need to disassemble anything. All you need is to remove the luggage floor cover, and expose the spare tire. The ADAS could be reach by hand, and the user disconnected the harness wire with min efforts. This may require a USB-C 3.1 Gen 2 extender to reach the comma two.
