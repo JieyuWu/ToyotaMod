@@ -1,9 +1,9 @@
 # Introduction
 Before submitting a bug report to openpilot, please ensure the following.
 
-* You are running stock openpilot `(on anything other than stock, report the bug to the fork developer)`
-* Your issue is not mentioned below `(non-openpilot issues are mentioned below with ways to solve them yourself)`
-* There aren't any [open issues](https://github.com/commaai/openpilot/issues) about the bug `(if there are, please add additional information to them!)`
+* You are running stock openpilot (on anything other than stock, report the bug to the fork developer)
+* Your issue is not mentioned here (https://github.com/commaai/openpilot/wiki/Troubleshooting)
+* There aren't any open issues (https://github.com/commaai/openpilot/issues) about the bug (if there are, please add additional information to them!)
 
 Ready to go? [Create a bug report here!](https://github.com/commaai/openpilot/issues/new?assignees=&labels=bug&template=bug_report.md&title=)
 
