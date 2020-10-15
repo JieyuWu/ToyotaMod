@@ -9,7 +9,7 @@
 Before purchasing a harness for an unsupported vehicle, make sure you are purchasing the correct type. 
 ### It's important to look where the notches are on your plug side, and ensure they match correctly.
 
-You can find this connector plugged into your Lane-Keep camera which is located near your rear-view mirror. You may need to pull back some trim to expose the camera. Once you do, unplug the connector and compare it to the types below. If it doesn't match, we don't yet sell the correct harness for your vehicle.
+You can find this connector plugged into your Lane-Keep camera which is located near your rear-view mirror. You will need to pull back some trim to expose the camera. Once you do, unplug the connector and compare it to the types below.
 
 ![Wire Key](https://user-images.githubusercontent.com/37757984/85790184-a6797d80-b6e4-11ea-8a86-01b6511cd190.png)
 
