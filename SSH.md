@@ -35,26 +35,15 @@ Putty is a simple beginner friendly way to connect to a comma device via SSH.
 1. Download and install Putty.
 2. Download and save the [Putty Private Key](https://github.com/commaai/openpilot/blob/master/tools/ssh/key/id_rsa.ppk) `Right click the 'Raw' button and Save As to download`
 3. Get the IP address of your EON/C2 in settings under `Settings > WiFi > Open WiFi Settings > More Options > Three Dots in Top Left > Advanced` (Please make sure your EON and your computer connect to the same WiFi)
-4. At this point you can optionally check that your computer and device can communicate by doing the following:
-
-* In a terminal try to ping device IP address, such as `ping 192.168.1.100`
-* If the devices can connect on the network you should see a response similar to:
-
-```
-PING 192.168.2.1 (192.168.2.1): 56 data bytes
-64 bytes from 192.168.2.1: icmp_seq=0 ttl=64 time=1.710 ms
-64 bytes from 192.168.2.1: icmp_seq=1 ttl=64 time=13.899 ms
-```
-
-5. Open Putty, and enter the hostname as `root@<ip_address>` where <ip_address> is your device IP and change the port to `8022`:
+4. Open Putty, and enter the hostname as `root@<ip_address>` where <ip_address> is your device IP and change the port to `8022`:
 
 ![Putty Main Page](https://user-images.githubusercontent.com/3046315/87094708-3561bc00-c1f4-11ea-96c9-0029bda9664e.png)
 
-6. Load the private key file in `Connection > SSH > Auth > Private key for authentication`:
+5. Load the private key file in `Connection > SSH > Auth > Private key for authentication`:
 
 ![Putty Private Key](https://user-images.githubusercontent.com/3046315/86837824-54c1e300-c054-11ea-9b61-fdbfefa8e834.png)
 
-7. Finally, click `Open` on the bottom of the program, and if all works correctly, an SSH connection will be created.
+6. Finally, click `Open` on the bottom of the program, and if all works correctly, an SSH connection will be created.
 
 ## Option 3 - Pre-installed OpenSSH client on Windows 10
 
