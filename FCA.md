@@ -14,6 +14,14 @@ LaneSense | LKAS | Stock lane keeping system (can turn the wheel, you need this.
 Adaptive Cruise Control | ACC | Stock cruise control system with radar that paces the vehicle in front of you (you need this.) 
 Fiat Chrysler of America | FCA | You'll see this term a lot.  It just groups Ram, Jeep, Chrysler, Dodge, Fiat, etc into one.
 
+## Current community supported vehicles: (must have ACC and LaneSense)
+### 2017-2018 Jeep Grand Cherokee (all trims including SRT, Trackhawk)
+### 2019+ Jeep Grand Cherokee (all trims including SRT, Trackhawk) * minimum steer speed 39 mph 
+### 2017-2018 Chrysler Pacifica (all trims and powertrains)
+### 2019+ Chrysler Pacifica (all trims and powertrains) * minimum steer speed 39 mph
+### 2019+ Jeep Cherokee (KL) (all trims) * minimum steer speed 39 mph 
+To add Openpilot to one of the above vehicles, a Comma two (c2) is required, and FCA Harness.  The official Openpilot releases from Comma work with the above vehicles.  
+
 # openpilot Capabilities
 
 ## Lateral Control
