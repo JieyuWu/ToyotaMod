@@ -48,14 +48,14 @@ Ensure that every single ecu has its firmware in this file.
 
 ### On Device
 
-1. [SSH](../wiki/SSH/) into the comma two and navigate to /data/openpilot/selfdrive/_make_/values.py
+1. [SSH](../wiki/SSH/) into the comma two and navigate to /data/openpilot/selfdrive/car/_make_/values.py
 2. Save the file and reboot
 
 ### To Your Own Fork
 
 1. Fork openpilot into your own GitHub account
 2. Clone the repo on your computer
-3. Navigate to /selfdrive/_make_/values.py
+3. Navigate to /selfdrive/car/_make_/values.py
 4. After changes are made, push to your repo
 5. Create a pull request to ensure the car is supported in the next release
 
