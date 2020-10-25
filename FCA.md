@@ -24,10 +24,22 @@ Control over the steering wheel.
 
 ### Minimum Speeds
 
-Car years 2018 and earlier can steer down to 9 mph. Years 2019 and later can start steering once it reaches 39 mph, and then steer down to 30 mph.
+Chrysler Pacifica and Jeep Grand Cherokee models years 2017-2018 can steer down to 9 mph. 
+
+Model years 2019 and later can start steering once reaching 39 mph, and then steer down to approximately 30 mph.
 
 ## Longitudinal Control
 
 Control over the gas and brakes.
 
-Longitudinal control is provided by the stock system that came with the car.
+Longitudinal control is provided by the stock system that came with the car.  
+
+## 2019+ Ram 1500 with ACC and LaneSense
+
+Ram 1500's with ACC and LaneSense may work with Openpilot.  A car port has not yet been completed for Ram 1500's, although a bit of data has been collected from them.  It appears, with the information gathered so far, that it "should" work.  Owners of Ram 1500's interested in making Openpilot work with their trucks would need a Comma two (c2) and Dev Harness, outfitted with connectors as found in this document: https://1drv.ms/b/s!AhlEjIwibjKfiZojQ_EU934HfcvMHA?e=mOVWBh.
+
+## 2014-2018 Chrysler 200, 2014-2018 Jeep Cherokee, late model Jeep Renegade, late model Jeep Compass, 2014-2018 Dodge Chargers, 2014-2018 Chrysler 300 equipped with ACC and LaneSense 
+
+These vehicles work with Openpilot via a fork maintained by Discord member, Tunder.  Those interested should contact Tunder directly, as the fork is highly experimental and in active development.  It can be found, and forked, from https://github.com/Tundergit/openpilot.git, branch: devel.  *** This implementation does NOT conform to safety standards enforced by Comma.  Installing and using this fork is at your own risk.  Owners are encouraged to contribute to further development of this fork.  
+
+Owners of the above vehicles will need a Comma two (c2) and Dev Harness, outfitted with the connectors found in this document: https://1drv.ms/b/s!AhlEjIwibjKfiZoczAAEKfpPBOIE-w?e=SjJmJQ 
