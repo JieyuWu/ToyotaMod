@@ -57,20 +57,18 @@ All: 8 mph for lateral control. First engagement must be above 18 mph.
 
 # Hardware
 
-* openpilot device and harness, choose one of:
-  * two + ODB-II harness: [$1000](https://comma.ai/shop/products/comma-two-devkit)
-    * comma ODB-II harness: $200
-    * or homebuilt harness: $40
-  * EON + grey panda: $300-$600 used #for-sale
-    * Long 3 m usbcable. 20 awg or better. [Recommended](https://www.l-com.com/usb-premium-usb-cable-type-a-male-female-extension-cable-30m). - $20
-    * Short 0.3 m mini-usb left-angle cable. [Recommended](https://www.amazon.com/gp/product/B074C8ZLYC). - $9
+## Recommended
+
+1. [comma two devkit w/ OBD-II car harness](https://comma.ai/shop/products/comma-two-devkit)
+2. [ASCM wiring harness](https://leepauldinginc.square.site/product/gm-volt-harness-for-open-pilot/20?cs=true)
+<br><img src="https://cdn.discordapp.com/attachments/524611823090008065/578723742100881409/Volt_Wiring_Without_Giraffe.png" width="600">
+
+## Other ASCM Harness Methods
 * Bypass ASCM and power the radar, choose one of:
     1. [GM Giraffe](https://zoneos.com/shop/) - $300-$500
     <br><img src="https://cdn.discordapp.com/attachments/524611823090008065/715799632176742440/20200210_231051.jpg" width="300">
-    2. [ASCM wiring harness](https://leepauldinginc.square.site/product/gm-volt-harness-for-open-pilot/20?cs=true) - $210-$240
-    <br><img src="https://cdn.discordapp.com/attachments/524611823090008065/578723742100881409/Volt_Wiring_Without_Giraffe.png" width="600">
-    3. ASCM connector [Amazon](https://www.amazon.com/gp/product/B000UF24KE/) / [Amazon alt](https://www.amazon.com/dp/B01MULGCTM/) - $7-10 + Cam molex connector [digikey](https://www.digikey.com/product-detail/en/molex-llc/0348250124/WM10326-ND/4504599) - $10
-    4. 0.1" header [homebrew harness](https://zoneos.com/volt/#manual-radar)
+    2. ASCM connector [Amazon](https://www.amazon.com/gp/product/B000UF24KE/) / [Amazon alt](https://www.amazon.com/dp/B01MULGCTM/) - $7-10 + Cam molex connector [digikey](https://www.digikey.com/product-detail/en/molex-llc/0348250124/WM10326-ND/4504599) - $10
+    3. 0.1" header [homebrew harness](https://zoneos.com/volt/#manual-radar)
 
 ## Harness Examples
 
