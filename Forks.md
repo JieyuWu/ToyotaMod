@@ -60,4 +60,6 @@ Forks can change many of the fundamental pieces of openpilot software. Because o
 
 - The integrity of the time variables in the [driver_monitor.py](https://github.com/commaai/openpilot/blob/master/selfdrive/monitoring/driver_monitor.py) file must remain consistent with what's been predefined by comma.
 
+- Don't use the car's Parking Assist parameters to drive at highway speeds unless you know what you're doing. Don't promote to other users. See medium article for more details: https://medium.com/@comma_ai/safer-control-of-steering-362f3526c9ab
+
 *NOTE: To fork maintainers. Disabling or nerfing safety features may get you and your users banned from our servers. comma.ai strongly discourages the use of openpilot forks with safety code either missing or not fully meeting the requirements defined in [SAFETY.md](https://github.com/commaai/openpilot/blob/master/SAFETY.md).*
