@@ -57,6 +57,12 @@ https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulato
 
 ***
 
+`ubuntu-drivers devices`  
+
+look for the driver that has "recommended" at the end
+
+`sudo apt install nvidia-450`  
+
 `$ curl https://get.docker.com | sh \`  
 `&& sudo systemctl start docker \`  
 `&& sudo systemctl enable docker`  
