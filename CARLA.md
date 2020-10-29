@@ -70,3 +70,5 @@ https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulato
 `cd sim`  
 
 `INSTALL=1 ./start_carla.sh`  
+
+`sudo ./start_openpilot_docker.sh`
