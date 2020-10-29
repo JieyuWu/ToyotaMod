@@ -10,6 +10,7 @@ Download Page
 
 https://github.com/carla-simulator/carla/blob/master/Docs/download.md
 
+https://ubuntu.com/download/desktop
 
 ***
 
