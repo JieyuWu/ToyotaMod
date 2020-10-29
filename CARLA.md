@@ -12,6 +12,8 @@ https://github.com/carla-simulator/carla/blob/master/Docs/download.md
 
 https://ubuntu.com/download/desktop
 
+Create an Ubuntu USB stick for install https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview
+
 https://docs.docker.com/engine/install/ubuntu/
 
 
