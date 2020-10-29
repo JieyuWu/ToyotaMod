@@ -44,12 +44,12 @@ https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulato
 
 `$ sudo docker run hello-world`  
 
-`git clone https://github.com/commaai/openpilot.git`
+`git clone https://github.com/commaai/openpilot.git`  
 
-cd tools
+`cd tools`  
 
-cd sim
+`cd sim`  
 
-./start_carla.sh
+`./start_carla.sh`  
 
 `sudo docker pull carlasim/carla:latest`  
