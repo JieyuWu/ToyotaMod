@@ -23,13 +23,13 @@ https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulato
 
 ***
 
-`$ sudo apt-get update`
+`$ sudo apt-get update`  
 
-`$ sudo apt-get install \`
-    `apt-transport-https \`
-    `ca-certificates \`
-    `curl \`
-    `gnupg-agent \`
-    `software-properties-common`
+`$ sudo apt-get install \`  
+    `apt-transport-https \`  
+    `ca-certificates \`  
+    `curl \`  
+    `gnupg-agent \`  
+    `software-properties-common`  
 
-`sudo docker pull carlasim/carla:latest`
+`sudo docker pull carlasim/carla:latest`  
