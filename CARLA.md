@@ -53,3 +53,20 @@ https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulato
 `./start_carla.sh`  
 
 `sudo docker pull carlasim/carla:latest`  
+
+
+***
+
+`$ curl https://get.docker.com | sh \`  
+`&& sudo systemctl start docker \`  
+`&& sudo systemctl enable docker`  
+
+`$ sudo docker run hello-world`  
+
+`git clone https://github.com/commaai/openpilot.git`  
+
+`cd tools`  
+
+`cd sim`  
+
+`INSTALL=1 ./start_carla.sh`  
