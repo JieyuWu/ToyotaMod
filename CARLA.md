@@ -6,6 +6,11 @@ https://carla.readthedocs.io/en/latest/core_concepts/
 
 https://carla.readthedocs.io/en/latest/start_quickstart/
 
+Download Page
+
+https://github.com/carla-simulator/carla/blob/master/Docs/download.md
+
+
 ***
 
 Instructions for running openpilot and Carla via docker. 
