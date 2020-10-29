@@ -11,5 +11,4 @@ Some forks have attempted to maintain some White Panda support:
 
 ## Grey Panda
 
-Last supported op version: 0.7.11 (or is it 0.7.10?)
-
+Last supported op version: 0.7.9
