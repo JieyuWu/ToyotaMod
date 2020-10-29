@@ -61,7 +61,11 @@ https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulato
 
 look for the driver that has "recommended" at the end
 
+for example, the 450 version install command is show below:  
+
 `sudo apt install nvidia-450`  
+
+`sudo reboot`  
 
 `$ curl https://get.docker.com | sh \`  
 `&& sudo systemctl start docker \`  
