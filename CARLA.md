@@ -12,6 +12,8 @@ https://github.com/carla-simulator/carla/blob/master/Docs/download.md
 
 https://ubuntu.com/download/desktop
 
+https://ubuntu.com/wsl
+
 ***
 
 Instructions for running openpilot and Carla via docker. 
