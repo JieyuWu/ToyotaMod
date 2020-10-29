@@ -20,3 +20,7 @@ https://docs.docker.com/engine/install/ubuntu/
 Instructions for running openpilot and Carla via docker. 
 
 https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulator
+
+***
+
+`sudo docker pull carlasim/carla:latest`
