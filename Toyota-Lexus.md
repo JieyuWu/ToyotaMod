@@ -74,7 +74,7 @@ Auto High Beams | AHB | Pretty straight forward.
 Road Sign Assist | RSA* | The thing that displays speed limit and stop signs on your dash.
 Lane Tracing Assist | LTA | The stock feature that enables lane centering or lane keeping while using DRCC
 
-* RSA Is not available on Canadian sold TSS2 Models.
+* RSA Is not available on Canadian sold TSS2.0 or TSS2.5+ Models.
 
 # openpilot Capabilities
 
