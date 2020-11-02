@@ -64,3 +64,6 @@ The information needed to build one is located in Comma's [https://github.com/co
 
 ==== Toyota ====
 * All DSU Toyotas w/o stop and go
+
+==== Volkswagen ====
+* Golf MK6
