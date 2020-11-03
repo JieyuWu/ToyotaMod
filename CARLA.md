@@ -93,6 +93,6 @@ for example, the 450 version install command is show below:
 
 `./install_carla.sh`
 
-`INSTALL=1 ./start_carla.sh`  
+`sudo INSTALL=1 ./start_carla.sh`  
 
 `sudo ./start_openpilot_docker.sh`
