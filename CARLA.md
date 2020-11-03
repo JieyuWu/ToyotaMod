@@ -85,6 +85,8 @@ for example, the 450 version install command is show below:
 
 `git clone https://github.com/commaai/openpilot.git`  
 
+`cd openpilot`  
+
 `cd tools`  
 
 `cd sim`  
