@@ -69,7 +69,7 @@ look for the driver that has "recommended" at the end
 
 for example, the 450 version install command is show below:  
 
-`sudo apt install nvidia-450`  
+`sudo apt install nvidia-drivers-450`  
 
 `sudo reboot`  
 
