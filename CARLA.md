@@ -98,3 +98,7 @@ for example, the 450 version install command is show below:
 Open a second terminal window by pressing Ctrl + Alt + T
 
 `sudo ./start_openpilot_docker.sh`
+
+## Tips
+
+`+0
