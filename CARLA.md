@@ -102,3 +102,15 @@ Open a second terminal window by pressing Ctrl + Alt + T
 ## Tips
 
 `+0
+
+scrolling press ` and [
+
+exit scroll mode press q
+
+As  an aside you can add yourself to the docker group with sudo usermod -aG docker $USER then logout/login to not have to sudo everything
+
+ctrl+d to exit container
+
+ctrl+c to kill process
+
+sudo service docker restart
