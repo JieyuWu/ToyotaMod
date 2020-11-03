@@ -81,6 +81,8 @@ for example, the 450 version install command is show below:
 
 `$ sudo docker run hello-world`  
 
+`sudo apt install git`  
+
 `git clone https://github.com/commaai/openpilot.git`  
 
 `cd tools`  
