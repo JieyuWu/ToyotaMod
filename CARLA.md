@@ -73,6 +73,8 @@ for example, the 450 version install command is show below:
 
 `sudo reboot`  
 
+`sudo apt install curl`  
+
 `$ curl https://get.docker.com | sh \`  
 `&& sudo systemctl start docker \`  
 `&& sudo systemctl enable docker`  
