@@ -33,5 +33,8 @@ Lay on your back in the driver's footwell with a torch. Get as close to the fire
 3. Cloth electrical harness tape
 4. Electrical connectors (butt splices if you're brave or DSUB pins/sockets if you are non-committal) 
 
+## J533 harness with elimination of comma power
+![J533 dream harness](https://user-images.githubusercontent.com/3917213/98303563-6622f800-2012-11eb-9080-46b0c00814b6.png)
+
 ## wp/gp/bp J533 harness diagrams together
 ![j533 harness diagrams together](https://raw.githubusercontent.com/actuallylemoncurd/photo/main/BPWPGPdiagram.png)
