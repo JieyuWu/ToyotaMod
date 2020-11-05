@@ -14,7 +14,7 @@ There is often confusion between whether connectors are referred to by the housi
 Lay on your back in the driver's footwell with a torch. Get as close to the firewall as possible. Look up. You will see a (sometimes) red connector. (It's not red in this picture but it's in the red circle). This is the J533 connector. It is plugged into the J533 CAN gateway
 
 ## J533 pinout for MQB cars 
-![j533_vw](https://user-images.githubusercontent.com/61742003/87466641-a0d8ce80-c5e4-11ea-8030-c28e031b9d5e.png)
+![j533_vw](https://user-images.githubusercontent.com/3917213/98302702-00823c00-2011-11eb-88e8-ea326b25f0ec.png)
 
 ## J533 wiring diagram for old white or grey panda
 ![J533_Ver3 1_2019 11 20](https://user-images.githubusercontent.com/61742003/87466638-a0d8ce80-c5e4-11ea-9a8d-9346a46cb4f4.png)
