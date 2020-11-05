@@ -25,7 +25,7 @@ Lay on your back in the driver's footwell with a torch. Get as close to the fire
 4. Cloth electrical harness tape
 
 ## J533 wiring diagram for comma 2 and black panda
-![j533 black panda](https://raw.githubusercontent.com/actuallylemoncurd/photo/main/BP%20diagram%20final.png)
+![j533 black panda](https://user-images.githubusercontent.com/3917213/98303219-df6e1b00-2011-11eb-9f5c-089564ca8994.png)
 
 ### Shopping list for black panda harness
 1. [Gateway Extension Adapter](https://www.aliexpress.com/item/4000334862080.html)
