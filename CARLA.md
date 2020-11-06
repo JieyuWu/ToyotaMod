@@ -114,3 +114,9 @@ ctrl+d to exit container
 ctrl+c to kill process
 
 sudo service docker restart
+
+### "communication issue between processes"
+
+disable the issue in controllerd:212
+
+everything with ctrl+c in both windows, edit file, run openpilot script in window 0 and bridge in window 1
