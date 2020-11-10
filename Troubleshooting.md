@@ -90,6 +90,8 @@ If the comma device is plugged into the car harness, please proceed.
 
 > Sometimes the device needs to be rebooted a few times to flash the internal UNO board. Did this fix the issue?
 
+_If you're running on a fork, you may have to SSH into your comma two and run `make recover` in `cd /data/openpilot/panda/board`_
+
 **2. Run SSH commands to reset the UNO board**
 
 > There is a guide on how to SSH here: https://github.com/commaai/openpilot/wiki/SSH If you are still stuck, you can ask for help on discord.comma.ai.
