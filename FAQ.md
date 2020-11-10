@@ -76,6 +76,8 @@ cd /sdcard/realdata
 find . -type f -wholename "*2020-08-01--09-01-14--*/*.hevc" -exec cat {} + > drive.hevc
 ```
 
+Step by step guide for accessing video files [here](../wiki/Video-Files).
+
 # comma two
 
 ### Why won't my comma two turn on?
