@@ -11,6 +11,8 @@ Files remain on the comma device until they are uploaded or automatically delete
 
 https://filezilla-project.org/
 
+ SFTP via FileZilla, .ppk, 8022, root, etc.
+
 # SSH
 
 # Cabana
