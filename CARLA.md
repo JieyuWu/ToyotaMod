@@ -24,7 +24,7 @@ Instructions for running openpilot and Carla via docker.
 https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulator
 
 
-# Install Drivers and Software
+## Install Drivers and Software
 
 Open a Terminal window by pressing Ctrl + Alt + T
 
