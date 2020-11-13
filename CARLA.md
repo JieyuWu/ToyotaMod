@@ -26,6 +26,10 @@ https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulato
 
 ## Install Drivers and Software
 
+### Download and Install Ubunutu
+
+### Update Nvidia Drivers
+
 Open a Terminal window by pressing Ctrl + Alt + T
 
 `sudo apt-get update`  
@@ -40,6 +44,8 @@ for example, the 450 version install command is show below:
 
 `sudo reboot`  
 
+### Install Docker
+
 `sudo apt install curl`  
 
 `$ curl https://get.docker.com | sh \`  
@@ -47,6 +53,8 @@ for example, the 450 version install command is show below:
 `&& sudo systemctl enable docker`  
 
 `$ sudo docker run hello-world`  
+
+### Install openpilot and carla
 
 `sudo apt install git`  
 
@@ -60,7 +68,11 @@ for example, the 450 version install command is show below:
 
 `./install_carla.sh`
 
+### Install drivers and start carla
+
 `sudo INSTALL=1 ./start_carla.sh`  
+
+### Run openpilot
 
 Open a second terminal window by pressing Ctrl + Alt + T
 
