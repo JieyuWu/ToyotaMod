@@ -62,7 +62,7 @@ Open a second terminal window by pressing Ctrl + Alt + T
 
 `sudo ./start_openpilot_docker.sh`
 
-## Tips
+# Tips and Troubleshooting
 
 `+0
 
