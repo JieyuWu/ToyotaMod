@@ -1,32 +1,16 @@
 Run openpilot with driving simulator [CARLA](http://carla.org/), which uses docker.
 
-openpilot sim
+Instructions for running openpilot and Carla via docker. https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulator
 
-https://carla.readthedocs.io/en/latest/core_concepts/
+## Install Drivers and Software
 
-https://carla.readthedocs.io/en/latest/start_quickstart/
-
-Download Page
-
-https://github.com/carla-simulator/carla/blob/master/Docs/download.md
+### Download and Install Ubunutu
 
 https://ubuntu.com/download/desktop
 
 Create an Ubuntu USB stick for install https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview
 
 https://docs.docker.com/engine/install/ubuntu/
-
-
-***
-
-Instructions for running openpilot and Carla via docker. 
-
-https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulator
-
-
-## Install Drivers and Software
-
-### Download and Install Ubunutu
 
 ### Update Nvidia Drivers
 
@@ -99,3 +83,15 @@ sudo service docker restart
 disable the issue in controllerd:212  controlsd.py
 
 everything with ctrl+c in both windows, edit file, run openpilot script in window 0 and bridge in window 1
+
+# See Also
+
+openpilot sim
+
+https://carla.readthedocs.io/en/latest/core_concepts/
+
+https://carla.readthedocs.io/en/latest/start_quickstart/
+
+Download Page
+
+https://github.com/carla-simulator/carla/blob/master/Docs/download.md
