@@ -44,7 +44,7 @@ Community guides that help you contribute to openpilot, or make your own modific
 * [Unofficial Hardware](../wiki/Unofficial-Hardware)
 * [openpilot on PC](../wiki/Webcam)
 * [Simulation in CARLA](../wiki/CARLA)
-* [Reflash CommaTwo/EON OS (NEOS)](../wiki/Flash-NEOS) - **TODO**
+* [Reflash CommaTwo/EON OS (NEOS)](../wiki/Flash-NEOS)
 * [Building and deploying a release branch](../wiki/Packaging-a-Release)
 
 ### Hardware
