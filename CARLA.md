@@ -1,6 +1,6 @@
 Run openpilot with driving simulator [CARLA](http://carla.org/), which uses docker.
 
-Instructions for running openpilot and Carla via docker. https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulator
+[Simulator Read Me](https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulator) Instructions for running openpilot and Carla via docker. 
 
 ## Install Drivers and Software
 
