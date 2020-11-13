@@ -1,6 +1,6 @@
 Run openpilot in the driving simulator world [CARLA](http://carla.org/).
 
-[Simulator Read Me](https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulator) Instructions for running openpilot and Carla via docker. 
+[Simulator Read Me](https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulator) Instructions for running openpilot and Carla. 
 
 ## Install Drivers and Software
 
