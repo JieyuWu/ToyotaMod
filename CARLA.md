@@ -2,6 +2,8 @@ Run openpilot in the driving simulator world [CARLA](http://carla.org/).
 
 [Simulator Read Me](https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulator) - Instructions for running openpilot and Carla. 
 
+
+
 ## Install Drivers and Software
 
 ### Download and Install Ubunutu
@@ -93,6 +95,8 @@ openpilot sim
 https://carla.readthedocs.io/en/latest/core_concepts/
 
 https://carla.readthedocs.io/en/latest/start_quickstart/
+
+Many users and developers hang out in the [comma.ai Discord](https://discord.comma.ai)'s #openpilot-simulation. 
 
 Download Page
 
