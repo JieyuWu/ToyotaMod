@@ -176,3 +176,4 @@ Term | Abbreviation | Definition
 Modularer Querbaukasten / Modular Transverse Matrix | MQB | Strategy for shared modular design between VAG group makes and models. MQB cars with ACC work with Openpilot.
 Electronic Parking break | EPB |  
 jyoung8607 | jyoung | First to make OP work in VW
+Edgy | Edy | First to make OP long work in VW PQ
