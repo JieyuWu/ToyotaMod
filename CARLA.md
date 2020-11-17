@@ -12,8 +12,6 @@ https://ubuntu.com/download/desktop
 
 Create an Ubuntu USB stick for install https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview
 
-https://docs.docker.com/engine/install/ubuntu/
-
 ### Update Nvidia Drivers
 
 Open a Terminal window by pressing Ctrl + Alt + T
