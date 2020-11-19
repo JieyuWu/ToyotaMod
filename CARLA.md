@@ -24,7 +24,7 @@ look for the driver that has "recommended" at the end
 
 for example, the 450 version install command is show below:  
 
-`sudo apt install nvidia-drivers-450`  
+`sudo apt install nvidia-driver-450`  
 
 `sudo reboot`  
 
@@ -32,11 +32,11 @@ for example, the 450 version install command is show below:
 
 `sudo apt install curl`  
 
-`$ curl https://get.docker.com | sh \`  
+`curl https://get.docker.com | sh \`  
 `&& sudo systemctl start docker \`  
 `&& sudo systemctl enable docker`  
 
-`$ sudo docker run hello-world`  
+`sudo docker run hello-world`  
 
 ### Install openpilot and carla
 
@@ -44,11 +44,7 @@ for example, the 450 version install command is show below:
 
 `git clone https://github.com/commaai/openpilot.git`  
 
-`cd openpilot`  
-
-`cd tools`  
-
-`cd sim`  
+`cd openpilot/tools/sim`  
 
 `./install_carla.sh`
 
@@ -59,6 +55,8 @@ for example, the 450 version install command is show below:
 ### Run openpilot
 
 Open a second terminal window by pressing Ctrl + Alt + T
+
+`cd openpilot/tools/sim`  
 
 `sudo ./start_openpilot_docker.sh`
 
