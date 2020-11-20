@@ -133,3 +133,7 @@ Upgrades TSSP cars with a [better angle sensor](https://github.com/zorrobyte/bet
 
 ## How can I find out what version of Toyota Safety Sense (TSS) or other features my car has?
 > A couple of helpful links.  You can lookup you vehicle details using your VIN on the [Toyota Vehicle Information Lookup](https://www.toyota.com/owners/my-vehicle/vehicle-specification).  You can also review this handy [TSS Applicability Chart](https://cdn.discordapp.com/attachments/524327905937850394/669113172489404416/TSS_Features.pdf)
+
+# Links:
+
+* 2010-2015 [Prius wiring drawing](https://cdn.discordapp.com/attachments/524327905937850394/779136097498169364/2010-2015-Prius-schematic-v1.1.png)
