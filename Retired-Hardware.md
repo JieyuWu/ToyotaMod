@@ -14,4 +14,4 @@ Some forks have attempted to maintain White Panda support:
 Last supported op version: 0.7.10
 
 Some forks have attempted to maintain Grey Panda support:  
-https://github.com/ShaneSmiskol/openpilot/wiki/Helpful-Commits#support-grey-panda-on-0710
+*  https://github.com/ShaneSmiskol/openpilot/wiki/Helpful-Commits#support-grey-panda-on-0710
