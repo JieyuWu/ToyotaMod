@@ -13,3 +13,7 @@ https://software.intel.com/content/www/us/en/develop/articles/opencl-drivers.htm
 # Grand Theft Auto Version
 
 https://littlemountainman.github.io/2020/05/12/openpilot/
+
+# Installation schematics
+
+![](http://justine-haupt.com/bolt/images/openpilot_BoltConfigurations.png)
