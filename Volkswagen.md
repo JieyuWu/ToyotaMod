@@ -177,3 +177,8 @@ Modularer Querbaukasten / Modular Transverse Matrix | MQB | Strategy for shared 
 Electronic Parking break | EPB |  
 jyoung8607 | jyoung | First to make OP work in VW
 Edgy | Edgy | First to make OP long work in VW PQ
+
+# Useful links
+
+* [Adaptive Cruise Control retrofit – ACC on MQB](https://mqb.pl/en/adaptive-cruise-control-retrofit-acc-on-mqb/)
+* [Tutorial – Retrofiting Lane Assist | Sign Assist | Light Assist – 5Q0980653](https://mqb.pl/en/tutorial-retrofiting-lane-assist-sign-assist-light-assist-5q0980653/)
