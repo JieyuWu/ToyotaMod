@@ -213,3 +213,7 @@ Flashing Notes from @Ari
 > Then I ran fastboot format userdata (because neos doesn't support encrypted data partition from Oxygen OS) and then I rebooted into neos and wifi was working again
 
 </details>
+
+# Installation schematics
+
+![](http://justine-haupt.com/bolt/images/openpilot_BoltConfigurations.png)
