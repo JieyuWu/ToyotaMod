@@ -77,3 +77,7 @@ Control over the gas and brakes.
 Most Ford/Lincoln vehicles do not support OP Longitudinal Control. The CCM on these vehicles (Non Stop/Go) interfaces directly with the HS2 CAN bus and cannot be intercepted. These vehicles run in Lateral Only mode. 
 
 Stop/Go Ford's can be intercepted, but this has not been tested. 
+
+# Useful links
+
+* [2015 Ford F150 - openpilot Active Park Assist](https://streamable.com/wz17vr)
