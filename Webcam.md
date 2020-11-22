@@ -17,3 +17,7 @@ https://littlemountainman.github.io/2020/05/12/openpilot/
 # Installation schematics
 
 ![](http://justine-haupt.com/bolt/images/openpilot_BoltConfigurations.png)
+
+# Links
+
+* [Webcam discussion](https://github.com/commaai/openpilot/discussions/2561)
