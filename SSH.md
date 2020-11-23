@@ -98,11 +98,13 @@ Better yet, if you just want to connect directly to your vehicle without memoriz
 ```
 Host comma-rav4
   Port 22
+  IdentityFile ~/.ssh/my_github_key
   ProxyCommand ssh <DongleID>@ssh.comma.ai -W <DongleID>:%p
 
 Host ssh.comma.ai
-  Hostname ssh.comma.ai
   Port 22
+  IdentityFile ~/.ssh/my_github_key
+  Hostname ssh.comma.ai
 ```
 
 The one time connection listed on [ssh.comma.ai](https://ssh.comma.ai/) works just fine.
