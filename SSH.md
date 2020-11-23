@@ -79,7 +79,7 @@ $ ssh root@192.168.1.100 -p 8022 -i key.pem
 
 ## Connecting to ssh.comma.ai
 ### Using OpenSSH
-The instructions on [ssh.comma.ai](https://ssh.comma.ai/) for a saved connection are slightly wrong.  If you want to connect to your comma device by typing `ssh comma-{dongleid}` your `~/.ssh/config/` file should read as follows (Note the ${%h} entries in the ProxyCommand):
+The instructions on [ssh.comma.ai](https://ssh.comma.ai/) for a saved connection are slightly wrong.  If you want to connect to your comma device by typing `ssh comma-{dongleid}` your `~/.ssh/config` file should read as follows (Note the ${%h} entries in the ProxyCommand):
 
 ```
 Host comma-*
