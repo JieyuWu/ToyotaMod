@@ -167,23 +167,17 @@ These vehicles support follow-to-stop and automatic resume if the stop is less t
 ### Stock ACC Low: 
 These vehicles generally support follow-to-stop (XXX review this: maybe near-stop only) but will require the driver to take over and hold the brake after a very short delay. Resume from stop is moot as "ACC low" vehicles will not hold themselves at a stop. Any vehicles with a manual parking brake, either foot or hand-operated, will fall into this category.
 
-# Make-Specific Terms
-
-For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-Terms).
-
-Term | Abbreviation | Definition
---- | --- | ---
-Modularer Querbaukasten / Modular Transverse Matrix | MQB | Strategy for shared modular design between VAG group makes and models. MQB cars with ACC work with Openpilot.
-Electronic Parking break | EPB |  
-jyoung8607 | jyoung | First to make OP work in VW
-Edgy | Edgy | First to make OP long work in VW PQ
-
 # PQ platform
 
-There is work in progress on PQ35/PQ46 (November 2020). Comma pedal is likely to be used for acceleration (could ACC capable cars message PCM directly without pedal?).
+There is work in progress on PQ35/PQ46 (November 2020). 
+Comma pedal is likely to be used for acceleration on cars not supporting ACC, ACC supported cars can and should be controlled trough mACC_System message on CAN.
 
 #### Braking
-Braking should be supported through certain ABS pump that has ACC braking capability (MK60EC1 block H46, part number 1K0907379BM - other part numbers likely possible, add them here if you find one - probably only the 2 last letters would change keeping the 1K0907379 intact).
+Braking should be supported through certain ABS pump that has ACC braking capability:
+-MK60EC1 H31 or newer for ACC support.
+-MK60EC1 H46 for EPB, BSD, RTA and PLA 3.0 support
+-Other ABS pumps not yet tested.
+
 
 #### Steering
 VW LKAS message (HCA) is used for steering currently, but HCA wont work down to 0 km/h. Gen 3 steering rack should work and SHOULD be possible being retrofited to older vehicles (replacing generation 1 and 2 racks). 
@@ -195,14 +189,27 @@ There is another steering CAN message being worked on - DSR (Driver Steering Rec
 Parking assist can be used for steering up to 20 km/h but is commanded by steering angle rather than torque (as HCA and DSR is). For steering in all speeds a combination of Park assist and HCA/DSR could be used but the transition to/from PA has to be solved (probably nothing quite simple).
 
 Rack part numbers
-* 1K0 909 144 M (HCA steering down to 50 km/h, no steering 50-0) - SW2XXX ?
+* 1K0 909 144 E (HCA steering down to 50 km/h, no steering 50-0) - SW2501 ?
+* 1K0 909 144 M (HCA steering down to 20 km/h, no steering 20-0) - SW3201 ?
 * 1K0 909 144 R (HCA steering down to 20 km/h, no steering 20-0) - SW3501 ?
 
-Sw 3xxx steers down to 20 kmh
+SW2xxx steers down to 50 kmh?
+SW3xxx steers down to 20 kmh?
 
-EEPROM of the racks can be accessed over ODB. Rack can be flashed to different ROM (partial FW updates only though). Any SW2XXX can be flashed to R SW3501.
+EEPROM of the racks can be accessed over ODB. Rack can be flashed to different ROM (partial FW updates only though). Any SW2XXX can be flashed to R SW3501. Contact Edgy#0385 on discord for flash files.
 
 More information at #volkswagen on Discord.
+
+# Make-Specific Terms
+
+For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-Terms).
+
+Term | Abbreviation | Definition
+--- | --- | ---
+Modularer Querbaukasten / Modular Transverse Matrix | MQB | Strategy for shared modular design between VAG group makes and models. MQB cars with ACC work with Openpilot.
+Electronic Parking break | EPB |  
+jyoung8607 | jyoung | First to make OP work in VW
+Edgy | Edgy | First to make OP long work in VW PQ
 
 # Useful links
 
