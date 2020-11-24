@@ -174,9 +174,9 @@ Comma pedal is likely to be used for acceleration on cars not supporting ACC, AC
 
 #### Braking
 Braking should be supported through certain ABS pump that has ACC braking capability:
--MK60EC1 H31 or newer for ACC support.
--MK60EC1 H46 for EPB, BSD, RTA and PLA 3.0 support
--Other ABS pumps not yet tested.
+* MK60EC1 H31 or newer for ACC support.
+* MK60EC1 H46 for EPB, BSD, RTA and PLA 3.0 support
+* Other ABS pumps not yet tested.
 
 
 #### Steering
