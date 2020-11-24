@@ -199,6 +199,18 @@ EEPROM of the racks can be accessed over OBD. Rack can be flashed to different R
 
 More information at #volkswagen on Discord.
 
+#### Possible Retrofits
+PQ Vehicles can be retrofitted with allot of the latest MQB features if done in correct order.
+The first retrofits to consider if wanting to go to 2015-2017 assist systems:
+* 3D Instruments Cluster (This offers support for display of those functions including matching CP items)
+* A 2017 ABS pump (For the MK60EC1 abs it requires H46 flashed to CC Firmware)
+
+After this retrofits you can go ahead and retrofit:
+* 5Q0 Side assist with Rear Traffic Alert
+* 3Q0 Lane assist with Sign Assist and High Beam Assist
+* 7N0 Adaptive Cruise Control
+* Park Assist 3.0
+
 # Make-Specific Terms
 
 For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-Terms).
