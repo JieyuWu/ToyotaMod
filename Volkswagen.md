@@ -5,8 +5,7 @@
 **This brand is community supported. Enable it with the toggle in Settings->Developer->Enable Community Features.**
 
 # Overview
-Comma AI currently has no official support for Volkswagen brands, but a community port is available, with plans to upstream for official support in the near future. The community port is designed to support any Volkswagen MQB vehicle with ACC radar. Check the Vehicle Support section for details and caveats.
-
+Comma AI currently has no official support for Volkswagen brands, but a community port is available, with plans to upstream for official support in the near future. The community port is designed to support any Volkswagen MQB vehicle with ACC radar. Check the Vehicle Support section for details and caveats. For more detailed information ask at #volkswagen on comma.ai Discord.
 
 # Supported Vehicles
 
@@ -123,7 +122,7 @@ Purchasing the Comma two (c2) is the easiest way to get started. it also possibl
 ## If your car only has ACC 
 1. [comma two DevKit](https://comma.ai/shop/products/comma-two-devkit)
 2. Make your own [VAG J533 Harness](https://github.com/commaai/openpilot/wiki/VW-j533-cable) 
-3. Recode the steering rack and instrument cluster to believe the car has lane assist (this allows lateral control via CAN messages to the steering rack). Use VCDS to modify control module 17 (instruments) and module 44 (steering assist).
+3. Recode the steering rack and instrument cluster to believe the car has lane assist (this allows lateral control via CAN messages to the steering rack). Use VCDS to modify control module 17 (instruments) and module 44 (steering assist). See this [video](https://www.youtube.com/watch?v=XSzJU31zXuE) for instructions.
 
 # Installing the Community Port
 
@@ -174,30 +173,27 @@ Comma pedal is likely to be used for acceleration on cars not supporting ACC, AC
 
 #### Braking
 Braking should be supported through given ABS pump that has ACC braking capability:
-* MK60EC1 H31 or newer for ACC support
+* MK60EC1 H31 or newer for ACC support (part number 1K0907379)
 * MK60EC1 H46 for EPB, BSD, RTA and PLA 3.0 support (part number 1K0907379BM)
 * Other ABS pumps not yet tested
 
 #### Steering
 VW LKAS message (HCA) is used for steering currently, but HCA wont work down to 0 km/h. Gen 3 steering rack should work and SHOULD be possible being retrofited to older vehicles (replacing generation 1 and 2 racks). 
 
-When steering via HCA then after 6 minutes (300 sec) the steering will fail for 3 seconds and then HCA can be resumed again. This can be prevented like this - in 5.5 minutes terminate HCA for about 1 second (the 300 sec timeout will reset).
+When steering via HCA then after 6 minutes (300 sec) the steering will fail for 3 seconds and then HCA can be resumed again. This timeout can be prevented - after 5.5 minutes terminate HCA message for 1.05 seconds and the 300 sec timeout will reset (counting new 300 period).
 
 There is another steering CAN message being worked on - DSR (Driver Steering Recommendation). This message could help circumvent the timeout of HCA message (using it intentionaly for a while to reset the HCA timeout). DSR should allow for more torque than HCA and possibly replace HCA completely, but that is yet to be explored.
 
 Parking assist can be used for steering up to 20 km/h but is commanded by steering angle rather than torque (as HCA and DSR is). For steering in all speeds a combination of Park assist and HCA/DSR could be used but the transition to/from PA has to be solved (probably nothing quite simple).
 
 Rack part numbers
-* 1K0 909 144 E (HCA steering down to 50 km/h, no steering 50-0) - SW2501 ?
-* 1K0 909 144 M (HCA steering down to 20 km/h, no steering 20-0) - SW3201 ?
-* 1K0 909 144 R (HCA steering down to 20 km/h, no steering 20-0) - SW3501 ?
+* 1K0 909 144 E (HCA steering down to 50 km/h, no steering 50-0) - SW2501
+* 1K0 909 144 M (HCA steering down to 20 km/h, no steering 20-0) - SW3201
+* 1K0 909 144 R (HCA steering down to 20 km/h, no steering 20-0) - SW3501
 
-SW2xxx steers down to 50 kmh?
-SW3xxx steers down to 20 kmh?
+SW2xxx steers down to 50 kmh. SW3xxx steers down to 20 kmh.
 
 EEPROM of the racks can be accessed over OBD. Rack can be flashed to different ROM (partial FW updates only though). Any SW2XXX can be flashed to R SW3501. Contact Edgy#0385 on discord for flash files.
-
-More information at #volkswagen on Discord.
 
 #### Possible Retrofits
 PQ Vehicles can be retrofitted with allot of the latest MQB features if done in correct order.
