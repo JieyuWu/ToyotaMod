@@ -180,19 +180,19 @@ Edgy | Edgy | First to make OP long work in VW PQ
 
 # PQ platform
 
-There is work in progress on PQ35/PQ46 (November 2020). Comma pedal is likely to be used for acceleration.
+There is work in progress on PQ35/PQ46 (November 2020). Comma pedal is likely to be used for acceleration (could ACC capable cars message PCM directly without pedal?).
 
 #### Braking
-Braking should be supported through certain ABS pump that has ACC braking capability (MK60EC1 block H46, part number 1K0907379BM - other part numbers possible, add them here if you find one - probably only the 2 last letters would change keeping the 1K0907379 intact).
+Braking should be supported through certain ABS pump that has ACC braking capability (MK60EC1 block H46, part number 1K0907379BM - other part numbers likely possible, add them here if you find one - probably only the 2 last letters would change keeping the 1K0907379 intact).
 
 #### Steering
 VW LKAS message (HCA) is used for steering currently, but HCA wont work down to 0 km/h. Gen 3 steering rack should work and SHOULD be possible being retrofited to older vehicles (replacing generation 1 and 2 racks). 
 
 When steering via HCA then after 6 minutes (300 sec) the steering will fail for 3 seconds and then HCA can be resumed again. This can be prevented like this - in 5.5 minutes terminate HCA for about 1 second (the 300 sec timeout will probably reset).
 
-There is another steering CAN message being worked on - DSR (Driver Steering Recommendation). This message could help circumvent the timeout of HCA message (using it intentionalyl for a while to reset the HCA timeout). DSR should allow for more torque than HCA. Yet to be explored.
+There is another steering CAN message being worked on - DSR (Driver Steering Recommendation). This message could help circumvent the timeout of HCA message (using it intentionaly for a while to reset the HCA timeout). DSR should allow for more torque than HCA and possibly replace HCA completely, but that is yet to be explored.
 
-Parking assis can be used for steering up to 20 km/h but is commanded by steering angle rather than torque (as HCA and DSR is). For steering in all speeds a combination of Park assist and HCA/DSR could be used but the transition to/from PA has to be solved (probably nothing very simple).
+Parking assis can be used for steering up to 20 km/h but is commanded by steering angle rather than torque (as HCA and DSR is). For steering in all speeds a combination of Park assist and HCA/DSR could be used but the transition to/from PA has to be solved (probably nothing quite simple).
 
 Rack part numbers
 * 1K0 909 144 M (HCA steering down to 50 km/h, no steering 50-0) - SW2XXX ?
@@ -201,6 +201,8 @@ Rack part numbers
 Sw 3xxx steers down to 20 kmh
 
 EEPROM of the racks can be accessed over ODB. Rack can be flashed to different ROM (partial FW updates only though). Any SW2XXX can be flashed to R SW3501.
+
+More information at #volkswagen on Discord.
 
 # Useful links
 
