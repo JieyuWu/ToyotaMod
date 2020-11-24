@@ -181,7 +181,7 @@ Braking should be supported through given ABS pump that has ACC braking capabili
 #### Steering
 VW LKAS message (HCA) is used for steering currently, but HCA wont work down to 0 km/h. Gen 3 steering rack should work and SHOULD be possible being retrofited to older vehicles (replacing generation 1 and 2 racks). 
 
-When steering via HCA then after 6 minutes (300 sec) the steering will fail for 3 seconds and then HCA can be resumed again. This can be prevented like this - in 5.5 minutes terminate HCA for about 1 second (the 300 sec timeout will probably reset).
+When steering via HCA then after 6 minutes (300 sec) the steering will fail for 3 seconds and then HCA can be resumed again. This can be prevented like this - in 5.5 minutes terminate HCA for about 1 second (the 300 sec timeout will reset).
 
 There is another steering CAN message being worked on - DSR (Driver Steering Recommendation). This message could help circumvent the timeout of HCA message (using it intentionaly for a while to reset the HCA timeout). DSR should allow for more torque than HCA and possibly replace HCA completely, but that is yet to be explored.
 
