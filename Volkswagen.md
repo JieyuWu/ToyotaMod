@@ -173,11 +173,10 @@ There is work in progress on PQ35/PQ46 (November 2020).
 Comma pedal is likely to be used for acceleration on cars not supporting ACC, ACC supported cars can and should be controlled trough mACC_System message on CAN.
 
 #### Braking
-Braking should be supported through certain ABS pump that has ACC braking capability:
-* MK60EC1 H31 or newer for ACC support.
-* MK60EC1 H46 for EPB, BSD, RTA and PLA 3.0 support
-* Other ABS pumps not yet tested.
-
+Braking should be supported through given ABS pump that has ACC braking capability:
+* MK60EC1 H31 or newer for ACC support
+* MK60EC1 H46 for EPB, BSD, RTA and PLA 3.0 support (part number 1K0907379BM)
+* Other ABS pumps not yet tested
 
 #### Steering
 VW LKAS message (HCA) is used for steering currently, but HCA wont work down to 0 km/h. Gen 3 steering rack should work and SHOULD be possible being retrofited to older vehicles (replacing generation 1 and 2 racks). 
@@ -196,7 +195,7 @@ Rack part numbers
 SW2xxx steers down to 50 kmh?
 SW3xxx steers down to 20 kmh?
 
-EEPROM of the racks can be accessed over ODB. Rack can be flashed to different ROM (partial FW updates only though). Any SW2XXX can be flashed to R SW3501. Contact Edgy#0385 on discord for flash files.
+EEPROM of the racks can be accessed over OBD. Rack can be flashed to different ROM (partial FW updates only though). Any SW2XXX can be flashed to R SW3501. Contact Edgy#0385 on discord for flash files.
 
 More information at #volkswagen on Discord.
 
