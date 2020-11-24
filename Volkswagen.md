@@ -192,7 +192,7 @@ When steering via HCA then after 6 minutes (300 sec) the steering will fail for 
 
 There is another steering CAN message being worked on - DSR (Driver Steering Recommendation). This message could help circumvent the timeout of HCA message (using it intentionaly for a while to reset the HCA timeout). DSR should allow for more torque than HCA and possibly replace HCA completely, but that is yet to be explored.
 
-Parking assis can be used for steering up to 20 km/h but is commanded by steering angle rather than torque (as HCA and DSR is). For steering in all speeds a combination of Park assist and HCA/DSR could be used but the transition to/from PA has to be solved (probably nothing quite simple).
+Parking assist can be used for steering up to 20 km/h but is commanded by steering angle rather than torque (as HCA and DSR is). For steering in all speeds a combination of Park assist and HCA/DSR could be used but the transition to/from PA has to be solved (probably nothing quite simple).
 
 Rack part numbers
 * 1K0 909 144 M (HCA steering down to 50 km/h, no steering 50-0) - SW2XXX ?
