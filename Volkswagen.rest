@@ -211,6 +211,12 @@ After this retrofits you can go ahead and retrofit:
 * 7N0 Adaptive Cruise Control
 * Park Assist 3.0
 
+It's also possible to not retrofit some one those newer MQB assists but the Passat B7 assists this may be possible after checking some requirements. An overview of systems you could possibly retrofit:
+* 3AA Adaptive Cruise Control
+* 3AA Lane Assist with Sign Assist and High Beam Assist
+* 3AA Side Assist
+* Park Assist 1.5 and with a supported ABS Park Assist 2.0
+
 # Make-Specific Terms
 
 For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-Terms).
