@@ -7,7 +7,7 @@
 ### INDI tuning strategy
  - Search Discord / Github for prior INDI tuning efforts for your vehicle
  - Vary one parameter at a time, by less than 10%.
-  - Make it easy to notice improvements. Parameters effect each other.
+  - Make it easy to notice improvements. Parameters affect each other.
  - Use a road you travel often and know well, with straights and curves, and excellent lane markings on both sides.
   - Don't confuse tuning with poor planning from poor lane markings, or unexpected behavior from unknown roads.
  - Start with moderate values for outer (error) and inner (rate error) loops,  like the Prius's outer 3, inner 4.
