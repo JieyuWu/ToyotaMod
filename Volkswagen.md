@@ -177,6 +177,8 @@ Braking should be supported through given ABS pump that has ACC braking capabili
 * MK60EC1 H46 for EPB, BSD, RTA and PLA 3.0 support (part number 1K0907379BM)
 * Other ABS pumps not yet tested
 
+Currently there is no braking below 15 km/h. EPB may allow for braking to full stop.
+
 #### Steering
 VW LKAS message (HCA) is used for steering currently, but HCA wont work down to 0 km/h. Gen 3 steering rack should work and SHOULD be possible being retrofited to older vehicles (replacing generation 1 and 2 racks). 
 
