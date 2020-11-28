@@ -23,8 +23,9 @@ Search the page for `carFw = [`
 <img width="385" alt="Screen Shot 2020-06-02 at 11 21 21 AM" src="https://user-images.githubusercontent.com/37757984/83562767-fb9fe600-a4ce-11ea-9063-c5c0a509e2a2.png">
 
 ## Step 4 : Add new firmware versions
+[SSH](../wiki/SSH/) into the comma two and navigate to /data/openpilot/selfdrive/car/_make_/values.py
 
-In your values.py file (see below for path), add the firmware in this format. Use a [decimal to hex converter](https://www.rapidtables.com/convert/number/decimal-to-hex.html) to get the correct string to place after 0x.
+In your values.py file, add the firmware in this format. Use a [decimal to hex converter](https://www.rapidtables.com/convert/number/decimal-to-hex.html) to get the correct string to place after 0x.
 
 ```CAR.MODEL: {
     (Ecu.type, 0xAddress-converted-to-hex, 0xSub-address-converted-to-hex-'None'-if-0): [
@@ -46,16 +47,13 @@ Here is a filled out example for the Honda Civic. Notice the eps firmware from a
 ```
 Ensure that every single ecu has its firmware in this file.
 
-### On Device
+Save the file and reboot
 
-1. [SSH](../wiki/SSH/) into the comma two and navigate to /data/openpilot/selfdrive/car/_make_/values.py
-2. Save the file and reboot
-
-### To Your Own Fork
+### To add your car to future OpenPilot release
 
 1. Fork openpilot into your own GitHub account
 2. Clone the repo on your computer
-3. Navigate to /selfdrive/car/_make_/values.py
+3. Navigate to /selfdrive/car/_make_/values.py and the firmware from step #4
 4. After changes are made, push to your repo
 5. Create a pull request to ensure the car is supported in the next release
 
