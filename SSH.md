@@ -61,7 +61,7 @@ Windows 10 already comes with a SSH client and has everything you need to SSH in
 This section assumes that you have used SSH before.  If you want to use Putty, use [the instructions above](https://github.com/commaai/openpilot/wiki/SSH#option-2---putty-ssh-client).  
 
 ## OpenSSH or Similar Client
-1. Download the private key [from the openpilot repo.](https://github.com/commaai/openpilot/blob/master/tools/ssh/key/id_rsa). Save the key file as a text file and name it something like key.pem.
+1. Download the private key [from the openpilot repo.](https://github.com/commaai/openpilot/blob/master/tools/ssh/id_rsa). Save the key file as a text file and name it something like key.pem.
 2. Open a terminal
 3. Run `$ chmod 600 key.pem` (otherwise, the system will think the text file is not safe).
 4. Get the IP address of your comma two from `Settings > WiFi > Open WiFi Settings > More Options > Options (top right icon) > Advanced` (please make sure your comma two and your computer connect to the same WiFi).
