@@ -221,3 +221,4 @@ Flashing Notes from @Ari
 # Modifications
 
 * [Smart DSU/SDSU](https://github.com/commaai/openpilot/wiki/Smart-DSU)
+* [Zorro Steering Sensor](https://github.com/commaai/openpilot/wiki/Zorro-Steering-Sensor)
