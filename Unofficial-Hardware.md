@@ -218,7 +218,7 @@ Flashing Notes from @Ari
 
 ![](http://justine-haupt.com/bolt/images/openpilot_BoltConfigurations.png)
 
-# Modifications
+# Hardware Modifications/Additions
 
 * [Smart DSU/SDSU](https://github.com/commaai/openpilot/wiki/Smart-DSU)
 * [Zorro Steering Sensor](https://github.com/commaai/openpilot/wiki/Zorro-Steering-Sensor)
