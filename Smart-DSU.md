@@ -56,6 +56,6 @@ After the SDSU is installed, some may also need to connect the SDSU to a Comma P
 
 If a ZSS also needs to be installed, this [splitter](https://www.amazon.com/gp/product/B07NYWKJS9) also allows ZSS + Pedal to be installed.
 
-#### Installation Comma Pedal w/ SDSU
+#### Installation - Comma Pedal w/ SDSU
 
 The Pedal needs access to power and the CAN bus.  While the Pedal can be connected to power and CAN via the ODB-II port, the DSU provides the additional benefit of providing ignition-controlled power so that the pedal does not drain the car's battery when the car is off.
