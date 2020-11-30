@@ -217,3 +217,7 @@ Flashing Notes from @Ari
 # Installation schematics
 
 ![](http://justine-haupt.com/bolt/images/openpilot_BoltConfigurations.png)
+
+# Modifications
+
+* [Smart DSU/SDSU](https://github.com/commaai/openpilot/wiki/Smart-DSU)
