@@ -37,11 +37,11 @@ Likely, other DSU based Toyota's are supported if they have the 88150-xxxxx part
 There are 2 versions around the community:
 
 * One available via a Chinese seller on [Taobao.com](https://item.taobao.com/item.htm?spm=a312a.7700824.w4004-21830160926.16.4f167c33SU8Tfg&id=624782255202) for around ~$125 shipped.  Install the Google Translate extension to navigate the site.  People also purchase through superbuy.com.  For US buyers, purchasing directly from Taobao is a 2 part process:
-** Purchase item from taobao.com
-** Wait 2-3 days for item to ship to an intermediary.  Navigate to the taobao page to pay the intermediary ~$15 for them to ship item to the US.
+  * Purchase item from taobao.com
+  * Wait 2-3 days for item to ship to an intermediary.  Navigate to the taobao page to pay the intermediary ~$15 for them to ship item to the US.
 * Another developed by community member @erich named [Smartened DSU](https://discord.com/channels/469524606043160576/532179801474203649/687669433145229385).  This is definitely slicker, however is generally unavailable as this is a temporary project for @erich, however his features include everything the SDSU has plus the following:
-** Switch mode to change between regular DSU & SDSU mode (for when the car goes to the dealer)
-** Soldered on cat6 cable for comma-pedal & Zorro Steering Sensor installation.
+  * Switch mode to change between regular DSU & SDSU mode (for when the car goes to the dealer)
+  * Soldered on cat6 cable for comma-pedal & Zorro Steering Sensor installation.
 
 ### Installation
 
