@@ -13,7 +13,7 @@ More technical explanation is available at the github [repo](https://github.com/
 ### Compatibility
 
 * Toyota vehicles with a Driver Support Unit (DSU).
-** This can be further verified by checking [Toyota Parts](https://parts.toyota.com/) and seeing if your vehicle has an 88150-xxxxx part number. (e.g. [example](https://parts.toyota.com/p/Toyota__/COMPUTER-ASSEMBLY---DRIVING-SUPPORT/66837622/8815047110.html)
+** This can be further verified by checking [Toyota Parts](https://parts.toyota.com/) and seeing if your vehicle has an 88150-xxxxx part number. (e.g. [example](https://parts.toyota.com/p/Toyota__/COMPUTER-ASSEMBLY---DRIVING-SUPPORT/66837622/8815047110.html))
 * Unfortunately, Camrys DO NOT have DSUs, thus can not have a SDSU added, thus they will only work in lateral mode only.
 
 Some cars that are supported:
