@@ -54,7 +54,7 @@ TODO: Add links to locations for various DSUs on various vehicles:
 
 After the SDSU is installed, some may also need to connect the SDSU to a Comma Pedal for some vehicles that do not provide stop and go with a SDSU only setup.
 
-If a ZSS also needs to be installed, this [splitter](https://www.amazon.com/gp/product/B07NYWKJS9) also allows ZSS + Pedal to be installed.
+If a [ZSS](https://github.com/commaai/openpilot/wiki/Zorro-Steering-Sensor) also needs to be installed, this [splitter](https://www.amazon.com/gp/product/B07NYWKJS9) also allows ZSS + Pedal to be installed.
 
 #### Installation - Comma Pedal w/ SDSU
 
