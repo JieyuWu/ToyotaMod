@@ -139,3 +139,4 @@ Upgrades TSSP cars with a [better angle sensor](https://github.com/zorrobyte/bet
 # Links:
 
 * 2010-2015 [Prius wiring drawing](https://cdn.discordapp.com/attachments/524327905937850394/779136097498169364/2010-2015-Prius-schematic-v1.1.png)
+* [Toyota Wiring Harnesses](https://www.toyota-tech.eu/wire_harness_rm/RM06H0E.pdf)
