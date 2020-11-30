@@ -6,7 +6,7 @@ Depending on the vehicle, OP will run in one of the following modes:
 * OP controls longitudinal (gas/brake) & lateral (steering)
 * OP controls lateral (steering) only.
 
-In vehicles where OP controls lateral only, OP relies on the vehicle's adaptive cruise control (ACC) for longitudinal control.  It is possible to disconnect the DSU unit on some Toyotas to enable OP longitudinal, however this comes at the expense of disabling automatic emergency braking (AEB).The SDSU is installed between the DSU & DSU harness connector.  It filters the traffic between the DSU & powertrain CAN bus thus enabling longitudinal control without removing AEB.
+In vehicles where OP controls lateral only, OP relies on the vehicle's adaptive cruise control (ACC) for longitudinal control. It is possible to disconnect the DSU unit on some Toyotas to enable OP longitudinal, however this comes at the expense of disabling automatic emergency braking (AEB). The SDSU is installed between the DSU & DSU harness connector. It filters the traffic between the DSU & powertrain CAN bus thus enabling longitudinal control without removing AEB.
 
 More technical explanation is available at the github [repo](https://github.com/wocsor/panda/tree/smart_dsu)
 
