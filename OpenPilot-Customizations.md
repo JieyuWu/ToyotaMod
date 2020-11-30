@@ -2,6 +2,8 @@
 
 Serves to document various small Openpilot (OP) customizations that others have implemented for themselves in the code base.  With each tweak, commands to apply the tweaks have been provided. Applying these tweaks will likely break the self-updating process, either necessitating a reinstall of the openpilot software or manual intervention.
 
+The commands are to be run while SSH'd into the Comma device.
+
 ## Stop and Go Hack (Toyota)
 
 https://github.com/ErichMoraga/openpilot/commit/4759891494b3f291e8f94093b98703e70937cc7b
@@ -63,4 +65,10 @@ cd /data/openpilot
 git remote add erich https://github.com/ErichMoraga/openpilot.git
 git fetch erich
 git cherry-pick d72f6be5ff4ba4b377228328d5abf25157005755
+```
+
+## Disabling Updates
+
+```
+echo -en "1" > /data/params/d/DisableUpdates
 ```
