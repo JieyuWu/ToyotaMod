@@ -125,6 +125,8 @@ A [comma pedal](../wiki/comma-pedal) allows Toyotas without full-range cruise co
 
 Upgrades the Driver Support Unit to passthrough AEB and enable openpilot longitudinal control.  [SDSU](https://github.com/wocsor/panda/tree/smart_dsu) was first sold as an external, harness-style contraption, and later the [SmartenedDSU](https://discord.com/channels/469524606043160576/532179801474203649/687669433145229385) (DSU modified by forwarding a severed CAN connection back into the network by way of an onboard, stripped down, reflashed Panda) and became preferred, with quick creation/installation.
 
+* [Smart DSU](https://github.com/commaai/openpilot/wiki/Smart-DSU)
+
 ## Zorro Steering Sensor (ZSS)
 
 Upgrades TSSP cars with a [better angle sensor](https://github.com/zorrobyte/betterToyotaAngleSensorForOP) which allows more accurate steering with openpilot.
