@@ -39,7 +39,7 @@ There are 2 versions around the community:
 * One available via a Chinese seller on [Taobao.com](https://item.taobao.com/item.htm?spm=a312a.7700824.w4004-21830160926.16.4f167c33SU8Tfg&id=624782255202) for around ~$125 shipped.  Install the Google Translate extension to navigate the site.  People also purchase through superbuy.com.  For US buyers, purchasing directly from Taobao is a 2 part process:
   * Purchase item from taobao.com
   * Wait 2-3 days for item to ship to an intermediary.  Navigate to the taobao page to pay the intermediary ~$15 for them to ship item to the US.
-* Another developed by community member @erich named [Smartened DSU](https://discord.com/channels/469524606043160576/532179801474203649/687669433145229385).  This is definitely slicker, however is generally unavailable as this is a temporary project for @erich, however his features include everything the SDSU has plus the following:
+* Another developed by community member @erich named [Smartened DSU](https://discord.com/channels/469524606043160576/532179801474203649/687669433145229385).  This is definitely slicker, as the SDSU is integrated into the DSU casing, thus maintaining a stock appearance. However it is generally unavailable as this is a temporary project for @erich, however his features include everything the SDSU has plus the following:
   * Switch mode to change between regular DSU & SDSU mode (for when the car goes to the dealer)
   * Soldered on cat6 cable for comma-pedal & Zorro Steering Sensor installation.
 
@@ -52,6 +52,10 @@ TODO: Add links to locations for various DSUs on various vehicles:
 * Lexus IS (US): DSU is located above the driver's right knee when seated in the driver's seat. 
 * Toyota Corolla: Through the glove box behind the head unit.
 
-After the SDSU is installed, some may also need to connect the SDSU to a Comma Pedal.
+After the SDSU is installed, some may also need to connect the SDSU to a Comma Pedal for some vehicles that do not provide stop and go with a SDSU only setup.
 
 If a ZSS also needs to be installed, this [splitter](https://www.amazon.com/gp/product/B07NYWKJS9) also allows ZSS + Pedal to be installed.
+
+#### Installation Comma Pedal w/ SDSU
+
+The Pedal needs access to power and the CAN bus.  While the Pedal can be connected to power and CAN via the ODB-II port, the DSU provides the additional benefit of providing ignition-controlled power so that the pedal does not drain the car's battery when the car is off.
