@@ -1,6 +1,6 @@
 # Tweaks
 
-Serves to document various small Openpilot (OP) customizations that others have implemented for themselves in the code base.  With each tweak, commands to apply the tweaks have been provided. Applying these tweaks will likely break the self-updating process, either necessitating a reinstall of the openpilot software or manual intervention.
+Serves to document various small Openpilot (OP) customizations that others have implemented for themselves in the code base.  With each tweak, commands to apply the tweaks have been provided (for some tweaks). Applying these tweaks will likely break the self-updating process, either necessitating a reinstall of the openpilot software or manual intervention of resetting the repository, updating, then re-applying the patches.  They are liable to break if the code-base significantly restructures the files as well.
 
 The commands are to be run while SSH'd into the Comma device.
 
