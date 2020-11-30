@@ -23,6 +23,9 @@ https://github.com/ErichMoraga/openpilot/commit/29497f1d086e2ae0bee7ff24ba26adef
 
 Change the day counter values for `DAYS_NO_CONNECTIVITY_MAX` and `DAYS_NO_CONNECTIVITY_PROMPT` from the default of 7 & 4 days to 30 and 26 days.
 
+Further discussion on the pull request allows a work around of rebooting the device to prevent the update nag.
+https://github.com/commaai/openpilot/pull/1096
+
 ```
 cd /data/openpilot
 git remote add erich https://github.com/ErichMoraga/openpilot.git
@@ -72,3 +75,50 @@ git cherry-pick d72f6be5ff4ba4b377228328d5abf25157005755
 ```
 echo -en "1" > /data/params/d/DisableUpdates
 ```
+
+## Deprecated Panda Users & installing other versions of openpilot
+
+As the black panda is the only panda supported, these are installation commands to force a downgrade to a specific version of openpilot:
+
+### For white panda users (version 0.7.6.1):
+
+```
+cd /data && rm -rf openpilot && git clone -b v0.7.6.1 https://github.com/commaai/openpilot && reboot
+```
+
+### For grey panda users (version 0.7.10):
+
+```
+cd /data && rm -rf openpilot && git clone -b v0.7.10 https://github.com/commaai/openpilot && reboot
+```
+
+### For users wanting 0.7.9:
+
+```
+cd /data && rm -rf openpilot && git clone -b v0.7.9 https://github.com/commaai/openpilot && cd openpilot/installer/updater && rm update.json && wget https://cdn.discordapp.com/attachments/538741329799413760/774123747257876480/update.json && reboot
+```
+
+### For users wanting the latest master-ci branch:
+
+```
+cd /data && rm -rf openpilot && git clone -b master-ci https://github.com/commaai/openpilot && reboot
+```
+
+### For the default installation (release2)
+
+```
+cd /data && rm -rf openpilot && git clone -b release2 https://github.com/commaai/openpilot && reboot
+```
+
+## Clearing Parameters
+
+```
+cd /data/params/d && rm -f *aram* && reboot
+```
+
+## Disabling the uploader
+
+https://github.com/commaai/openpilot/blob/master/selfdrive/manager.py#L166
+
+No easy to use commands here, but comment out the `uploader` line in the aforementioned file.
+
