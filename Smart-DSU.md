@@ -1,4 +1,4 @@
-===  Explanation ===
+### Explanation
 The SmartDSU (SDSU) is used to provide longitudinal control on Toyota vehicles that otherwise do not have Openpilot (OP) supported longitudinal control.
 
 Depending on the vehicle, OP will run in one of the following modes:
@@ -10,7 +10,7 @@ In vehicles where OP controls latitudinal only, OP relies on the vehicle's adapt
 
 More technical explanation is available at the github [repo](https://github.com/wocsor/panda/tree/smart_dsu)
 
-===  Compatibility ===
+### Compatibility
 
 * Toyota vehicles with a Driver Support Unit (DSU).
 ** This can be further verified by checking [Toyota Parts](https://parts.toyota.com/) and seeing if your vehicle has an 88150-xxxxx part number. (e.g. [example](https://parts.toyota.com/p/Toyota__/COMPUTER-ASSEMBLY---DRIVING-SUPPORT/66837622/8815047110.html)
@@ -33,7 +33,7 @@ Likely, other DSU based Toyota's are supported if they have the 88150-xxxxx part
 * [Toyota Parts](https://parts.toyota.com)
 * [Lexus Parts](https://parts.lexus.com)
 
-=== Versions & Purchasing ===
+### Versions & Purchasing
 There are 2 versions around the community:
 
 * One available via a Chinese seller on [Taobao.com](https://item.taobao.com/item.htm?spm=a312a.7700824.w4004-21830160926.16.4f167c33SU8Tfg&id=624782255202) for around ~$125 shipped.  Install the Google Translate extension to navigate the site.  People also purchase through superbuy.com.  For US buyers, purchasing directly from Taobao is a 2 part process:
@@ -43,7 +43,7 @@ There are 2 versions around the community:
 ** Switch mode to change between regular DSU & SDSU mode (for when the car goes to the dealer)
 ** Soldered on cat6 cable for comma-pedal & Zorro Steering Sensor installation.
 
-=== Installation ===
+### Installation
 
 Upon locating the DSU, install the SDSU between the DSU and its connector.
 
