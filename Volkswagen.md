@@ -119,10 +119,14 @@ Purchasing the Comma two (c2) is the easiest way to get started. it also possibl
 2. Select MQB Development Harness
 <sub><sup>(VW golf and MQB development car Harness's are the same)</sup></sub>
 
-## If your car only has ACC 
+## If your car only has ACC
 1. [comma two DevKit](https://comma.ai/shop/products/comma-two-devkit)
 2. Make your own [VAG J533 Harness](https://github.com/commaai/openpilot/wiki/VW-j533-cable) 
 3. Recode the steering rack and instrument cluster to believe the car has lane assist (this allows lateral control via CAN messages to the steering rack). Use VCDS to modify control module 17 (instruments) and module 44 (steering assist). See this [video](https://www.youtube.com/watch?v=XSzJU31zXuE) for instructions.
+
+## If your car has neither ACC nor LKAS
+
+This has not been explored very much yet. Theoretically you could retrofit ACC ([example guide](https://mqb.pl/en/adaptive-cruise-control-retrofit-acc-on-mqb/)) and then continue as "If your car only has ACC". It may also be possible just to do the coding of other parts for ACC (according to mqb.pl article) without the physical radar - however this has not been tried and it is possible that ACC fault will arise from missing radar and other parts (engine, brakes) would stop responding to ACC commnads.
 
 # Installing the Community Port
 
