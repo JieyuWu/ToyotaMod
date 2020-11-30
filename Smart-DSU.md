@@ -3,10 +3,10 @@ The SmartDSU (SDSU) is used to provide longitudinal control on Toyota vehicles t
 
 Depending on the vehicle, OP will run in one of the following modes:
 
-* OP controls longitudinal (gas/brake) & latitudinal (steering)
-* OP controls latitudinal (steering) only.
+* OP controls longitudinal (gas/brake) & lateral (steering)
+* OP controls lateral (steering) only.
 
-In vehicles where OP controls latitudinal only, OP relies on the vehicle's adaptive cruise control (ACC) for longitudinal control.  It is possible to disconnect the DSU unit on some Toyotas to enable OP longitudinal, however this comes at the expense of disabling automatic emergency braking (AEB).The SDSU is installed between the DSU & DSU harness connector.  It filters the traffic between the DSU & powertrain CAN bus thus enabling longitudinal control without removing AEB.
+In vehicles where OP controls lateral only, OP relies on the vehicle's adaptive cruise control (ACC) for longitudinal control.  It is possible to disconnect the DSU unit on some Toyotas to enable OP longitudinal, however this comes at the expense of disabling automatic emergency braking (AEB).The SDSU is installed between the DSU & DSU harness connector.  It filters the traffic between the DSU & powertrain CAN bus thus enabling longitudinal control without removing AEB.
 
 More technical explanation is available at the github [repo](https://github.com/wocsor/panda/tree/smart_dsu)
 
@@ -14,7 +14,7 @@ More technical explanation is available at the github [repo](https://github.com/
 
 * Toyota vehicles with a Driver Support Unit (DSU).
 ** This can be further verified by checking [Toyota Parts](https://parts.toyota.com/) and seeing if your vehicle has an 88150-xxxxx part number. (e.g. [example](https://parts.toyota.com/p/Toyota__/COMPUTER-ASSEMBLY---DRIVING-SUPPORT/66837622/8815047110.html)
-* Unfortunately, Camrys DO NOT have DSUs, thus can not have a SDSU added, thus they will only work in latitudinal mode only.
+* Unfortunately, Camrys DO NOT have DSUs, thus can not have a SDSU added, thus they will only work in lateral mode only.
 
 Some cars that are supported:
 
