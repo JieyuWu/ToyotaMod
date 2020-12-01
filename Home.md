@@ -40,6 +40,7 @@ Community guides that help you contribute to openpilot, or make your own modific
 * [Tuning](../wiki/Tuning)
 * [Panda Flashing](../wiki/Panda-Flashing)
 * [Custom Forks](../wiki/Forks)
+* [OP Customizations](../wiki/OpenPilot-Customizations)
 * [Utilities for developers](../wiki/Utilities-for-developers)
 * [Unofficial Hardware](../wiki/Unofficial-Hardware)
 * [openpilot on PC](../wiki/Webcam)
