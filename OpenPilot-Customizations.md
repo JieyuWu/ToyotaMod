@@ -100,6 +100,8 @@ cd /data && rm -rf openpilot && git clone -b v0.7.9 https://github.com/commaai/o
 
 ### For users wanting the latest master-ci branch:
 
+Generally, if you are a new user and have just gotten your car's fingerprint added, it will go into the `master-ci` branch before it gets released to the general public where the `master-ci` activity gets folded into the `release2` branch.  If you have installed the software via entering `openpilot.comma.ai` in the advanced installation prompt during the comma2 setup, you are running `release2`.  Once someone in the community helps submit your fingerprint to be accepted by openpilot, then you will want to run the `master-ci` branch for your car's support.
+
 ```
 cd /data && rm -rf openpilot && git clone -b master-ci https://github.com/commaai/openpilot && reboot
 ```
