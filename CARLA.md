@@ -84,6 +84,16 @@ disable the issue in controllerd:212  controlsd.py
 
 everything with ctrl+c in both windows, edit file, run openpilot script in window 0 and bridge in window 1
 
+### Carla scene is slow or fails to load in openpilot ui window
+
+Try setting CARLA to the low quality rendering  
+
+Open the file openpilot/tools/sim/start_carla.sh in the ubuntu file explorer  
+
+on the last line, add `./CarlaUE4.sh -quality-level=Low` to the end of the docker command. It should look like the following:  
+
+`docker run -it --net=host --gpus all carlasim/carla:0.9.7 ./CarlaUE4.sh -quality-level=Low`  
+
 # See Also
 
 openpilot sim
