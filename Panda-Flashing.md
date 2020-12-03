@@ -14,6 +14,8 @@ See [SSH](../wiki/SSH) for more information.
 
 `pkill -f boardd; cd /data/openpilot/panda/board; make; reboot`
 
+Note: For comma two the device must be powered by 12v. 
+
 Doing this a few times may unstick a panda that isn't flashing properly.
 
 ### Alternative command
