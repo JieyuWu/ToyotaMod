@@ -79,5 +79,3 @@ Most Ford/Lincoln vehicles do not support OP Longitudinal Control. The CCM on th
 Stop/Go Ford's can be intercepted, but this has not been tested. 
 
 # Useful links
-
-* [2015 Ford F150 - openpilot Active Park Assist](https://streamable.com/wz17vr)
