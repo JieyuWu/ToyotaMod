@@ -11,8 +11,6 @@ Ford currently has a steering lockout on the PSCM, and after 10 seconds, command
 # Community Branches
 
 The following members currently have Ford code. All code listed here is WIP and not expected to work 100%
- 
-https://github.com/roxasthenobody98/openpilot
 
 https://github.com/bugsy924/openpilot/tree/ford
 
@@ -79,3 +77,5 @@ Most Ford/Lincoln vehicles do not support OP Longitudinal Control. The CCM on th
 Stop/Go Ford's can be intercepted, but this has not been tested. 
 
 # Useful links
+
+https://medium.com/@comma_ai/safer-control-of-steering-362f3526c9ab
