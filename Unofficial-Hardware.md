@@ -183,7 +183,7 @@ Linux/OS X:
   1. Open a terminal.
   2. Run `./download.py`
   3. Put your Eon into fastboot mode by turning off your Eon, then holding volume down + power (comma two, eon gold), or volume up + power (eon).
-  4. Run `./flash.py`
+  4. Run `./flash.sh`
 
 Success! With NEOS OS installed, you are ready to install OpenPilot.
 
