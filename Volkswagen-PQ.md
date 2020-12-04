@@ -1,7 +1,7 @@
 This page is about Volkswagen PQ35/PQ46 platforms. For MQB platform, see [Volkswagen page](https://github.com/commaai/openpilot/wiki/Volkswagen).
 
 There is work in progress on PQ35/PQ46 (November 2020). Currently these cars are being tested:
-* Golf Mk6 (Edgy)
+* Golf Mk6 1.2 TSI DSG (Edgy)
 * Passat B6 R36 (Kamold with retrofits from B7, Redragon_101)
 
 # Drive-by-wire capabilities
@@ -44,20 +44,19 @@ A car with stock stop&go ACC functionality should naturally be able to brake dow
 #### Golf
 ACC was not factory fitted to Golf Mk5 and Mk6.
 
-EPB retrofit
-It should be able to retrofit EPB to at least Golf Mk6. Following are the parts needed for a Golf Mk6 1.2 TSI DSG:
+EPB retrofit - it should be able to retrofit EPB to at least Golf Mk6. Following are the parts needed for a Golf Mk6 1.2 TSI DSG:
 
 * MK60EC1 H46 ABC pump (1K0907379BM)
 * EPB ECU (56D907801A) - from Chinese VW Magotan
 * EPB button (5GG927225)
 * Golf Mk7 rear brake calipers (8v0615423 + 8v0615424)
 * following may also be needed (depends on your brake disc dimensions etc.):
-** rear brake discs 272 mm (1K0615601AA)
-** front calipers (8v0615124 + 8v0615123)
-** front discs 312 mm (1K0615301AA)
+    * rear brake discs 272 mm (1K0615601AA)
+    * front calipers (8v0615124 + 8v0615123)
+    * front discs 312 mm (1K0615301AA)
 
 #### Passat B6/B7
-All B6+B7 had EPB by default. On B6 there was ACC but without F2S (follow-to-stop) and Passat B7 had ACC with F2S. It is possible to retrofit B7 ACC to B6 ([Kamold's Passat B6 retrofit guide](https://www.vwwatercooled.com.au/forums/f234/adaptive-cruise-retrofit-118949.html)).
+All B6+B7 had EPB by default. On B6 there was ACC but without F2S (follow-to-stop = braking till 0) and B7 had ACC with F2S. It is possible to retrofit B7 ACC to B6 ([Kamold's Passat B6 retrofit guide](https://www.vwwatercooled.com.au/forums/f234/adaptive-cruise-retrofit-118949.html)) - you should not need to touch the brakes (discs+calipers).
 
 # Possible Retrofits
 PQ Vehicles can be retrofitted with allot of the latest MQB features if done in correct order.
@@ -76,3 +75,37 @@ It's also possible to not retrofit some one those newer MQB assists but the Pass
 * 3AA Lane Assist with Sign Assist and High Beam Assist
 * 3AA Side Assist
 * Park Assist 1.5 and with a supported ABS Park Assist 2.0
+
+# Code
+
+There are various OpenPilot forks tuned for particular PQ platforms.
+
+### PQ35
+
+Discord user Edgy (Golf Mk6): https://github.com/CineXWorm/openpilot (which branch to use?)
+
+### Passat
+
+#### Guide by Discord user Redragon_101
+
+2010 Passat B6 PQ46 with factory ACC on powertrain setup for OP with White Panda.
+
+J533 Harness pinout:
+
+All connections are made by taps. ie make a 3 way junction, no need to cut wires.
+
+Example: gateway pin6, vehicle pin6, and Panda pin 14 should all be wired together
+
+Pin 14 on Panda goes to 6 of J533 harness
+pin 6 on Panda goes to 16 of J533 harness
+pin 4 on panda goes to 11 of J533 harness
+pin 16 on panda goes to 1 of J533 harness
+pin 8 on panda goes to 14 of J533 harness
+
+* Install jyoungs8607 0.7.4 vw-community-private-pq branch onto EON.
+* Add your fingerprint of your car by using Workbench. This program has a Get fingerprint command built in and add it into 
+  /data/openpilot/selfdrive/car/volkswagen/values.py of the EON using WinSCP or similar.
+* Using WinSCP log into the EON and find /data/openpilot/selfdrive/car/volkswagen/interface.py
+* Find this line:  https://github.com/jyoung8607/openpilot/blob/6201db04268c930f30ed025b9e0851ae7248eaeb/selfdrive/car/volkswagen/interface.py#L113
+* comment it out and add a line below saying ret.canValid = True
+* Reboot EON and take it for a test drive.   Hope this helps someone out.
