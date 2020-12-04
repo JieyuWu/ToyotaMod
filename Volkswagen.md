@@ -7,6 +7,8 @@
 # Overview
 Comma AI currently has no official support for Volkswagen brands, but a community port is available, with plans to upstream for official support in the near future. The community port is designed to support any Volkswagen MQB vehicle with ACC radar. Check the Vehicle Support section for details and caveats. For more detailed information ask at #volkswagen on comma.ai Discord.
 
+There is a development going on for the PQ platform - for more information see [Volkswagen PQ](https://github.com/commaai/openpilot/wiki/Volkswagen-PQ).
+
 # Supported Vehicles
 
 <details><summary>Fully Tested and Supported</summary>
@@ -146,7 +148,6 @@ If you are using an older white panda, you will have to run an older version of 
 
 `cd /data && mv openpilot backup-openpilot && git clone https://github.com/jyoung8607/openpilot.git -b vw-community-devel && reboot`
 
-
 # openpilot Capabilities
 
 ## Lateral Control
@@ -172,52 +173,7 @@ These vehicles generally support follow-to-stop (XXX review this: maybe near-sto
 
 # PQ platform
 
-There is work in progress on PQ35/PQ46 (November 2020). 
-Comma pedal is likely to be used for acceleration on cars not supporting ACC, ACC supported cars can and should be controlled trough mACC_System message on CAN.
-
-#### Braking
-Braking should be supported through given ABS pump that has ACC braking capability:
-* MK60EC1 H31 or newer for ACC support (part number 1K0907379)
-* MK60EC1 H46 for EPB, BSD, RTA and PLA 3.0 support (part number 1K0907379BM)
-* Other ABS pumps not yet tested
-
-Currently there is no braking below 15 km/h. EPB may allow for braking to full stop.
-
-#### Steering
-VW LKAS message (HCA) is used for steering currently, but HCA wont work down to 0 km/h. Gen 3 steering rack should work and SHOULD be possible being retrofited to older vehicles (replacing generation 1 and 2 racks). 
-
-When steering via HCA then after 6 minutes (300 sec) the steering will fail for 3 seconds and then HCA can be resumed again. This timeout can be prevented - after 5.5 minutes terminate HCA message for 1.05 seconds and the 300 sec timeout will reset (counting new 300 period).
-
-There is another steering CAN message being worked on - DSR (Driver Steering Recommendation). This message could help circumvent the timeout of HCA message (using it intentionaly for a while to reset the HCA timeout). DSR should allow for more torque than HCA and possibly replace HCA completely, but that is yet to be explored.
-
-Parking assist can be used for steering up to 20 km/h but is commanded by steering angle rather than torque (as HCA and DSR is). For steering in all speeds a combination of Park assist and HCA/DSR could be used but the transition to/from PA has to be solved (probably nothing quite simple).
-
-Rack part numbers
-* 1K0 909 144 E (HCA steering down to 50 km/h, no steering 50-0) - SW2501
-* 1K0 909 144 M (HCA steering down to 20 km/h, no steering 20-0) - SW3201
-* 1K0 909 144 R (HCA steering down to 20 km/h, no steering 20-0) - SW3501
-
-SW2xxx steers down to 50 kmh. SW3xxx steers down to 20 kmh.
-
-EEPROM of the racks can be accessed over OBD. Rack can be flashed to different ROM (partial FW updates only though). Any SW2XXX can be flashed to R SW3501. Contact Edgy#0385 on discord for flash files.
-
-#### Possible Retrofits
-PQ Vehicles can be retrofitted with allot of the latest MQB features if done in correct order.
-The first retrofits to consider if wanting to go to 2015-2017 assist systems:
-* 3D Instruments Cluster (This offers support for display of those functions including matching CP items)
-* A 2017 ABS pump (For the MK60EC1 abs it requires H46 flashed to CC Firmware)
-
-After this retrofits you can go ahead and retrofit:
-* 5Q0 Side assist with Rear Traffic Alert
-* 3Q0 Lane assist with Sign Assist and High Beam Assist
-* 7N0 Adaptive Cruise Control
-* Park Assist 3.0
-
-It's also possible to not retrofit some one those newer MQB assists but the Passat B7 assists this may be possible after checking some requirements. An overview of systems you could possibly retrofit:
-* 3AA Adaptive Cruise Control
-* 3AA Lane Assist with Sign Assist and High Beam Assist
-* 3AA Side Assist
-* Park Assist 1.5 and with a supported ABS Park Assist 2.0
+See [Volkswagen PQ](https://github.com/commaai/openpilot/wiki/Volkswagen-PQ) page.
 
 # Make-Specific Terms
 
