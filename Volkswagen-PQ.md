@@ -17,9 +17,9 @@ There is another steering CAN message being worked on - DSR (Driver Steering Rec
 Parking assist can be used for steering up to 20 km/h but is commanded by steering angle rather than torque (as HCA and DSR is). For steering in all speeds a combination of Park assist and HCA/DSR could be used but the transition to/from PA has to be solved (probably nothing quite simple).
 
 Rack part numbers
-* 1K0 909 144 E (HCA steering down to 50 km/h, no steering 50-0) - SW2501
-* 1K0 909 144 M (HCA steering down to 20 km/h, no steering 20-0) - SW3201
-* 1K0 909 144 R (HCA steering down to 20 km/h, no steering 20-0) - SW3501
+* 1K0909144E (HCA steering down to 50 km/h, no steering 50-0) - SW2501
+* 1K0909144M (HCA steering down to 20 km/h, no steering 20-0) - SW3201
+* 1K0909144R (HCA steering down to 20 km/h, no steering 20-0) - SW3501
 
 SW2xxx steers down to 50 kmh. SW3xxx steers down to 20 kmh.
 
