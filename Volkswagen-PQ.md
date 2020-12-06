@@ -95,17 +95,20 @@ J533 Harness pinout:
 All connections are made by taps. ie make a 3 way junction, no need to cut wires.
 
 Example: gateway pin6, vehicle pin6, and Panda pin 14 should all be wired together
+* Pin 14 on Panda goes to 6 of J533 harness
+* pin 6 on Panda goes to 16 of J533 harness
+* pin 4 on panda goes to 11 of J533 harness
+* pin 16 on panda goes to 1 of J533 harness
+* pin 8 on panda goes to 14 of J533 harness
 
-Pin 14 on Panda goes to 6 of J533 harness
-pin 6 on Panda goes to 16 of J533 harness
-pin 4 on panda goes to 11 of J533 harness
-pin 16 on panda goes to 1 of J533 harness
-pin 8 on panda goes to 14 of J533 harness
-
-* Install jyoungs8607 0.7.4 vw-community-private-pq branch onto EON.
-* Add your fingerprint of your car by using Workbench. This program has a Get fingerprint command built in and add it into 
+1. Install jyoungs8607 0.7.4 vw-community-private-pq branch onto EON.
+2. Add your fingerprint of your car by using Workbench. This program has a Get fingerprint command built in and add it into 
   /data/openpilot/selfdrive/car/volkswagen/values.py of the EON using WinSCP or similar.
-* Using WinSCP log into the EON and find /data/openpilot/selfdrive/car/volkswagen/interface.py
-* Find this line:  https://github.com/jyoung8607/openpilot/blob/6201db04268c930f30ed025b9e0851ae7248eaeb/selfdrive/car/volkswagen/interface.py#L113
-* comment it out and add a line below saying ret.canValid = True
-* Reboot EON and take it for a test drive.   Hope this helps someone out.
+3. Using WinSCP log into the EON and find /data/openpilot/selfdrive/car/volkswagen/interface.py
+4. Find this line:  https://github.com/jyoung8607/openpilot/blob/6201db04268c930f30ed025b9e0851ae7248eaeb/selfdrive/car/volkswagen/interface.py#L113
+5. comment it out and add a line below saying ret.canValid = True
+6. Reboot EON and take it for a test drive.   Hope this helps someone out.
+
+# Diverse notes
+
+Extended CAN is defined for PQ since the very beginning and is still used in today’s PQ verhicles (Caddy, Sharan, Alhambra). MQB and PQ have completely different CAN messaging schemes which can’t be mixed. But there do exist units that can be corded to either PQ or MQB (e.g. 3Q0 camera, 5Q0 side assist radar, many PLA units, ...) The manufacturer simply programmed both messaging schemes (PQ or MQB) selectable. Thus the same partnumber can be used on either platform. That’s probably why people talk about a PQ-MQB-mix which is technically very wrong. Either the unit is in PQ mode or in MQB mode. (by carlos_ddd)
