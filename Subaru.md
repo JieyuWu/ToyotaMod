@@ -75,7 +75,6 @@ Drives
 | Subaru    | Crosstrek 2020 Hybrid         | EyeSight          | Stock            | 0mph               | 0mph         | New/different hybrid signals, harness pin swap |
 | Subaru    | Forester 2020                 | EyeSight          | Stock            | 0mph               | 0mph         | CruiseControl message is not used |
 | Subaru    | Impreza 2020-2021             | EyeSight          | Stock            | 0mph               | 0mph         | Different torque limits |
-
 | Subaru    | Outback 2020                  | EyeSight          | Stock            | 0mph               | 0mph         | New/different signals, harness pin swap |
 
 WIP models support is incomplete and untested
