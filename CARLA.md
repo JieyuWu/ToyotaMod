@@ -94,6 +94,13 @@ on the last line, add `./CarlaUE4.sh -quality-level=Low` to the end of the docke
 
 `docker run -it --net=host --gpus all carlasim/carla:0.9.7 ./CarlaUE4.sh -quality-level=Low`  
 
+# Noted Dependencies
+
+* "think is some dependency conflict between cuda 10.2/11, cudnn 7.5/8 and the pypi shipped onnxrunner binaries" - marsch
+
+* "OSError: libcublas.so.10: cannot open shared object file: No such file or directory"  
+  * "cuda 10.2 instead of 11.1"
+
 # See Also
 
 openpilot sim
