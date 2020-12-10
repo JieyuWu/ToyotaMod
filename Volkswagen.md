@@ -7,7 +7,7 @@
 # Overview
 Comma AI currently has no official support for Volkswagen brands, but a community port is available, with plans to upstream for official support in the near future. The community port is designed to support any Volkswagen MQB vehicle with ACC radar. Check the Vehicle Support section for details and caveats. For more detailed information ask at #volkswagen on comma.ai Discord.
 
-There is a development going on for the PQ platform - for more information see [Volkswagen PQ](https://github.com/commaai/openpilot/wiki/Volkswagen-PQ).
+This article is about MQB platform. There is a development going on for the PQ platform - for more information see [Volkswagen PQ](https://github.com/commaai/openpilot/wiki/Volkswagen-PQ).
 
 # Supported Vehicles
 
