@@ -1,8 +1,9 @@
-This page is about Volkswagen PQ35/PQ46 platforms. For MQB platform, see [Volkswagen page](https://github.com/commaai/openpilot/wiki/Volkswagen).
+This page is about Volkswagen PQ35/PQ46 platforms. For MQB platform, see [Volkswagen page](https://github.com/commaai/openpilot/wiki/Volkswagen). Usernames are from Discord (User:Name).
 
 There is work in progress on PQ35/PQ46 (November 2020). Currently these cars are being tested:
-* Golf Mk6 1.2 TSI DSG (Edgy)
-* Passat B6 R36 (Kamold with retrofits from B7, Redragon_101)
+* Golf Mk6 1.2 TSI DSG (User:Edgy)
+* Passat B6 R36 (User:Kamold with retrofits from B7, User:Redragon_101)
+* Sharan Mk2 7N2 (User:Kubsztal)
 
 # Drive-by-wire capabilities
 
