@@ -89,7 +89,7 @@ We think these vehicles can be supported at some point, but they are not support
 	- 2018-current Mk6 Volkswagen Polo [Wiki]
 	- 2019-current Mk1 Volkswagen T-Cross [Wiki]
 - All PQ35/PQ46/NMS vehicles. We hope and plan to provide some level of official support in the long-term future, and we are having good success in early testing. Vehicles in this set may or may not be supportable. Most if not all should have electric power steering racks, but earlier vehicles may or may not have configurable support for Lane Assist commands. Do not purchase a vehicle based solely on this list.
-	- PQ35: https://en.wikipedia.org/wiki/Volkswagen_Group_A_platform#A5_(PQ35)
+	- PQ35: https://en.wikipedia.org/wiki/Volkswagen_Group_A_platform#PQ35_(A5)
 	- PQ46, including New Midsize Sedan (NMS): https://en.wikipedia.org/wiki/Volkswagen_Group_B_platform#PQ46_(A6)
 - All MLB and MLBevo vehicles (requires FlexRay support, VERY long term future)
 	- 2018-current Volkswagen Touareg
