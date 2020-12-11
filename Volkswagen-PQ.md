@@ -2,6 +2,7 @@ This page is about Volkswagen PQ35/PQ46 platforms. For MQB platform, see [Volksw
 
 There is work in progress on PQ35/PQ46 (November 2020). Currently these cars are being tested:
 * Golf Mk6 1.2 TSI DSG (User:Edgy)
+* Golf Estate (EU) | Jetta Sportwagen (NA) MK6 2.0 TDI DSG (User:Khonsu)
 * Passat B6 R36 (User:Kamold with retrofits from B7, User:Redragon_101)
 * Sharan Mk2 7N2 (User:Kubsztal)
 
