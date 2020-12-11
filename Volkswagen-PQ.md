@@ -56,7 +56,7 @@ EPB retrofit - it should be able to retrofit EPB to at least Golf Mk6. Following
     * rear brake discs 272 mm (1K0615601AA)
     * front calipers (8v0615124 + 8v0615123)
     * front discs 312 mm (1K0615301AA)
-      *Note: Golf Estate | Jetta Sportwagen Mk6 does not need modification to front brakes. Only rear.
+      * Note: Golf Estate | Jetta Sportwagen Mk6 does not need modification to front brakes. Only rear.
 
 #### Passat B6/B7
 All B6+B7 had EPB by default. On B6 there was ACC but without F2S (follow-to-stop = braking till 0) and B7 had ACC with F2S. It is possible to retrofit B7 ACC to B6 ([Kamold's Passat B6 retrofit guide](https://www.vwwatercooled.com.au/forums/f234/adaptive-cruise-retrofit-118949.html)) - you should not need to touch the brakes (discs+calipers).
