@@ -85,7 +85,11 @@ There are various OpenPilot forks tuned for particular PQ platforms.
 
 ### PQ35
 
-Discord user Edgy (Golf Mk6): https://github.com/CineXWorm/openpilot (which branch to use?)
+Discord user Edgy (Golf Mk6): https://github.com/CineXWorm/openpilot
+* Bleeding edge of PQ. All retrofits* : vw-private-pq-merge
+
+Discord user Khonsu (Golf Mk6): https://github.com/actuallylemoncurd/openpilot
+* Works with most PQ's. OP Version 0.7.9, timebomb bypass : community-master-merge
 
 ### Passat
 
