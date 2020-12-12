@@ -30,6 +30,7 @@ panda paw | | A device to help you unbrick a panda.
 # openpilot terms
 Term | Abbreviation | Definition
 --- | --- | ---
+big model | | Current neural network consumes a 512x256 crop of the 1164x874 full frame. big model refers to a 1024x512 crop, 4x the current size.
 End to end | E2E | End to end means the model reacts like a human would. It assesses the whole picture and acts accordingly. Unlike other approaches where things must be labeled by hand, end to end learns all the nuances of driving. A model is basically trained on what human drivers would do in a certain situation and attempts to reproduce that behavior.
 longitudinal | long | Refers to gas and brake control
 lateral | lat | Refers to steering control
