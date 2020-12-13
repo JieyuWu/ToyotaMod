@@ -22,8 +22,8 @@ giraffe connector | | An adapter board that lets you read buses that aren't expo
 Lane Change Assist | LCA | Activate the turn signal and gently nudge the wheel in the direction you wish to travel to when it's safe. Change lanes while always paying attention.
 LeEco Le Pro 3 | LeEco, Lepro | The phone used in comma two and EON Gold devkits
 LiveParameters | | 	A continually updated file (ie. "Live") that stores learned calibration data for the vehicle.
-OnePlus 3T | OP3T | One of the phones used in the previous generation EON devkits. It was discontinued due to a lack of supply. Known model numbers: A3000(US version) A3010(Asian version)
-openpilot | OP | An open source driver assistance system developed by comma.ai
+OnePlus 3T | op3t | One of the phones used in the previous generation EON devkits. It was discontinued due to a lack of supply. Known model numbers: A3000(US version) A3010(Asian version)
+openpilot | op | An open source driver assistance system developed by comma.ai
 panda | | CAN bus to USB adapter. Available in 3 variants: white (last supported 0.7.6.1) / grey (last supported  0.7.10) / black / uno (comma two).
 panda paw | | A device to help you unbrick a panda.
 
@@ -31,7 +31,7 @@ panda paw | | A device to help you unbrick a panda.
 Term | Abbreviation | Definition
 --- | --- | ---
 big model | | Model == neural network. Full frame is 1164x768, little model is a 512x256 crop, big model is a 1024x512 crop, 4x bigger than little. Make box bigger, drive better. Useful for signs and lights.
-End to end | E2E | End to end means the model reacts like a human would. It assesses the whole picture and acts accordingly. Unlike other approaches where things must be labeled by hand, end to end learns all the nuances of driving. A model is basically trained on what human drivers would do in a certain situation and attempts to reproduce that behavior.
+End to end | e2e| End to end means the model reacts like a human would. It assesses the whole picture and acts accordingly. Unlike other approaches where things must be labeled by hand, end to end learns all the nuances of driving. A model is basically trained on what human drivers would do in a certain situation and attempts to reproduce that behavior.
 longitudinal | long | Refers to gas and brake control
 lateral | lat | Refers to steering control
 Model predictive control | MPC | An advanced method of process control that is used to control a process while satisfying a set of constraints. Used for longitudinal control.
