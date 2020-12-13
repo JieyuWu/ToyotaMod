@@ -34,7 +34,7 @@ big model | | Model == neural network. Full frame is 1164x768, little model is a
 End to end | e2e| End to end means the model reacts like a human would. It assesses the whole picture and acts accordingly. Unlike other approaches where things must be labeled by hand, end to end learns all the nuances of driving. A model is basically trained on what human drivers would do in a certain situation and attempts to reproduce that behavior.
 longitudinal | long | Refers to gas and brake control
 lateral | lat | Refers to steering control
-Model predictive control | MPC | An advanced method of process control that is used to control a process while satisfying a set of constraints. Used for longitudinal control.
+Model predictive control | mpc | An advanced method of process control that is used to control a process while satisfying a set of constraints. Used for longitudinal control.
 lead | | Selected radar point from your car's radar by the driving model of openpilot using the camera. Used for longitudinal MPC. Usual attributes: distance, speed, and acceleration
 
 # driver-assistance terms
