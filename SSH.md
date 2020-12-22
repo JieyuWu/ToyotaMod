@@ -20,6 +20,7 @@ Table of Contents
          * [Using Putty to Connect to ssh.comma.ai](#using-putty-to-connect-to-sshcommaai)
    * [Mobile SSH Clients](#mobile-ssh-clients)
    * [Troubleshoot SSH Issues](#troubleshoot-ssh-issues)
+      * [I'm hotspotting my comma two/phone. What IP do I use?](#im-hotspotting-my-comma-twophone-what-ip-do-i-use)
       * [When SSH is automatically enabled/disabled](#when-ssh-is-automatically-enableddisabled)
       * [Invalid Format when trying to connect](#invalid-format-when-trying-to-connect)
       * [No route to host](#no-route-to-host)
@@ -165,6 +166,13 @@ Pageant will keep running until you log off your computer.  You can also exit pa
   * Terminus - https://apps.apple.com/us/app/termius-ssh-shell-console-terminal/id549039908
 
 # Troubleshoot SSH Issues
+
+## I'm hotspotting my comma two/phone. What IP do I use?
+**If your Android phone is connected to comma two:** comma two should be 192.168.43.1
+
+**If your comma two is connected to your Android phone:** comma two should be 192.168.43.2
+
+**If you're connecting your comma two to an iPhone:** comma two should be 172.20.10.2
 
 ## When SSH is automatically enabled/disabled
 **WiFi**\
