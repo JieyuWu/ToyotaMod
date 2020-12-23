@@ -9,7 +9,7 @@
 # Alerts界面弹出警告
 * [Communication Issue between Processes过程中出现通讯问题](../wiki/Troubleshooting#communication-issue-between-processes)
 
-### CAN Errors
+### CAN Errors  CAN信号错误
 * [CAN Error  CAN错误: Check Connections检查连接]()
 * [Radar Communication Issue雷达通讯问题](../wiki/Troubleshooting#radar-communication-issue)
 * [Harness Box Error Harness Box错误](../wiki/Troubleshooting#harness-box-error)
@@ -17,21 +17,23 @@
 # Communication Issue between Processes过程中的通讯问题
 This error can mean a number of things. Essentially, it means not all the right processes are broadcasting to the comma two.
 这个错误有很多种可能的原因。
-## Common Issues
+## Common Issues 常见问题
 
 ### frontFrame not broadcasting
 
 Rarely, the driver facing camera connector will become loose. When this happens, frontFrame will stop broadcasting - causing the `Communication Issue between Processes` error. Check if your driver facing camera still works by going to `Settings -> Device -> Driver Camera View`.
 
-### Some process not running
+### Some process not running某些进程未运行
 
-If you are running anything but `release2` on your device, it is likely the fork maintainer missed something - or has an error in their DBC file. A good way to check is to SSH into your device and type `tmux a`
+If you are running anything but `release2` on your device, it is likely the fork maintainer missed something - or has an error in their DBC file. A good way to check is to SSH into your device and type `tmux a`如果你使用的是除release2版本外的其他分支版本，可能是作者遗漏了什么，或者他们的DBC文件中有错误，最好的检查办法就是通过SSH连接你的设备，执行语句tmux a来查看状态。
 
-## CAN Error
+## CAN Error   CAN信号错误
 
 There are some message that the device is not receiving properly. Usually this is resolved by fixing a loose connection.
 
-See [Fixing a Connection Issue](https://github.com/commaai/openpilot/wiki/Troubleshooting#fixing-a-connection-issue)
+See [Fixing a Connection Issue]设备没有接收到某些信息。一般可以通过固定松动的连接线来解决。
+
+请参阅解决连接问题(https://github.com/commaai/openpilot/wiki/Troubleshooting#fixing-a-connection-issue)
 
 ## Radar Communication Issue
 
