@@ -4,7 +4,7 @@
 
 # List of On Screen Messages屏幕消息列表
  * "Harness MalfunctionHarness故障", "Please Check Hardware请检查硬件"
-   * See请参阅 [Fixing a Connection Issue解决连接问题](https://github.com/commaai/openpilot/wiki/Troubleshooting#fixing-a-connection-issue)
+   * See[Fixing a Connection Issue]请参阅解决连接问题 (https://github.com/commaai/openpilot/wiki/Troubleshooting#fixing-a-connection-issue)
 
 # Alerts界面弹出警告
 * [Communication Issue between Processes过程中出现通讯问题](../wiki/Troubleshooting#communication-issue-between-processes)
