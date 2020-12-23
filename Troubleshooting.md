@@ -1,22 +1,22 @@
-![Troubleshooting](https://user-images.githubusercontent.com/37757984/83675362-babad680-a58d-11ea-8d3c-3481080eb400.png)
+![Troubleshooting常见故障排除](https://user-images.githubusercontent.com/37757984/83675362-babad680-a58d-11ea-8d3c-3481080eb400.png)
 
 [◄ Home](../wiki)
 
-# List of On Screen Messages
- * "Harness Malfunction", "Please Check Hardware"
-   * See [Fixing a Connection Issue](https://github.com/commaai/openpilot/wiki/Troubleshooting#fixing-a-connection-issue)
+# List of On Screen Messages屏幕消息列表
+ * "Harness MalfunctionHarness故障", "Please Check Hardware请检查硬件"
+   * See请参阅 [Fixing a Connection Issue解决连接问题](https://github.com/commaai/openpilot/wiki/Troubleshooting#fixing-a-connection-issue)
 
-# Alerts
-* [Communication Issue between Processes](../wiki/Troubleshooting#communication-issue-between-processes)
+# Alerts界面弹出警告
+* [Communication Issue between Processes过程中出现通讯问题](../wiki/Troubleshooting#communication-issue-between-processes)
 
 ### CAN Errors
-* [CAN Error: Check Connections]()
-* [Radar Communication Issue](../wiki/Troubleshooting#radar-communication-issue)
-* [Harness Box Error](../wiki/Troubleshooting#harness-box-error)
+* [CAN Error  CAN错误: Check Connections检查连接]()
+* [Radar Communication Issue雷达通讯问题](../wiki/Troubleshooting#radar-communication-issue)
+* [Harness Box Error Harness Box错误](../wiki/Troubleshooting#harness-box-error)
 
-# Communication Issue between Processes
+# Communication Issue between Processes过程中的通讯问题
 This error can mean a number of things. Essentially, it means not all the right processes are broadcasting to the comma two.
-
+这个错误有很多种可能的原因。
 ## Common Issues
 
 ### frontFrame not broadcasting
