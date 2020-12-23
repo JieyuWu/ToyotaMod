@@ -114,12 +114,12 @@ These vehicles either don't have electric power steering, or we don't have a kno
 </details>
 
 # What to buy for MQB vehicles
-Purchasing the Comma two (c2) is the easiest way to get started. it also possible to build your own eon and save some $$.
+Purchasing the comma two (c2) is the easiest way to get started. It is also possible to build your own eon and save some $$.
 
 ## If your car has LKAS & ACC
 1. [comma two DevKit](https://comma.ai/shop/products/comma-two-devkit)
 2. Select MQB Development Harness
-<sub><sup>(VW golf and MQB development car Harness's are the same)</sup></sub>
+<sub><sup>(VW Golf and MQB development car harness's are the same)</sup></sub>
 
 ## If your car only has ACC
 1. [comma two DevKit](https://comma.ai/shop/products/comma-two-devkit)
@@ -128,23 +128,33 @@ Purchasing the Comma two (c2) is the easiest way to get started. it also possibl
 
 ## If your car has neither ACC nor LKAS
 
-This has not been explored very much yet. Theoretically you could retrofit ACC ([example guide](https://mqb.pl/en/adaptive-cruise-control-retrofit-acc-on-mqb/)) and then continue as "If your car only has ACC". It may also be possible just to do the coding of other parts for ACC (according to mqb.pl article) without the physical radar - however this has not been tried and it is possible that ACC fault will arise from missing radar and other parts (engine, brakes) would stop responding to ACC commnads.
+This has not been explored very much yet. Theoretically, you could retrofit ACC ([example guide](https://mqb.pl/en/adaptive-cruise-control-retrofit-acc-on-mqb/)) and then continue as "If your car only has ACC". It may also be possible just to do the coding of other parts for ACC (according to mqb.pl article) without the physical radar. However, this has not been tried and it is possible that an ACC fault will arise from the missing radar and other parts (engine, brakes) would stop responding to ACC commands.
 
 # Installing the Community Port
 
 ### Black Panda / Comma Two / Grey Panda 
-If you need to run the Community port, you MUST [install stock openpilot](https://github.com/commaai/openpilot/wiki/Installing-openpilot#install-openpilot) first. If you're at the EON/Comma Two installer prompt and it's asking for a download URL, then use [https://volkswagen.opcfork.org/](https://volkswagen.opcfork.org/) instead of comma url, install using the normal methods and instructions. Enable developer and SSH in the setting menu. Then, [connect via SSH](https://github.com/commaai/openpilot/wiki/SSH) and run the following command:
+To run the Community port, you MUST [install stock openpilot](https://github.com/commaai/openpilot/wiki/Installing-openpilot#install-openpilot) first. 
 
-`cd /data && mv openpilot backup-openpilot && git clone https://github.com/jyoung8607/openpilot.git -b release2 && reboot`
+> Newer C2 may ship with NEOS 15. You must have NEOS 14 for the Community port to work. See downgrade instructions in #volkswagen Discord pin. 
 
-Once install, C2/BP owners default to integrating at the camera, grey Panda owners default to integrating at the gateway, if this isn't what you have, you need to SSH in and do this:
+**Automatic URL Install**  
+If you're at the EON/Comma Two installer prompt and it's asking for a download URL, then use `https://volkswagen.opcfork.org/` instead of the comma URL. Continue the install using the normal methods and instructions. 
+
+**Manual Install**  
+Alternatively, you can install the Community Port manually. Enable developer and SSH in the setting menu. Then, [connect via SSH](https://github.com/commaai/openpilot/wiki/SSH) and run the following command:  
+  
+`cd /data && mv openpilot backup-openpilot && git clone https://github.com/jyoung8607/openpilot.git -b release2 && reboot`  
+
+**Integration Location**  
+Once installed, C2/BP owners default to integrating at the camera, grey Panda owners default to integrating at the gateway. If this isn't what you have, you need to SSH in and do the following as appropriate for where you are wired:  
+  
 `echo -n "gateway" > /data/params/d/ForceNetworkLocation`
 or
-`echo -n "camera" > /data/params/d/ForceNetworkLocation`
-as appropriate for where you're wired
+`echo -n "camera" > /data/params/d/ForceNetworkLocation`  
+ 
 
 ### White Panda
-If you are using an older white panda, you will have to run an older version of openpilot (0.7.4). In order to do this, run the following command to install 0.7.4 with white panda support:
+If you are using a white panda, you will have to run the last compatible version of openpilot: 0.7.4. In order to do this, run the following command to install 0.7.4 with white panda support:
 
 `cd /data && mv openpilot backup-openpilot && git clone https://github.com/jyoung8607/openpilot.git -b vw-community-devel && reboot`
 
@@ -182,7 +192,7 @@ For general terms, [go here](https://github.com/commaai/openpilot/wiki/General-T
 Term | Abbreviation | Definition
 --- | --- | ---
 Modularer Querbaukasten / Modular Transverse Matrix | MQB | Strategy for shared modular design between VAG group makes and models. MQB cars with ACC work with Openpilot.
-Electronic Parking break | EPB |  
+Electronic Parking Brake | EPB |  A handbrake system powered by electric motors. [Wiki](https://en.wikipedia.org/wiki/Electronic_parking_brake)
 Component Protection | CP | Component Protection is required on some newer parts to unlock them in working in that vehicle.
 jyoung8607 | jyoung | First to make OP work in VW
 Edgy | Edgy | First to make OP long work in VW PQ
