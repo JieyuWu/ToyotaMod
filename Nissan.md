@@ -22,7 +22,7 @@ It is just above the glove box location once removed. The picture is taken with 
 ### Instrument Cluster
 To access the instrument cluster you can follow this video [https://youtu.be/gkA1WDu8cq0](https://youtu.be/gkA1WDu8cq0). You do NOT need to disconnect the instrument cluster itself as shown in the video. Just put it to the side. The cable is long enough. 
 
-The ADAS module is on the right side as marked by the error. Pay extra attention as the adapter marked with the X also fits the nissan leaf car harness provided by comma ai.
+The ADAS module is on the right side as marked by the arrow. Pay extra attention as the adapter marked with the X also fits the nissan leaf car harness provided by comma ai.
 
 ![image](https://razem.io/blog/20/12/19/OpenpilotNissanLeafICPart1/assets/leaf_ic_instruction.jpg)
 
