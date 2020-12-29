@@ -11,9 +11,22 @@ The Nissan harness needs to be plugged into the ADAS module (NOT the lane keep a
 Below are locations the community has found for their cars. Please note, if your car isn't below you will need to locate the ADAS module. Join others on [discord.comma.ai](https://discord.comma.ai) in the #nissan channel to get tips and tricks. [Techinfo](https://www.nissan-techinfo.com/) can help.
 
 ## Leaf 2018-20
+
+There are two possible locations. Check your glovebox first as this is really easy to access compared to the instrument cluster.
+
+### Glovebox
 ![image](https://user-images.githubusercontent.com/37757984/94322928-da18ad80-ff48-11ea-9aaa-b4fde9783a7f.png)
 
-It is just above the glove box location once removed. The picture is taken with the camera pointed up into the cavity - not directly head on. 
+It is just above the glove box location once removed. The picture is taken with the camera pointed up into the cavity - not directly head on. To access the glovebox remove the screws, directly above and below the glovebox. You can then gently pull the glovebox out and access everything needed behind it.
+
+### Instrument Cluster
+To access the instrument cluster you can follow this video [https://youtu.be/gkA1WDu8cq0](https://youtu.be/gkA1WDu8cq0). You do NOT need to disconnect the instrument cluster itself as shown in the video. Just put it to the side. The cable is long enough.
+
+![image](https://razem.io/blog/20/12/19/OpenpilotNissanLeafICPart1/assets/leaf_ic_instruction.jpg)
+
+With the instrument cluster out of your way, you can also remove the screw shown below. Which should then give easy access to the adapter.
+
+![image](https://razem.io/blog/20/12/19/OpenpilotNissanLeafICPart1/assets/leaf_ic_ads.jpg)
 
 ## Rogue 2018-19
 ![image](https://user-images.githubusercontent.com/37757984/94323035-2368fd00-ff49-11ea-8b42-3fc9c40cf2cb.png)
