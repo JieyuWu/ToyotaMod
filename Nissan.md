@@ -12,7 +12,13 @@ Below are locations the community has found for their cars. Please note, if your
 
 ## Leaf 2018-20
 
-There are two possible locations. Check your glovebox first as this is really easy to access compared to the instrument cluster.
+There are two known locations. Check your glovebox first as this is really easy to access compared to the instrument cluster. Below are confirmed locations. Please keep it up to date.
+
+**Glovebox**
+* Everything else
+
+**Instrument Cluster**
+* 2nd Zero Edition (01/18 - 02/18)
 
 ### Glovebox
 ![image](https://user-images.githubusercontent.com/37757984/94322928-da18ad80-ff48-11ea-9aaa-b4fde9783a7f.png)
