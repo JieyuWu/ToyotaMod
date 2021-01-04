@@ -67,7 +67,7 @@ Cables below are recommended and confirmed to work. We ship with a 1.5ft cable f
 
 ### Car Unrecognized (Issues with FW Query)
 * [7ft Ethernet Cable](https://www.amazon.com/Monoprice-Cat5e-Ethernet-Patch-Cable/dp/B00ACR5P60)
-* [10ft Ethernet Cable](https://www.amazon.com/Monoprice-Cat5e-Ethernet-Patch-Cable/dp/B00ACR5P60)
+* [10ft Ethernet Cable](https://www.amazon.com/Monoprice-Cat5e-Ethernet-Patch-Cable/dp/B00ACR5JOI)
 
 If none of this resolves the issue, it is most likely a bad harness box. Email support@comma.ai for further assistance, listing the things you tried.
 
