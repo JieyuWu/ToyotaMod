@@ -1,5 +1,7 @@
 ![custom forks](https://user-images.githubusercontent.com/37757984/82701890-d2a56880-9c25-11ea-8ed8-fc287b7ae883.png)
 
+**Comma does not validate custom forks for safety. Install them at your own risk.**
+
 [◄ Home](https://github.com/commaai/openpilot/wiki)
 
 openpilot [forks](https://en.wikipedia.org/wiki/Fork_(software_development)) are used for various purposes, often for use on a certain vehicle or for the development and testing of new features.
