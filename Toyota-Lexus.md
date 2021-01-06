@@ -59,6 +59,8 @@ Follow the issue below for more info or visit the Discord and search "ECU Securi
 
 https://github.com/commaai/openpilot/issues/2103
 
+Note: Some may also refer to this as "TSS2.1" before it was later discovered that there are vehicles with TSS2.5 that do not have ECU Security Key such as the 2021 Toyota Camry. "TSS2.1" was a misnomer in retrospect. All to say, a reasonable guess is that ECU Security Key may be rolled out to more models including revisions of or future TSS2.5 models.
+
 # Toyota/Lexus Terms
 
 The following terms are specific to Toyota and Lexus vehicles and are often used in discussions. 
