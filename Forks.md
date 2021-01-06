@@ -2,6 +2,8 @@
 
 **Comma does not validate custom forks for safety. Install them at your own risk.**
 
+*Unsafe forks can also get you banned from Comma servers and their associated services.*
+
 [◄ Home](https://github.com/commaai/openpilot/wiki)
 
 openpilot [forks](https://en.wikipedia.org/wiki/Fork_(software_development)) are used for various purposes, often for use on a certain vehicle or for the development and testing of new features.
