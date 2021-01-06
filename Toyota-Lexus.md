@@ -7,7 +7,7 @@ Table of Contents
 
    * [Supported Toyota/Lexus Vehicles](#supported-toyotalexus-vehicles)
       * [Toyota Camry Support](#toyota-camry-support)
-      * [2021+ Toyota RAV4 Prime Support (new `STEERING_LKA`)](#2021-toyota-rav4-prime-support-new-steering_lka)
+      * [2021+ Toyota ECU Security Key Support (new `STEERING_LKA` + More)](#2021-toyota-ecu-security-key-support-new-steering_lka--more)
    * [Toyota/Lexus Terms](#toyotalexus-terms)
       * [Toyota Safety Sense (TSS) Versions](#toyota-safety-sense-tss-versions)
       * [Terms and Abbreviations](#terms-and-abbreviations)
@@ -45,9 +45,17 @@ For 2018-2020 Camry models which don't have Full-Speed Range Dynamic Radar Cruis
 
 This limitation does not apply to Camry models with Full-Speed Range Dynamic Radar Cruise Control including the (2018-2020 XLE, XSE, LE HV, XLE HV, and SE HV)
 
-## 2021+ Toyota RAV4 Prime Support (new `STEERING_LKA`)
+## 2021+ Toyota ECU Security Key Support (new `STEERING_LKA` + More)
 
-There is a new `STEERING_LKA` message in the RAV4 Prime that is used that currently has an unknown "authentication code" scheme appended to the end. The algorithm for this "authentication code" is currently unknown and OP is unable to control latitude. This message has not been seen on other Toyotas yet. Follow the issue below for more info:
+There is a new `STEERING_LKA` message and more in some new Toyotas that is used that currently has an unknown "authentication code" scheme appended to the end. The algorithm and security system for this "authentication code" is currently unknown and OP is unable to control latitude. 
+
+Known vehicles with Toyota ECU Security Key which OP does not currently support:
+
+* 2021+ Rav4 Prime
+* 2021+ Venza
+* 2021+ Sienna
+
+Follow the issue below for more info or visit the Discord and search "ECU Security":
 
 https://github.com/commaai/openpilot/issues/2103
 
