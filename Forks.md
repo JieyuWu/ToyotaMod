@@ -53,11 +53,11 @@ Forks can change many of the fundamental pieces of openpilot software. Because o
 
 ## Do's
 
-- Mess with the UI, there's tons of information in openpilot begging to be displayed!
+- Mess with the UI, there's tons of information in openpilot begging to be displayed. We have so much data that isn't shown.
 
-- Change the tuning of your car to be good.
+- Change the tuning of your car to be good. Most of the stock tunings are actually quite bad.
 
-- Experiment with new control algorithms.
+- Experiment with new control algorithms. Right now it's using simple algorithms that don't accurately model the actuators on the car.
 
 - Add advanced features like traffic lights and navigation!
 
