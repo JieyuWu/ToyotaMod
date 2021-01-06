@@ -53,6 +53,14 @@ Forks can change many of the fundamental pieces of openpilot software. Because o
 
 ## Do's
 
+- Mess with the UI, there's tons of information in openpilot begging to be displayed!
+
+- Change the tuning of your car to be good.
+
+- Experiment with new control algorithms.
+
+- Add advanced features like traffic lights and navigation!
+
 - [Overview of the safety of openpilot (SAFETY.MD)](https://github.com/commaai/openpilot/blob/master/SAFETY.md)
 
 ## Don'ts
