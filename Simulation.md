@@ -9,7 +9,7 @@ The standard simulator used by openpilot.
 
 ## American Truck Simulator
 
-Community developed ability to control truck simulator game.
+Community developed ability to control the popular truck simulator game.
 
 * https://github.com/jackz314/openpilot/blob/master/tools/truck_sim/README.md
 
