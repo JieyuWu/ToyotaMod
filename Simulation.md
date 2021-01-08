@@ -21,3 +21,4 @@
 * https://github.com/marsauto/europilot
 * https://github.com/cyberbotics/webots
 * https://www.cyberbotics.com/doc/automobile/introduction
+* https://en.wikipedia.org/wiki/OpenDRIVE_(specification)
