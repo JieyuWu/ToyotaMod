@@ -22,3 +22,4 @@
 * https://github.com/cyberbotics/webots
 * https://www.cyberbotics.com/doc/automobile/introduction
 * https://en.wikipedia.org/wiki/OpenDRIVE_(specification)
+* https://vires.mscsoftware.com/
