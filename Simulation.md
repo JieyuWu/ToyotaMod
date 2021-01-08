@@ -20,6 +20,9 @@
 * https://github.com/deepdrive/deepdrive
 * https://github.com/marsauto/europilot
 * https://github.com/cyberbotics/webots
+* https://en.wikipedia.org/wiki/Webots
 * https://www.cyberbotics.com/doc/automobile/introduction
 * https://en.wikipedia.org/wiki/OpenDRIVE_(specification)
 * https://vires.mscsoftware.com/
+* https://store.steampowered.com/app/284160/BeamNGdrive/
+* https://en.wikipedia.org/wiki/RoadXML
