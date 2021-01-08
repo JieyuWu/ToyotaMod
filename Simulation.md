@@ -26,3 +26,5 @@
 * https://vires.mscsoftware.com/
 * https://store.steampowered.com/app/284160/BeamNGdrive/
 * https://en.wikipedia.org/wiki/RoadXML
+* https://en.wikipedia.org/wiki/CarSim
+* https://www.dlr.de/fs/en/Portaldata/16/Resources/veranstaltungen/2018/Sven_Hallerbach_SAE_Presentation_V02.pdf
