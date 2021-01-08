@@ -3,6 +3,8 @@
 
 ## American Truck Simulator
 
+* https://github.com/jackz314/openpilot/blob/master/tools/truck_sim/README.md
+
 ## GTA - Hardware in the loop
 
 * https://littlemountainman.github.io/2020/05/12/openpilot/
