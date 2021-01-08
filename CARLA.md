@@ -18,6 +18,8 @@ Open a Terminal window by pressing Ctrl + Alt + T
 
 `sudo apt-get update`  
 
+`sudo apt-get upgrade -y`  
+
 `ubuntu-drivers devices`  
 
 look for the driver that has "recommended" at the end
