@@ -1,6 +1,9 @@
 
 ## CARLA
 
+* https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulator
+* https://github.com/commaai/openpilot/wiki/CARLA
+
 ## American Truck Simulator
 
 * https://github.com/jackz314/openpilot/blob/master/tools/truck_sim/README.md
