@@ -43,7 +43,7 @@ Community guides that help you contribute to openpilot, or make your own modific
 * [OP Customizations](../wiki/OpenPilot-Customizations)
 * [Utilities for developers](../wiki/Utilities-for-developers)
 * [Unofficial Hardware](../wiki/Unofficial-Hardware)
-* [openpilot on PC](../wiki/Webcam)
+* [Webcam on PC](../wiki/Webcam)
 * [Simulation](../wiki/Simulation)
 * [Reflash CommaTwo/EON OS (NEOS)](../wiki/Flash-NEOS)
 * [Building and deploying a release branch](../wiki/Packaging-a-Release)
