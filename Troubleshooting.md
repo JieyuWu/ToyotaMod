@@ -116,7 +116,7 @@ SSH into your device, and attempt to manually control the fan using this command
 
 The value in the set_eon_fan function is the fan speed, anywhere between 0 and 3 (zero being off and 3 being the highest). Start with setting 1 and then set 0. (You will get a message about permission denied but the command still runs)
 
-If your fan turns off when setting it to 0, then it is working properly. If it remains on, then you need a replacement fan module.
+If your fan turns off when setting it to 0, then it is working properly. If it remains on, then your fan module is stuck in a state. Find other cooling solutions in #hw-unofficial on discord.
 
 # Advanced Debugging
 First [SSH into your device](https://github.com/commaai/openpilot/wiki/SSH).  Once you are ssh'd into the device, you can monitor openpilot outputs with tmux\
