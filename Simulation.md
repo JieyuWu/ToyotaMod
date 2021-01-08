@@ -5,7 +5,7 @@ openpilot can be used within simulated worlds to test its abilities in a variety
 The standard simulator used by openpilot.
 
 * https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulator
-* https://github.com/commaai/openpilot/wiki/CARLA
+* [CARLA](../wiki/CARLA)
 
 ## American Truck Simulator
 
