@@ -5,7 +5,7 @@
 **This brand is community supported. Enable it with the toggle in Settings->Developer->Enable Community Features.**
 
 # Overview
-Comma AI currently has no official support for Volkswagen brands, but a community port is available, with plans to upstream for official support in the near future. The community port is designed to support any Volkswagen MQB vehicle with ACC radar. Check the Vehicle Support section for details and caveats. For more detailed information ask at #volkswagen on comma.ai Discord.
+Comma AI currently has no official support for Volkswagen brands besides certain Golfs, but a community port is available, with plans to upstream for official support in the near future. The community port is designed to support any Volkswagen MQB vehicle with ACC radar. Check the Vehicle Support section for details and caveats. For more detailed information ask at #volkswagen on comma.ai Discord.
 
 This article is about MQB platform. There is a development going on for the PQ platform - for more information see [Volkswagen PQ](https://github.com/commaai/openpilot/wiki/Volkswagen-PQ).
 
@@ -15,7 +15,8 @@ This article is about MQB platform. There is a development going on for the PQ p
 <p>
 
 These vehicles are confirmed supported by the community Volkswagen port, because they have been tested on at least one representative car in the wild. Both automatic and manual transmissions are supported.
-The vehicle must have ACC (radar-based cruise control). For vehicles without factory Lane Assist, a custom harness will be required to use modern Comma Two hardware, and a diagnostic tool will be needed to make minor coding changes to the steering rack in order for OP to steer, and coding changes to the instrument cluster will be needed to receive feedback and status information.
+The vehicle must have ACC (radar-based cruise control).
+For vehicles without factory Lane Assist, a custom harness (Dream Harness - integrates at J533) will be required to use modern Comma Two hardware, and a diagnostic tool (VCDS/OBD11/etc.) will be needed to make minor coding changes to the steering rack in order for OP to steer, and coding changes to the instrument cluster will be needed to receive feedback and status information.
 - 2012-2019 Mk3 Audi A3 (tested variants only) [Wiki]
 	- A3
 	- A3 e-tron
@@ -82,7 +83,7 @@ These vehicle-classes should work fine with openpilot, to the best of our inform
 
 We think these vehicles can be supported at some point, but they are not supported just yet. Code changes will be required. There are no firm dates for any of these items. If you have a vehicle in this section and are interested in testing with openpilot, please ask on Discord before proceeding.
 - Longitudinal control using visiond to drive known ACC messaging, for vehicles without radar. It's not yet known specifically what retrofits we'll need for vehicles with cruise control only, but we'll probably need to change out the steering wheel buttons or control stalk as applicable.
-- All MQB-A0 vehicles. We think these SHOULD work, but ran into unknown issues with the first one we tested and were not able to complete troubleshooting with the owner. Contact us on Discord if you have access to a legitimate VCDS interface for diagnostics and are interested in trying.
+- All MQB-A0 vehicles. We think these SHOULD work, but ran into unknown issues with the ones we tested and were not able to complete troubleshooting with the owners. Contact us on Discord if you have access to a legitimate VCDS interface for diagnostics and are interested in trying. Especially if you have factory LKAS.
 	- 2018-current Mk2 Audi A1 [Wiki]
 	- 2017-current SEAT Arona [Wiki]
 	- 2017-current SEAT Ibiza [Wiki]
@@ -94,7 +95,7 @@ We think these vehicles can be supported at some point, but they are not support
 - All MLB and MLBevo vehicles (requires FlexRay support, VERY long term future)
 	- 2018-current Volkswagen Touareg
 	- All modern Audi not listed as MQB: A4, A5, A6, A7, A8, R8, Q5, Q7, Q8, e-Tron SUV and all variants thereof
-- All MEB (new electric mass-market platform) vehicles, big question marks here until we see one, but we have cautious optimism.
+- All MEB (new electric mass-market platform ID3,ID4,...) vehicles, big question marks here until we see one, but we have cautious optimism.
 - All MQBevo vehicles (the new Golf Mk8 and all future refreshed MQBs), big question marks here until we see one, but we have cautious optimism.
 - All New Small Family (NSF) vehicles, supportability status totally unknown at this time. Contact us if you are interested in testing and you have a legitimate VCDS interface for diagnostics and settings changes.
 	- 2011-current SEAT Mii [Wiki]
@@ -123,7 +124,7 @@ Purchasing the comma two (c2) is the easiest way to get started. It is also poss
 
 ## If your car only has ACC
 1. [comma two DevKit](https://comma.ai/shop/products/comma-two-devkit)
-2. Make your own [VAG J533 Harness](https://github.com/commaai/openpilot/wiki/VW-j533-cable) 
+2. Make your own [VAG J533 Harness](https://github.com/commaai/openpilot/wiki/VW-j533-cable). There's also a Dream Harness made in a Chinese factory thanks to Saber422#9277. Currently it's a group buy, so if you are interested, ask in the Discrod.
 3. Recode the steering rack and instrument cluster to believe the car has lane assist (this allows lateral control via CAN messages to the steering rack). Use VCDS to modify control module 17 (instruments) and module 44 (steering assist). See this [video](https://www.youtube.com/watch?v=XSzJU31zXuE) for instructions.
 
 ## If your car has neither ACC nor LKAS
@@ -135,9 +136,12 @@ This has not been explored very much yet. Theoretically, you could retrofit ACC 
 ### Black Panda / Comma Two / Grey Panda 
 To run the Community port, you MUST [install stock openpilot](https://github.com/commaai/openpilot/wiki/Installing-openpilot#install-openpilot) first. 
 
-> Newer C2 may ship with NEOS 15. You must have NEOS 14 for the Community port to work. See downgrade instructions in #volkswagen Discord pin. 
+> Newer C2 ship with NEOS 15. You must have NEOS 14 for the Community port to work. To downgrade use the following command via SSH:
+cd /data && rm -rf openpilot && git clone -b release2 https://github.com/jyoung8607/openpilot && cd /data/openpilot/installer/updater && rm update.json && wget https://cdn.discordapp.com/attachments/538741329799413760/774123747257876480/update.json && reboot
 
-**Automatic URL Install**  
+
+**Automatic URL Install**
+(currently broken due to the NEOS update - use the method above until the fork is updated)  
 If you're at the EON/Comma Two installer prompt and it's asking for a download URL, then use `https://volkswagen.opcfork.org/` instead of the comma URL. Continue the install using the normal methods and instructions. 
 
 **Manual Install**  
@@ -146,7 +150,7 @@ Alternatively, you can install the Community Port manually. Enable developer and
 `cd /data && mv openpilot backup-openpilot && git clone https://github.com/jyoung8607/openpilot.git -b release2 && reboot`  
 
 **Integration Location**  
-Once installed, C2/BP owners default to integrating at the camera, grey Panda owners default to integrating at the gateway. If this isn't what you have, you need to SSH in and do the following as appropriate for where you are wired:  
+Once installed, C2/BP owners default to integrating at the camera(official comma harness), grey Panda owners default to integrating at the gateway(Dream Harness/J533). If this isn't what you have, you need to SSH in and do the following as appropriate for where you are wired:  
   
 `echo -n "gateway" > /data/params/d/ForceNetworkLocation`
 or
@@ -176,7 +180,7 @@ Longitudinal control remains with stock ACC, although OP takes control of the en
 [Stop & Go Demonstration video](https://www.youtube.com/watch?v=Il5zqZj2-58)
 
 ### Stock ACC High: 
-These vehicles support follow-to-stop and automatic resume if the stop is less than three seconds, from the factory. OP can improve on that by resuming on behalf of the driver after longer delays. "ACC high" requires an electronic parking brake, and does make use of it under certain conditions. If the vehicle in question has an EPB, chances are good it supports "ACC high".
+These vehicles support follow-to-stop and automatic resume if the stop is less than three seconds, from the factory. OP can improve on that by resuming on behalf of the driver after longer delays by emulating repeated RES presses at standstill. "ACC high" requires an electronic parking brake, and does make use of it under certain conditions. If the vehicle in question has an EPB, chances are good it supports "ACC high".
 
 ### Stock ACC Low: 
 These vehicles generally support follow-to-stop (XXX review this: maybe near-stop only) but will require the driver to take over and hold the brake after a very short delay. Resume from stop is moot as "ACC low" vehicles will not hold themselves at a stop. Any vehicles with a manual parking brake, either foot or hand-operated, will fall into this category.
@@ -194,6 +198,10 @@ Term | Abbreviation | Definition
 Modularer Querbaukasten / Modular Transverse Matrix | MQB | Strategy for shared modular design between VAG group makes and models. MQB cars with ACC work with Openpilot.
 Electronic Parking Brake | EPB |  A handbrake system powered by electric motors. [Wiki](https://en.wikipedia.org/wiki/Electronic_parking_brake)
 Component Protection | CP | Component Protection is required on some newer parts to unlock them in working in that vehicle.
+Adaptive cruise control | ACC| Control of the speed of the car; usually through use of radar in factory systems
+Longitudinal| long | basically ACC but usually in the OP context
+Lateral | lat| Control of the steering wheel
+Lane keep assist| LKAS | Same as lat but usually in the context of the factory system
 jyoung8607 | jyoung | First to make OP work in VW
 Edgy | Edgy | First to make OP long work in VW PQ
 
@@ -201,3 +209,11 @@ Edgy | Edgy | First to make OP long work in VW PQ
 
 * [Adaptive Cruise Control retrofit – ACC on MQB](https://mqb.pl/en/adaptive-cruise-control-retrofit-acc-on-mqb/)
 * [Tutorial – Retrofiting Lane Assist | Sign Assist | Light Assist – 5Q0980653](https://mqb.pl/en/tutorial-retrofiting-lane-assist-sign-assist-light-assist-5q0980653/)
+
+# Known issues / FAQ
+
+-Set point creep: On cars where the RES button increases the cruise speed set point by 1, the set point will often go up, especially when the car in front is already moving but we aren't moving yet. Will probably be fixed in a future update by incorporating ["ESP_21"]['ESP_Haltebestaetigung'] as a condition for emulating RES presses when at a standstill.
+
+-Radar/Vision Fusion for OP long control: Unlike some other cars, MQB cars don't give much raw Radar data. Because of this the radar fusion won't be as easy. Once OP long control is as reliable as stock radar based ACC it can still be implemented.
+
+-Fingerprinting: On VW cars we currently only use FPv1. The current V2 is WIP.
