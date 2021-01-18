@@ -13,7 +13,7 @@ Table of Contents
      * [What is longitudinal control?](#what-is-longitudinal-control)
      * [How does Lane Change Assist Work?](#how-does-lane-change-assist-work)
      * [How to a Change a Specific Release?](#how-to-a-change-a-specific-release)
-     * [Where are my videos stored? How can I stitch the segments together?](#where-are-my-videos-stored-how-can-i-stitch-the-segments-together)
+     * [Where is my dashcam video footage stored? How can I stitch the segments together?](#where-is-my-dashcam-video-footage-stored-how-can-i-stitch-the-segments-together)
      * [When are my videos uploaded to the cloud?](#when-are-my-videos-uploaded-to-the-cloud)
    * [comma two](#comma-two)
      * [Why won't my comma two turn on?](#why-wont-my-comma-two-turn-on)
