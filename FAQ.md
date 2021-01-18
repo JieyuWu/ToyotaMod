@@ -82,8 +82,9 @@ find . -type f -wholename "*2020-08-01--09-01-14--*/*.hevc" -exec cat {} + > dri
 ```
 
 > The output.hevc file can be uploaded to YouTube straight away, or played in VLC. But many others won’t know what to do with a .hevc file. So if sending, then [download ffmpeg](https://ffmpeg.org/download.html) and convert it first. To make a .mpg copy for emailing etc., put the output.hevc file in the same folder as the ffmpeg program, then run a command like 
+```
 ffmpeg -I output.hevc -qscale:v 1 output.mpg
-
+```
 Step by step guide for accessing video files [here](../wiki/Video-Files).
 
 # comma two
