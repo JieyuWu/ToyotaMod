@@ -56,12 +56,17 @@ Table of Contents
 ### When are my videos uploaded to the cloud?
 > With comma prime, low quality videos and condensed logs are uploaded constantly, but at a maximum rate of 512kbps.  When your device connects to wifi and the vehicle is stopped, it will upload the full logs and high quality videos.
 
-### Where are my videos stored? How can I stitch the segments together?
+### Where is my dashcam video footage stored? How can I stitch the segments together?
 
-> Videos are stored on the device in `/sdcard/realdata` as 1 minute segment directories.  Each directory contains the log data and video in `hevc` form.  You can stitch these videos together using this command:
+> Videos are stored on the device in `/sdcard/realdata` as 1 minute segment directories.  Each directory contains the log data and video in `hevc` form.  You can stitch these videos together using this linx command:
 
 ```
 cat fcamera1.hevc fcamera2.hevc fcamera3.hevc > output.hevc 
+```
+
+> The Windows equivalent for binary file concatenation would be 
+```
+copy /b fcamera1.hevc+fcamera2.hevc+fcamera3.hevc output.hevc
 ```
 
 > If you rename the videos in sequence, you can use the shorter command:
@@ -75,6 +80,9 @@ cat fcamera* > output.hevc
 cd /sdcard/realdata
 find . -type f -wholename "*2020-08-01--09-01-14--*/*.hevc" -exec cat {} + > drive.hevc
 ```
+
+> The output.hevc file can be uploaded to YouTube straight away, or played in VLC. But many others won’t know what to do with a .hevc file. So if sending, then [download ffmpeg](https://ffmpeg.org/download.html) and convert it first. To make a .mpg copy for emailing etc., put the output.hevc file in the same folder as the ffmpeg program, then run a command like 
+ffmpeg -I output.hevc -qscale:v 1 output.mpg
 
 Step by step guide for accessing video files [here](../wiki/Video-Files).
 
