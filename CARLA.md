@@ -4,7 +4,6 @@ Run openpilot in the driving simulator world [CARLA](http://carla.org/).
 
 [![Running comma.ai simulation in PC - Instructions](https://img.youtube.com/vi/_bZ5OLtvbhk/0.jpg)](https://www.youtube.com/watch?v=_bZ5OLtvbhk)
 
-
 ## Install Drivers and Software
 
 ### Download and Install Ubunutu
