@@ -2,6 +2,7 @@ Run openpilot in the driving simulator world [CARLA](http://carla.org/).
 
 [Simulator Read Me](https://github.com/commaai/openpilot/tree/master/tools/sim#openpilot-in-simulator) - Instructions for running openpilot and Carla. 
 
+[![Running comma.ai simulation in PC - Instructions](https://img.youtube.com/vi/_bZ5OLtvbhk/0.jpg)](https://www.youtube.com/watch?v=_bZ5OLtvbhk)
 
 
 ## Install Drivers and Software
