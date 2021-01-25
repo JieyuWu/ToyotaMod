@@ -101,3 +101,8 @@ Control over the gas and brakes.
 
 At the moment, longitudinal control is provided by the stock system that came with the car.
 In the future, we will be able to control longitudinally via openpilot for any vehicle whose trims _can_ support SCC, even if not equipped
+
+## Harness Cable Car and Year Compatible Chart
+
+![Connector](https://i.imgur.com/fKYkA4I.jpg)
+![Chart](https://i.imgur.com/sZS0IBs.jpg)
