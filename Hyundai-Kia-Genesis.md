@@ -105,4 +105,5 @@ In the future, we will be able to control longitudinally via openpilot for any v
 ## Harness Cable Car and Year Compatible Chart
 
 ![Connector](https://i.imgur.com/fKYkA4I.jpg)
-![Chart](https://i.imgur.com/sZS0IBs.jpg)
+
+![Chart](https://i.imgur.com/Kue6iFa.jpg)
