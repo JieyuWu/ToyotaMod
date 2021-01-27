@@ -29,6 +29,7 @@ Table of Contents
    * [Development](#development)
      * [What is the openpilot development workflow? / What are the branches master, devel, and release?](#what-is-the-openpilot-development-workflow--what-are-the-branches-master-devel-and-release)
      * [What do the LED colors mean?](#what-do-the-led-colors-mean)
+     * [How can I begin contributing?](#how-can-i-begin-contributing)
    * [Discord Help](#discord-help)
      * [Before Asking a Question](#before-asking-a-question)
      * [How do I search on discord?](#how-do-i-search-on-discord)
@@ -134,6 +135,21 @@ Step by step guide for accessing video files [here](../wiki/Video-Files).
 * Blue (static): CAN detected
 * Blue (fades in and out): power saving
 ```
+
+### How can I begin contributing?
+
+To contribute to openpilot's codebase:
+* Know Python / C++ (depends on which part of OP you want to contribute to)
+* Learn Git and Github Pull Requests
+* Read comma's blog posts related to development: https://medium.com/@comma_ai
+* Read the openpilot `CONTRIBUTING.md` file: https://github.com/commaai/openpilot/blob/master/CONTRIBUTING.md
+* Look at the issues page on Github (Particularly the "good first issue" label: https://github.com/commaai/openpilot/labels/good%20first%20issue)
+* Read through the code and understand the architecture
+* Search Discord with any questions you think of before asking (as per #guidelines )
+
+If you're not into coding, feel free to join the comma pencil movement! You can help comma train their driving model by annotating driving data.
+
+Join the [Discord](https://discord.comma.ai) and check out the pinned messages in the `#comma-pencil` channel!
 
 # Discord Help
 
