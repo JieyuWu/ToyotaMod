@@ -29,7 +29,7 @@ Table of Contents
    * [Development](#development)
      * [What is the openpilot development workflow? / What are the branches master, devel, and release?](#what-is-the-openpilot-development-workflow--what-are-the-branches-master-devel-and-release)
      * [What do the LED colors mean?](#what-do-the-led-colors-mean)
-     * [How can I begin contributing?](#how-can-i-begin-contributing)
+     * [How can I contribute?](#how-can-i-contribute)
    * [Discord Help](#discord-help)
      * [Before Asking a Question](#before-asking-a-question)
      * [How do I search on discord?](#how-do-i-search-on-discord)
@@ -136,9 +136,9 @@ Step by step guide for accessing video files [here](../wiki/Video-Files).
 * Blue (fades in and out): power saving
 ```
 
-### How can I begin contributing?
+### How can I contribute?
 
-To contribute to openpilot's codebase:
+To contribute to the openpilot codebase:
 * Know Python / C++ (depends on which part of OP you want to contribute to)
 * Learn Git and Github Pull Requests
 * Read comma's blog posts related to development: https://medium.com/@comma_ai
