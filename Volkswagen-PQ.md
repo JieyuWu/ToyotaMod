@@ -5,16 +5,17 @@ There is work in progress on PQ35/PQ46 (November 2020). Currently these cars are
 * Golf Estate (EU) | Jetta Sportwagen (NA) MK6 2.0 TDI DSG (User:Khonsu)
 * Passat B6 R36 (User:Kamold with retrofits from B7, User:Redragon_101)
 * Sharan Mk2 7N2 (User:Kubsztal)
+* Golf Mk6 (EU) 1.6 TDI manual (User:carlos-ddd)
 
 # Drive-by-wire capabilities
 
 ## Lateral Control (steering)
 
-VW LKAS message (HCA) is used for steering currently, but HCA wont work down to 0 km/h. Gen 3 steering rack should work and SHOULD be possible being retrofited to older vehicles (replacing generation 1 and 2 racks). 
+VW LKAS message (HCA) is used for steering currently, but HCA won't work down to 0 km/h. Gen 3 steering rack should work and SHOULD be possible being retrofitted to older vehicles (replacing generation 1 and 2 racks). 
 
 When steering via HCA then after 6 minutes (300 sec) the steering will fail for 3 seconds and then HCA can be resumed again. This timeout can be prevented - after 5.5 minutes terminate HCA message for 1.05 seconds and the 300 sec timeout will reset (counting new 300 period).
 
-There is another steering CAN message being worked on - DSR (Driver Steering Recommendation). This message could help circumvent the timeout of HCA message (using it intentionaly for a while to reset the HCA timeout). DSR should allow for more torque than HCA and possibly replace HCA completely, but that is yet to be explored.
+There is another steering CAN message being worked on - DSR (Driver Steering Recommendation). This message could help circumvent the timeout of HCA message (using it intentionally for a while to reset the HCA timeout). DSR should allow for more torque than HCA and possibly replace HCA completely, but that is yet to be explored.
 
 Parking assist can be used for steering up to 20 km/h but is commanded by steering angle rather than torque (as HCA and DSR is). For steering in all speeds a combination of Park assist and HCA/DSR could be used but the transition to/from PA has to be solved (probably nothing quite simple).
 
@@ -36,10 +37,12 @@ Comma pedal is likely to be used for acceleration on cars not supporting ACC, AC
 ### Brakes
 Braking should be supported through given ABS pump that has ACC braking capability:
 * MK60EC1 H31 or newer for ACC support (part number 1K0907379)
-* MK60EC1 H46 for EPB, BSD, RTA and PLA 3.0 support (part number 1K0907379BM)
+* MK60EC1 H46 for EPB, BSD, RTA and PLA 3.0 support (part number 1K0907379BM, -CC)
 * Other ABS pumps not yet tested
 
-Currently there is no braking below 15 km/h with MK60EC1 H31+ pump. The MK60EC1 H46 pump which supports EPB should allow braking with ACC messages down till 0 km/h but code has to be written yet.
+The ABS can brake if it can be coded for ACC (Byte16-Bit5 set to 0) and coding is accepted.
+
+Currently, there is no braking below 15 km/h with MK60EC1 H31+ pump. The MK60EC1 H46 pump which supports EPB should allow braking with ACC messages down till 0 km/h but code has to be written yet.
 
 A car with stock stop&go ACC functionality should naturally be able to brake down till 0 with ACC message.
 
@@ -118,4 +121,4 @@ Example: gateway pin6, vehicle pin6, and Panda pin 14 should all be wired togeth
 
 # Diverse notes
 
-Extended CAN is defined for PQ since the very beginning and is still used in today’s PQ verhicles (Caddy, Sharan, Alhambra). MQB and PQ have completely different CAN messaging schemes which can’t be mixed. But there do exist units that can be corded to either PQ or MQB (e.g. 3Q0 camera, 5Q0 side assist radar, many PLA units, ...) The manufacturer simply programmed both messaging schemes (PQ or MQB) selectable. Thus the same partnumber can be used on either platform. That’s probably why people talk about a PQ-MQB-mix which is technically very wrong. Either the unit is in PQ mode or in MQB mode. (by carlos_ddd)
+Extended CAN is defined for PQ since the very beginning and is still used in today’s PQ verhicles (Caddy, Sharan, Alhambra). MQB and PQ have completely different CAN messaging schemes which can’t be mixed. But there do exist units that can be coded (VCDS) to either PQ or MQB (e.g. 3Q0 camera, 5Q0 side assist radar, many PLA units, ...) The manufacturer simply programmed both messaging schemes (PQ or MQB) selectable. Thus, the same part number can be used on either platform. That’s probably why people talk about a PQ-MQB-mix which is technically very wrong. Either the unit is in PQ mode or in MQB mode. (by carlos_ddd)
