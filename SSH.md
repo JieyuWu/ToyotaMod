@@ -11,9 +11,9 @@ Table of Contents
 =================
 
    * [Beginner](#beginner)
-      * [Option 1 - Workbench](#option-1---workbench)
-      * [Option 2 - Putty SSH Client](#option-2---putty-ssh-client)
-      * [Option 3 - Preinstalled OpenSSH Client on Windows 10](#option-3---pre-installed-openssh-client-on-windows-10)
+      * [Option 1 - Putty SSH Client](#option-1---putty-ssh-client)
+      * [Option 2 - Preinstalled OpenSSH Client on Windows 10](#option-2---pre-installed-openssh-client-on-windows-10)
+      * [Option 3 - Workbench](#option-3---workbench)
    * [Advanced](#advanced)
       * [OpenSSH or Similar Client](#openssh-or-similar-client)
       * [Connecting to ssh.comma.ai](#connecting-to-sshcommaai)
@@ -28,11 +28,8 @@ Table of Contents
       * [Permission denied (publickey,keyboard-interactive)](#permission-denied-publickeykeyboard-interactive)
 
 # Beginner
-## Option 1 - Workbench
-[Workbench for Openpilot](https://github.com/jfrux/workbench#getting-started)
-Workbench is a user-friendly desktop application for SSH ([Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell)) into your android device running openpilot.
 
-## Option 2 - Putty SSH Client
+## Option 1 - Putty SSH Client
 Putty is a simple beginner friendly way to connect to a comma device via SSH.
 1. Download and install Putty.
 2. Download and save the [Putty Private Key](https://github.com/commaai/openpilot/blob/master/tools/ssh/key/id_rsa.ppk) `Right click the 'Raw' button and Save As to download`
@@ -47,7 +44,7 @@ Putty is a simple beginner friendly way to connect to a comma device via SSH.
 
 6. Finally, click `Open` on the bottom of the program, and if all works correctly, an SSH connection will be created.
 
-## Option 3 - Pre-installed OpenSSH client on Windows 10
+## Option 2 - Pre-installed OpenSSH client on Windows 10
 
 Windows 10 already comes with a SSH client and has everything you need to SSH into an EON/C2. No additional software download or installation required.
 
@@ -59,8 +56,13 @@ Windows 10 already comes with a SSH client and has everything you need to SSH in
 4. Run the command `ssh -i id_rsa -p 8022 root@555.555.555.555` after replacing `555.555.555.555` with the IP address you discovered in the settings earlier.
    * If you get "permission denied": on the EON/C2 under tap the `Settings [⚙️ icon] > Developer > Authorized SSH Keys [edit] > Remove all` button and try again. While you're here, make sure again that "Enable SSH" option is enabled.
 
+## Option 3 - Workbench
+[Workbench for Openpilot](https://github.com/jfrux/workbench#getting-started)
+Workbench is a user-friendly desktop application for SSH ([Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell)) into your android device running openpilot.
+   * Note - Workbench is no longer maintained by the developer. Things may not always work as expected. It is suggested to learn how to SSH using a method above (which will help you if you want to SSH into other, non-comma, devices in the future.) 
+
 # Advanced
-This section assumes that you have used SSH before.  If you want to use Putty, use [the instructions above](https://github.com/commaai/openpilot/wiki/SSH#option-2---putty-ssh-client).  
+This section assumes that you have used SSH before.  If you want to use Putty, use [the instructions above](https://github.com/commaai/openpilot/wiki/SSH#option-1---putty-ssh-client).  
 
 ## OpenSSH or Similar Client
 1. Download the private key [from the openpilot repo.](https://github.com/commaai/openpilot/blob/master/tools/ssh/id_rsa). Save the key file as a text file and name it something like key.pem.
@@ -112,7 +114,7 @@ Host ssh.comma.ai
 The one time connection listed on [ssh.comma.ai](https://ssh.comma.ai/) works just fine.
 
 ### Using Putty to Connect to ssh.comma.ai
-Using Putty to connect to ssh.comma.ai is a bit involved.  First, it assumes you have already gotten the direct SSH connection using Putty to work as described [above](#option-2---putty-ssh-client).
+Using Putty to connect to ssh.comma.ai is a bit involved.  First, it assumes you have already gotten the direct SSH connection using Putty to work as described [above](#option-1---putty-ssh-client).
 
 1. Start the pageant program (it is found in the same folder as Putty).
 2. Pageant will load in your taskbar ![](https://user-images.githubusercontent.com/3046315/87094964-b456f480-c1f4-11ea-971e-57e4ba63e161.png).  Right click the icon and select View Keys
