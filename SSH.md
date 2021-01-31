@@ -153,7 +153,7 @@ Using Putty to connect to ssh.comma.ai is a bit involved.  First, it assumes you
 13. Click `Open`
 14. You may get a few prompts to accept the server fingerprints.
 
-You should not be connected to your device.  If you made any mistakes, you can load the saved session and fix the errors, but be sure to click `Save` after making any changes, or they will not be permanent.
+You should now be connected to your device.  If you made any mistakes, you can load the saved session and fix the errors, but be sure to click `Save` after making any changes, or they will not be permanent.
 
 Pageant will keep running until you log off your computer.  You can also exit pageant by right-clicking the taskbar icon and selecting `Exit`.
 
