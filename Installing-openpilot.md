@@ -25,8 +25,11 @@ Note: only follow this if you have _not_ selected "Dashcam software" on the firs
 8. You may now enable cruise control as per usual, and OpenPilot will take control after emitting a sound.
 
 ### Remove Dashcam software
-By default, Comma Ai installs a Dashcam software which does not drive the car. You'll need to remove that prior to installing OpenPilot.
+If you selected the "Dashcam" software during setup you can uninstall with the following steps
 
-1. Tap the setting gear on the top right of the screen.
-2. One of the icons will show "chffrplus" with a version number. Tap that.
-3. Scroll to the bottom and tap "uninstall chffrplus."
+1. Click on the settings icon (the gear in the top left of the homescreen)
+2. Click "Developer" on the right (will say "Dashcam vX.X.X)
+3. Scroll down to "Uninstall Dashcam" 
+4. When prompted with a confirmation of uninstalling click, "Uninstall"
+5. The device will reboot and uninstall the dashcam software. 
+6. Once finished it will return to the device's initial state. You can now install other software through the setup. 
