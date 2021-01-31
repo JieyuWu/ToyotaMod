@@ -8,7 +8,7 @@ Your comma two must be setup in your car prior to installing openpilot. Please f
 
 Upon first boot of comma two, do _not_ click "Dashcam software" and instead proceed to the installation paragraph below. If you already have, read the paragraph on removing the Dashcam software.
 
-Note: The comma two is intended to be setup in your car. If you attempt to power up the comma two outside of your vehicle, you need to use a usb-c to usb-a adapter.
+Note: The comma two is intended to be setup in your car. If you attempt to power up the comma two outside of your vehicle, you need to use a usb-A to usb-C adapter with a high output wall charger (min 2A output suggested).
 
 ## Install openpilot
 Note: only follow this if you have _not_ selected "Dashcam software" on the first boot of the comma two system.
