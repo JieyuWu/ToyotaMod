@@ -106,4 +106,4 @@ In the future, we will be able to control longitudinally via openpilot for any v
 
 ![Connector](https://i.imgur.com/fKYkA4I.jpg)
 
-![Chart](https://i.imgur.com/Kue6iFa.jpg)
+![Chart](https://i.imgur.com/gw0WcZG.jpg)
