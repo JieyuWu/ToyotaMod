@@ -38,7 +38,7 @@ With the instrument cluster out of your way, you can also remove the screw shown
 ![image](https://razem.io/blog/20/12/19/OpenpilotNissanLeafICPart1/assets/leaf_ic_ads.jpg)
 
 ## Rogue 2018-19
-![image](https://user-images.githubusercontent.com/37757984/94323035-2368fd00-ff49-11ea-8b42-3fc9c40cf2cb.png)
+[Here is a great guide on how to wire up a 2019 Rouge. From @NM007ACE on discord.](https://imgur.com/gallery/dDjJpuf)![image](https://user-images.githubusercontent.com/37757984/94323035-2368fd00-ff49-11ea-8b42-3fc9c40cf2cb.png)
 
 There is no need to disassemble anything. Remove the luggage floor cover, and expose the spare tire. The ADAS can be reach by hand, and the harness wire disconnects with minimal effort. This may require a [USB-C 3.1 Gen 2 extender](https://www.amazon.com/gp/product/B07KK9QXPM/) to reach the comma device.
 
