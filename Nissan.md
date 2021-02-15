@@ -20,7 +20,7 @@ There are two known locations. Check your glovebox first as this is really easy 
 **Instrument Cluster**
 * 2nd Zero Edition (01/18 - 02/18)
 * Tekna (02/18 - 01/19)
-* G
+* G (00/18 - 00/21)
 
 ### Glovebox
 ![image](https://user-images.githubusercontent.com/37757984/94322928-da18ad80-ff48-11ea-9aaa-b4fde9783a7f.png)
