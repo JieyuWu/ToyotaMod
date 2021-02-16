@@ -1,0 +1,4 @@
+# Hardware/software requirements
+Openpilot cannot run on every device and operating system. If you want to tweak openpilot code or help with by contributing pull requests you will need to have a device you can run it on. The latest version of openpilot can run on a Comma2 device, or on a computer running Ubuntu 20.04 (older versions will probably work, but all of development is currently done on 20.04 so it should probably be used), or MacOS (10.15 is the one we use for testing, other may or may not work) 
+
+If you want to run the actual model on the computer you will also need a GPU with openCL support. Nvidia is used for development and is known to work. 
