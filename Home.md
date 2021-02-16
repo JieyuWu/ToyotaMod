@@ -26,8 +26,7 @@ Find out specific vehicle limitations and modifications that members of the comm
 * [Ford](../wiki/Ford)
 
 # Development
-Community guides that help you contribute to openpilot, or make your own modifications to the open source code.
-
+Community guides that help you contribute to openpilot, or make your own modifications to the open source code. There is also some high level overview of the codebase. 
 
 ## Getting Started
 * [SSH Into Your comma two](../wiki/SSH)
@@ -38,7 +37,7 @@ Community guides that help you contribute to openpilot, or make your own modific
 
 ## Advanced (Developers Only)
 * [Tuning](../wiki/Tuning)
-* [Panda Flashing](../wiki/Panda-Flashing)
+* [Flashing Panda](../wiki/Panda-Flashing)
 * [Custom Forks](../wiki/Forks)
 * [OP Customizations](../wiki/OpenPilot-Customizations)
 * [Utilities for developers](../wiki/Utilities-for-developers)
