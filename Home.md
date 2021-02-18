@@ -32,6 +32,8 @@ Community guides that help you contribute to openpilot, or make your own modific
 
 ## Getting Started
 * [Requirements](../wiki/Requirements)
+* [Hardware basics](../wiki/Hardware-basics)
+* [Software overview](../wiki/Software-basics) - **TODO**
 
 
 ## Common procedures
