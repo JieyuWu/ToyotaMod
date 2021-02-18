@@ -3,6 +3,8 @@
 # Quick Start
 * [Installing Physical Device](../wiki/Installation-Guides)
 * [Installing openpilot Software](../wiki/Installing-openpilot)
+
+## Basic information
 * [Frequently Asked Questions](../wiki/FAQ)
 * [Troubleshooting](../wiki/Troubleshooting)
 * [General Terms](../wiki/General-Terms)
@@ -26,7 +28,7 @@ Find out specific vehicle limitations and modifications that members of the comm
 * [Ford](../wiki/Ford)
 
 # Development
-Community guides that help you contribute to openpilot, or make your own modifications to the open source code. There is also some high level overview of the codebase. 
+Community guides that help you contribute to openpilot, or make your own modifications to the open source code. Especially for common procedures, please edit a page if the instructions don't seem to work. It is also recommended to join the comma [Discord](https://discord.com/invite/avCJxEX) to get help from other users / developers in case you have any questions or want to share feedback. If you find bugs, it is probably better to report them as issues on Github than to post them on Discord. 
 
 ## Getting Started
 * [Requirements](../wiki/Requirements)
