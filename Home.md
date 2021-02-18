@@ -29,6 +29,9 @@ Find out specific vehicle limitations and modifications that members of the comm
 Community guides that help you contribute to openpilot, or make your own modifications to the open source code. There is also some high level overview of the codebase. 
 
 ## Getting Started
+
+
+## Common procedures
 * [Requirements](../wiki/Requirements)
 * [SSH Into Your comma two](../wiki/SSH)
 * [Update/Modify openpilot](../wiki/Update-Modify-openpilot)
