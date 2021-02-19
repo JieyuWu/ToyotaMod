@@ -38,7 +38,7 @@ Community guides that help you contribute to openpilot, or make your own modific
 * [Update/Modify openpilot](../wiki/Update-Modify-openpilot)
 * [Fingerprint Your Car](../wiki/Fingerprinting)
 * [Share a Cabana Link](../wiki/Cabana)
-* [Debugg openpilot](../wiki/DebuggingOpenpilot) - **TODO**
+* [Debug openpilot](../wiki/DebuggingOpenpilot) - **TODO**
 
 ## Advanced (Developers Only)
 * [Tuning](../wiki/Tuning)
